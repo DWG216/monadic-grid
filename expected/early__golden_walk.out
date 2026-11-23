@@ -1,0 +1,9 @@
+Clifford group size (projective): 24
+G1 icosahedral+tau60: j with invariants: [6, 10, 12, 15, 16, 18, 20, 21, 22, 24, 25, 26] ... max |lambda| = 0.237177
+   distinct |lambda| values (rounded 1e-6): [np.float64(0.006437), np.float64(0.006727), np.float64(0.006764), np.float64(0.007773), np.float64(0.009451), np.float64(0.012136), np.float64(0.013814), np.float64(0.01412), np.float64(0.016992), np.float64(0.017503)]  targets 1/sqrt59=0.130189, 1/59=0.016949
+G2 Clifford+T: max |lambda| = 0.940617 (1/sqrt2 = 0.707107)  distinct: [np.float64(0.002053), np.float64(0.004713), np.float64(0.006576), np.float64(0.011841), np.float64(0.041956), np.float64(0.043961), np.float64(0.049464), np.float64(0.051252)]
+Control tau inside C: max |lambda| = 1.000000
+G3 expensive-gate ratio ln(1/lam_CT)^-1 / ln(1/lam_ico)^-1 = 23.505  (log2 59 = 5.883)
+   to shrink every j<=60 component by 1e-03: icosahedral 5 tau60, Clifford+T 113 T, Fibonacci 189 braids (0.964 each)
+   to shrink every j<=60 component by 1e-06: icosahedral 10 tau60, Clifford+T 226 T, Fibonacci 377 braids (0.964 each)
+   to shrink every j<=60 component by 1e-10: icosahedral 17 tau60, Clifford+T 377 T, Fibonacci 629 braids (0.964 each)

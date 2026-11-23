@@ -1,0 +1,4 @@
+h = 0.004: max wave-equation residual 6.22e-04; median 8.75e-05
+h = 0.002: max wave-equation residual 1.55e-04; median 2.19e-05
+h = 0.001: max wave-equation residual 3.89e-05; median 5.47e-06
+h = 0.0005: max wave-equation residual 9.72e-06; median 1.37e-06

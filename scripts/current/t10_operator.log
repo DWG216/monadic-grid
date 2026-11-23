@@ -1,0 +1,16 @@
+zeros: 201 first [14.1372 21.0244 25.0184]
+P1 old detector, planted ln2: percentile 0.710 -> blind (as predicted)
+P2 new detector, planted ln2: 34.70 vs null95 8.84 PASS
+P3 primes planted, ln2: 6.85 vs null95 8.55 FAIL
+P3 primes planted, ln3: 8.99 vs null95 10.29 FAIL
+P3 primes planted, ln3/2: 0.04 vs null95 2.58 FAIL
+P4 fake primes, ln2: 4.48 vs null95 6.18 PASS (not above)
+R1 magnitudes only: signs 8/18, null95 12.0, ratio 1.07 -> PASS (not recovered)
+R2 with phase vector: signs 18/18, null95 14.0, ratio 77.0; vs t8 max diff 5.6e-09
+R3 locality (K: signs, median |J_K/J_full| at squarefree n):
+   K=25: 10/18, 0.51
+   K=50: 15/18, 0.47
+   K=100: 18/18, 0.56
+   K=150: 18/18, 0.90
+   K=175: 18/18, 0.95
+   K=201: 18/18, 1.00

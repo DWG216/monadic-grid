@@ -1,0 +1,7 @@
+V1 norms^2 21.4286 21.4286 | overlap 0.0e+00
+V2 rotation equivariance 1.8e-15 | inversion -1/z equivariance 3.1e-16
+   finite critical points found: 20 (20 expected, possibly some at infinity)
+V3 face state z=-0.105-0.322i -> f(z)=0.914+2.812i ; antipode of z = 0.914+2.812i
+   output error at eps 1e-3: 6.89e-07, 1e-4: 6.88e-09 -> exponent 2.00 | acceptance 0.228
+   improves up to eps = 0.450
+V4 weight-1 KL residual (Frobenius, non-scalar part): 2.593

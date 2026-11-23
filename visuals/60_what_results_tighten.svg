@@ -1,0 +1,15 @@
+<svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="sans-serif"><rect width="720" height="360" fill="#fff"/>
+<text x="20" y="28" font-size="15" font-weight="bold" fill="#222">What the 2026 results tighten</text>
+<g font-size="12">
+<rect x="20" y="50" width="210" height="60" rx="8" fill="#e1f5ee" stroke="#0f6e56"/><text x="125" y="74" text-anchor="middle" font-weight="bold" fill="#085041">RH (certified)</text><text x="125" y="94" text-anchor="middle" fill="#0f6e56">unconditional now</text>
+<rect x="20" y="140" width="210" height="60" rx="8" fill="#e6f1fb" stroke="#185fa5"/><text x="125" y="164" text-anchor="middle" font-weight="bold" fill="#0c447c">Dirichlet GRH</text><text x="125" y="184" text-anchor="middle" fill="#185fa5">once its statement is vetted</text>
+<rect x="20" y="230" width="210" height="60" rx="8" fill="#faeeda" stroke="#854f0b"/><text x="125" y="254" text-anchor="middle" font-weight="bold" fill="#633806">GRH for Kummer fields</text><text x="125" y="274" text-anchor="middle" fill="#854f0b">not yet ("ERH expected")</text>
+<text x="260" y="70" fill="#222">prime gaps &lt; (22/25)√p ln p · checked to 10⁸</text>
+<text x="260" y="90" fill="#222">Robin, Lagarias (harmonic numbers), Li's λₙ &gt; 0: positivity at every order</text>
+<text x="260" y="160" fill="#222">least non-residue ≤ 2(ln p)²: Rodin's second wire appears early</text>
+<text x="260" y="180" fill="#222">deterministic Miller–Rabin · Chebyshev-bias error mod 5</text>
+<text x="260" y="250" fill="#222">golden Artin: positive density of maximal Fibonacci clocks</text>
+<text x="260" y="270" fill="#222">(the grid's clock statistics, §13 and §18)</text>
+<text x="20" y="320" fill="#555">Not tightened: Wall–Sun–Sun (a comma, not a zero), Hodge, Yang–Mills, P vs NP.</text>
+<text x="20" y="340" fill="#555">Checks: 664,578 primes (0 violations), 0 Miller–Rabin failures below 10⁶; one threshold prediction failed (gap ratio 0.883 at p = 7).</text>
+</g></svg>

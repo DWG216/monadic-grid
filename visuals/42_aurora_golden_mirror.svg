@@ -1,0 +1,18 @@
+<svg width="100%" viewBox="0 0 680 300" role="img"><title>Golden mirror pairs on the real s-axis</title><desc>The zeta mirror s to 1 minus s pairs phi with its conjugate minus 1 over phi, and minus phi with phi squared, symmetric about one half; poles at 0 and 1.</desc>
+<path d="M214.8 150 Q340 30 465.2 150" fill="none" stroke="#1D9E75" stroke-width="1.5"/>
+<path d="M102.8 150 Q340 -20 577.2 150" fill="none" stroke="#7F77DD" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="50" y1="150" x2="630" y2="150" stroke="var(--t)" stroke-width="0.8"/>
+<line x1="340" y1="60" x2="340" y2="200" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="3 3"/>
+<circle cx="214.8" cy="150" r="5" class="c-teal"/><circle cx="465.2" cy="150" r="5" class="c-teal"/>
+<circle cx="102.8" cy="150" r="5" class="c-purple"/><circle cx="577.2" cy="150" r="5" class="c-purple"/>
+<g class="c-gray"><rect x="279" y="145" width="10" height="10"/><rect x="391" y="145" width="10" height="10"/></g>
+<text class="ts" x="214.8" y="176" text-anchor="middle">−1/φ</text>
+<text class="ts" x="465.2" y="176" text-anchor="middle">φ</text>
+<text class="ts" x="102.8" y="176" text-anchor="middle">−φ</text>
+<text class="ts" x="577.2" y="176" text-anchor="middle">φ²</text>
+<text class="ts" x="284" y="176" text-anchor="middle">0</text>
+<text class="ts" x="396" y="176" text-anchor="middle">1</text>
+<text class="ts" x="340" y="218" text-anchor="middle">s = ½ (mirror axis)</text>
+<text class="ts" x="340" y="252" text-anchor="middle">Solid: Λ(φ) = Λ(−1/φ) = 1.0233   Dashed: Λ(−φ) = Λ(φ²) = 0.2602</text>
+<text class="ts" x="340" y="274" text-anchor="middle">Squares: the two poles of Λ, the only infinities left (R3)</text>
+</svg>

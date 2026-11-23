@@ -1,0 +1,9 @@
+E1 top eigenvalue 1.989044 vs 2cos(pi/30) 1.989044 | masses/m1: [1.0, 1.618, 1.989, 2.4049, 2.9563, 3.2183, 3.8912, 4.7834] | m2/m1 1.618034 phi 1.618034
+units: 120
+E3 rank 8
+   Gram of 2Q: even diag True | det 1.000000 | min eig 0.0909
+   vectors with Q=1 (count over norms 1 and phi^-2 and others): see below
+E3 icosians of norm 1: 120 | norm phi^-2 (4N = 8 - 4 phi): 120
+E4 tau60 (0,1,1,2+phi): member True | Q = 12.0
+E4 icosians of reduced norm 7+5phi: 7200 (predicted 7200)
+Control norm 3: 1200 (predicted 1200)

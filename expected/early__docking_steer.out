@@ -1,0 +1,12 @@
+D1: one inter-spike interval carries: pessimistic 0.81 | median 1.90 | optimistic 3.85 bits
+D2: sigma_asym/sigma_noise = 1.09
+   control (no nudge): closer cluster extruded 0.764
+   nudge = 0.5 x combined spread -> chosen lot wins 0.692
+   nudge = 1.0 x combined spread -> chosen lot wins 0.841
+   nudge = 1.4 x combined spread -> chosen lot wins 0.919
+   nudge = 2.0 x combined spread -> chosen lot wins 0.977
+   nudge = 3.0 x combined spread -> chosen lot wins 0.999
+   analytic: 84% needs 0.99 x, 99% needs 2.33 x combined spread
+D3: odds ratio 3.0 (reversal 0.236 -> 0.481): 59 eggs per group, 118 total
+D3: odds ratio 2.0 (reversal 0.236 -> 0.382): 157 eggs per group, 314 total
+D3: odds ratio 1.5 (reversal 0.236 -> 0.317): 482 eggs per group, 964 total

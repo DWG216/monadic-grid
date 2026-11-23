@@ -1,0 +1,10 @@
+single chain dim 123 -> doubled dim 15129
+trace of doubled generator (net zero): Tr(H)*n - n*Tr(H) = 0.0
+doubled spectrum symmetric under swapping strands (w -> -w): True
+zero modes (stationary states): 225  >= number of eigenstates 123
+explicit doubled generator matches E_i-E_j (L=6): True
+t=   0  forward Z = +123.000   +0.000i   forward x reverse = 15129.000  imaginary part = 0.0e+00
+t=   2  forward Z =   +3.560   +0.717i   forward x reverse =    13.185  imaginary part = 0.0e+00
+t=   5  forward Z =   -5.890   -2.500i   forward x reverse =    40.936  imaginary part = 0.0e+00
+t=  10  forward Z =   -2.757   +0.900i   forward x reverse =     8.411  imaginary part = 0.0e+00
+t=  20  forward Z =   +5.190   +0.798i   forward x reverse =    27.574  imaginary part = 0.0e+00

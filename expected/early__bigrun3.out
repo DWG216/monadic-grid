@@ -1,0 +1,5 @@
+checks: Galois map is a homomorphism; spin-j rep = U^(xN) on symmetric subspace
+raw error 0.1: 15-to-1 works | BK works | icosahedral best N=67, 3 rounds, 3.45e+12 raw states per tau60 at 2.5e-12
+raw error 0.2: 15-to-1 cannot start | BK cannot start | icosahedral best N=67, 4 rounds, 4.02e+19 raw states per tau60 at 2.5e-12
+raw error 0.3: 15-to-1 cannot start | BK cannot start | icosahedral best N=67, 4 rounds, 4.24e+25 raw states per tau60 at 2.5e-12
+raw error 0.4: 15-to-1 cannot start | BK cannot start | icosahedral best N=67, 5 rounds, 1.34e+40 raw states per tau60 at 2.5e-12

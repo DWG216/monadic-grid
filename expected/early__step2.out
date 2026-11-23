@@ -1,0 +1,10 @@
+L  dim  Lucas(L)  E0/L       gap ratio (E2-E0)/(E1-E0)
+6 18 18 -0.783091 2.5801
+8 47 47 -0.774543 2.6079
+10 123 123 -0.770675 2.6227
+12 322 322 -0.768596 2.6318
+14 843 843 -0.767351 2.6379
+16 2207 2207 -0.766546 2.6422
+fitted bulk energy per site e = -0.763897  finite-size coefficient pi*c*v/6 = 0.67737
+velocity v (assuming first gap = 3/40) = 1.837   central charge c = 0.7042  (tricritical Ising c=7/10)
+rescaled low spectrum at L=16, x=(E-E0)L/(2 pi v): [0.    0.075 0.198 0.883 1.047 1.156 1.17  1.812]

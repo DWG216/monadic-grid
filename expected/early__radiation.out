@@ -1,0 +1,6 @@
+unknowns: 168 complex numbers (8 waves x 21 samples of hand -). Full rank = reality forced for every wave.
+  static worldline (x=0)             rank  21 / 168
+  moving timelike geodesic (v=0.6)   rank  91 / 168
+  single light ray                   rank  75 / 168
+  light-cone boundary of diamond     rank 156 / 168
+  spacelike slice t=0 (disk)         rank  79 / 168

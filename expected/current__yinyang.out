@@ -1,0 +1,7 @@
+Y1 circle vs hyperbola KS p=0.337, mean diff=-0.0059 (n=1137,1122)
+Y1 turn 1 vs 2: KS p=0.106 (n=752,752)
+Y1 turn 1 vs 4: KS p=0.848 (n=752,755)
+Y1 turn 2 vs 4: KS p=0.399 (n=752,755)
+Y2 fraction of primes x in [100,1e7] with circle ahead: 1.0000
+Y2 mean B=1.279 (min 0.442, max 2.022)
+Y3 mean |B| 1-vs-4 = 0.280, fraction positive = 0.539, sign changes over primes = 6648

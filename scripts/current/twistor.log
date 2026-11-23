@@ -1,0 +1,5 @@
+E1 helicity-2 field equations: max relative residual 2.20e-09 -> PASS
+E1 wave equation: max relative residual 1.92e-03 -> FAIL
+E1-null scrambled weights: residual min 7.07e-01, max 1.88e+00 -> PASS
+E2 Eguchi-Hanson det of the Kahler metric: min 0.9999996, max 1.0000039 -> PASS
+E2-null perturbed potential: det ranges 1.478 .. 5.331 -> PASS

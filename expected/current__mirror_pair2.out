@@ -1,0 +1,11 @@
+zeros: 201 first [14.1372 21.0244 25.0184]
+smooth only: RMS=0.2302 mean=-0.0014
+X=10: RMS=0.1142 mean=-0.0005 max|r|=0.3169
+X=100: RMS=0.0439 mean=-0.0002 max|r|=0.1764
+X=1000: RMS=0.0280 mean=-0.0001 max|r|=0.0897
+X=10000: RMS=0.0220 mean=-0.0000 max|r|=0.0533
+X=30000: RMS=0.0198 mean=+0.0000 max|r|=0.0535
+B4 fake primes X=1e4: RMS=0.3462
+B1 strictly decreasing: True
+B2: True
+B3: True

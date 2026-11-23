@@ -1,0 +1,8 @@
+Q1 |A5| = 60 | class sizes [1, 12, 12, 15, 20]
+   D(A5) anyon types: 22 | quantum dimensions: [1, 3, 3, 4, 5, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 15, 15, 15, 15, 20, 20, 20] | all integers: True | sum d^2 = 3600
+Q2 configurations (a,b,c in 5-cycle class, abc=e): 60 | braids map basis->basis (permutations): True
+   braid group image order (permutations of the flux basis): 60 (finite)
+Q3 charge 3 : probability 0.2500 | amplitude ratios to the h0 component: [-1.0, -0.447214, 0.447214, 1.0]
+Q3 charge 3': probability 0.2500 | amplitude ratios to the h0 component: [-1.0, -0.447214, 0.447214, 1.0]
+   multiplicities of irreps in the 12-dim rep: {'1': np.float64(1.0), '3': np.float64(1.0), "3'": np.float64(1.0), '4': np.float64(0.0), '5': np.float64(1.0)}
+   phi = 1.618034, -1/phi = -0.618034, 1/sqrt5 = 0.447214

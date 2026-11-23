@@ -1,0 +1,5 @@
+zeros: 201 first [14.1372 21.0244 25.0184]
+weights 1/|zeta'|^2: range 0.0223 .. 1.58
+A1 zeta' weights: eig err 1.1e-12; percentiles at ln2,3,5,7 = [0.575 0.1   0.755 0.79 ]; above 95th at 0 of 4
+A2 prime-polynomial weights (built-in): eig err 2.8e-13; percentiles at ln2,3,5,7 = [0.305 0.61  0.245 0.9  ]; above 95th at 0 of 4
+A3 fake-prime weights: eig err 3.4e-13; percentiles at ln2,3,5,7 = [0.   0.72 0.68 0.1 ]; above 95th at 0 of 4

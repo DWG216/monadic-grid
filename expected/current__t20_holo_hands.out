@@ -1,0 +1,5 @@
+H1 wind,corr (2, np.float64(1.0))
+H2 wind,corr(conj O) (-2, np.float64(1.0))
+H3 wind,corr(|O|^2),min (0, np.float64(1.0), -0.0)
+C1 windings (0, 0, 0)
+C2 inline corr 0.0551

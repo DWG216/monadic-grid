@@ -1,0 +1,12 @@
+Ritz values from the primes: [43.327  48.0052 49.7738 52.9703 56.4462 59.347  60.8318 65.1125 67.0798
+ 69.5464 72.0672 75.7047 77.1448 79.3374 82.9148]
+published zeros:            [48.0052 49.7738 52.9703 56.4462 59.347  60.8318 65.1125 67.0798 69.5464
+ 72.0672 75.7047 77.1448 79.3374]
+T1 max distance for the 9 zeros in [50,77]: 0.0000 -> PASS
+T2 kept directions: 15 -> FAIL
+T3 min/max eigenvalue of G: -1.37e-16 -> PASS
+T4 fake primes: kept 23, min/max eig 1.42e-04, zeros matched 0/11 -> PASS
+   fake Ritz: [46.074 48.009 49.758 51.401 52.895 54.364 55.965 57.588 59.059 60.49
+ 62.096 63.741 65.172 66.5   68.069 69.695 71.175 72.583 74.102 75.662
+ 77.246 78.956 80.913]
+C1 zero-side kept 15; max distance prime-side to zero-side Ritz: 0.0024 -> PASS

@@ -1,0 +1,7 @@
+phase difference (rad) 0.3139119925105132
+S1 concurrence 0.15631234291508364
+S2 concurrence max over t 2.0048996637444867e-09
+S3 concurrence 0.0
+S3 path coherence of A 0.0
+S4 largest gamma with C>0 (1/s) 0.06052779976193349
+control m=1e-20 S1 concurrence 0.0

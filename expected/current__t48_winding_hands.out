@@ -1,0 +1,8 @@
+W1 24 /24
+W2 1
+L1 cell factor (-2+2.4492935982947064e-16j)
+L2 0.0
+L3 ratios [ 1.         -2.00000036  4.00000358]
+L4 2.9605945558685534e-16
+control ratios [1.         0.5033514  5.20805692]
+{'W1': True, 'W2': True, 'L1': np.True_, 'L2': np.True_, 'L3': True, 'L4': np.True_, 'C': np.True_} ALL PASS

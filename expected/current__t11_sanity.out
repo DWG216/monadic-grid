@@ -1,0 +1,13 @@
+zeros to 600: 341 (Riemann-von Mangoldt main term 340.7); first 14.1372; below 400: 202; 1s
+sparse ln2: 17.39 vs null95 8.45
+sparse ln3: 4.72 vs null95 9.51
+sparse ln3/2: 10.24 vs null95 2.30
+fake sparse ln2: 9.31 vs null95 7.72
+fake sparse ln3: 8.94 vs null95 10.46
+fake sparse ln3/2: 0.90 vs null95 2.33
+56s
+pipeline control (1/rho, new zeros): prime-power jumps negative 1.0 ratio 4.438404380711243
+Mobius on new zeros, full operator: signs 18 /18
+  K=85: signs 17
+  K=170: signs 18
+60s

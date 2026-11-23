@@ -1,0 +1,7 @@
+mutual help (control)          potential share 1.00 | cycling share 0.00
+hypercycle n=4                 potential share 0.33 | cycling share 0.67
+hypercycle n=6                 potential share 0.40 | cycling share 0.60
+hypercycle n=6 + free-rider    potential share 0.42 | cycling share 0.58
+mutual help (control)          late mean-fitness swing 0.0000 | fraction of steps where it FALLS 0.00
+hypercycle n=4                 late mean-fitness swing 0.0021 | fraction of steps where it FALLS 0.50
+hypercycle n=6                 late mean-fitness swing 1.4346 | fraction of steps where it FALLS 0.64

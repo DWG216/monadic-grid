@@ -1,0 +1,19 @@
+G2 Fibonacci walk type agreement 5427/5427; null random matrices 1017/2131 = 0.48
+G3 p=5: |G|=480, <chi,chi>=1.000000
+G3 p=7: |G|=2016, <chi,chi>=1.000000
+G3 p=11: |G|=13200, <chi,chi>=1.000000
+G4 p=7 (circle): period 16 vs pi(p) 16; max|chi| off gates 1.848; |chi| at gates {6.0}; first gate n=8
+G4 p=13 (circle): period 28 vs pi(p) 28; max|chi| off gates 1.802; |chi| at gates {12.0}; first gate n=7
+G4 p=17 (circle): period 36 vs pi(p) 36; max|chi| off gates 1.879; |chi| at gates {16.0}; first gate n=9
+G4 p=11 (hyperbola): period 10 vs pi(p) 10; max|chi| off gates 0.000; |chi| at gates {10.0}; first gate n=10
+G4 p=19 (hyperbola): period 18 vs pi(p) 18; max|chi| off gates 0.000; |chi| at gates {18.0}; first gate n=18
+G4 p=29 (hyperbola): period 14 vs pi(p) 14; max|chi| off gates 0.000; |chi| at gates {28.0}; first gate n=14
+G4 p=31 (hyperbola): period 30 vs pi(p) 30; max|chi| off gates 0.000; |chi| at gates {30.0}; first gate n=30
+G5 p=7: trace(Q^n)=z+z^p equals L(n) mod p in 131/131 elliptic steps
+G5 p=13: trace(Q^n)=z+z^p equals L(n) mod p in 128/128 elliptic steps
+G5 p=17: trace(Q^n)=z+z^p equals L(n) mod p in 133/133 elliptic steps
+G5 p=23: trace(Q^n)=z+z^p equals L(n) mod p in 143/143 elliptic steps
+R71a 10 10 1
+R71b ord9=35 ord8=35 <9>==squares:True leg(7)=-1 coset7==nonsquares:True
+R71c split primes <2000: 146; with a root phi of order (p-1)/2 (two-wire coil): 76 = 0.52; first: [(11, 4), (19, 5), (29, 6), (31, 19), (59, 26), (71, 9), (79, 50), (89, 10)]
+mod 8 of two-wire primes: [1, 3, 5, 7]  mod 4: [1, 3]

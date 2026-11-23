@@ -1,0 +1,15 @@
+checks: Galois map is a homomorphism; spin-j rep = U^(xN) on symmetric subspace
+N=67 order 2: threshold 0.486 | control eps=0.5 -> out 0.500000 | eps=0.45 -> 0.3663
+N=97 order 3: threshold 0.494 | control eps=0.5 -> out 0.500000 | eps=0.45 -> 0.2541
+N=127 order 4: threshold 0.481 | control eps=0.5 -> out 0.500000 | eps=0.45 -> 0.3378
+
+Raw states per expensive gate, and per full single-qubit rotation (gate counts from Blackman-Stier heuristics):
+  raw err 1e-03, rotation precision 1e-6: Clifford+T 140 T x 228 = 3.19e+04 | icosahedral 24 tau60 x 1.48e+03 (N=67) = 3.51e+04 | ratio ico/CT 1.1
+  raw err 1e-03, rotation precision 1e-10: Clifford+T 233 T x 228 = 5.31e+04 | icosahedral 40 tau60 x 4.82e+03 (N=127) = 1.9e+05 | ratio ico/CT 3.6
+  raw err 1e-03, rotation precision 1e-15: Clifford+T 349 T x 228 = 7.97e+04 | icosahedral 59 tau60 x 2.05e+06 (N=67) = 1.21e+08 | ratio ico/CT 1522.0
+  raw err 1e-02, rotation precision 1e-6: Clifford+T 140 T x 265 = 3.7e+04 | icosahedral 24 tau60 x 1.52e+04 (N=127) = 3.61e+05 | ratio ico/CT 9.8
+  raw err 1e-02, rotation precision 1e-10: Clifford+T 233 T x 3.97e+03 = 9.24e+05 | icosahedral 40 tau60 x 3.75e+06 (N=67) = 1.48e+08 | ratio ico/CT 160.5
+  raw err 1e-02, rotation precision 1e-15: Clifford+T 349 T x 3.97e+03 = 1.39e+06 | icosahedral 59 tau60 x 1.73e+07 (N=97) = 1.03e+09 | ratio ico/CT 740.5
+distance-3 block of 67 qubits: to keep post-projection logical failure < 1e-10 needs per-qubit error < 2.1e-07
+distance-3 block of 97 qubits: to keep post-projection logical failure < 1e-10 needs per-qubit error < 1.5e-07
+distance-3 block of 127 qubits: to keep post-projection logical failure < 1e-10 needs per-qubit error < 1.1e-07

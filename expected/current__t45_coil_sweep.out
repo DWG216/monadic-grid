@@ -1,0 +1,16 @@
+wire length (m): 2.789
+lambda/L=0.30  ratios 1 : 0.657 : 0.622
+lambda/L=0.45  ratios 1 : 0.572 : 0.331
+lambda/L=0.60  ratios 1 : 0.619 : 0.368
+lambda/L=0.75  ratios 1 : 0.702 : 0.529
+lambda/L=0.90  ratios 1 : 0.763 : 0.633
+lambda/L=1.05  ratios 1 : 0.804 : 0.702
+lambda/L=1.20  ratios 1 : 0.834 : 0.753
+lambda/L=1.35  ratios 1 : 0.857 : 0.791
+lambda/L=1.50  ratios 1 : 0.875 : 0.820
+lambda/L=1.65  ratios 1 : 0.889 : 0.843
+lambda/L=1.80  ratios 1 : 0.900 : 0.861
+lambda/L=1.95  ratios 1 : 0.908 : 0.875
+closest to 1:0.5:0.25 at lambda/L=0.50: 1 : 0.578 : 0.306
+control random order [np.int64(8), np.int64(4), np.int64(5), np.int64(7), np.int64(1), np.int64(2)] : ratios 1 : 0.417 : 0.235
+control random order [np.int64(7), np.int64(5), np.int64(2), np.int64(4), np.int64(1), np.int64(8)] : ratios 1 : 0.676 : 0.365

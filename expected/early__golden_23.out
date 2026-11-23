@@ -1,0 +1,19 @@
+=== TEST 2. Cassini: does the braid clock alternate the hands step by step? ===
+ hand separation D(n) (trace distance, half chain) n=0..20:
+  [0.     0.6846 0.3604 0.4295 0.4536 0.2707 0.5744 0.3474 0.3445 0.4171
+ 0.434  0.4006 0.4367 0.4601 0.3842 0.4272 0.4399 0.3659 0.3931 0.513
+ 0.2766]
+ even-n mean 0.4097  odd-n mean 0.4316
+ one braid repeated: return amplitudes obey the complex Fibonacci recurrence g(n+1)=a g(n)+g(n-1): True
+ Cassini of return amplitudes g(n-1)g(n+1)-g(n)^2, n=1..10: [ 0.4627+0.j -0.4627+0.j  0.4627-0.j -0.4627+0.j  0.4627-0.j -0.4627+0.j
+  0.4627-0.j -0.4627+0.j  0.4627-0.j -0.4627+0.j]
+ circuit spectrum: U- eigenphases are minus U+ eigenphases: True ; det U+ = (1-0j)
+
+=== TEST 3. Tank: does the cross-hand term oscillate at twice the frequency? ===
+  qubit, chiral H=w*sigma_y, t=0.0: <+|+> = 1.0000   cross <-|+> = 1.0000   cos(2wt) = 1.0000
+  qubit, chiral H=w*sigma_y, t=0.4: <+|+> = 1.0000   cross <-|+> = 1.0000   cos(2wt) = 0.6967
+  qubit, chiral H=w*sigma_y, t=0.8: <+|+> = 1.0000   cross <-|+> = 1.0000   cos(2wt) = -0.0292
+  qubit, chiral H=w*sigma_y, t=1.2: <+|+> = 1.0000   cross <-|+> = 1.0000   cos(2wt) = -0.7374
+  chain lam=0.0: cross-hand overlap Re<-|+> ranges 1.0000..1.0000 ; 1-|<-|+>|^2 mean -0.0000 ; dominant freq single-hand return 0.000, cross-hand 0.000
+  chain lam=0.1: cross-hand overlap Re<-|+> ranges 1.0000..1.0000 ; 1-|<-|+>|^2 mean -0.0000 ; dominant freq single-hand return 0.000, cross-hand 0.000
+  chain lam=0.3: cross-hand overlap Re<-|+> ranges 1.0000..1.0000 ; 1-|<-|+>|^2 mean -0.0000 ; dominant freq single-hand return 0.000, cross-hand 0.000

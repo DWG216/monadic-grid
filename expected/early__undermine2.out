@@ -1,0 +1,2 @@
+U2 SU(2)_6 spin-1, 4 strands: dim 17 | unitarity 3.2730402873566285e-15 | s1s2s1-s2s1s2 3.0e-15 | s2s3s2-s3s2s3 3.6e-15 | s1s3-s3s1 0.0e+00
+   3-strand part <s1,s2>: INFINITE-ORDER word s1s1s1s2s2 | full <s1,s2,s3>: INFINITE-ORDER word s1s1s1s2s2

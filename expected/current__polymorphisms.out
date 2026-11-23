@@ -1,0 +1,7 @@
+Q1 3-SAT polymorphisms: binary 2 (projections: True ) ternary 3 (projections: True )
+Q2 2-SAT majority: preserves its class True; Q3 preserves 3-SAT False
+Q2 3-XOR minority: preserves its class True; Q3 preserves 3-SAT False
+Q2 Horn AND: preserves its class True; Q3 preserves 3-SAT False
+Q2 dual Horn OR: preserves its class True; Q3 preserves 3-SAT False
+Q2 0-valid const 0: preserves its class True; Q3 preserves 3-SAT False
+Q2 1-valid const 1: preserves its class True; Q3 preserves 3-SAT False

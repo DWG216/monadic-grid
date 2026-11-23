@@ -1,0 +1,8 @@
+k=1 ell= 3 d_1/2=1.0000 weakly integral=True  | unitarity 4e-16 | image order n=3,4,5,6: ['1', '1', '1', '1']
+k=2 ell= 4 d_1/2=1.4142 weakly integral=True  | unitarity 9e-16 | image order n=3,4,5,6: ['24', '192', '1920', '23040']
+k=3 ell= 5 d_1/2=1.6180 weakly integral=False | unitarity 1e-15 | image order n=3,4,5,6: ['>30000', '>30000', '>30000', '>30000']
+k=4 ell= 6 d_1/2=1.7321 weakly integral=True  | unitarity 1e-15 | image order n=3,4,5,6: ['24', '648', '>30000', '>30000']
+k=5 ell= 7 d_1/2=1.8019 weakly integral=False | unitarity 1e-15 | image order n=3,4,5,6: ['>30000', '>30000', '>30000', '>30000']
+k=6 ell= 8 d_1/2=1.8478 weakly integral=False | unitarity 1e-15 | image order n=3,4,5,6: ['>30000', '>30000', '>30000', '>30000']
+k=7 ell= 9 d_1/2=1.8794 weakly integral=False | unitarity 2e-15 | image order n=3,4,5,6: ['>30000', '>30000', '>30000', '>30000']
+k=8 ell=10 d_1/2=1.9021 weakly integral=False | unitarity 2e-15 | image order n=3,4,5,6: ['600', '>30000', '>30000', '>30000']

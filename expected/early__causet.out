@@ -1,0 +1,4 @@
+ d | N    | ordering fraction | predicted | dimension recovered | longest chain (time from counting)
+ 2 | 1500 | 0.4814 | 0.5000 | 2.05 | 72
+ 3 | 1500 | 0.2265 | 0.2286 | 3.01 | 21
+ 4 | 1500 | 0.0956 | 0.1000 | 4.05 | 11

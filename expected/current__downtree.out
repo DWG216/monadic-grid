@@ -1,0 +1,8 @@
+T1 series 0.491803278688525 closed 0.491803278688525 diff 0.0e+00
+T2 series 0.272727272727273 closed 0.272727272727273 diff 0.0e+00
+   golden annulus: 0.6180 <= |x| <= 1.6180; at x=1 upward partial sums: [7, 88, 10945]
+T3 max |U+D| over 20 complex x: 0.0e+00
+T4 Lambda(2)=0.523598775598 Lambda(-1)=0.523598775598 pi/6=0.523598775598
+T4 Lambda(4)=0.109662271123 Lambda(-3)=0.109662271123 pi^2/90=0.109662271123
+T5 eps=0.001: eps*Lambda(1+eps)=0.99902  eps*Lambda(eps)=eps*Lambda(1-eps) by mirror=-1.00098
+T5 eps=1e-05: eps*Lambda(1+eps)=0.99999  eps*Lambda(eps)=eps*Lambda(1-eps) by mirror=-1.00001

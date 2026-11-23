@@ -1,0 +1,11 @@
+M1 sigma=0.5 t=14: |chi|-1 = 0.00e+00
+M1 sigma=0.5 t=100: |chi|-1 = 0.00e+00
+M1 sigma=0.5 t=400: |chi|-1 = 0.00e+00
+M1 sigma=0.6 t=100: ln|chi| = 0.277
+zeros: 201 first [14.1372 21.0244 25.0184]
+X=1: RMS=0.2302  frac|r|<0.5=0.9851
+X=10: RMS=0.1142  frac|r|<0.5=1.0000
+X=100: RMS=0.0439  frac|r|<0.5=1.0000
+X=1000: RMS=0.0280  frac|r|<0.5=1.0000
+N1 fake primes: RMS=0.3304 ratio to smooth=1.435
+N2 sign flipped: RMS=0.4344

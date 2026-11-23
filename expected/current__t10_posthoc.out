@@ -1,0 +1,8 @@
+zeros: 201 first [14.1372 21.0244 25.0184]
+ln2: S_primes(u0) -0.204; zeros' own S_uniform(u0) -0.151; |S_primes| window median 0.031
+ln3: S_primes(u0) -0.244; zeros' own S_uniform(u0) -0.199; |S_primes| window median 0.028
+ln3/2: S_primes(u0) +0.002; zeros' own S_uniform(u0) -0.008; |S_primes| window median 0.038
+distinct planted frequencies ln(n/m) within ln2 +- 0.5: 187
+plant 1+2^-s+3^-s, ln2: peak 18.60
+plant 1+2^-s+3^-s, ln3: peak 4.33
+plant 1+2^-s+3^-s, ln3/2: peak 9.12

@@ -1,0 +1,16 @@
+T1-T3: maximal amplification after unit evolution, modes up to frequency K
+   n=1 m=0: K=5: 1.00e+00  K=10: 1.00e+00  K=20: 1.00e+00  K=40: 1.00e+00
+   n=3 m=0: K=5: 1.48e+02  K=10: 2.20e+04  K=20: 4.85e+08  K=40: 2.35e+17
+   n=5 m=0: K=5: 1.48e+02  K=10: 2.20e+04  K=20: 4.85e+08  K=40: 2.35e+17
+   n=1 m=1: K=5: 1.00e+00  K=10: 1.00e+00  K=20: 1.00e+00  K=40: 1.00e+00
+   n=3 m=1: K=5: 1.00e+00  K=10: 1.00e+00  K=20: 1.00e+00  K=40: 1.00e+00
+   n=5 m=1: K=5: 1.00e+00  K=10: 1.00e+00  K=20: 1.00e+00  K=40: 1.00e+00
+   n=1 m=2: K=5: 1.48e+02  K=10: 2.20e+04  K=20: 4.85e+08  K=40: 2.35e+17
+   n=3 m=2: K=5: 1.48e+02  K=10: 2.20e+04  K=20: 4.85e+08  K=40: 2.35e+17
+   n=5 m=2: K=5: 1.48e+02  K=10: 2.20e+04  K=20: 4.85e+08  K=40: 2.35e+17
+   n=1 m=3: K=5: 1.48e+02  K=10: 2.20e+04  K=20: 4.85e+08  K=40: 2.35e+17
+   n=3 m=3: K=5: 1.48e+02  K=10: 2.20e+04  K=20: 4.85e+08  K=40: 2.35e+17
+   n=5 m=3: K=5: 1.48e+02  K=10: 2.20e+04  K=20: 4.85e+08  K=40: 2.35e+17
+T4: finite-difference evolution of noise 1e-10 over unit distance
+   m=1 (one time): u_tt = u_xx                                    max |noise| after evolution = 1.83e-10
+   m=0 or m=2 (evolve against a same-sign direction): u_tt = -u_xx max |noise| after evolution = inf

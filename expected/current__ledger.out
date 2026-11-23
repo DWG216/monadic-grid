@@ -1,0 +1,8 @@
+L1 all 4-variable functions and 8000 random 5-8 variable functions: PASS
+L2 minimal layers = alternation for all 3-variable functions with f(0)=0: PASS
+L3 n=3: parity a=3 (NOT gates 2); majority a=1
+L3 n=4: parity a=4 (NOT gates 3); majority a=1
+L3 n=5: parity a=5 (NOT gates 3); majority a=1
+L3 n=8: parity a=8 (NOT gates 4); majority a=1
+L4 alternation histogram, all 4-variable functions: {0: 2, 1: 332, 2: 7208, 3: 32436, 4: 25558}
+L5 bands: f = disjoint union of ceil(a/2) bands, each between an upward and a downward set: PASS

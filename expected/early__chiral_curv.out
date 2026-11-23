@@ -1,0 +1,3 @@
+generic curvature           : first Bianchi violation 1.1e-16 | |mixed SD-ASD block| = 4.099 | |traceless Ricci| = 4.099 | |Weyl+| = 1.280, |Weyl-| = 2.675
+Einstein (mixed block = 0)  : first Bianchi violation 2.5e-16 | |mixed SD-ASD block| = 0.000 | |traceless Ricci| = 0.000 | |Weyl+| = 2.492, |Weyl-| = 3.530
+ratio |traceless Ricci| / |mixed block| over 200 random curvatures: min 1.000000 max 1.000000

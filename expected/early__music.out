@@ -1,0 +1,6 @@
+scales with two step sizes, generator = fifth : [2, 3, 5, 7, 12, 17, 29, 41, 53]
+scales with two step sizes, generator = golden: [2, 3, 5, 8, 13, 21, 34, 55]
+Pythagorean comma 3^12/2^19  maps to 0 steps in 12-equal
+syntonic comma 81/80         maps to 0 steps in 12-equal
+diesis 128/125               maps to 0 steps in 12-equal
+tritone in 12-equal = 2^(6/12) = 1.4142135623730951 (sqrt 2) | minor third x4 = 2.0

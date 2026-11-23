@@ -1,0 +1,6 @@
+NT=256, h=0.0001: +2 residual 7.3e-04; -2 residual 1.2e-02
+NT=256, h=1e-05: +2 residual 7.3e-06; -2 residual 1.2e-04
+NT=1024, h=0.0001: +2 residual 3.8e-03; -2 residual 3.7e-02
+NT=1024, h=1e-05: +2 residual 3.8e-05; -2 residual 3.8e-04
+NT=4096, h=0.0001: +2 residual 2.0e-02; -2 residual 1.5e-03
+NT=4096, h=1e-05: +2 residual 2.0e-04; -2 residual 1.5e-05

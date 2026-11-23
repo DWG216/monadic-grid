@@ -1,0 +1,10 @@
+Unknowns: imaginary parts of m, n, a (3). Rank 3 = reality forced.
+  P1 one null ray, th=1.0 (r sweeps)            rank 3/3 | largest leftover imaginary part over 40 random starts: 1.2e-08
+  P2 null ray in equator, th=pi/2               rank 2/3 | largest leftover imaginary part over 40 random starts: 0.0e+00
+  P3 single event (r=5, th=1.0)                 rank 2/3 | largest leftover imaginary part over 40 random starts: 0.0e+00
+  P4 radial timelike curve, th=1.0              rank 3/3 | largest leftover imaginary part over 40 random starts: 3.2e-08
+  static observer worldline (r=5,th=1.0 fixed)  rank 2/3 | largest leftover imaginary part over 40 random starts: 2.7e-01
+Note: P1 and P4 use the same (r, th) samples because the curvature depends only on r and th;
+a timelike curve that sweeps r at fixed th probes exactly the same values as the null ray.
+P5 self-dual member m=0.5j, n=0.5: hand- = 0, |hand+| = 0.00779 at r=5 ; passes conjugate match: False
+P5 self-dual member m=0, n=0: hand- = 0, |hand+| = 0 at r=5 ; passes conjugate match: True

@@ -1,0 +1,4 @@
+wire length (m): 2.789
+low frequency, shift along the doubling sequence k=0,1,2 (uH): [np.float64(3.3982), np.float64(3.2659), np.float64(3.2477)]
+wavelength = 1.0 x wire length: |M| (uH) = [np.float64(3.0499), np.float64(2.4151), np.float64(2.0794)]  ratios to k=0: [np.float64(1.0), np.float64(0.792), np.float64(0.682)]
+wavelength = 0.5 x wire length: |M| (uH) = [np.float64(2.501), np.float64(1.4465), np.float64(0.7656)]  ratios to k=0: [np.float64(1.0), np.float64(0.578), np.float64(0.306)]

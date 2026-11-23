@@ -1,0 +1,2 @@
+theory: inert 0.7873 split 0.5314 all 0.6593
+primes in [2e6,1e7): 515646; split 0.5318 (pred 0.5314, diff +0.0004); inert 0.7880 (pred 0.7873, diff +0.0007); all 0.6600 (pred 0.6593, diff +0.0007)

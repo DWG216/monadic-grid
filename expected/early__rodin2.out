@@ -1,0 +1,13 @@
+Q1 shifts 3,4,5 -> [8, 7, 5]  negatives of [8, 7, 5]
+n= 4 p=   3: geometric True, r=2, r mod p=2, m=F(n+1) mod p=2, m^2=1 (=(-1)^n True) | wires snsnsnsn | predicted alternate True, observed True
+n= 5 p=   5: geometric True, r=18, r mod p=3, m=F(n+1) mod p=3, m^2=4 (=(-1)^n True) | wires nsnsnsns | predicted alternate True, observed True
+n= 7 p=  13: geometric True, r=164, r mod p=8, m=F(n+1) mod p=8, m^2=12 (=(-1)^n True) | wires nsnsnsns | predicted alternate True, observed True
+n=11 p=  89: geometric True, r=2636, r mod p=55, m=F(n+1) mod p=55, m^2=88 (=(-1)^n True) | wires nnnnnnnn | predicted alternate False, observed False
+n=13 p= 233: geometric True, r=44414, r mod p=144, m=F(n+1) mod p=144, m^2=232 (=(-1)^n True) | wires nnnnnnnn | predicted alternate False, observed False
+n=17 p=1597: geometric True, r=791502, r mod p=987, m=F(n+1) mod p=987, m^2=1596 (=(-1)^n True) | wires snsnsnsn | predicted alternate True, observed True
+Q4 mod 25 word sums [7, 1, 18, 24] wires ['non-square', 'square', 'non-square', 'square']
+control x+2x p=3 first zero at 3, multiplier 2, square? False
+control x+2x p=5 first zero at 4, multiplier 1, square? True
+control x+2x p=7 first zero at 6, multiplier 1, square? True
+control x+2x p=11 first zero at 5, multiplier 10, square? False
+control x+2x p=13 first zero at 12, multiplier 1, square? True

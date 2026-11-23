@@ -1,0 +1,11 @@
+A1 with the spinor epsilon on both factors of the direction: change along the null line 2.1e-15
+T3 r = 3: RN |R_kk| 2.5e-03, Schwarzschild 1.8e-07, ratio 13835, Q^2/r^4 = 1.2e-03
+T3 r = 4: RN |R_kk| 7.8e-04, Schwarzschild 3.4e-08, ratio 22688, Q^2/r^4 = 3.9e-04
+T3 r = 5: RN |R_kk| 3.2e-04, Schwarzschild 2.0e-08, ratio 15971, Q^2/r^4 = 1.6e-04
+T3 r = 6: RN |R_kk| 1.5e-04, Schwarzschild 1.5e-08, ratio 10167, Q^2/r^4 = 7.7e-05
+T3 r = 7: RN |R_kk| 8.3e-05, Schwarzschild 9.3e-09, ratio 8964, Q^2/r^4 = 4.2e-05
+T3 r = 8: RN |R_kk| 4.8e-05, Schwarzschild 8.5e-09, ratio 5682, Q^2/r^4 = 2.4e-05
+G1 contour points 256: max relative change from the coboundary 3.1e-10
+G1 contour points 1024: max relative change from the coboundary 9.9e-10
+G1 contour points 4096: max relative change from the coboundary 1.8e-05
+G1 coboundary integral / integral of its absolute value: max 4.3e-15 (roundoff level ~1e-13)

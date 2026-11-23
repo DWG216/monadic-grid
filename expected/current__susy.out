@@ -1,0 +1,6 @@
+S1 nonzero divisor sums for 1<n<=1e5: 0 | pairing involution valid n<=3000: True | sum at n=1: 1
+S2 b=2: zeta*sum mu n^-b = 1.00000000
+S2 b=3: zeta*sum mu n^-b = 1.00000000
+S3 max |M|/sqrt x (100..1e7): 0.5671 at x = 199 | M(1e7) = 1037
+S4 fair: max|S|/sqrt x = 1.181, S(1e7)/sqrt(1e7) = 0.59
+S4 biased 0.51: max|S|/sqrt x = 38.080, S(1e7)/sqrt(1e7) = 38.08

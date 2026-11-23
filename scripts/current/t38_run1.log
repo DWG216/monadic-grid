@@ -1,0 +1,10 @@
+SM, no nu_R: N = 118 dof  ->  a = l_P * sqrt(c N / pi) = 3.33 l_P
+SM + nu_R: N = 124 dof  ->  a = l_P * sqrt(c N / pi) = 3.41 l_P
+a = 1.00 l_P: Lambda l_P^2 ~ 1/sqrt(V) = 1.53e-122;  with 8 pi/a^2: 3.85e-121;  observed 2.89e-122
+a = 3.41 l_P: Lambda l_P^2 ~ 1/sqrt(V) = 1.53e-122;  with 8 pi/a^2: 3.31e-122;  observed 2.89e-122
+n = 1: mixing angles 0, irreducible CP phases 0
+n = 2: mixing angles 1, irreducible CP phases 0
+n = 3: mixing angles 3, irreducible CP phases 1
+n = 4: mixing angles 6, irreducible CP phases 3
+n = 5: mixing angles 10, irreducible CP phases 6
+Weyl fermions per generation: SM 15  with nu_R 16  (SO(10) spinor)

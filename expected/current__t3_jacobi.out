@@ -1,0 +1,8 @@
+zeros: 201 first [14.1372 21.0244 25.0184]
+eigenvalue check: max|eig(J)-zeros| = 2.84e-13
+x=ln2: P=1.25e+03 null95=3.49e+04 percentile=0.105 below
+x=ln3: P=7.23e+03 null95=3.58e+04 percentile=0.485 below
+x=ln5: P=1.26e+04 null95=3.02e+04 percentile=0.680 below
+x=ln7: P=4.7e+03 null95=3.66e+04 percentile=0.345 below
+3a: above for 0 of 4
+post hoc raw zeros: above null95 at [2, 3, 5, 7] percentiles [1. 1. 1. 1.]

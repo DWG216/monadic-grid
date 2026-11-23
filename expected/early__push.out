@@ -1,0 +1,20 @@
+B1a. Knill-Laflamme violation over all single-qubit error pairs: 1.11e-16  (0 = corrects any single error)
+code frame search: 5-fold axis z; second 5-fold axis at azimuth 0.00 deg -> total leak 1.2e-15
+icosahedron in code frame: 12 vertices, 20 face centres (dodecahedron vertices)
+icosahedral code: perfect output of each vertex is again a vertex of the same icosahedron: False
+
+P1. magic delivered per raw noisy state (one round):
+   input err |  5-qubit: out err, magic/out, magic per raw  |  7-qubit: out err, magic/out, magic per raw
+     0.02    |  0.0021  0.725  0.0219                      |  0.0010  0.571  0.0213
+     0.05    |  0.0137  0.685  0.0179                      |  0.0064  0.554  0.0167
+     0.10    |  0.0578  0.532  0.0112                      |  0.0280  0.486  0.0103
+     0.15    |  0.1317  0.276  0.0048                      |  0.0677  0.361  0.0053
+     0.20    |  0.2253  0.000  0.0000                      |  0.1271  0.174  0.0018
+     0.25    |  0.3208  0.000  0.0000                      |  0.2046  0.000  0.0000
+   (magic of the pure targets: cube corner 0.732, this icosahedral output 0.574)
+
+P2. iterate to error 1e-6:
+   start 0.05 | 5-qubit: 4 rounds, 1.11e+06 raw states per output, final err 1.1e-10 | 7-qubit: 3 rounds, 1.89e+04 raw states per output, final err 2.2e-08
+   start 0.10 | 5-qubit: 5 rounds, 5.62e+07 raw states per output, final err 1.2e-09 | 7-qubit: 4 rounds, 7.43e+05 raw states per output, final err 1.8e-10
+   start 0.15 | 5-qubit: 7 rounds, 1.77e+11 raw states per output, final err 2.2e-09 | 7-qubit: 4 rounds, 1.52e+06 raw states per output, final err 2.9e-07
+   start 0.20 | 5-qubit: cannot start                                         | 7-qubit: 5 rounds, 1.03e+08 raw states per output, final err 1.3e-08

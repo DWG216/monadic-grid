@@ -1,0 +1,6 @@
+Q0 sequence -8..8: [-50, 31, -19, 12, -7, 5, -2, 3, 1, 4, 5, 9, 14, 23, 37, 60, 97]
+Q1 row n=0: [1, 12, -10, 45, -98, 276] (printed 1, 12, -10, 45, -98, 276)
+Q2 matches printed 35/35: True  formula: True
+Q3 x=0,r=1: lhs 11 U(r)^2 16 ; corrected holds: True
+Q4 a=0 of p.125 form: True
+Q5 min |U| within one step of 0: 250/435

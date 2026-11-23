@@ -1,0 +1,3 @@
+{7,3} heptagon tiling, tiles per layer: [1, 7, 21, 56, 147, 385]  vs 7*F(2n): [1, 7, 21, 56, 147, 385]
+   growth ratios: [3.0, 2.6667, 2.625, 2.619]  phi^2 = 2.618
+{5,4} pentagon tiling (HaPPY code), tiles per layer: [1, 5, 15, 40, 105]  ratios [3.0, 2.667, 2.625]  2+sqrt3 = 3.732

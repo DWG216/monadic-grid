@@ -1,0 +1,25 @@
+Q1 |A5| = 60 | class sizes [1, 12, 12, 15, 20]
+   D(A5) anyon types: 22 | quantum dimensions: [1, 3, 3, 4, 5, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 15, 15, 15, 15, 20, 20, 20] | all integers: True | sum d^2 = 3600
+D(A5), pair charge on 5-cycle class (12 states):
+  A5 charge 1 : P=0.0833
+     ratio +1.000000 x11 Bloch(x,z)=(np.float64(1.0), np.float64(0.0)) M2=0.0000 joint p=0.0139
+  A5 charge 3 : P=0.2500
+     ratio -1.000000 x1  Bloch(x,z)=(np.float64(-1.0), np.float64(0.0)) M2=0.0000 joint p=0.1250
+     ratio -0.447214 x5  Bloch(x,z)=(np.float64(-0.7454), np.float64(0.6667)) M2=0.4091 joint p=0.0750
+     ratio +0.447214 x5  Bloch(x,z)=(np.float64(0.7454), np.float64(0.6667)) M2=0.4091 joint p=0.0750
+  A5 charge 3': P=0.2500
+     ratio -1.000000 x1  Bloch(x,z)=(np.float64(-1.0), np.float64(0.0)) M2=0.0000 joint p=0.1250
+     ratio -0.447214 x5  Bloch(x,z)=(np.float64(-0.7454), np.float64(0.6667)) M2=0.4091 joint p=0.0750
+     ratio +0.447214 x5  Bloch(x,z)=(np.float64(0.7454), np.float64(0.6667)) M2=0.4091 joint p=0.0750
+  A5 charge 4 : probability 0
+  A5 charge 5 : P=0.4167
+     ratio -0.200000 x10 Bloch(x,z)=(np.float64(-0.3846), np.float64(0.9231)) M2=0.1944 joint p=0.1806
+     ratio +1.000000 x1  Bloch(x,z)=(np.float64(1.0), np.float64(0.0)) M2=-0.0000 joint p=0.3472
+  expected magic states per charge measurement: 0.3306 -> 3.03 measurements per magic state
+  break-even Mochon overhead vs tau60 (1.9e5 raw/rotation @1e-10): 6.28e+04 magic states per rotation
+Control C1, D(A4), 3-cycle class (4 states):
+  A4 charge 1 : P=0.2500
+     ratio +1.000000 x3  Bloch(x,z)=(np.float64(1.0), np.float64(0.0)) M2=0.0000 joint p=0.1250
+  A4 charge 3 : P=0.7500
+     ratio -0.333333 x3  Bloch(x,z)=(np.float64(-0.6), np.float64(0.8)) M2=0.3778 joint p=0.6250
+Control C2 (flux measurement): states |0>,|1> only, M2 = -0.0 -0.0

@@ -1,0 +1,10 @@
+Swing/Rafer = 2.0
+R=3.0: integrated tau=5.771474  (pi/2)Rafer=5.771474
+R=10.0: integrated tau=35.124074  (pi/2)Rafer=35.124074
+R=50.0: integrated tau=392.699082  (pi/2)Rafer=392.699082
+R/v_esc at R=10: 22.360679774997898  Rafer(10)= 22.360679774997898
+fixed point R=2M: 2.0  slope there: 1.5
+iterates from 1.99 -> 1.8890068152064954   from 2.01 -> 2.1169119418957343
+m_P/t_P = 4.0374641881929885e+35  c^3/G = 4.037464188192988e+35
+Planck electrical impedance 1/(4 pi eps0 c) = 29.97912754499072  ohm; free space Z0 = 4pi x that = 376.728827425497
+black hole M/(Rs/c) = 2.018732094096494e+35  c^3/(2G) = 2.018732094096494e+35

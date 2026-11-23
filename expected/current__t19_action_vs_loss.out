@@ -1,0 +1,8 @@
+A1 index vs floor(T/pi) {1: (0, 0), 2: (0, 0), 4: (1, 1), 7: (2, 2), 10: (3, 3)}
+A1 pass True
+A2 T=1 err vs sin 0.044309312567364034
+A2 T=4 dist ratio 1.0258967088877915
+A3 S_E min eig>0 True
+A3 T=4 err vs sinh 7.382375858605572e-05
+A4 max rel err 2.830157137103336e-07
+null random index (T=7 diag) 0

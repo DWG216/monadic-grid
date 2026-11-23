@@ -1,0 +1,24 @@
+beta=5
+   light-cone diamond (thermal length 3.2)    drift 0.0001
+   zero-temperature diamond (R^2-x^2)         drift 0.0003
+   triangle (R-|x|)                           drift 0.0003
+   taper, right width (3.2)                   drift 0.0012
+   taper, 1/3 width                           drift 0.0013
+   taper, 3x width                            drift 0.0007
+   Gaussian bump                              drift 0.0004
+beta=10
+   light-cone diamond (thermal length 6.4)    drift 0.0003
+   zero-temperature diamond (R^2-x^2)         drift 0.0018
+   triangle (R-|x|)                           drift 0.0017
+   taper, right width (6.4)                   drift 0.0033
+   taper, 1/3 width                           drift 0.0086
+   taper, 3x width                            drift 0.0021
+   Gaussian bump                              drift 0.0019
+beta=20
+   light-cone diamond (thermal length 12.7)   drift 0.0022
+   zero-temperature diamond (R^2-x^2)         drift 0.0067
+   triangle (R-|x|)                           drift 0.0061
+   taper, right width (12.7)                  drift 0.0066
+   taper, 1/3 width                           drift 0.0173
+   taper, 3x width                            drift 0.0069
+   Gaussian bump                              drift 0.0078

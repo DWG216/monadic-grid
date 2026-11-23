@@ -1,0 +1,14 @@
+triangle (k=7): T1 boundary = spectral formula: PASS; boundary 26760
+  null W1 counts by size [0, 0, 0, 4, 7, 186, 3, 0] (5th pct 4); null W0 counts [0, 0, 0, 0, 0, 2, 53, 145]
+  R1 clique W1 = 3 -> PASS;  R2 degree>=4 W1 = 4 -> PASS
+  R3 clique W0 = 6 > W1: PASS; degree>=4 W0 = 6
+  E1 max sensitivity: clique 44, degree>=4 32, null 37..56 (median 49); densities 0.897, 0.564; 10s
+4-clique (k=8): T1 boundary = spectral formula: PASS; boundary 21600
+  null W1 counts by size [0, 0, 0, 0, 0, 6, 56, 138] (5th pct 6); null W0 counts [0, 0, 0, 0, 11, 184, 5, 0]
+  R1 clique W1 = 6 -> PASS;  R2 degree=5 W1 = 5 -> PASS
+  R3 clique W0 = 3 > W1: FAIL; degree=5 W0 = 3
+  E1 max sensitivity: clique 42, degree=5 35, null 37..56 (median 48); densities 0.084, 0.112; 10s
+  E1 witnesses triangle: 20 of size 3; largest share through one edge 0.200 (size/15 = 0.200); through a pair 0.050
+  E1 witnesses degree>=4 stars: 30 of size 4; largest share through one edge 0.267 (size/15 = 0.267); through a pair 0.100
+  E1 witnesses 4-clique: 15 of size 6; largest share through one edge 0.400 (size/15 = 0.400); through a pair 0.200
+  E1 witnesses degree=5 stars: 6 of size 5; largest share through one edge 0.333 (size/15 = 0.333); through a pair 0.167

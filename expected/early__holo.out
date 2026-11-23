@@ -1,0 +1,8 @@
+full hologram vs object+twin: 0.938
+quarter of hologram, whole scene recovered: 0.454
+quarter of photograph vs whole object: 0.657
+reference phase jitter 0.5 rad: 0.927
+reference phase jitter 1.0 rad: 0.818
+reference phase jitter 2.0 rad: 0.280
+central quarter of hologram: whole-object corr 0.948 | per-quadrant [0.95, 0.86, 0.9, 0.94]
+quarter of photograph:      whole-object corr 0.657 | per-quadrant [1.0, nan, nan, nan]

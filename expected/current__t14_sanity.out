@@ -1,0 +1,5 @@
+single edge (control, true size 1) K, B, sigma = [  1. 630.   5.]
+parity of 5 edges (control) K, B, sigma = [  21.433 1750.       3.   ]
+triangle K, B, sigma = [   8.356 1140.       3.464]
+degree>=3 K, B, sigma = [  6.25  300.      2.236]
+invariant null K: min 7.88 median 13.22 max 20.0

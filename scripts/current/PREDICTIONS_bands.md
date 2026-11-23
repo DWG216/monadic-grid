@@ -1,0 +1,9 @@
+# Pre-registration (2026-11-22, 04:35): step 2, the band decomposition of a whole circuit (record §69)
+Lemma to check [identity]. Circuit C over AND, OR, NOT, size s, NOT gates N_1..N_t in topological order. G_i(x, y_<i) = the input of N_i with earlier NOT outputs replaced by free variables (monotone in (x, y), size <= s); G_(t+1) = the output. y(x) = the actual NOT outputs. Cell X_b = {x : y(x) = b}.
+B1 [identity] every nonempty cell is a band (convex: x <= w <= z, x and z in the cell => w in it); X_b = {U_b = 1, V_b = 0} with U_b = AND of G_i(x, b_<i) over b_i = 0 and V_b = OR of G_i(x, b_<i) over b_i = 1, both monotone; on X_b, f = G_(t+1)(x, b), monotone; f = OR_b (U_b AND NOT V_b AND G_(t+1)(., b)). At most 2^t cells. 2,000 random circuits: n = 6, 30 gates, t = 1..4.
+B2 [identity] the mirror from the count: on the slice |x| = k, NOT x_i = [sum_{j != i} x_j >= k] (n = 8, all k, all i). Replacing negated literals by these pseudo-complements in random De Morgan circuits gives a monotone circuit equal to the original on the slice (Berkowitz 1982): 500 random circuits, n = 7.
+B3 [identity/illustration] triangle function on 5 vertices (10 edge variables): Razborov-type tests: positives = single triangles (weight 3), negatives = complete bipartite graphs (weights 4 and 6). They share no slice. In the central slice (weight 5) both triangle and triangle-free graphs occur, and no two graphs are comparable.
+B4 [exploratory] number of nonempty cells vs 2^t in B1's random circuits.
+
+## Results (bands.py): all pass
+B1 PASS (2,000 random circuits). B2 PASS. B3: positive tests at weight 3, negative tests at weights 4 and 6, no shared slice; central slice (weight 5): 72 triangle-free, 180 with a triangle. B4: nonempty cells mean / max: t = 1: 2.0 / 2; 2: 3.42 / 4; 3: 5.11 / 8; 4: 6.94 / 16.

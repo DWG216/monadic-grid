@@ -1,0 +1,275 @@
+<title>Euler Spiral of Elements</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: spiral plate on the left, a sticky reading panel on the right; notes run below in one measure. */
+:root {
+  --bg: #12111c; --surface: #1b1a29; --fg: #e9e6f2; --muted: #9c98b0; --line: #34314a;
+  --gold: #d9b45a;
+  --s: #db8c5f; --p: #5fb6a9; --d: #8f9de2; --f: #c981b3;
+  --display: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
+  --body: "Newsreader", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) {
+  --bg: #f5f3f9; --surface: #ffffff; --fg: #1d1b2a; --muted: #5d5871; --line: #d8d4e4;
+  --gold: #94701c; --s: #ae5b2c; --p: #26786c; --d: #4656b8; --f: #94457e; color-scheme: light; } }
+:root[data-theme="light"] {
+  --bg: #f5f3f9; --surface: #ffffff; --fg: #1d1b2a; --muted: #5d5871; --line: #d8d4e4;
+  --gold: #94701c; --s: #ae5b2c; --p: #26786c; --d: #4656b8; --f: #94457e; color-scheme: light; }
+
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.55; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 56px; }
+header { display: grid; gap: 6px; margin-bottom: 18px; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(32px, 5vw, 56px); line-height: 1.02; margin: 0; text-wrap: balance; }
+.lede { max-width: 62ch; color: var(--muted); margin: 4px 0 0; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 14px 0 6px; }
+.chip { font-family: var(--mono); font-size: 13px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; display: inline-flex; gap: 7px; align-items: center; }
+.chip .dot { width: 9px; height: 9px; border-radius: 50%; }
+.chip[aria-pressed="true"] { border-color: var(--fg); }
+.chip:focus-visible, .el:focus-visible, input:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+input#find { font-family: var(--mono); font-size: 14px; padding: 7px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); width: 190px; max-width: 100%; }
+
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 28px; align-items: start; }
+@media (max-width: 900px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+.plate { min-width: 0; }
+svg#spiral { width: 100%; height: auto; display: block; max-width: 820px; margin: 0 auto; touch-action: manipulation; }
+.el { cursor: pointer; }
+.el circle { stroke-width: 1.4; transition: opacity .2s; }
+.el text { font-family: var(--mono); font-weight: 500; pointer-events: none; }
+.dim { opacity: .16; }
+.sel circle { stroke: var(--fg); stroke-width: 3; }
+.fam circle { stroke: var(--gold); stroke-width: 2.4; }
+@media (prefers-reduced-motion: reduce) { .el circle { transition: none; } }
+
+aside.panel { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; display: grid; gap: 14px; min-width: 0; }
+@media (max-width: 900px) { aside.panel { position: static; } }
+.big { display: flex; gap: 14px; align-items: baseline; }
+.sym { font-family: var(--display); font-size: 64px; line-height: .9; font-weight: 700; }
+.zname { display: grid; }
+.zname .z { font-family: var(--mono); color: var(--muted); font-size: 13px; }
+.zname .nm { font-size: 22px; font-weight: 600; }
+.badge { font-family: var(--mono); font-size: 12px; padding: 3px 9px; border-radius: 999px; border: 1px solid currentColor; justify-self: start; }
+dl { display: grid; grid-template-columns: auto minmax(0,1fr); gap: 5px 14px; margin: 0; font-size: 15px; }
+dt { color: var(--muted); font-family: var(--mono); font-size: 12px; letter-spacing: .04em; padding-top: 3px; }
+dd { margin: 0; font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 14px; overflow-wrap: anywhere; }
+.fam-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.fam-list button { font-family: var(--mono); font-size: 13px; padding: 3px 8px; border-radius: 6px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; }
+.harm { display: grid; grid-template-columns: 96px minmax(0,1fr); gap: 12px; align-items: center; }
+.harm p, .note { margin: 0; font-size: 14px; color: var(--muted); }
+.note { border-top: 1px solid var(--line); padding-top: 12px; }
+.note b { color: var(--gold); font-weight: 600; }
+.lbl { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+
+.notes { max-width: 68ch; margin: 44px auto 0; display: grid; gap: 30px; }
+.notes h2 { font-family: var(--display); font-size: 28px; margin: 0 0 6px; text-wrap: balance; }
+.notes p { margin: 0 0 10px; }
+table.map { width: 100%; border-collapse: collapse; font-size: 15px; }
+.tbl { overflow-x: auto; }
+table.map th, table.map td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.map th { font-family: var(--mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">God Series companion · <span style="text-transform:none">z = r·e<sup>iθ</sup></span></div>
+    <h1>Euler Spiral of Elements</h1>
+    <p class="lede">All 118 elements laid on one continuous spiral that winds out from an empty null point. Each turn is one energy shell, and the angle is a phase: elements that share a phase share their chemistry. Tap any element.</p>
+  </header>
+
+  <div class="controls" role="group" aria-label="Highlight a block">
+    <button class="chip" data-block="all" aria-pressed="true" id="b-all">All</button>
+    <button class="chip" data-block="s" aria-pressed="false" id="b-s"><span class="dot" style="background:var(--s)"></span>s · l = 0</button>
+    <button class="chip" data-block="p" aria-pressed="false" id="b-p"><span class="dot" style="background:var(--p)"></span>p · l = 1</button>
+    <button class="chip" data-block="d" aria-pressed="false" id="b-d"><span class="dot" style="background:var(--d)"></span>d · l = 2</button>
+    <button class="chip" data-block="f" aria-pressed="false" id="b-f"><span class="dot" style="background:var(--f)"></span>f · l = 3</button>
+    <label for="find" class="lbl" style="margin-left:6px">Find</label>
+    <input id="find" type="search" placeholder="Au, gold, 79" autocomplete="off">
+  </div>
+
+  <div class="grid">
+    <div class="plate"><svg id="spiral" viewBox="-500 -500 1000 1000" role="img" aria-label="Spiral periodic table"></svg></div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+
+  <section class="notes">
+    <div>
+      <h2>How the spiral is built</h2>
+      <p>The spiral follows the order in which electrons actually fill their orbitals, the Madelung rule: subshells fill in order of n + l, and within a tie, lower n first. Each full turn of the spiral is one value of n + l, from 1 at the centre to 8 at the rim. That gives turns holding 2, 2, 8, 8, 18, 18, 32 and 32 elements, the arrangement known as Janet's left-step table, here wound into a circle.</p>
+      <p>Every turn is divided into the same 32 angular slots: 14 for the f block, 10 for d, 6 for p and 2 for s. An element's slot is the place its last electron takes inside its subshell. Because the slots line up from turn to turn, chemical families fall on straight spokes. The alkali metals sit on one spoke, the halogens on another, and the noble gases from neon down on a third. Helium lands on the alkaline-earth spoke, because its outer subshell is a filled s pair, the same as beryllium's.</p>
+      <p>The two dashed slots on the outermost turn are 8s, the places for elements 119 and 120, which have not been made.</p>
+    </div>
+    <div>
+      <h2>Reading it through the books</h2>
+      <div class="tbl"><table class="map">
+        <thead><tr><th>On the spiral</th><th>Standard physics</th><th>The God Series reading</th></tr></thead>
+        <tbody>
+          <tr><td>Empty centre</td><td>No element has zero electrons; the spiral simply starts outside r = 0.</td><td>The dimensionless Singularity outside space and time, the null point from which spacetime is projected (Books 27, 32).</td></tr>
+          <tr><td>Angle θ</td><td>Position within a shell; equal angle means the same outer-electron pattern, hence periodic chemistry.</td><td>Phase in the Euler formula e<sup>iθ</sup>, the "God Equation". Periodicity is a phase that comes back around.</td></tr>
+          <tr><td>Blocks s, p, d, f</td><td>Orbital angular momentum l = 0 to 3. Orbital shapes are spherical harmonics, built from sines and cosines.</td><td>Thoughts and matter as sinusoids; "everything comes back in the end to helices and spirals, sines and cosines" (Book 27).</td></tr>
+          <tr><td>Whole slots only</td><td>A wavefunction must close on itself around the axis, so m<sub>l</sub> is an integer. The same closure rule drove the particle catalogue.</td><td>Only closed windings are stable: existence as the set of self-consistent waves.</td></tr>
+          <tr><td>Two slots per orbital</td><td>Spin ½: an electron needs two full turns to return to its starting phase.</td><td>The real/imaginary doubling of the six-dimensional frequency domain.</td></tr>
+          <tr><td>Gold, Z = 79</td><td>Filled 4f and 5d shells; relativistic effects give its colour.</td><td>Book 1 asks whether Phosters gave Simon Magus "the mathematical secret of how to control matter with the mind, to transmute base metal into gold".</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h2>Where the picture strains</h2>
+      <p>Madelung order is an approximation. About twenty elements, chromium, copper, palladium, gold and most of the early actinides among them, put their electrons somewhere slightly different, and the panel shows the measured configuration when it differs. The spiral places lanthanum and actinium in the f block, as Janet does; other tables put them in d. The book reading in the right-hand column is interpretation: ontological mathematics names the analogy but does not derive the periodic table from it.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+(function () {
+  const NAMES = "H Hydrogen|He Helium|Li Lithium|Be Beryllium|B Boron|C Carbon|N Nitrogen|O Oxygen|F Fluorine|Ne Neon|Na Sodium|Mg Magnesium|Al Aluminium|Si Silicon|P Phosphorus|S Sulfur|Cl Chlorine|Ar Argon|K Potassium|Ca Calcium|Sc Scandium|Ti Titanium|V Vanadium|Cr Chromium|Mn Manganese|Fe Iron|Co Cobalt|Ni Nickel|Cu Copper|Zn Zinc|Ga Gallium|Ge Germanium|As Arsenic|Se Selenium|Br Bromine|Kr Krypton|Rb Rubidium|Sr Strontium|Y Yttrium|Zr Zirconium|Nb Niobium|Mo Molybdenum|Tc Technetium|Ru Ruthenium|Rh Rhodium|Pd Palladium|Ag Silver|Cd Cadmium|In Indium|Sn Tin|Sb Antimony|Te Tellurium|I Iodine|Xe Xenon|Cs Caesium|Ba Barium|La Lanthanum|Ce Cerium|Pr Praseodymium|Nd Neodymium|Pm Promethium|Sm Samarium|Eu Europium|Gd Gadolinium|Tb Terbium|Dy Dysprosium|Ho Holmium|Er Erbium|Tm Thulium|Yb Ytterbium|Lu Lutetium|Hf Hafnium|Ta Tantalum|W Tungsten|Re Rhenium|Os Osmium|Ir Iridium|Pt Platinum|Au Gold|Hg Mercury|Tl Thallium|Pb Lead|Bi Bismuth|Po Polonium|At Astatine|Rn Radon|Fr Francium|Ra Radium|Ac Actinium|Th Thorium|Pa Protactinium|U Uranium|Np Neptunium|Pu Plutonium|Am Americium|Cm Curium|Bk Berkelium|Cf Californium|Es Einsteinium|Fm Fermium|Md Mendelevium|No Nobelium|Lr Lawrencium|Rf Rutherfordium|Db Dubnium|Sg Seaborgium|Bh Bohrium|Hs Hassium|Mt Meitnerium|Ds Darmstadtium|Rg Roentgenium|Cn Copernicium|Nh Nihonium|Fl Flerovium|Mc Moscovium|Lv Livermorium|Ts Tennessine|Og Oganesson".split("|").map(s => s.split(" "));
+  const ACTUAL = {24:"[Ar] 3d5 4s1",29:"[Ar] 3d10 4s1",41:"[Kr] 4d4 5s1",42:"[Kr] 4d5 5s1",44:"[Kr] 4d7 5s1",45:"[Kr] 4d8 5s1",46:"[Kr] 4d10",47:"[Kr] 4d10 5s1",57:"[Xe] 5d1 6s2",58:"[Xe] 4f1 5d1 6s2",64:"[Xe] 4f7 5d1 6s2",78:"[Xe] 4f14 5d9 6s1",79:"[Xe] 4f14 5d10 6s1",89:"[Rn] 6d1 7s2",90:"[Rn] 6d2 7s2",91:"[Rn] 5f2 6d1 7s2",92:"[Rn] 5f3 6d1 7s2",93:"[Rn] 5f4 6d1 7s2",96:"[Rn] 5f7 6d1 7s2",103:"[Rn] 5f14 7s2 7p1"};
+  const NOTES = {
+    79: "Book 1, on Phosters: [quotation omitted] Gold sits on the d-block spoke beside copper and silver, the old coinage metals.",
+    82: "Lead, the alchemists’ base metal, sits three turns and a fraction of a turn away from gold on the same spiral.",
+    2: "Janet’s placement: helium’s filled 1s pair puts it on the alkaline-earth spoke, not with the noble gases.",
+    1: "Hydrogen is the first point on the spiral and the nearest element to the null point at the centre."
+  };
+  const L = ["s","p","d","f"], BASE = {f:0, d:14, p:24, s:30}, CORES = {2:"He",10:"Ne",18:"Ar",36:"Kr",54:"Xe",86:"Rn"};
+
+  // Madelung order of subshells
+  const subs = [];
+  for (let n = 1; n <= 8; n++) for (let l = 0; l < Math.min(n, 4); l++) subs.push({n, l});
+  subs.sort((a, b) => (a.n + a.l) - (b.n + b.l) || a.n - b.n);
+
+  const els = []; let Z = 0; const filled = [];
+  for (const sh of subs) {
+    const cap = 2 * (2 * sh.l + 1);
+    for (let k = 0; k < cap; k++) {
+      Z++;
+      const orb = 2 * sh.l + 1;
+      const ml = k < orb ? sh.l - k : sh.l - (k - orb);
+      const ms = k < orb ? "+½" : "−½";
+      const blk = L[sh.l], slot = BASE[blk] + k, turn = sh.n + sh.l;
+      els.push({Z, sym: Z <= 118 ? NAMES[Z-1][0] : String(Z), name: Z <= 118 ? NAMES[Z-1][1] : "Unknown", n: sh.n, l: sh.l, blk, k, slot, turn, ml, ms, ghost: Z > 118});
+      if (Z >= 120) break;
+    }
+    if (Z >= 120) break;
+  }
+  // ideal configuration in fill order with noble-gas core
+  function config(z) {
+    let core = 0; for (const c in CORES) if (+c < z && +c > core) core = +c;
+    const parts = []; let left = z, count = 0;
+    for (const sh of subs) {
+      const cap = 2 * (2 * sh.l + 1); if (left <= 0) break;
+      const e = Math.min(cap, left); left -= e;
+      if (count + e > core) parts.push(sh.n + L[sh.l] + (count >= core ? e : e - (core - count)));
+      count += e;
+    }
+    return (core ? "[" + CORES[core] + "] " : "") + parts.join(" ");
+  }
+
+  const R0 = 3, STEP = 38, NS = "http://www.w3.org/2000/svg";
+  const rad = t => (R0 + t) * STEP;
+  const pos = t => { const a = 2 * Math.PI * t, r = rad(t); return [r * Math.sin(a), -r * Math.cos(a), a, r]; };
+  const svg = document.getElementById("spiral");
+  const mk = (tag, at, parent) => { const e = document.createElementNS(NS, tag); for (const k in at) e.setAttribute(k, at[k]); (parent || svg).appendChild(e); return e; };
+
+  // block arcs at rim
+  const arcR = rad(8) + 26;
+  [["f",0,13],["d",14,23],["p",24,29],["s",30,31]].forEach(([b, s0, s1]) => {
+    const a0 = 2*Math.PI*(s0 + 0.55)/32, a1 = 2*Math.PI*(s1 + 1.45)/32;
+    const p0 = [arcR*Math.sin(a0), -arcR*Math.cos(a0)], p1 = [arcR*Math.sin(a1), -arcR*Math.cos(a1)];
+    mk("path", {d:`M${p0[0]},${p0[1]} A${arcR},${arcR} 0 ${a1-a0>Math.PI?1:0} 1 ${p1[0]},${p1[1]}`, fill:"none", stroke:`var(--${b})`, "stroke-width":5, "stroke-linecap":"round"});
+    const am = (a0 + a1) / 2, lr = arcR + 22;
+    mk("text", {x: lr*Math.sin(am), y: -lr*Math.cos(am) + 5, "text-anchor":"middle", fill:`var(--${b})`, "font-family":"var(--mono)", "font-size":15}).textContent = b + " block";
+  });
+  // spokes
+  for (let s = 0; s < 32; s++) {
+    const a = 2*Math.PI*(s+1)/32, r1 = rad(0.6), r2 = rad(8) + 12;
+    mk("line", {x1:r1*Math.sin(a), y1:-r1*Math.cos(a), x2:r2*Math.sin(a), y2:-r2*Math.cos(a), stroke:"var(--line)", "stroke-width":0.6, opacity:0.55});
+  }
+  // spiral path
+  let d = ""; for (let t = 0; t <= 8.0001; t += 0.005) { const [x, y] = pos(t); d += (d ? "L" : "M") + x.toFixed(1) + "," + y.toFixed(1); }
+  mk("path", {d, fill:"none", stroke:"var(--gold)", "stroke-width":1.3, opacity:0.55});
+  // turn labels in the f region
+  for (let k = 1; k <= 6; k++) { const [x, y] = pos(k - 1 + 7/32); mk("text", {x, y: y + 4, "text-anchor":"middle", fill:"var(--muted)", "font-family":"var(--mono)", "font-size":11}).textContent = "n+l=" + k; }
+  // null point
+  mk("circle", {cx:0, cy:0, r:3.5, fill:"var(--gold)"});
+  mk("circle", {cx:0, cy:0, r:16, fill:"none", stroke:"var(--gold)", "stroke-width":0.8, "stroke-dasharray":"2 3", opacity:0.7});
+  mk("text", {x:0, y:34, "text-anchor":"middle", fill:"var(--muted)", "font-family":"var(--mono)", "font-size":11}).textContent = "null point · r = 0";
+
+  // elements
+  const nodes = {};
+  els.forEach(e => {
+    const t = e.turn - 1 + (e.slot + 1) / 32; const [x, y, a, r] = pos(t);
+    e.t = t; e.theta = a * 180 / Math.PI; e.r = r / STEP;
+    const cr = Math.min(15.5, 0.46 * r * 2 * Math.PI / 32);
+    const g = mk("g", {class:"el", transform:`translate(${x.toFixed(1)},${y.toFixed(1)})`});
+    if (e.ghost) {
+      mk("circle", {r:cr, fill:"none", stroke:`var(--${e.blk})`, "stroke-dasharray":"3 3"}, g);
+      mk("text", {y:4, "text-anchor":"middle", "font-size":10, fill:"var(--muted)"}, g).textContent = e.Z;
+      g.style.cursor = "default"; return;
+    }
+    g.setAttribute("tabindex", "0"); g.setAttribute("role", "button"); g.setAttribute("aria-label", `${e.name}, element ${e.Z}`);
+    mk("circle", {r:cr, fill:`var(--${e.blk})`, "fill-opacity":0.22, stroke:`var(--${e.blk})`}, g);
+    mk("text", {y: cr * 0.32, "text-anchor":"middle", "font-size": (cr * (e.sym.length > 1 ? 0.82 : 0.95)).toFixed(1), fill:"var(--fg)"}, g).textContent = e.sym;
+    g.addEventListener("click", () => select(e.Z));
+    g.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(e.Z); } });
+    nodes[e.Z] = g;
+  });
+
+  // harmonic polar plot |P_l(cos φ)| split by sign
+  const P = [x => 1, x => x, x => (3*x*x - 1)/2, x => (5*x*x*x - 3*x)/2];
+  function harmonic(l) {
+    const S = 44; let pos = "", neg = "";
+    let run = null, path = "";
+    const flush = () => { if (run !== null && path) { if (run) pos += path + "Z"; else neg += path + "Z"; } path = ""; };
+    for (let i = 0; i <= 720; i++) {
+      const ph = i / 720 * 2 * Math.PI, v = P[l](Math.cos(ph)), sg = v >= 0;
+      if (sg !== run) { flush(); run = sg; path = "M0,0"; }
+      const rr = Math.abs(v) * S; path += `L${(rr*Math.sin(ph)).toFixed(1)},${(-rr*Math.cos(ph)).toFixed(1)}`;
+    }
+    flush();
+    return `<svg viewBox="-50 -50 100 100" width="96" height="96" aria-hidden="true"><circle r="46" fill="none" stroke="var(--line)" stroke-dasharray="2 3"/><path d="${pos}" fill="var(--gold)" fill-opacity=".45" stroke="var(--gold)" stroke-width="1"/><path d="${neg}" fill="var(--muted)" fill-opacity=".3" stroke="var(--muted)" stroke-width="1"/></svg>`;
+  }
+
+  const panel = document.getElementById("panel");
+  const real = els.filter(e => !e.ghost);
+  let current = 79, block = "all";
+  function select(z) {
+    current = z; const e = real[z - 1];
+    const fam = real.filter(o => o.slot === e.slot);
+    Object.values(nodes).forEach(g => g.classList.remove("sel", "fam"));
+    fam.forEach(o => nodes[o.Z].classList.add("fam")); nodes[z].classList.add("sel");
+    const ideal = config(z), act = ACTUAL[z];
+    const shape = ["sphere, no angular nodes", "one nodal plane", "two nodal cones", "three nodal surfaces"][e.l];
+    panel.innerHTML = `
+      <div class="big"><div class="sym">${e.sym}</div><div class="zname"><span class="z">Z = ${e.Z}</span><span class="nm">${e.name}</span></div></div>
+      <span class="badge" style="color:var(--${e.blk})">${e.blk} block · turn ${e.turn} (n + l = ${e.turn})</span>
+      <dl>
+        <dt>PHASE</dt><dd>slot ${e.slot + 1} of 32 · θ = ${(e.theta % 360).toFixed(2)}°</dd>
+        <dt>EULER</dt><dd>z = ${e.r.toFixed(2)}·e<sup>i·${(e.theta * Math.PI / 180 % (2*Math.PI)).toFixed(3)}</sup></dd>
+        <dt>LAST e⁻</dt><dd>n=${e.n} l=${e.l} m<sub>l</sub>=${e.ml > 0 ? "+" + e.ml : e.ml} m<sub>s</sub>=${e.ms}</dd>
+        <dt>MADELUNG</dt><dd>${ideal}</dd>
+        ${act ? `<dt>MEASURED</dt><dd style="color:var(--gold)">${act}</dd>` : ""}
+      </dl>
+      <div class="harm">${harmonic(e.l)}<p>Angular standing wave of the ${e.n}${e.blk} orbital (m = 0): ${shape}, with ${e.n - e.l - 1} radial node${e.n - e.l - 1 === 1 ? "" : "s"}. Gold and grey lobes are opposite phase.</p></div>
+      <div><div class="lbl" style="margin-bottom:6px">Same spoke (${fam.length})</div><div class="fam-list">${fam.map(o => `<button data-z="${o.Z}" ${o.Z === z ? 'style="border-color:var(--fg)"' : ""}>${o.sym}</button>`).join("")}</div></div>
+      ${NOTES[z] ? `<p class="note"><b>Note.</b> ${NOTES[z]}</p>` : ""}`;
+    panel.querySelectorAll(".fam-list button").forEach(b => b.addEventListener("click", () => select(+b.dataset.z)));
+  }
+  function setBlock(b) {
+    block = b;
+    document.querySelectorAll(".chip[data-block]").forEach(c => c.setAttribute("aria-pressed", c.dataset.block === b ? "true" : "false"));
+    real.forEach(e => nodes[e.Z].classList.toggle("dim", b !== "all" && e.blk !== b));
+  }
+  document.querySelectorAll(".chip[data-block]").forEach(c => c.addEventListener("click", () => setBlock(c.dataset.block)));
+  document.getElementById("find").addEventListener("input", ev => {
+    const q = ev.target.value.trim().toLowerCase(); if (!q) return;
+    const hit = real.find(e => String(e.Z) === q || e.sym.toLowerCase() === q) || real.find(e => e.name.toLowerCase().startsWith(q));
+    if (hit) select(hit.Z);
+  });
+  select(current);
+})();
+</script>

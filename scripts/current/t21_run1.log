@@ -1,0 +1,17 @@
+{'kap': 0.0001, 'r21': np.float64(0.0), 'w1': 2, 'wm1': -2, 'w2': 0, 'wm2': 0, 'c1': np.float64(1.0), 'sym1': np.float64(0.0), 'sym2': np.float64(0.0)}
+{'kap': 0.1, 'r21': np.float64(2e-06), 'w1': 2, 'wm1': -2, 'w2': 4, 'wm2': -4, 'c1': np.float64(1.0), 'sym1': np.float64(0.0), 'sym2': np.float64(0.0)}
+{'kap': 0.3, 'r21': np.float64(0.000187), 'w1': 2, 'wm1': -2, 'w2': 4, 'wm2': -4, 'c1': np.float64(0.999997), 'sym1': np.float64(0.0), 'sym2': np.float64(0.0)}
+{'kap': 0.6, 'r21': np.float64(0.002459), 'w1': 2, 'wm1': -2, 'w2': 4, 'wm2': -4, 'c1': np.float64(0.999978), 'sym1': np.float64(0.0), 'sym2': np.float64(0.0)}
+{'kap': 1.0, 'r21': np.float64(0.013129), 'w1': 2, 'wm1': -2, 'w2': 4, 'wm2': -4, 'c1': np.float64(0.999971), 'sym1': np.float64(0.0), 'sym2': np.float64(0.0)}
+N0 True
+N1 windings True
+N1 monotone True
+N2 windings True
+N2 corr monotone down True
+N3 symmetry True
+G1 sanity max 8.882868333007365e-16
+G1 null check |k.k| 3.552713678800501e-15
+G1 ratio mean, rel spread (66.76164751446915, 7.35186835671113)
+G1 min T 0.005358424445983841
+G2 one hand |T|/|C|^2 0.0
+G2 both hands |T|/|C|^2 (ref) 181.19715766563084

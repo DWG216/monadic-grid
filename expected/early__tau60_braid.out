@@ -1,0 +1,15 @@
+B1. sector unitarity 1.1e-15
+    s1,s2 leakage couplings: 0.0e+00 0.0e+00 | s3 coupling |1>-leak: 0.924
+    frame <s1,s2>: 600 elements (mod global phase); qubit blocks projectively: 60
+    s3 order (projective) 5 -> 4 nontrivial powers
+    frame map found: unitarity err 1.1e-15
+    every frame qubit block maps into standard 2I: max err 1.3e-13
+B2. norms of q-integers [1..9] at q=e^(i pi/10): [np.float64(1.0), np.float64(25.0), np.float64(1.0), np.float64(25.0), np.float64(256.0), np.float64(25.0), np.float64(1.0), np.float64(25.0), np.float64(1.0)]
+    |tr(tau60 * k)|^2 = 3.469854 ; 4(2+phi)^2/(7+5phi) = 3.469854 ; norm of 7+5phi = 59.000
+B3/C. exhaustive search m<=2 (frame braids free):
+   tau60          best error by s3-syllables: m=0: 0.2765  m=1: 0.6049  m=2: 0.1659
+      double coset size 3600 (projective); 1s
+   C1 2I element  best error by s3-syllables: m=0: 0.0000  m=1: 0.6368
+   C2 random 1    best error by s3-syllables: m=0: 0.2213  m=1: 0.6036  m=2: 0.1561
+   C2 random 2    best error by s3-syllables: m=0: 0.3585  m=1: 0.6294  m=2: 0.2485
+   C2 random 3    best error by s3-syllables: m=0: 0.1877  m=1: 0.6015  m=2: 0.1452

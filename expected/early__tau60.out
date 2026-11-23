@@ -1,0 +1,62 @@
+U1. unitary err 4.7e-16 | trace 0.0e+00
+    axis n_tau = [-0.2574 -0.2574 -0.9314]  ratio to (1,1,phi^2+1): [-1. -1. -1.]
+    eigenstates of i*tau along +-n: Bloch [array([0.2574, 0.2574, 0.9314]), array([-0.2574, -0.2574, -0.9314])]
+    icosians: 120
+    distance of tau60 from 2I (std frame): 0.391 (0 would mean cheap)
+    std 2I rotation axes by order: {2: 15, 3: 10, 5: 6}
+U2. +-orbit of n_tau under 2I: 120 points
+    nearest 5-fold (vertex) axis: 21.93 deg
+    nearest 3-fold (face) axis: 15.86 deg
+    nearest 2-fold (edge) axis: 15.90 deg
+    min |n.normal| over the 15 mirror planes: 0.049 (0 = on a mirror)
+    rotation std->code frame found: True
+    transversal check of code-frame 2I (sampled): max leak 3.0e-13
+U3. logical |0_L> Bloch [0. 0. 1.] | 2I orbit size (incl. antipodes) 12 | all on code icosahedron: False
+U4. tau: pure 7-copy output lands 0.162 from nearest tau-class point (0 = fixed class); success prob 0.247
+      input err 0.01 -> output err to class 0.0169
+      input err 0.05 -> output err to class 0.0584
+      input err 0.10 -> output err to class 0.1112
+U4. tau' (Galois): pure 7-copy output lands 0.105 from nearest tau' (Galois)-class point (0 = fixed class); success prob 0.228
+      input err 0.01 -> output err to class 0.0182
+      input err 0.05 -> output err to class 0.0783
+      input err 0.10 -> output err to class 0.1502
+    logical rotation group size 60
+U4/U5. distinct fixed classes of the code map (up to symmetry): 37
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.522 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.109 | threshold 0.228
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.137 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.347 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.166 | threshold 0.210
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.251 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.273 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.227 | threshold 0.120
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.153 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.566 | threshold 0.168
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.256 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.419 | threshold 0.000
+   class edge (2-fold)                | free in 2I world: False | Pauli-frame M2 -0.000 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.177 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.466 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.197 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.097 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.484 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.562 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.414 | threshold 0.140
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.355 | threshold 0.230
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.478 | threshold 0.208
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.307 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.420 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.343 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.516 | threshold 0.000
+   class vertex (5-fold)              | free in 2I world: True  | Pauli-frame M2 -0.000 | threshold 0.305
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.420 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.274 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.241 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.558 | threshold 0.218
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.347 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.109 | threshold 0.224
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.004 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.491 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.464 | threshold 0.000
+   class generic                      | free in 2I world: False | Pauli-frame M2 0.439 | threshold 0.000
+Control: max-mixed input -> output Bloch length 0.00e+00

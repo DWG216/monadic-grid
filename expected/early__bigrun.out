@@ -1,0 +1,12 @@
+checks: Galois map is a homomorphism; spin-j rep = U^(xN) on symmetric subspace
+quadratic target                   N= 67 m=3 | out(1e-3)=2.10e-08 out(1e-4)=2.00e-10 exponent 2.02 | accept p=0.045 | threshold 0.300 | distance 3 | 2 rounds, 2.05e+06 raw/out
+      transversal CZ leak between two blocks: 0.998
+quadratic target                   N= 73 m=3 | out(1e-3)=9.95e-08 out(1e-4)=9.82e-10 exponent 2.01 | accept p=0.038 | threshold 0.300 | distance 3 | 2 rounds, 3.44e+06 raw/out
+quadratic target                   N= 77 m=3 | out(1e-3)=3.15e-07 out(1e-4)=3.14e-09 exponent 2.00 | accept p=0.037 | threshold 0.300 | distance 3 | 2 rounds, 3.98e+06 raw/out
+quadratic target                   N= 79 m=3 | out(1e-3)=4.39e-09 out(1e-4)=3.74e-11 exponent 2.07 | accept p=0.039 | threshold 0.300 | distance 3 | 2 rounds, 3.85e+06 raw/out
+order-3 target                     N= 97 m=4 | out(1e-3)=1.80e-10 out(1e-4)=1.79e-13 exponent 3.00 | accept p=0.034 | threshold 0.300 | distance 3 | 2 rounds, 7.2e+06 raw/out
+      transversal CZ leak between two blocks: 0.997
+order-3 target                     N=103 m=4 | out(1e-3)=1.32e-10 out(1e-4)=1.31e-13 exponent 3.00 | accept p=0.036 | threshold 0.300 | distance 3 | 2 rounds, 7.46e+06 raw/out
+order-4 target                     N=127 m=5 | out(1e-3)=1.64e-13 out(1e-4)=1.11e-16 exponent 3.17 | accept p=0.026 | threshold 0.300 | distance 3 | 1 rounds, 4.82e+03 raw/out
+CONTROL fixed only (order 1)       N= 67 m=3 | out(1e-3)=3.83e-06 out(1e-4)=3.81e-07 exponent 1.00 | accept p=0.045 | threshold 0.300 | distance 3 | 3 rounds, 2.81e+09 raw/out
+control: near-pure input -> output error 1.1e-16 (should be ~0)

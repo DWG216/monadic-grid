@@ -1,0 +1,13 @@
+reverse-complement is an involution: True | complement alone is too: True
+duplex invariant under strand swap (half-turn): True
+SU(2): eps U* eps^-1 = U -> True | eps antisymmetric (pairs two spinors into a singlet): True
+SL(2,C) boost-type element: eps A* eps^-1 = A -> False (conjugate hand is a different representation)
+  CChMVd viroid (Gago 2009)                  L=399      eps=0.0025  mu_g=L*eps=0.998
+  phiX174 ssDNA phage (Cuevas 2009)          L=5386     eps=1e-06  mu_g=L*eps=0.00539
+  RNA virus, typical high (1e-4/nt, 10 kb)   L=10000    eps=0.0001  mu_g=L*eps=1
+  RNA virus, typical low (1e-6/nt, 10 kb)    L=10000    eps=1e-06  mu_g=L*eps=0.01
+  E. coli via Drake rule (0.003/genome)      L=4600000  eps=6.5e-10  mu_g=L*eps=0.003
+ln sigma for sigma=2: 0.69
+ln sigma for sigma=10: 2.30
+ln sigma for sigma=100: 4.61
+QT45 (45 nt): to copy itself below threshold needs per-nt error < 0.015 (sigma=2) ... 0.051 (sigma=10)

@@ -1,0 +1,12 @@
+K1 Q leptons 0.6666644634145
+K1 |Q-2/3| 2.2032521665993343e-06
+K2 delta (rad) 0.22222476190406582
+K2 |delta-2/9| 2.5396818436052015e-06
+K2 fit residual max 5.736764490626989e-05
+K3 predicted m_tau 1776.9690270830158
+K3 sigma away 0.4336342557305923
+K4 Q(u,c,t) 0.8487935475760557
+K4 Q(d,s,b) 0.7312875768271713
+K5 null fraction 8e-06
+K6 all roots + no solution in m1 in [0, 0.3] eV
+K6 m1 root - [(0.000364, np.float64(0.05916))]

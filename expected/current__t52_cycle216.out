@@ -1,0 +1,12 @@
+mod 3 (period, first zero, sign flip): (8, 4, 4)
+mod 9 (period, first zero, sign flip): (24, 12, 12)
+mod 27 (period, first zero, sign flip): (72, 36, 36)
+mod 81 (period, first zero, sign flip): (216, 108, 108)
+mod 216 (period, first zero, sign flip): (72, 36, None)
+mod 216 (period, first zero, sign flip): (72, 36, None)
+orbits of Q on (Z/3)^2: {1: 1, 8: 1} total 9
+orbits of Q on (Z/9)^2: {1: 1, 8: 1, 24: 3} total 81
+orbits of Q on (Z/27)^2: {1: 1, 8: 1, 24: 3, 72: 9} total 729
+affine plane F3^2: points 9 lines 12
+|SL(2,3)| = 24  |ASL(2,3)| = 9*|SL| = 216
+Millington coil passes per wire: 12 points x 18 = 216 ; 36 slots x 6 = 216

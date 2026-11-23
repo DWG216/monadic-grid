@@ -1,0 +1,5 @@
+zeros: 201 first [14.1372 21.0244 25.0184]
+1 eig err 3.4e-13 ; kpm vs eigen sum max err 5.9e-10
+2 old detector, planted ln2: percentile 0.62
+3 kpm detector, planted ln2: peak 34.7 null 95th 8.15
+4 eig err 4.0e-13 ; max |jump(entries) - jump(t8)| 5.6e-09 ; signs 18

@@ -1,0 +1,4 @@
+q=11 |PGL2|=1320 vertices=22 degree=60 symmetric=True trivial(+-60) count=2 | max nontrivial |lambda|=6.000 <= 15.362? True | random: mean 15.18, max 18.59, exceed 10/20
+q=19 |PGL2|=6840 vertices=114 degree=60 symmetric=True trivial(+-60) count=2 | max nontrivial |lambda|=12.000 <= 15.362? True | random: mean 15.22, max 15.80, exceed 6/20
+q=29 |PGL2|=24360 vertices=406 degree=60 symmetric=True trivial(+-60) count=2 | max nontrivial |lambda|=9.051 <= 15.362? True | random: mean 15.35, max 15.68, exceed 7/20
+q=31 |PGL2|=29760 vertices=496 degree=60 symmetric=True trivial(+-60) count=2 | max nontrivial |lambda|=12.708 <= 15.362? True | random: mean 15.27, max 15.63, exceed 3/20

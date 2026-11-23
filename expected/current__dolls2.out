@@ -1,0 +1,4 @@
+D2: checked 285 (p<500, k=2..4), failures []
+D3 n=2259 KS p=0.550  lag-1 r=-0.0321  WSS(zero comma)=0
+C1: 2259/2259
+D4 failures: []

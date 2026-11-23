@@ -1,0 +1,3 @@
+# t32 energy lives where the hands meet (pre-registered 2026-11-22 20:30)
+M1 [M] Maxwell: for 200 random real fields F built from phi_AB (both hands: phi + conj), the stress tensor T_ab k^a k^b (T = F_ac F_b^c - 1/4 g F^2, signature +---) is proportional to |phi_AB o^A o^B|^2 for null k = o obar, one constant (spread < 1e-10). With one hand only (complex F from phi alone), T_ab k^a k^b = 0 (< 1e-12 relative).
+M2 [M] Dirac: a particle at rest starting purely left-handed has chirality <gamma5>(t) = cos(2 m t) (error < 1e-10) for m = 0.7; with m = 0 it stays -1... i.e. constant. The mass term is the rate at which the hands exchange.

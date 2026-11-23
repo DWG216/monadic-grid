@@ -1,0 +1,4 @@
+Clifford group size (projective): 24
+Pauli C4 + T4        |C|= 4 unitary err 1.6e-16 | max|lambda| 0.8593 | bound 0.8660 | ratio 0.992 | PASS
+Hurwitz C12 + T12    |C|=12 unitary err 4.7e-17 | max|lambda| 0.5314 | bound 0.5528 | ratio 0.961 | PASS
+Clifford C24 + T24   |C|=24 unitary err 2.6e-17 | max|lambda| 0.3823 | bound 0.3997 | ratio 0.957 | PASS
