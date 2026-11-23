@@ -1,4 +1,6 @@
 # Changelog
+## 2026-11-23 t67
+- t67 (coupling meeting with the E6 extras as thresholds) pre-registered, run, all pass; added to the grid group. GRID_SPEC 2026-11-23.4; record §166.
 ## 2026-11-23 t68, t69
 - t68 (proton decay against the cut) and t69 (the mirror against Distler-Garibaldi) added to the grid group, with PREDICTIONS and logs; t69 run 1 (scorer rounding) kept beside run 2. Shared t66_lib.py. Grid group: 60 run, 60 exit 0; t25, t27, t46 differ from recorded output only in timing lines (t25 Q4 is a timing check). GRID_SPEC 2026-11-23.3; record §161-§163.
 ## 2026-11-23.35

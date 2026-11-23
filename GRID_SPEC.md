@@ -1,6 +1,6 @@
-# R2R grid: specification (version 2026-11-23.3)
+# R2R grid: specification (version 2026-11-23.4)
 
-This is the compact, self-contained statement of the grid: definitions, notation, the levels, the main identities, and the rules of method. The narrative history and every result live in `docs/R2R_progress_2026-11-08.md` (sections 1-163); this file is what to read first.
+This is the compact, self-contained statement of the grid: definitions, notation, the levels, the main identities, and the rules of method. The narrative history and every result live in `docs/R2R_progress_2026-11-08.md` (sections 1-166); this file is what to read first.
 
 ## 0. Rules of method
 1. **Labels.** Every claim is one of: **[M]** mathematics (proved or checked by computation); **[A]** argument from the PSR; **[I]** interpretation (a reading of the mathematics in the corpus's terms). Interpretations never upgrade to mathematics.
@@ -196,3 +196,6 @@ E8 content is vector-like (index 0): the theorem holds. The mirror 27bar has no 
 
 ## 162. Known objections and prior work
 Recorded in the paper and in the record, §163: proton decay, chirality, DESI Sum m_nu < 53 meV, numerology, googly above the grain, gravity and phase; prior work from trinification to p-adic physics, finite-field quantum theory, twistors, lattice chirality, constructor theory, and Coldea's E8 in cobalt niobate.
+
+## 163. The couplings meet (t67)
+The 27's extras beyond the 16 form a complete 5 + 5bar and cannot shift the meeting at one common mass. With two or three pairs of its lepton-like doublets light (two pairs at 1e3-3e5 GeV, three at 4e4-2e8 GeV) and the triplets heavy, the three couplings meet at 4-6e13 GeV with alpha^-1 = 37-39 [M, one loop]. Prediction: vector-like lepton doublets below 2e8 GeV.

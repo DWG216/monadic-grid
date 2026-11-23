@@ -18,3 +18,16 @@ C3 Light triplets instead (M_D < M_H, same scan ranges) give no meeting, or only
 Information (not scored): two-loop running at the best G2 point; the shift in M3 and in the residual mismatch.
 
 Verdict rule: G2 fails (no meeting anywhere in the scan) -> the bridge "the equal couplings at the cut are the measured couplings meeting, with only E6 extras as thresholds" fails and goes in the correction map. G2 passes -> the doublet scale M_H is a prediction of the grid, to be tested at colliders if low.
+
+## Scoring (2026-11-23)
+Run 1 (t67_run1.log, script t67_couplings.py, written after this file). Reading used for G2 where the file is silent: the 3 - n_H doublet pairs that are not light sit with the triplets at M_D. All checks pass.
+- S1 PASS: Standard Model alone gives alpha_1 = alpha_2 at 1.0e13 GeV (alpha^-1 = 42.4) with alpha_3^-1 = 36.8; best three-way spread 3.68: no meeting.
+- G1 PASS: D + D^c shifts b = (4/15, 0, 2/3), H + Hbar shifts (2/5, 2/3, 0); together (2/3, 2/3, 2/3) exactly.
+- G2 PASS: 1108 meetings (spread < 0.5), every one with M_H < M_D. None with one light pair; 599 with two pairs (M_H 1.0e3 to 3.2e5 GeV), 509 with three (M_H 4.2e4 to 1.8e8 GeV). Best: two pairs at 5.6e3 GeV, triplets at 1.8e13 GeV, spread 0.002 at 5.0e13 GeV.
+- G3 PASS: every meeting lies at M3 = 4.1e13 to 6.1e13 GeV with alpha^-1 = 36.8 to 39.0.
+- G4 PASS: the light doublets sit at or below 1.8e8 GeV in every meeting.
+- C2 PASS: all extras at one common mass leave the spread at 3.68, as for the Standard Model.
+- C3 PASS: light triplets give no meeting anywhere in the scan.
+Note on the script: the C3 loop repeats over n_H without using it (all three doublet pairs placed at M_H each time); harmless, as no meeting is found either way, and recorded.
+Information (two-loop): not computed in this run.
+Reading: the meeting needs two or three pairs of the 27's extra lepton-like doublets well below the cut, the lightest case between 1 TeV and 3e5 GeV. Then the three couplings meet at 4-6e13 GeV, the cut scale, with alpha^-1 near 38. The triplet mass hardly matters once it is above the meeting. This is a collider prediction: vector-like lepton doublets, from the TeV scale up.

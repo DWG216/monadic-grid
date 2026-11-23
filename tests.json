@@ -2271,5 +2271,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t67_couplings.py",
+  "sections": [
+   "166"
+  ],
+  "predictions": [
+   "PREDICTIONS_t67.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

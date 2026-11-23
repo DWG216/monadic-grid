@@ -1,0 +1,7 @@
+S1 {'M12': '1.00e+13', 'a12': np.float64(42.4), 'a3': np.float64(36.8), 'best_spread': np.float64(3.68), 'pass_': np.True_}
+G1 {'DB_D': [0.2667, 0.0, 0.6667], 'DB_H': [0.4, 0.6667, 0.0], 'sum': [0.6667, 0.6667, 0.6667], 'pass_': True}
+G2 {'n_meetings': 1108, 'all_MH_below_MD': True, 'pass_': True, 'best': {'nH': 2, 'MH': '5.62e+03', 'MD': '1.78e+13', 'spread': np.float64(0.002), 'M3': '4.98e+13', 'alpha_inv': np.float64(38.3)}, 'by_nH': {1: {'count': 0, 'MH_range': None, 'MD_range': None}, 2: {'count': 599, 'MH_range': ('1.0e+03', '3.2e+05'), 'MD_range': ('5.6e+11', '1.0e+16')}, 3: {'count': 509, 'MH_range': ('4.2e+04', '1.8e+08'), 'MD_range': ('5.6e+11', '1.0e+16')}}}
+G3 {'M3_range': ('4.1e+13', '6.1e+13'), 'ainv_range': (np.float64(36.8), np.float64(39.0)), 'pass_': True}
+G4 {'max_MH': '1.8e+08', 'pass_': True}
+C2 {'min_spread': np.float64(3.68), 'sm_spread': np.float64(3.68), 'pass_': np.True_}
+C3 {'n_meetings': 0, 'with_MD_above_bound': 0, 'pass_': True}
