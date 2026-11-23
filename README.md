@@ -2,7 +2,7 @@
 
 The monadic grid derives quantum mechanics and gravity from one record, and the matter content of the world from the same steps. This package holds every computation behind it. Each script was written with its predictions fixed in a `PREDICTIONS_*.md` file before it ran, and each failure is kept.
 
-Paper: `paper/monadic_grid.pdf` ("QM and GR from one record: The Monadic Grid").
+Paper: `paper/monadic_grid.pdf` ("QM and GR from one record: The Monadic Grid"). DOI: [10.5281/zenodo.24484068](https://doi.org/10.5281/zenodo.24484068).
 
 ## Why read this: what it solves
 
