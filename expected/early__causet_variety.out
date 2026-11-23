@@ -1,0 +1,8 @@
+sprinkle 2D    f 0.514 | d_MM 1.96 | d_mid 2.01 | abundance dist 0.027 | height mean 27.0 min 25 | score S 0.07 [np.float64(0.09), np.float64(0.1), np.float64(0.07), np.float64(0.02), np.float64(0.06)]
+sprinkle 3D    f 0.210 | d_MM 3.11 | d_mid 3.17 | abundance dist 0.035 | height mean 10.2 min 9 | score S 0.15 [np.float64(0.15), np.float64(0.21), np.float64(0.24), np.float64(0.08), np.float64(0.07)]
+sprinkle 4D    f 0.109 | d_MM 3.90 | d_mid 3.97 | abundance dist 0.050 | height mean 7.4 min 6 | score S 0.14 [np.float64(0.09), np.float64(0.11), np.float64(0.09), np.float64(0.34), np.float64(0.05)]
+three-layer    f 0.377 | d_MM 2.37 | d_mid 5.67 | abundance dist 1.486 | height mean 3.0 min 3 | score S 4.79 [np.float64(4.81), np.float64(4.76), np.float64(4.84), np.float64(4.74), np.float64(4.79)]
+B-strict       f 0.763 | d_MM 1.41 | d_mid 0.87 | abundance dist 0.234 | height mean 248.0 min 244 | score S 0.78 [np.float64(0.77), np.float64(0.81), np.float64(0.86), np.float64(0.77), np.float64(0.68)]
+B-soft         f 0.925 | d_MM 1.12 | d_mid 0.95 | abundance dist 0.226 | height mean 253.4 min 251 | score S 0.40 [np.float64(0.38), np.float64(0.38), np.float64(0.42), np.float64(0.41), np.float64(0.38)]
+matched percolation p = 0.0819
+A-percolation  f 0.750 | d_MM 1.44 | d_mid 0.98 | abundance dist 0.214 | height mean 224.0 min 221 | score S 0.67 [np.float64(0.69), np.float64(0.66), np.float64(0.57), np.float64(0.8), np.float64(0.63)]

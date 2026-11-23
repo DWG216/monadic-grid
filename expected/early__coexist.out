@@ -1,0 +1,4 @@
+C-strict       f 0.929 | d_MM 1.12 | d_mid 0.94 | abundance 0.225 | height mean 255.6 [255-256] | S 0.40
+C-soft         f 0.941 | d_MM 1.10 | d_mid 0.96 | abundance 0.225 | height mean 254.4 [252-255] | S 0.37
+matched percolation p = 0.1965
+A-percolation  f 0.938 | d_MM 1.10 | d_mid 0.99 | abundance 0.224 | height mean 250.2 [248-252] | S 0.34

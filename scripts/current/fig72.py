@@ -1,0 +1,6 @@
+import json, numpy as np, matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
+d=json.load(open('t16_results.json')); fig,ax=plt.subplots(1,3,figsize=(14,4))
+X=[c[0] for c in d['curve']]; e=[max(c[2],1e-6) for c in d['curve']]; ax[0].loglog(X,e,'o-',color='#c63'); ax[0].axhline(0.01,color='#aaa',ls=':'); ax[0].set_xlabel('prime powers used, up to X (X = 1: none)'); ax[0].set_ylabel('largest error in a zero'); ax[0].set_title('How many primes it needs',fontsize=10)
+r=np.array(d['eig']['r']); f=np.array(d['eig']['f']); ax[1].plot(r,f,color='#36c'); ax[1].vlines(d['eig']['zeros'],-0.25,-0.1,color='#333'); ax[1].axhline(0,color='#ccc',lw=0.8); ax[1].set_xlabel('frequency r (ticks: zeros)'); ax[1].set_title('Eigenvector of the zero 59.347: 1 there, 0 at the others',fontsize=10)
+z=np.array(d['chi5']['direct']); rv=np.array(d['chi5']['ritz']); ax[2].vlines(z,1.1,1.9,color='#333',lw=2); ax[2].vlines(rv,0.1,0.9,color='#b8860b',lw=2); ax[2].set_yticks([0.5,1.5]); ax[2].set_yticklabels(['operator,\nχ₅ primes','direct\nzeros']); ax[2].set_xlabel('height'); ax[2].set_title('The golden field: zeros of L(s, χ₅)',fontsize=10)
+fig.suptitle('§77: more about the operator',fontsize=11); plt.tight_layout(); plt.savefig('/home/claude/visuals/fig72_operator2.png',dpi=110)

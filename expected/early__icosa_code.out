@@ -1,0 +1,12 @@
+B1a. Knill-Laflamme violation over all single-qubit error pairs: 1.11e-16  (0 = corrects any single error)
+B1b. icosian generator [0.5 0.5 0.5 0.5]  leaks out of code space: 1.3e+00
+B1b. icosian generator [0.809 0.309 0.5   0.   ]  leaks out of code space: 1.3e+00
+     transversal icosahedral gates preserve the code: False
+
+Thresholds (largest input error that still improves; 0 = never improves):
+   5-qubit code, cube-corner magic (check, expect ~0.173): 0.170
+   5-qubit code, icosahedron-vertex states:                0.000
+   5-qubit code, dodecahedron (non-cube) vertex states:    0.000
+   7-qubit icosahedral code, icosahedron-vertex (5-fold) states:  0.295
+   7-qubit icosahedral code, dodecahedron-vertex (3-fold) states: 0.295
+   7-qubit icosahedral code, cube-corner states:                  0.000

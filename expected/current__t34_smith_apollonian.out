@@ -1,0 +1,10 @@
+Descartes form eigenvalues (signature): [-2. -2. -2.  2.]
+generators preserve the form: True
+quadruples generated: 279  all null (Q=0): True  all integer: True
+smallest curvatures: [-1, 2, 3, 6.0, 11.0, 14.0, 15.0, 18.0, 23.0, 26.0, 27.0, 30.0, 35.0, 38.0, 39.0]
+z=1: |Gamma|=0.0000  VSWR=1.0000  ln VSWR=0.0000  hyperbolic dist=0.0000
+z=2: |Gamma|=0.3333  VSWR=2.0000  ln VSWR=0.6931  hyperbolic dist=0.6931
+z=0.5: |Gamma|=0.3333  VSWR=2.0000  ln VSWR=0.6931  hyperbolic dist=0.6931
+z=(1+1j): |Gamma|=0.4472  VSWR=2.6180  ln VSWR=0.9624  hyperbolic dist=0.9624
+z=(3-2j): |Gamma|=0.6325  VSWR=4.4415  ln VSWR=1.4910  hyperbolic dist=1.4910
+z=1j: |Gamma|=1.0000  VSWR=inf  ln VSWR=inf  hyperbolic dist=inf

@@ -1,0 +1,15 @@
+Q1 r with integer 2cos(2pi/r), r<=60: [1, 2, 3, 4, 6]
+Q2 r=3: elements 20200+ closed=False
+Q2 r=4: elements 24 closed=True
+Q2 r=5: elements 31468+ closed=False
+Q2 r=6: elements 12 closed=True
+Q2 r=7: elements 23130+ closed=False
+Q2 r=8: elements 25506+ closed=False
+Q2 r=9: elements 24354+ closed=False
+Q2 r=10: elements 60 closed=True
+Q2 r=11: elements 24552+ closed=False
+Q2 r=12: elements 21114+ closed=False
+Q2 finite set: [4, 6, 10]
+Q3 r=10 order: 60  r=5 closed: False
+post hoc r=3: normalised trace of s1*s2^-1 = (2+0j) (|trace| = 2 and not scalar => unipotent, infinite order)
+post hoc r=3: Jones/Temperley-Lieb rep at d = 2cos(pi/3) = 1 has 3-strand quotient of dimension 1 (d^2 - 1 = 0 kills the 2-dim block)

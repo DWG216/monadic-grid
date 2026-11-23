@@ -1,0 +1,6 @@
+R1 lone simple: share 0.454, E=9.1
+   lone complex: share 0.0000, E=0.00
+R2 hypercycle: member shares [0.102, 0.102, 0.102, 0.102], junk 0.590, E=20.5 (lone simple E=9.1)
+R3 well-mixed + parasite: members [0.0, 0.0, 0.0, 0.0], parasite 0.636, junk 0.364, E=12.72
+R4 spatial + parasite, 10 runs: hypercycle survives in 0 | mean member share 0.000 | mean parasite share 0.314 | mean E 10.9
+   control, spatial without parasite (3 runs): survives in 0

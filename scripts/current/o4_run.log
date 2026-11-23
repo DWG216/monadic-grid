@@ -1,0 +1,13 @@
+Kerr r=3.51: rel diff A 4.5e-06, B 2.8e-04, C 5.0e-03; C without T0^2 2.1e-01; T0^2 share of C 0.21; anisotropy of T0^2 5.2e-07
+Kerr r=5.61: rel diff A 4.8e-06, B 1.3e-04, C 2.1e-03; C without T0^2 4.3e-02; T0^2 share of C 0.04; anisotropy of T0^2 2.8e-07
+Kerr r=4.30: rel diff A 5.8e-06, B 1.7e-04, C 2.4e-03; C without T0^2 2.3e-02; T0^2 share of C 0.02; anisotropy of T0^2 1.8e-06
+Kerr r=3.83: rel diff A 3.0e-06, B 1.3e-04, C 2.2e-03; C without T0^2 1.0e-01; T0^2 share of C 0.10; anisotropy of T0^2 2.5e-06
+Schwarzschild r=5.04: rel diff A 5.3e-06, B 1.3e-04, C 1.2e-02; C without T0^2 1.0e+01; T0^2 share of C 1.00; anisotropy of T0^2 1.9e-05
+Schwarzschild r=4.71: rel diff A 1.7e-06, B 2.6e-05, C 3.5e-04; C without T0^2 4.4e-02; T0^2 share of C 0.04; anisotropy of T0^2 6.2e-07
+Schwarzschild r=3.82: rel diff A 8.7e-07, B 1.9e-04, C 2.2e-03; C without T0^2 7.5e-01; T0^2 share of C 0.60; anisotropy of T0^2 1.5e-06
+Reissner-Nordstrom r=5.43: rel diff A 9.1e-05, B 1.7e-03, C 1.8e-02; C without T0^2 1.9e-02; T0^2 share of C 0.00; anisotropy of T0^2 1.4e-01
+Reissner-Nordstrom r=5.60: rel diff A 6.7e-05, B 1.4e-03, C 1.9e-02; C without T0^2 1.8e-02; T0^2 share of C 0.00; anisotropy of T0^2 1.3e-01
+Reissner-Nordstrom r=3.98: rel diff A 1.3e-05, B 4.1e-04, C 7.5e-03; C without T0^2 2.5e-02; T0^2 share of C 0.03; anisotropy of T0^2 1.9e-01
+O1 orders 2-4 predicted: PASS
+O2 meeting term needed: FAIL
+O3 vacuum meeting term is pure area: PASS

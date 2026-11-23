@@ -1,0 +1,5 @@
+K1 100
+K2 20
+K3_changed 38
+K4_changed 0
+{'K1': True, 'K2': True, 'K3': True, 'K4': True}

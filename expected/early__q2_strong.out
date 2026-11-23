@@ -1,0 +1,15 @@
+Weyl tensor is trace-free: True
+E, B symmetric and trace-free: True True True True
+
+REAL Lorentz transformation (one spinor matrix M):
+  L is real: True | preserves the light cone (L^T eta L = eta): True
+  O from M is a genuine complex rotation: True | not real: True
+  hand + transforms by: ['O^T', 'O^-1']
+  hand - transforms by: ['conj O^T']
+  hand - is the mirror of hand + after transforming: True
+
+COMPLEXIFIED transformation (two independent spinor matrices M1, M2):
+  L preserves eta (complex bilinear): True | L is not real: True
+  hand + transforms by: ['from M1: O^T', 'from M1: O^-1']
+  hand - transforms by: ['from M2: conj O^T']
+  hand - still the mirror of hand +: False | mismatch size: 1.003

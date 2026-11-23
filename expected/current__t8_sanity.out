@@ -1,0 +1,4 @@
+zeros: 201 first [14.1372 21.0244 25.0184]
+control 1/rho: prime powers with negative jump 1.00; median |jump| prime powers / others = 4.55
+control permuted: prime powers with negative jump 0.94; median |jump| prime powers / others = 3.34
+control, shuffled spacings: prime powers negative 0.38; ratio 0.86

@@ -1,0 +1,12 @@
+S1 doubling formulas: True ; roots of x = x^2 (v, iv, ii with F(0)=0): {0, 1}; of x = -x^2 (i): {0, -1}
+S2 max residual of z = z^2 + iF(0)(1-2F(2)) given (v): 2.8e-15 ; F(0)=0: z in {0 (|2z|=0 attracting), 1 (|2z|=2 repelling)}
+S3 phi, -1/phi fixed by z^2-1: True True |2z|: 3.236 1.236
+   c=-1 orbit after 1001 steps: -1 -> 2-cycle 0, -1
+S4 golden convergents (p, q, period): [(1, 2, 2), (2, 3, 3), (3, 5, 5), (5, 8, 8), (8, 13, 13), (13, 21, 21)]  null 2/7: 7
+S5 F(2t)/F(t): [2.562497, 2.096136, 2.010188, 2.000103] ; F(0) = L(0)F(0): True
+S6 worked examples: [1, 1, -1, 4, 0]  (printed 1, 1, -1, 4, 0)
+S7 solutions (F(-1),F(0),F(1)): [(0, 0, 0), (1, 0, 1), (0.276393, 0.447214, 0.723607), (0.723607, -0.447214, 0.276393)] residuals ['0e+00', '0e+00', '1e-16', '1e-16']
+   = vacuum, Fibonacci, phi^n/sqrt5 at n=-1,0,1: [0.276393, 0.447214, 0.723607] , -psi^n/sqrt5: [0.723607, -0.447214, 0.276393]
+   each pure mode satisfies all doubling formulas: True
+   but a constant multiple k*phi^n/sqrt5 does not (k=2): False
+S8 mirror condition F(1)=F(-1) keeps: [(0, 0, 0), (1, 0, 1)]

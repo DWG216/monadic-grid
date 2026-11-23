@@ -1,0 +1,5 @@
+T2 primes<1e8: 5761455; max gap/((22/25)sqrt(p)ln p) = 0.8829 at p=7, gap=4; largest gap 220 at p=47326693
+T1 primes 3..1e7: 664578; violations of n(p)<=2(ln p)^2: 0; mean n(p) = 3.6631; max n(p)/(2 ln^2 p) = 0.8285 at p=3 (n=2)
+T3 odd composites <1e6: Bach-bound Miller-Rabin failures = 0; strong pseudoprimes to base 2 = 46
+T4 share of sampled x with non-residues ahead: 1.0000; log-density estimate on [1e3,1e7]: 1.0000
+post hoc T2 p>1000: max ratio 0.1475 at p=1327, gap=34

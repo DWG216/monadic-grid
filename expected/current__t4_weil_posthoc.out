@@ -1,0 +1,7 @@
+zeros: 201 first [14.1372 21.0244 25.0184]
+post hoc 4b: max|A-Z| = 5.51e-06 (rel 5.96e-03); eig min/max true primes +9.652e-03; zero-side Gram +9.643e-03
+post hoc 4c: eig min/max fake primes -7.305e-01
+eigenvalues true: [3.02300e-05 3.53400e-05 4.94700e-05 3.84100e-04 4.59560e-04 2.39466e-03
+ 3.13211e-03]
+eigenvalues zero side: [3.01400e-05 3.55100e-05 4.95500e-05 3.83650e-04 4.59580e-04 2.39626e-03
+ 3.12554e-03]

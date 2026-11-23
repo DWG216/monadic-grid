@@ -1,0 +1,7 @@
+A1 Z.W max 2.8e-15; change along the null line 2.3e+01 -> FAIL
+A2 Z.W = 0: a null line of solutions; Z.W != 0: none -> PASS
+T1 Schwarzschild max |R_kk| 3.5e-07 -> PASS
+T2 de Sitter max |R_kk| 2.5e-06; min over points of max |R_ab| 0.09 -> PASS
+T3 Reissner-Nordstrom min |R_kk| 6.6e-05; FRW dust min 0.60 -> FAIL
+G1 coboundary: max relative change 7.0e-08 -> FAIL
+G2 non-coboundary: min relative change 2.2e-02 -> PASS

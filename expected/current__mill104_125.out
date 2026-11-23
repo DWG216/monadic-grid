@@ -1,0 +1,17 @@
+P1: True
+P2: True
+P3 matrix: [[0, 1, -1, 4, -9, 25], [-1, 0, -2, 3, -10, 24], [1, 2, 0, 5, -8, 26], [-4, -3, -5, 0, -13, 21], [9, 10, 8, 13, 0, 34], [-25, -24, -26, -21, -34, 0]]
+   equals +-F(k+r)F(k-r): True
+P4: 7F CI=49: True  7L CI=245: True  L CI=5: True
+P5 U=(1,6) e=29: columns constant True; row r=0 [0, 26, -15, 82, -168, 485] vs e*c_k [0, 29, -29, 116, -261, 725]
+P6 U=(1,6): modified-lite Catalan with CI=29: False
+P5 U=(1,4) e=11: columns constant True; row r=0 [0, 10, -3, 26, -48, 145] vs e*c_k [0, 11, -11, 44, -99, 275]
+P6 U=(1,4): modified-lite Catalan with CI=11: False
+P7 mixed-pairing r=0 row: [0, 37, -15, 82, -399, 485]  (his: 0, 37, -15, 82, -399, 485)
+P8 powers of 2: [1, 2, 4, 8, -9, 7, -11, 3, 6, 12, -1, -2, -4, -8, 9, -7, 11, -3, -6, -12]
+   powers of 13: [-12, -6, -3, 11, -7, 9, -8, -4, -2, -1, 12, 6, 3, -11, 7, -9, 8, 4, 2, 1] 1 1
+P6' U=(0,1) e=1: (-1)^(x-a) e F(a-r)F(a+r): True;  (-1)^(x-r) (-e) F(r-a)F(a+r): True
+P6' U=(2,1) e=-5: (-1)^(x-a) e F(a-r)F(a+r): True;  (-1)^(x-r) (-e) F(r-a)F(a+r): True
+P6' U=(1,6) e=29: (-1)^(x-a) e F(a-r)F(a+r): True;  (-1)^(x-r) (-e) F(r-a)F(a+r): True
+P6' U=(1,4) e=11: (-1)^(x-a) e F(a-r)F(a+r): True;  (-1)^(x-r) (-e) F(r-a)F(a+r): True
+P6' U=(3,-7) e=61: (-1)^(x-a) e F(a-r)F(a+r): True;  (-1)^(x-r) (-e) F(r-a)F(a+r): True

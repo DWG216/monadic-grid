@@ -1,0 +1,383 @@
+<title>Closed-Winding Particle Catalogue</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column; wide data tables and the frequency-plane diagram scroll inside their own frames. Lab data-sheet feel. */
+:root {
+  --bg: #f5f7f8;
+  --panel: #ffffff;
+  --fg: #16212a;
+  --muted: #56656f;
+  --rule: #d6dee3;
+  --accent: #0f6873;
+  --accent-soft: #dceff1;
+  --warn: #9a5b00;
+  --warn-soft: #fbefd9;
+  --bad: #a3312b;
+  --bad-soft: #f8e1df;
+  --dim-soft: #e9edf0;
+  --c-red: #c8413b; --c-green: #2f8a4a; --c-blue: #2f63c4;
+  --display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f161b; --panel: #151f26; --fg: #e3eaee; --muted: #93a3ad; --rule: #2a3842;
+  --accent: #5cc3cf; --accent-soft: #163a40; --warn: #e8a94a; --warn-soft: #3a2a12; --bad: #f08a83; --bad-soft: #3d1c1a; --dim-soft: #1f2a31;
+  --c-red: #ef7d76; --c-green: #6cc487; --c-blue: #7ea6f0; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f161b; --panel: #151f26; --fg: #e3eaee; --muted: #93a3ad; --rule: #2a3842;
+  --accent: #5cc3cf; --accent-soft: #163a40; --warn: #e8a94a; --warn-soft: #3a2a12; --bad: #f08a83; --bad-soft: #3d1c1a; --dim-soft: #1f2a31;
+  --c-red: #ef7d76; --c-green: #6cc487; --c-blue: #7ea6f0; color-scheme: dark; }
+
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+.wrap { max-width: 920px; margin: 0 auto; padding-block: 40px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 48px; }
+header { display: grid; gap: 12px; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; line-height: 1.15; margin: 0; }
+h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 700; }
+h2 { font-size: 24px; font-weight: 700; }
+h3 { font-size: 17px; font-weight: 700; }
+p { margin: 0; max-width: 66ch; }
+section { display: grid; gap: 14px; }
+.part { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 14px; }
+.lede { font-size: 19px; color: var(--muted); }
+code, .m { font-family: var(--mono); font-size: .86em; }
+.rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.rule { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 18px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.rule .m { color: var(--accent); font-size: 14.5px; overflow-wrap: anywhere; }
+.frame { overflow-x: auto; border: 1px solid var(--rule); border-radius: 6px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: middle; white-space: nowrap; }
+th { font-family: var(--mono); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+tr:last-child td { border-bottom: 0; }
+td.note, td.wrapc { white-space: normal; min-width: 200px; }
+td.note { color: var(--muted); font-size: 14.5px; }
+td.idea { white-space: normal; min-width: 160px; font-weight: 600; font-family: var(--display); }
+.rep { font-family: var(--mono); font-size: 14px; }
+.chip { display: inline-block; font-family: var(--mono); font-size: 11.5px; padding: 2px 8px; border-radius: 99px; letter-spacing: .03em; white-space: nowrap; }
+.chip.sm { background: var(--accent-soft); color: var(--accent); }
+.chip.ex { background: var(--warn-soft); color: var(--warn); }
+.chip.op { background: var(--dim-soft); color: var(--muted); }
+.chip.no { background: var(--bad-soft); color: var(--bad); }
+svg.dial { display: block; }
+.dial circle { fill: none; stroke: var(--rule); stroke-width: 1.5; }
+.dial .tick { stroke: var(--rule); stroke-width: 1; }
+.dial .t { stroke: var(--c-red); } .dial .d { stroke: var(--c-green); } .dial .n { stroke: var(--c-blue); }
+.dial line.arm { stroke-width: 2.4; stroke-linecap: round; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
+.legend span::before { content: ""; display: inline-block; width: 14px; height: 3px; border-radius: 2px; margin-right: 6px; vertical-align: middle; background: currentColor; }
+.legend .t { color: var(--c-red); } .legend .d { color: var(--c-green); } .legend .n { color: var(--c-blue); }
+.legend .a { color: var(--accent); } .legend .w { color: var(--warn); }
+.callout { border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; display: grid; gap: 8px; }
+.callout.warn { border-color: var(--warn); }
+ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; max-width: 66ch; }
+.fig { display: grid; gap: 10px; }
+.fig .frame { padding: 12px; }
+#plane { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; }
+#plane .axis { stroke: var(--muted); stroke-width: 1.2; fill: none; }
+#plane .grid { stroke: var(--rule); stroke-width: 1; fill: none; }
+#plane .null { stroke: var(--accent); stroke-width: 2.6; fill: none; }
+#plane .hyp { stroke: var(--warn); stroke-width: 2; fill: none; }
+#plane text { fill: var(--muted); font-family: var(--mono); font-size: 11px; }
+#plane text.lab-a { fill: var(--accent); }
+#plane text.lab-w { fill: var(--warn); }
+#plane .origin { fill: var(--accent); stroke: var(--panel); stroke-width: 2; }
+.bar { height: 8px; border-radius: 4px; background: var(--warn); min-width: 2px; }
+.bar.zero { background: var(--accent); width: 8px; border-radius: 50%; }
+.barcell { width: 40%; min-width: 140px; }
+figcaption { color: var(--muted); font-size: 14.5px; max-width: 66ch; }
+footer { color: var(--muted); font-size: 14px; display: grid; gap: 6px; border-top: 1px solid var(--rule); padding-top: 18px; }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">SU(3) × SU(2) × U(1) · Ontological Mathematics, formalised</div>
+    <h1>Closed-Winding Particle Catalogue</h1>
+    <p class="lede">The book's picture of the universe is a frequency domain of light outside spacetime, a six-dimensional grid of three real and three imaginary axes, and matter generated holographically from a null point. This page writes each of those ideas as mathematics, checks it against the Standard Model, and builds the particle catalogue on top of it.</p>
+  </header>
+
+  <section>
+    <div class="part">Part 1 · The book's ideas as mathematics</div>
+    <h2>Concept map</h2>
+    <p>Each idea from <em>How to Create the Universe</em> is given a precise form below. The status column says whether that form is standard physics, a reinterpretation I chose so it fits, a piece the book doesn't supply, or a claim that conflicts with observation as stated.</p>
+    <div class="frame">
+      <table>
+        <thead><tr><th>Book idea</th><th>Written as</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td class="idea">God Equation e<sup>iθ</sup> = cos θ + i sin θ</td><td class="wrapc">Every particle mode is a plane wave e<sup>i(k·x − ωt)</sup>. Hypercharge U(1) is an overall Euler phase.</td><td><span class="chip sm">standard physics</span></td></tr>
+          <tr><td class="idea">6D universe: three real (cosine) axes and three imaginary (sine) axes</td><td class="wrapc">The frequency domain is the complex space ℂ³, coordinates z<sub>k</sub> = x<sub>k</sub> + iτ<sub>k</sub>. Its volume-preserving rotations are exactly SU(3), which becomes colour.</td><td><span class="chip ex">reinterpretation</span></td></tr>
+          <tr><td class="idea">Three time dimensions, taken literally</td><td class="wrapc">More than one time direction makes physics unpredictable and lets matter decay in ways that aren't observed (Dorling 1970, Tegmark 1997). Here the three imaginary axes are internal directions, not directions anything travels in.</td><td><span class="chip no">conflicts as stated</span></td></tr>
+          <tr><td class="idea">Mind (dimensionless) versus matter (dimensional)</td><td class="wrapc">Massless versus massive. Massless modes sit on the null cone ω = |k|. Massive modes sit on hyperboloids ω² = |k|² + m². The split is the same in every reference frame.</td><td><span class="chip sm">standard physics</span></td></tr>
+          <tr><td class="idea">Light is outside spacetime</td><td class="wrapc">Along a light ray the interval s² = x² − c²t² is zero: no time passes and no distance is covered. "Outside spacetime" is the book's reading of that fact.</td><td><span class="chip sm">standard physics</span></td></tr>
+          <tr><td class="idea">Matter is mismatched choran and chronon</td><td class="wrapc">A mass is a coupling between a left-handed and a right-handed piece through the Higgs. Only four such pairings close (Part 4).</td><td><span class="chip ex">reinterpretation</span></td></tr>
+          <tr><td class="idea">Spacetime generated holographically from a null point by inverse Fourier transform</td><td class="wrapc">Fields are inverse Fourier transforms of frequency modes. The Higgs condensate is the one mode at zero frequency, and it is what gives matter its mass (Part 5).</td><td><span class="chip ex">reinterpretation</span></td></tr>
+          <tr><td class="idea">Riemann sphere and the point at infinity</td><td class="wrapc">The directions of light rays through any point form a Riemann sphere, and Lorentz transformations act on it as Möbius maps (Penrose).</td><td><span class="chip sm">standard physics</span></td></tr>
+          <tr><td class="idea">Cosine is bosonic, sine is fermionic</td><td class="wrapc">Not used. Bosons and fermions differ in what happens when two identical particles swap, which is unrelated to a function being even or odd.</td><td><span class="chip no">conflicts</span></td></tr>
+          <tr><td class="idea">(no counterpart)</td><td class="wrapc">Weak isospin SU(2) and its restriction to left-handed particles have no source in the book's geometry.</td><td><span class="chip op">added by hand</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="part">Part 2 · The six-dimensional frequency domain</div>
+    <h2>Three complex axes give colour</h2>
+    <p>Pair each real (cosine) axis with an imaginary (sine) axis and the book's 6D grid becomes three complex planes. Rotating those planes into one another while keeping complex volume fixed is exactly the group SU(3). Checked numerically:</p>
+    <div class="rules">
+      <div class="rule">
+        <h3>Quark</h3>
+        <div class="m">a wave along one complex axis</div>
+        <p>The three axes are the three colours. A gluon is one of the 8 independent ways to mix the axes.</p>
+      </div>
+      <div class="rule">
+        <h3>120° winding</h3>
+        <div class="m">det(e<sup>2πi/3</sup>·I) = 1</div>
+        <p>Turning all three complex planes by 120° at once keeps the volume fixed. That is the colour step in the closure rule.</p>
+      </div>
+      <div class="rule">
+        <h3>Baryon and meson</h3>
+        <div class="m">z₁∧z₂∧z₃ and z̄·z unchanged</div>
+        <p>Three quarks, one per axis, span a complex volume. A quark and antiquark form a complex length. Both are colourless.</p>
+      </div>
+    </div>
+    <p>The hypercharge phase is the Euler formula's own phase, turning in 60° steps. Weak isospin has no home in this geometry and is added as a two-component label.</p>
+  </section>
+
+  <section>
+    <div class="part">Part 3 · Stability rules</div>
+    <h2>Closure and anomaly freedom</h2>
+    <div class="rules">
+      <div class="rule">
+        <h3>1. Closure</h3>
+        <div class="m">2t + 3d + 6Y ≡ 0 (mod 6)</div>
+        <p>Colour (120° steps), isospin (180°) and hypercharge (60°) windings must add up to whole turns. In the book's terms, a configuration has to return to itself, like the perfectly orthogonal pair in a photon. This is the real ℤ<sub>6</sub> structure of the Standard Model gauge group.</p>
+      </div>
+      <div class="rule">
+        <h3>2. Anomaly freedom</h3>
+        <div class="m">SU(3)³, SU(3)²U(1), SU(2)²U(1), U(1)³, grav²U(1), Witten</div>
+        <p>A set of chiral configurations must cancel all six quantum anomalies, or the theory breaks down. This rule decides which configurations can exist together.</p>
+      </div>
+    </div>
+    <h3>Rule 1: 13 closed configurations out of 78</h3>
+    <p>Closure also forces charge quantisation. Every closed colourless state has whole-number charge, and every closed colour triplet has charge 2/3 or −1/3 modulo 1.</p>
+    <div class="legend"><span class="t">colour 120°·t</span><span class="d">isospin 180°·d</span><span class="n">hypercharge 60°·6Y</span></div>
+    <div class="frame">
+      <table>
+        <thead><tr><th>Config</th><th>Windings</th><th>Charges Q</th><th>Role</th><th>Notes</th></tr></thead>
+        <tbody id="closed"></tbody>
+      </table>
+    </div>
+    <h3>Rule 2: the smallest consistent set is one generation</h3>
+    <p>Searching every chiral combination of up to six closed configurations, the first anomaly-free sets appear at five fields. There are exactly two, mirror images of each other, and both are the Standard Model generation:</p>
+    <div class="frame">
+      <table>
+        <thead><tr><th>Field</th><th>Config</th><th>Contains</th><th>Charges Q</th></tr></thead>
+        <tbody>
+          <tr><td>Q</td><td class="rep">(3, 2, +1/6)</td><td>up and down quarks, left-handed, 3 colours</td><td class="m">+2/3, −1/3</td></tr>
+          <tr><td>u<sup>c</sup></td><td class="rep">(3̄, 1, −2/3)</td><td>right-handed up quark</td><td class="m">−2/3</td></tr>
+          <tr><td>d<sup>c</sup></td><td class="rep">(3̄, 1, +1/3)</td><td>right-handed down quark</td><td class="m">+1/3</td></tr>
+          <tr><td>L</td><td class="rep">(1, 2, −1/2)</td><td>neutrino and electron, left-handed</td><td class="m">0, −1</td></tr>
+          <tr><td>e<sup>c</sup></td><td class="rep">(1, 1, +1)</td><td>right-handed electron</td><td class="m">+1</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>A right-handed neutrino ν<sup>c</sup> (1, 1, 0) closes and is anomaly-free on its own, so it can be added. Gauge bosons have zero winding: gluons (8, 1, 0), W bosons (1, 3, 0), B (1, 1, 0). The Higgs doublet (1, 2, +1/2) also closes.</p>
+  </section>
+
+  <section>
+    <div class="part">Part 4 · Mind becomes matter</div>
+    <h2>Before the Higgs settles, everything is light-like</h2>
+    <p>In the unbroken theory, every particle in the catalogue is massless. Left-handed and right-handed fermions have different windings, so an ordinary mass term can't close. In the book's language, the whole catalogue starts in the frequency domain, on null lines.</p>
+    <p>Matter appears when a left-handed piece is paired with a right-handed piece through the Higgs. This plays the role of the book's "non-orthogonal recombination." The search over all such pairings finds exactly four that close:</p>
+    <div class="frame">
+      <table>
+        <thead><tr><th>Pairing</th><th>Total winding</th><th>Gives mass to</th></tr></thead>
+        <tbody>
+          <tr><td class="rep">Q × u<sup>c</sup> × H</td><td class="m">12 (closes)</td><td>up, charm, top</td></tr>
+          <tr><td class="rep">Q × d<sup>c</sup> × H*</td><td class="m">12 (closes)</td><td>down, strange, bottom</td></tr>
+          <tr><td class="rep">L × e<sup>c</sup> × H*</td><td class="m">6 (closes)</td><td>electron, muon, tau</td></tr>
+          <tr><td class="rep">L × ν<sup>c</sup> × H</td><td class="m">6 (closes)</td><td>neutrinos, only if ν<sup>c</sup> exists</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>The windings decide which pairings are allowed. They say nothing about how strong each pairing is, so the masses stay as inputs.</p>
+  </section>
+
+  <section>
+    <div class="part">Part 5 · The null point and the hologram</div>
+    <h2>Spacetime from frequency</h2>
+    <p>Every field in the catalogue is an inverse Fourier transform: a sum of frequency modes, each spread over all of spacetime. That is the true part of the book's "whole in every part." It doesn't allow faster-than-light signalling.</p>
+    <p>In the frequency plane below, light-like modes lie on the null cone through the origin. Massive modes lie on hyperbolas pushed away from it. The origin itself, zero frequency and zero momentum, holds one thing: the Higgs condensate, a constant field filling all of spacetime. It is the coupling to this zero-frequency mode that moves particles off the null cone.</p>
+    <figure class="fig" style="margin:0">
+      <div class="frame"><svg id="plane" viewBox="0 0 360 290" role="img" aria-label="Frequency plane: momentum on the horizontal axis, frequency on the vertical. A straight null line runs from the origin at 45 degrees. Hyperbolas for masses 1 and 2 start on the vertical axis and approach the null line."></svg></div>
+      <figcaption>Frequency ω against momentum |k|, in units where c = 1, drawn to scale for illustrative masses m = 1 and m = 2. The dot at the origin is the zero-frequency point where the Higgs condensate sits.</figcaption>
+    </figure>
+    <h3>How far each particle sits from the null line</h3>
+    <p>The tilt χ = arcsin(m/E) measures how far off the null line a particle sits at a given energy. At E = 1 TeV:</p>
+    <div class="legend"><span class="a">stays on the null cone</span><span class="w">tilted off it by mass</span></div>
+    <div class="frame">
+      <table>
+        <thead><tr><th>Particle</th><th>Mass</th><th>Tilt χ at 1 TeV</th><th class="barcell">Tilt, to scale (0° to 10°)</th></tr></thead>
+        <tbody id="tilt"></tbody>
+      </table>
+    </div>
+    <p>After the Higgs settles, only one combination of W³ and B leaves the vacuum unchanged: Q = T₃ + Y, acting as −1/2 + 1/2 = 0. That combination is the photon, which stays massless. The gluons stay massless because colour is never broken. So the frequency domain ends up holding exactly light and the gluons. Everything else, including the W, Z and Higgs, is matter.</p>
+  </section>
+
+  <section>
+    <div class="part">Part 6 · What stays as input</div>
+    <h2>Three copies, and the masses</h2>
+    <p>Nature repeats the five-field set three times with identical windings. None of the rules can tell the copies apart or say why there are three. Every mass below is a measurement.</p>
+    <div class="frame">
+      <table>
+        <thead><tr><th>Generation</th><th>Up-type</th><th>Down-type</th><th>Charged lepton</th><th>Neutrino</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td class="m">u · 2.16 MeV</td><td class="m">d · 4.70 MeV</td><td class="m">e · 0.511 MeV</td><td class="m">ν<sub>e</sub> · &lt; 1 eV</td></tr>
+          <tr><td>2</td><td class="m">c · 1.27 GeV</td><td class="m">s · 93.5 MeV</td><td class="m">μ · 105.7 MeV</td><td class="m">ν<sub>μ</sub> · &lt; 1 eV</td></tr>
+          <tr><td>3</td><td class="m">t · 172.6 GeV</td><td class="m">b · 4.18 GeV</td><td class="m">τ · 1776.9 MeV</td><td class="m">ν<sub>τ</sub> · &lt; 1 eV</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Bosons: W 80.37 GeV, Z 91.19 GeV, Higgs 125.2 GeV, photon and gluons 0. The weak mixing angle, sin²θ<sub>W</sub> ≈ 0.231, is also measured.</p>
+  </section>
+
+  <section>
+    <h2>What this does and does not show</h2>
+    <div class="callout">
+      <h3>What the formalised picture gets right</h3>
+      <ul>
+        <li>Three complex axes give colour SU(3) exactly, including the 120° step and colourless baryons and mesons.</li>
+        <li>Closure picks out 13 configurations and forces charge to come in thirds.</li>
+        <li>Anomaly freedom picks out exactly one Standard Model generation.</li>
+        <li>The mind/matter split matches massless versus massive. The frequency domain ends up holding only light and the gluons.</li>
+        <li>Matter comes from pairing two chiral pieces through a zero-frequency condensate. Exactly four pairings close.</li>
+      </ul>
+    </div>
+    <div class="callout warn">
+      <h3>What it leaves open or gets wrong</h3>
+      <ul>
+        <li>All 12 fermion masses, the boson masses, the mixing angles and the three force strengths are inputs.</li>
+        <li>Why there are three generations.</li>
+        <li>Weak isospin and the left-handedness of the weak force come from nowhere in the book's geometry.</li>
+        <li>Three literal time dimensions conflict with observation. They only work here as internal axes.</li>
+        <li>Spin is assumed. The cosine/sine account of bosons and fermions doesn't hold up.</li>
+      </ul>
+    </div>
+    <p>The book's 60° step survives as the unit of hypercharge winding. Its 45° and doubled-frequency guesses play no part. Where the formalised picture works, it is because the reinterpretations were chosen to land on known physics, not because the choran and chronon picture derives it.</p>
+  </section>
+
+  <footer>
+    <div>Enumeration, anomaly search, SU(3) checks, Yukawa search and tilt values were computed in Python. Hypercharge was searched in sixths from −1 to +1, for sets of up to six fields.</div>
+    <div>Masses are approximate Particle Data Group values. Light quark masses are scheme-dependent (MS-bar at 2 GeV). The neutrino bound is from direct measurement.</div>
+  </footer>
+</div>
+
+<script>
+const rows = [
+  ["(1, 1, −1)",   0,0,-6, "−1",            "sm", "Standard Model", "Right-handed electron, e<sub>R</sub>"],
+  ["(1, 1, 0)",    0,0, 0, "0",             "op", "Optional",       "Right-handed neutrino. Closes and is anomaly-free alone."],
+  ["(1, 1, +1)",   0,0, 6, "+1",            "sm", "Standard Model", "e<sup>c</sup>, the left-handed form of e<sub>R</sub>"],
+  ["(1, 2, −1/2)", 0,1,-3, "0, −1",         "sm", "Standard Model", "Lepton doublet L"],
+  ["(1, 2, +1/2)", 0,1, 3, "+1, 0",         "sm", "Standard Model", "Higgs doublet (also the conjugate of L)"],
+  ["(3, 1, −1/3)", 1,0,-2, "−1/3",          "sm", "Standard Model", "Right-handed down quark d<sub>R</sub>"],
+  ["(3, 1, +2/3)", 1,0, 4, "+2/3",          "sm", "Standard Model", "Right-handed up quark u<sub>R</sub>"],
+  ["(3, 2, −5/6)", 1,1,-5, "−1/3, −4/3",    "ex", "Exotic",         "Closes but is not observed. Same quantum numbers as the X/Y bosons of SU(5) grand unification."],
+  ["(3, 2, +1/6)", 1,1, 1, "+2/3, −1/3",    "sm", "Standard Model", "Quark doublet Q"],
+  ["(3̄, 1, −2/3)", 2,0,-4, "−2/3",          "sm", "Standard Model", "u<sup>c</sup>"],
+  ["(3̄, 1, +1/3)", 2,0, 2, "+1/3",          "sm", "Standard Model", "d<sup>c</sup>"],
+  ["(3̄, 2, −1/6)", 2,1,-1, "+1/3, −2/3",    "sm", "Standard Model", "Conjugate of Q"],
+  ["(3̄, 2, +5/6)", 2,1, 5, "+4/3, +1/3",    "ex", "Exotic",         "Conjugate of the (3, 2, −5/6) exotic"],
+];
+const ns = "http://www.w3.org/2000/svg";
+function el(tag, attrs, parent) {
+  const e = document.createElementNS(ns, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(e);
+  return e;
+}
+function dial(t, d, n) {
+  const R = 15, c = 18;
+  const total = ((2*t + 3*d + n) % 6 + 6) % 6;
+  const svg = el("svg", { viewBox: "0 0 36 36", width: 36, height: 36, class: "dial", role: "img",
+    "aria-label": `colour ${120*t}°, isospin ${180*d}°, hypercharge ${60*n}°; net ${total*60}°` });
+  el("circle", { cx: c, cy: c, r: R }, svg);
+  for (let k = 0; k < 6; k++) {
+    const a = k*Math.PI/3 - Math.PI/2;
+    el("line", { x1: c + (R-2)*Math.cos(a), y1: c + (R-2)*Math.sin(a), x2: c + R*Math.cos(a), y2: c + R*Math.sin(a), class: "tick" }, svg);
+  }
+  [["t", 120*t, 13], ["d", 180*d, 10], ["n", 60*n, 7]].forEach(([cls, deg, len]) => {
+    const a = deg*Math.PI/180 - Math.PI/2;
+    el("line", { x1: c, y1: c, x2: c + len*Math.cos(a), y2: c + len*Math.sin(a), class: "arm " + cls }, svg);
+  });
+  return svg;
+}
+const tb = document.getElementById("closed");
+rows.forEach(([rep, t, d, n, q, kind, role, note]) => {
+  const tr = document.createElement("tr");
+  const sum = 2*t + 3*d + n;
+  tr.innerHTML = `<td class="rep">${rep}</td><td></td><td class="m">${q}</td><td><span class="chip ${kind}">${role}</span></td><td class="note">${note}</td>`;
+  const box = document.createElement("div");
+  box.style.cssText = "display:flex;align-items:center;gap:8px";
+  box.appendChild(dial(t, d, n));
+  const s = document.createElement("span"); s.className = "m";
+  s.textContent = `2·${t}+3·${d}${n < 0 ? "−" : "+"}${Math.abs(n)} = ${sum}`;
+  box.appendChild(s); tr.children[1].appendChild(box);
+  tb.appendChild(tr);
+});
+
+// frequency plane, drawn to scale: 1 unit = 80 px
+(function () {
+  const svg = document.getElementById("plane");
+  const ox = 56, oy = 250, s = 80, kmax = 3.4, wmax = 2.9;
+  const X = k => ox + s*k, Y = w => oy - s*w;
+  for (let v = 1; v <= 3; v++) {
+    el("line", { x1: X(v), y1: Y(0), x2: X(v), y2: Y(wmax), class: "grid" }, svg);
+    if (v <= 2) el("line", { x1: X(0), y1: Y(v), x2: X(kmax), y2: Y(v), class: "grid" }, svg);
+    el("text", { x: X(v), y: oy + 16, "text-anchor": "middle" }, svg).textContent = v;
+    if (v <= 2) el("text", { x: ox - 8, y: Y(v) + 4, "text-anchor": "end" }, svg).textContent = v;
+  }
+  el("text", { x: ox - 8, y: oy + 4, "text-anchor": "end" }, svg).textContent = "0";
+  el("line", { x1: X(0), y1: Y(0), x2: X(kmax), y2: Y(0), class: "axis" }, svg);
+  el("line", { x1: X(0), y1: Y(0), x2: X(0), y2: Y(wmax), class: "axis" }, svg);
+  el("text", { x: X(kmax), y: oy + 32, "text-anchor": "end" }, svg).textContent = "momentum |k|";
+  el("text", { x: X(0) + 6, y: Y(wmax) + 4 }, svg).textContent = "frequency ω";
+  const kn = Math.min(kmax, wmax);
+  el("line", { x1: X(0), y1: Y(0), x2: X(kn), y2: Y(kn), class: "null" }, svg);
+  el("text", { x: X(kn) - 4, y: Y(kn) + 16, "text-anchor": "end", class: "lab-a" }, svg).textContent = "null cone, m = 0";
+  [1, 2].forEach(m => {
+    const pts = [];
+    for (let k = 0; k <= kmax + 1e-9; k += 0.05) {
+      const w = Math.sqrt(k*k + m*m);
+      if (w > wmax) break;
+      pts.push(`${X(k).toFixed(1)},${Y(w).toFixed(1)}`);
+    }
+    el("polyline", { points: pts.join(" "), class: "hyp" }, svg);
+    el("text", { x: X(0) + 6, y: Y(m) - 6, class: "lab-w" }, svg).textContent = `m = ${m}`;
+  });
+  el("circle", { cx: X(0), cy: Y(0), r: 5, class: "origin" }, svg);
+  el("text", { x: X(0) + 10, y: Y(0) - 8, class: "lab-a" }, svg).textContent = "zero-frequency point: Higgs condensate";
+})();
+
+// tilt table at E = 1 TeV
+(function () {
+  const E = 1000, maxDeg = 10;
+  const ps = [["Photon", 0, "0"], ["Gluon", 0, "0"], ["Neutrino", 1e-9, "< 1 eV"], ["Electron", 0.000511, "0.511 MeV"],
+    ["Up quark", 0.00216, "2.16 MeV"], ["Down quark", 0.0047, "4.70 MeV"], ["Strange quark", 0.0935, "93.5 MeV"],
+    ["Muon", 0.1057, "105.7 MeV"], ["Charm quark", 1.27, "1.27 GeV"], ["Tau", 1.7769, "1.777 GeV"],
+    ["Bottom quark", 4.18, "4.18 GeV"], ["W boson", 80.37, "80.37 GeV"], ["Z boson", 91.19, "91.19 GeV"],
+    ["Higgs boson", 125.2, "125.2 GeV"], ["Top quark", 172.6, "172.6 GeV"]];
+  const tb = document.getElementById("tilt");
+  ps.forEach(([name, m, label]) => {
+    const deg = Math.asin(m / E) * 180 / Math.PI;
+    const txt = m === 0 ? "0° exactly" : (deg < 0.001 ? deg.toExponential(1) + "°" : deg.toPrecision(3) + "°");
+    const tr = document.createElement("tr");
+    const bar = m === 0 ? `<div class="bar zero" title="on the null cone"></div>` : `<div class="bar" style="width:${(deg / maxDeg * 100).toFixed(2)}%"></div>`;
+    tr.innerHTML = `<td>${name}</td><td class="m">${label}</td><td class="m">${txt}</td><td class="barcell">${bar}</td>`;
+    tb.appendChild(tr);
+  });
+})();
+</script>

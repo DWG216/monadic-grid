@@ -1,0 +1,9 @@
+A1 zeta(phi)=2.2383343439 D=3.076345 (paper 2.914) -> PASS
+A2 D'=0.073492 (paper 0.077) -> PASS
+A3 D*D'=0.2261 -> PASS
+A4 Lambda(1.6180)=1.023345545298 Lambda(-0.6180)=1.023345545299 diff=2.8e-13
+A4 Lambda(-1.6180)=0.260245525202 Lambda(2.6180)=0.260245525231 diff=2.8e-11
+   zeta(1-phi)= -0.16914363964101045  zeta(-phi)= -0.01730039804978478  zeta(phi^2)= 1.2995207549531014
+   null Lambda(phi)=1.023346 Lambda(-phi)=0.260246
+A5 zeta(phi)*sum mu/n^phi = 1.000000
+extra ln zeta(phi)=0.805732, mean energy <ln n> at beta=phi: 1.1346255277182935

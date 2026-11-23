@@ -1,0 +1,3 @@
+golden phi (Fibonacci)       Wieferich-type primes below 2,000,000: []
+silver 1+sqrt2 (Pell)        Wieferich-type primes below 2,000,000: [13, 31, 1546463]
+2+sqrt3 (tetrahedral face)   Wieferich-type primes below 2,000,000: [103]

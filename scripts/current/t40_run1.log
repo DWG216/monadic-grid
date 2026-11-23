@@ -1,0 +1,20 @@
+B1 P(+-1)/P(0) 0.9999933902435009
+B2 angle to (1,1,1) deg 44.999905321899334
+B3 Q pole 0.6666644634145001
+B3 Q running (M_Z) 0.6679242389052525
+B4 Q(c,b,t) 0.648471081726665
+B4 Q(-s,c,b) 0.6748017780839787
+B4 triples tried 4
+N1 NO negative root None none
+N1 NO negative root 0 [(0.3648, np.float64(59.164))]
+N1 NO negative root 1 none
+N1 NO negative root 2 none
+N1 IO negative root None none
+N1 IO negative root 0 none
+N1 IO negative root 1 none
+N1 IO negative root 2 [(2.9167, np.float64(102.01))]
+N2 runs with a solution 4000
+N2 sum m_nu (meV) mean, sd (np.float64(59.158), np.float64(0.208))
+N2 lightest (meV) mean, sd (np.float64(0.3648), np.float64(0.0071))
+N2 m_beta (meV) mean, sd (np.float64(8.835), np.float64(0.11))
+N3 delta_nu nearest Brannen (0.47944, 0.48402)

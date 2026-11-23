@@ -1,0 +1,24 @@
+mirror image of the 12-deg class is itself a fixed class: residual 1.4e-14
+on-mirror class: polar angle 16.2534010683 deg, cos^2 = 0.921663825916, residual 3.1e-12
+two-block transversal leak: CNOT 0.965 | CZ 0.994  (0 = logical gate)
+recovery subspaces: 7-qubit 22, 5-qubit 16
+
+Control (ideal, p2=0) thresholds and small-eps suppression:
+  5-qubit BK, cube corner (T-type)         threshold 0.170 | out(1e-3)=5.01e-06, scaling exponent 2.00
+  icosahedral, zeta (on-mirror class)      threshold 0.225 | out(1e-3)=5.74e-04, scaling exponent 1.00
+  icosahedral, vertex (free in 2I world)   threshold 0.305 | out(1e-3)=2.34e-06, scaling exponent 2.00
+
+Hardware p2=1e-03 (pre/post per-qubit 0.006, false-accept 0.005):
+  5-qubit BK, cube corner (T-type)         threshold 0.155 | floor 3.34e-04 after 5 rounds | raw states per output 2.68e+07
+  icosahedral, zeta (on-mirror class)      threshold 0.185 | floor 9.56e-03 after 7 rounds | raw states per output 1.73e+10
+  icosahedral, vertex (free in 2I world)   threshold 0.280 | floor 2.28e-05 after 4 rounds | raw states per output 3.47e+05
+
+Hardware p2=3e-03 (pre/post per-qubit 0.018, false-accept 0.005):
+  5-qubit BK, cube corner (T-type)         threshold 0.150 | floor 1.28e-03 after 6 rounds | raw states per output 1.31e+09
+  icosahedral, zeta (on-mirror class)      threshold 0.165 | floor 2.48e-02 after 8 rounds | raw states per output 2.39e+12
+  icosahedral, vertex (free in 2I world)   threshold 0.280 | floor 2.05e-04 after 4 rounds | raw states per output 5.11e+05
+
+Hardware p2=1e-02 (pre/post per-qubit 0.060, false-accept 0.005):
+  5-qubit BK, cube corner (T-type)         threshold 0.130 | floor 8.82e-03 after 8 rounds | raw states per output 2.34e+13
+  icosahedral, zeta (on-mirror class)      threshold 0.000 | floor 1.00e-01 after 0 rounds | raw states per output 1
+  icosahedral, vertex (free in 2I world)   threshold 0.280 | floor 2.28e-03 after 5 rounds | raw states per output 7.66e+07

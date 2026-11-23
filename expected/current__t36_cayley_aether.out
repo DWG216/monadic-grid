@@ -1,0 +1,5 @@
+real points unitary (max |WW*-1|) 1.8854816014133734e-15
+future tube in ball (max sing. value) 0.9999192586270815
+past tube outside (min sing. value) 1.000080747892614
+null-separated pairs: max |det(W1-W2)| 1.2751017108688246e-15
+timelike pair: |det(W1-W2)| 0.5056997468580295

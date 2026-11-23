@@ -1,0 +1,9 @@
+Jones (Temperley-Lieb) braid representation, unitary and satisfying the braid relation:
+   r= 3  [3, 5, 6, 6, 6, 6, 6, 6, 6, 6]  -> FINITE
+   r= 4  [5, 15, 23, 24, 24, 24, 24, 24, 24, 24]  -> FINITE
+   r= 5  [5, 17, 42, 90, 184, 360, 690, 1314, 2488, 4698]  -> keeps growing (dense)
+   r= 6  [5, 11, 12, 12, 12, 12, 12, 12, 12, 12]  -> FINITE
+   r= 7  [5, 17, 42, 90, 186, 378, 760, 1512, 2994, 5922]  -> keeps growing (dense)
+   r= 8  [5, 17, 42, 88, 168, 306, 544, 954, 1662, 2878]  -> keeps growing (dense)
+   r=10  [5, 17, 38, 54, 59, 60, 60, 60, 60, 60]  -> FINITE
+   r=12  [5, 17, 42, 90, 186, 376, 744, 1458, 2850, 5562]  -> keeps growing (dense)

@@ -1,0 +1,9 @@
+T=1 euclid=False steps=2e+05 |err|=6.266e-01  lowest eig=2.2174e-02 cond=7.22e+04
+T=1 euclid=False steps=1e+07 |err|=6.485e-60  lowest eig=2.2174e-02 cond=7.22e+04
+T=1 euclid=False steps=1e+09 |err|=0.000e+00  lowest eig=2.2174e-02 cond=7.22e+04
+T=4 euclid=False steps=2e+05 |err|=9.845e+01  lowest eig=-3.8315e-03 cond=1.04e+05
+T=4 euclid=False steps=1e+07 |err|=5.794e+42  lowest eig=-3.8315e-03 cond=1.04e+05
+T=4 euclid=False steps=1e+09 |err|=inf  lowest eig=-3.8315e-03 cond=1.04e+05
+T=4 euclid=True steps=2e+05 |err|=1.059e-03  lowest eig=1.6168e-02 cond=2.47e+04
+T=4 euclid=True steps=1e+07 |err|=0.000e+00  lowest eig=1.6168e-02 cond=2.47e+04
+T=4 euclid=True steps=1e+09 |err|=0.000e+00  lowest eig=1.6168e-02 cond=2.47e+04

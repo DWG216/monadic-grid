@@ -1,0 +1,28 @@
+<svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="sans-serif"><rect width="720" height="380" fill="#fff"/>
+<text x="20" y="28" font-size="15" font-weight="bold" fill="#222">Millington pp. 58–63 on our terms: two strands meeting at the mirror plane F(0)</text>
+<rect x="40" y="60" width="270" height="250" rx="10" fill="#faece7" stroke="#993c1d" stroke-width="0.8"/>
+<text x="175" y="86" font-size="14" font-weight="bold" fill="#712b13" text-anchor="middle">Shadow side (reactive)</text>
+<text x="175" y="110" font-size="12" fill="#712b13" text-anchor="middle">reverse strand F(−n), reference beam</text>
+<text x="175" y="132" font-size="12" fill="#712b13" text-anchor="middle">pure mode −ψⁿ/√5</text>
+<text x="175" y="154" font-size="12" fill="#712b13" text-anchor="middle">inside atoms: nucleus, like attracts</text>
+<text x="175" y="176" font-size="12" fill="#712b13" text-anchor="middle">grid: bosonic crowding (§31)</text>
+<text x="175" y="198" font-size="12" fill="#712b13" text-anchor="middle">Genesis: waters under the firmament</text>
+<rect x="410" y="60" width="270" height="250" rx="10" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text x="545" y="86" font-size="14" font-weight="bold" fill="#085041" text-anchor="middle">Observer side (resistive)</text>
+<text x="545" y="110" font-size="12" fill="#085041" text-anchor="middle">forward strand F(+n), object beam</text>
+<text x="545" y="132" font-size="12" fill="#085041" text-anchor="middle">pure mode φⁿ/√5</text>
+<text x="545" y="154" font-size="12" fill="#085041" text-anchor="middle">outside atoms: space, electromagnetism</text>
+<text x="545" y="176" font-size="12" fill="#085041" text-anchor="middle">grid: fermionic exclusion (§31)</text>
+<text x="545" y="198" font-size="12" fill="#085041" text-anchor="middle">Genesis: waters above the firmament</text>
+<line x1="360" y1="50" x2="360" y2="320" stroke="#a32d2d" stroke-width="3"/>
+<text x="360" y="230" font-size="13" font-weight="bold" fill="#791f1f" text-anchor="middle">F(0) = 0</text>
+<text x="360" y="250" font-size="11" fill="#791f1f" text-anchor="middle">1/√5 − 1/√5</text>
+<text x="360" y="268" font-size="11" fill="#791f1f" text-anchor="middle">balance, not absence</text>
+<text x="360" y="286" font-size="11" fill="#791f1f" text-anchor="middle">2 = lim F(2t)/F(t)</text>
+<text x="175" y="246" font-size="12" fill="#444" text-anchor="middle">alone: a valid solution,</text>
+<text x="175" y="264" font-size="12" fill="#444" text-anchor="middle">not whole numbers</text>
+<text x="545" y="246" font-size="12" fill="#444" text-anchor="middle">alone: a valid solution,</text>
+<text x="545" y="264" font-size="12" fill="#444" text-anchor="middle">not whole numbers</text>
+<text x="360" y="345" font-size="12" fill="#222" text-anchor="middle">Mirror condition F(1) = F(−1) = 1 (p. 58) keeps only vacuum and Fibonacci = both strands together (§53–54).</text>
+<text x="360" y="365" font-size="11" fill="#777" text-anchor="middle">Side labels: Millington. Mode and grid labels: ours (math for the modes, interpretive for the sides).</text>
+</svg>

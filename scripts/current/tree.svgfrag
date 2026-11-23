@@ -1,0 +1,32 @@
+<line x1="366.8" y1="93.4" x2="433.2" y2="126.6" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="313.2" y1="93.4" x2="246.8" y2="126.6" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="340.0" y1="110.0" x2="340.0" y2="280.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="430.0" y1="140.0" x2="250.0" y2="140.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="460.0" y1="170.0" x2="460.0" y2="220.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="442.7" y1="164.5" x2="357.3" y2="285.5" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="220.0" y1="170.0" x2="220.0" y2="220.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="237.3" y1="164.5" x2="322.7" y2="285.5" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="430.0" y1="250.0" x2="250.0" y2="250.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="433.2" y1="263.4" x2="366.8" y2="296.6" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="460.0" y1="280.0" x2="460.0" y2="370.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="246.8" y1="263.4" x2="313.2" y2="296.6" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="220.0" y1="280.0" x2="220.0" y2="370.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="364.0" y1="328.0" x2="436.0" y2="382.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="316.0" y1="328.0" x2="244.0" y2="382.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="340.0" y1="340.0" x2="340.0" y2="430.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="430.0" y1="400.0" x2="250.0" y2="400.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="433.2" y1="413.4" x2="366.8" y2="446.6" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="441.3" y1="423.4" x2="358.7" y2="526.6" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="246.8" y1="413.4" x2="313.2" y2="446.6" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="238.7" y1="423.4" x2="321.3" y2="526.6" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<line x1="340.0" y1="490.0" x2="340.0" y2="520.0" stroke="var(--t)" stroke-width="0.8" opacity="0.55"/>
+<g class="c-teal"><circle cx="340" cy="80" r="30" stroke-width="0.5"/><text class="ts" x="340" y="80" text-anchor="middle" dominant-baseline="central">Keter</text></g>
+<g class="c-purple"><circle cx="460" cy="140" r="30" stroke-width="0.5"/><text class="ts" x="460" y="140" text-anchor="middle" dominant-baseline="central">Chokmah</text></g>
+<g class="c-purple"><circle cx="220" cy="140" r="30" stroke-width="0.5"/><text class="ts" x="220" y="140" text-anchor="middle" dominant-baseline="central">Binah</text></g>
+<g class="c-purple"><circle cx="460" cy="250" r="30" stroke-width="0.5"/><text class="ts" x="460" y="250" text-anchor="middle" dominant-baseline="central">Chesed</text></g>
+<g class="c-purple"><circle cx="220" cy="250" r="30" stroke-width="0.5"/><text class="ts" x="220" y="250" text-anchor="middle" dominant-baseline="central">Gevurah</text></g>
+<g class="c-teal"><circle cx="340" cy="310" r="30" stroke-width="0.5"/><text class="ts" x="340" y="310" text-anchor="middle" dominant-baseline="central">Tiferet</text></g>
+<g class="c-purple"><circle cx="460" cy="400" r="30" stroke-width="0.5"/><text class="ts" x="460" y="400" text-anchor="middle" dominant-baseline="central">Netzach</text></g>
+<g class="c-purple"><circle cx="220" cy="400" r="30" stroke-width="0.5"/><text class="ts" x="220" y="400" text-anchor="middle" dominant-baseline="central">Hod</text></g>
+<g class="c-teal"><circle cx="340" cy="460" r="30" stroke-width="0.5"/><text class="ts" x="340" y="460" text-anchor="middle" dominant-baseline="central">Yesod</text></g>
+<g class="c-teal"><circle cx="340" cy="550" r="30" stroke-width="0.5"/><text class="ts" x="340" y="550" text-anchor="middle" dominant-baseline="central">Malkuth</text></g>

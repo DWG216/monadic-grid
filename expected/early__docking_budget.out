@@ -1,0 +1,14 @@
+causal window (first spike -> polar body, ~2.5 h)
+   fast (10 min)      spikes 15 | bits: optimistic 57.8 | median 28.6 | pessimistic 12.2
+   typical (22.5 min) spikes  6 | bits: optimistic 23.1 | median 11.4 | pessimistic 4.9
+   slow (35 min)      spikes  4 | bits: optimistic 15.4 | median 7.6 | pessimistic 3.2
+whole train (-> pronuclei, ~10.5 h)
+   fast (10 min)      spikes 63 | bits: optimistic 242.9 | median 120.0 | pessimistic 51.2
+   typical (22.5 min) spikes 28 | bits: optimistic 107.9 | median 53.3 | pessimistic 22.7
+   slow (35 min)      spikes 18 | bits: optimistic 69.4 | median 34.3 | pessimistic 14.6
+control: sigma = R -> 0.058 bits per interval; sigma = 10R -> 0.0006
+sperm choice (not addressable, precedes signal): 7.6-9.0 bits
+demonstrated readout (Ozil 2006: too few / normal / too many oscillation regimes): log2(3) = 1.6 bits (generous upper ~ log2(16) = 4)
+B1 causal min capacity 3.2 bits (need >1)
+B2 causal >=23 only for: [('fast (10 min)', 'optimistic 0.5 min'), ('fast (10 min)', 'median 2 min'), ('typical (22.5 min)', 'optimistic 0.5 min')]
+B3 whole train, typical spacing, median jitter: 53.3 bits (need >23)

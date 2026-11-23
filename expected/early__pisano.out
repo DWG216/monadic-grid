@@ -1,0 +1,7 @@
+pi/alpha takes values: [1, 2, 4]
+Wall's question pi(p^2) = p*pi(p) for all primes < 2000: True (checked first 120 primes)
+modular group mod 2: 6 elements (dihedral S3) | Fibonacci step Q^2 has order 3 there | Pisano period mod 2 = 3
+modular group mod 3: 12 elements (tetrahedral A4) | Fibonacci step Q^2 has order 2 there | Pisano period mod 3 = 8
+modular group mod 4: 24 elements (octahedral S4) | Fibonacci step Q^2 has order 3 there | Pisano period mod 4 = 6
+modular group mod 5: 60 elements (icosahedral A5) | Fibonacci step Q^2 has order 5 there | Pisano period mod 5 = 20
+cat map [[2,1],[1,1]] returns a picture of N x N pixels after: {10: 30, 59: 29, 101: 25, 128: 96, 250: 750}

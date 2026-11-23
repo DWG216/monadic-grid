@@ -1,0 +1,17 @@
+G1 direct zeros of L(s,chi5): [26.7761 28.461  29.7079 33.0005 34.7288 35.8686 38.1292 39.5606 41.8424
+ 44.0313 45.4273 46.4927 48.3457 51.0878 52.1259 53.8304 55.5893 56.8389]
+   operator from the primes:   [26.7205 28.4515 29.7069 33.0004 34.7288 35.8686 38.1292 39.5606 41.8424
+ 44.0313 45.4273 46.4927 48.3457 51.0877 52.1257 53.8302 55.5968 56.9506]
+G1 12 zeros in [30,53]: max distance 0.00017; positivity 9.0e-09 -> PASS
+G2 null (no character): 0/12 matched -> PASS
+X1 primes up to 1: 0/9 within 0.01; max distance 0.55721
+X1 primes up to 10: 0/9 within 0.01; max distance 0.70107
+X1 primes up to 30: 9/9 within 0.01; max distance 0.00747
+X1 primes up to 100: 9/9 within 0.01; max distance 0.00001
+X1 primes up to 300: 9/9 within 0.01; max distance 0.00000
+X1 primes up to 1000: 9/9 within 0.01; max distance 0.00000
+X1 primes up to 5000: 9/9 within 0.01; max distance 0.00000
+X1 -> PASS
+A1 pole term dropped: max shift 2.13e-14 -> PASS
+D1 eigenvector value at each zero: [ 0.    -0.    -0.     0.     0.002  1.     0.001 -0.    -0.     0.
+ -0.    -0.     0.     0.     0.   ]

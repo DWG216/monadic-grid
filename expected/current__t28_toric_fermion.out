@@ -1,0 +1,7 @@
+F0 max |<A_v>-1|, |<B_p>-1| (np.float64(0.0), np.float64(0.0))
+F1 Z-loop with m inside -1.0
+F1 Z-loop without 1.0
+F2 overlap e 1.0
+F2 overlap m 1.0
+F2 overlap eps -1.0
+F3 null random overlaps [1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0]

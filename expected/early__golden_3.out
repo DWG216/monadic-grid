@@ -1,0 +1,15 @@
+=== TEST 3. Tank ===
+  qubit t=0.0: E=1.000 B=0.000 | E^2+B^2 (<+|+>) = 1.0000 | cross <-|+> = 1.0000 | cos 2wt = 1.0000
+  qubit t=0.4: E=0.921 B=0.389 | E^2+B^2 (<+|+>) = 1.0000 | cross <-|+> = 0.6967 | cos 2wt = 0.6967
+  qubit t=0.8: E=0.697 B=0.717 | E^2+B^2 (<+|+>) = 1.0000 | cross <-|+> = -0.0292 | cos 2wt = -0.0292
+  qubit t=1.2: E=0.362 B=0.932 | E^2+B^2 (<+|+>) = 1.0000 | cross <-|+> = -0.7374 | cos 2wt = -0.7374
+  chain: reflection R flips the chiral term (R C R = -C): True
+  reflection-symmetric start (ground state), mirror-symmetric? True
+    lam=0.0  hand fidelity |<-|+>|^2: min 1.0000 mean 1.0000 | peak freq: cross-hand 0.000 , single-hand observable 1.021
+    lam=0.1  hand fidelity |<-|+>|^2: min 1.0000 mean 1.0000 | peak freq: cross-hand 0.000 , single-hand observable 1.021
+    lam=0.3  hand fidelity |<-|+>|^2: min 1.0000 mean 1.0000 | peak freq: cross-hand 0.000 , single-hand observable 1.021
+  asymmetric real start, mirror-symmetric? False
+    lam=0.0  hand fidelity |<-|+>|^2: min 1.0000 mean 1.0000 | peak freq: cross-hand 0.000 , single-hand observable 1.021
+    lam=0.1  hand fidelity |<-|+>|^2: min 0.6587 mean 0.7537 | peak freq: cross-hand 0.314 , single-hand observable 1.021
+    lam=0.3  hand fidelity |<-|+>|^2: min 0.6587 mean 0.7484 | peak freq: cross-hand 0.942 , single-hand observable 1.021
+    small-lam scaling of 1-fidelity at t=3:  [0.00493  0.019346 0.071743]  ratios [3.924 3.708]  (4 = quadratic)

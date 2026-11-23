@@ -1,0 +1,7 @@
+--- p.204 winding: Ltot grey=2.668 uH, f_sr=56.7 MHz, S1={'Lsym': np.float64(8.794851995142734e-17), 'Csym': np.float64(5.540433453107679e-16), 'Lpd': np.True_, 'Cpd': np.True_}, S2 max=2.29e-12
+best match to (-2,4): f=677.8 MHz, r1=-1.400, r2=3.353, f/f_sr=11.945
+frequencies meeting Q1 (MHz): []
+{'S1': np.True_, 'S2': np.True_, 'Q1': False, 'Q2': False, 'Q3': False}
+--- control plain toroid: Ltot grey=1.122 uH, f_sr=133.7 MHz, S1={'Lsym': np.float64(4.025371331872923e-17), 'Csym': np.float64(3.188058100237544e-16), 'Lpd': np.True_, 'Cpd': np.True_}, S2 max=2.87e-13
+best match to (-2,4): f=677.8 MHz, r1=-1.604, r2=4.873, f/f_sr=5.069
+frequencies meeting Q1 (MHz): []

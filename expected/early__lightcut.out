@@ -1,0 +1,21 @@
+aether chirality lam=+0.10 ; conjugate shadow = -0.10 ; region = 81 sites (both sides)
+beta= 1.0
+   fixed-time (flat)        best shadow -0.1000  drift 0.0000  | residual at best 0.0074 vs same-hand 0.0801 (contrast 10.8x)
+   light-cone (diamond)     best shadow -0.1000  drift 0.0000  | residual at best 0.0072 vs same-hand 0.0801 (contrast 11.1x)
+   control: random smooth   best shadow -0.0999  drift 0.0001  | residual at best 0.0168 vs same-hand 0.0813 (contrast 4.8x)
+   control: inverted        best shadow -0.0975  drift 0.0025  | residual at best 0.0665 vs same-hand 0.1038 (contrast 1.6x)
+beta= 2.0
+   fixed-time (flat)        best shadow -0.0997  drift 0.0003  | residual at best 0.0163 vs same-hand 0.0553 (contrast 3.4x)
+   light-cone (diamond)     best shadow -0.1000  drift 0.0000  | residual at best 0.0139 vs same-hand 0.0547 (contrast 3.9x)
+   control: random smooth   best shadow -0.0996  drift 0.0004  | residual at best 0.0240 vs same-hand 0.0580 (contrast 2.4x)
+   control: inverted        best shadow -0.0832  drift 0.0168  | residual at best 0.1621 vs same-hand 0.1705 (contrast 1.1x)
+beta= 5.0
+   fixed-time (flat)        best shadow -0.0947  drift 0.0053  | residual at best 0.0234 vs same-hand 0.0302 (contrast 1.3x)
+   light-cone (diamond)     best shadow -0.1001  drift 0.0001  | residual at best 0.0117 vs same-hand 0.0224 (contrast 1.9x)
+   control: random smooth   best shadow -0.0992  drift 0.0008  | residual at best 0.0193 vs same-hand 0.0272 (contrast 1.4x)
+   control: inverted        best shadow -0.0479  drift 0.0521  | residual at best 0.1686 vs same-hand 0.1705 (contrast 1.0x)
+beta=10.0
+   fixed-time (flat)        best shadow -0.0675  drift 0.0325  | residual at best 0.0243 vs same-hand 0.0254 (contrast 1.0x)
+   light-cone (diamond)     best shadow -0.0997  drift 0.0003  | residual at best 0.0067 vs same-hand 0.0099 (contrast 1.5x)
+   control: random smooth   best shadow -0.0886  drift 0.0114  | residual at best 0.0181 vs same-hand 0.0197 (contrast 1.1x)
+   control: inverted        best shadow -0.0208  drift 0.0792  | residual at best 0.1241 vs same-hand 0.1250 (contrast 1.0x)

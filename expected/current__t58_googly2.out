@@ -1,0 +1,8 @@
+k = 1 {'A1': True, 'A2': (True, True, True), 'A3': True, 'A4': None}
+k = 2 {'A1': True, 'A2': (True, True, True), 'A3': True, 'A4': True}
+k = 3 {'A1': True, 'A2': (True, True, True), 'A3': True, 'A4': True}
+k = 4 {'A1': True, 'A2': (True, True, True), 'A3': True, 'A4': True}
+B1 same degree class for helicity h: {-2.0: True, -1.5: False, -1.0: False, -0.5: False, 0.0: True, 0.5: False, 1.0: False, 1.5: False, 2.0: True}
+B2 (True, True)
+B3 curve sizes, twistor-point multiplicities: ({10}, {81})
+B4 flat null counts {800}  deformed null counts [800]  x with changed null set: 0 /20

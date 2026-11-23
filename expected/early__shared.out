@@ -1,0 +1,12 @@
+S1/S2 fidelity vs overlap fraction f (agreed phases | random phases on shared waves)
+   f=0.00: 0.214 | 0.176
+   f=0.25: 0.275 | 0.194
+   f=0.50: 0.527 | 0.201
+   f=0.75: 0.767 | 0.232
+   f=1.00: 1.008 | 0.254
+S3: 20 monads with a phase-agreed core of c wavevectors
+   c= 0: mean cross-reading fidelity 0.184
+   c=10: mean cross-reading fidelity 0.315
+   c=20: mean cross-reading fidelity 0.521
+   c=30: mean cross-reading fidelity 0.533
+   c=40: mean cross-reading fidelity 0.981

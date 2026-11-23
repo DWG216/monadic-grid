@@ -1,0 +1,10 @@
+# Pre-registration (2026-11-22, 05:35): Einstein's equations at twistor level, what can be checked (record §76)
+Twistor space = the space of light rays (complexified); a point x of spacetime is a line of twistors Z = (i x.pi, pi).
+E1 [identity, linearised gravity, one hand] For a twistor function f homogeneous of degree -6, psi_k(x) = (1/2 pi i) contour-integral of zeta^k f(i x.pi, pi) d zeta (pi = (1, zeta), k = 0..4) is a helicity-2 field: d_(A0') psi_(k+1) - d_(A1') psi_k = 0 for A = 0, 1 and k = 0..3 (the linearised vacuum Bianchi identities = weak-field Einstein, self-dual hand), and each psi_k solves the wave equation. f = 1/((alpha.Z)^3 (beta.Z)^3), random alpha, beta (seed 20261122), 20 random complex points x; finite differences. Pass: residuals below 1e-6 of the size of the terms.
+E1-null: the same integral with scrambled weights zeta^(2k) in place of zeta^k fails (residual above 1e-2).
+E2 [identity, nonlinear, one hand] Penrose's nonlinear graviton: anti-self-dual vacuum metrics = deformed twistor spaces; in spacetime terms a Kahler potential K with det(d_i d_jbar K) = 1 (Plebanski's heavenly equation; Ricci-flat and half-flat). Eguchi-Hanson: K(u) = sqrt(u^2 + a^4) + a^2 ln(u / (a^2 + sqrt(u^2 + a^4))), u = |z1|^2 + |z2|^2: det = 1 at 20 random points to 1e-5 (finite differences).
+E2-null: K + 0.05 u^2 has a determinant that varies (spread above 1e-2).
+Not testable here [M, status]: the full equations need both hands at once (the googly problem); no non-perturbative twistor description is known; perturbative ones exist (expansion around the self-dual sector; Sharma's twistor action 2021).
+
+## Results (twistor.log, twistor_posthoc.log)
+E1 field equations PASS (max relative residual 2.2e-9). E1 wave equation FAIL as registered (1.9e-3 against a 1e-6 threshold). Post hoc (labelled): the residual falls as the step squared (6.2e-4, 1.6e-4, 3.9e-5, 9.7e-6 for h = 4e-3 .. 5e-4), so it is finite-difference error on second derivatives; the threshold was too tight for the method. E1-null PASS (residuals 0.7-1.9). E2 PASS (det between 0.9999996 and 1.0000039). E2-null PASS (det 1.48-5.33).

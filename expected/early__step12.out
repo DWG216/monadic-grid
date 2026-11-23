@@ -1,0 +1,11 @@
+=== STEP 1: propagate the two hands along a light ray (vacuum Sachs + Bianchi, principal ray) ===
+  real ray (twist real, both hands see the same real ray)    relative mismatch hand- vs conj(hand+) at r=[3.0, 8.4, 13.8, 19.2, 24.6, 30.0]: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  complexified ray (hand- sees a different twist)            relative mismatch hand- vs conj(hand+) at r=[3.0, 8.4, 13.8, 19.2, 24.6, 30.0]: [0.357468, 0.114818, 0.068064, 0.048345, 0.03748, 0.030601]
+
+=== STEP 2: light (shape) + hbar (size) -> Einstein, Jacobson-style ===
+  focusing = heat flow along ALL light directions fixes 9 of 10 components (remaining 1 = multiple of the metric -> cosmological constant)
+  energy balance for ONE observer (time direction only) fixes 1 of 10
+  the undetermined direction is proportional to the metric: True
+  hbar=1       Unruh T=0.05889, entropy change=-0.525, heat T*dS=-0.030916  (hbar-free)
+  hbar=0.001   Unruh T=5.889e-05, entropy change=-525, heat T*dS=-0.030916  (hbar-free)
+  hbar=1000    Unruh T=58.89, entropy change=-0.000525, heat T*dS=-0.030916  (hbar-free)

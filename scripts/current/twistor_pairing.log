@@ -1,0 +1,4 @@
+T1 real points: max |Sigma| = 1.8e-15 -> PASS
+T2 forward tube Sigma < 0: True ; backward tube Sigma > 0: True -> PASS
+T3 lines meet iff x - y null: PASS
+T4 Upsilon f / f = -6 to 1.7e-09; helicity s = -(-6+2)/2 = +2 -> PASS

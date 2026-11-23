@@ -1,0 +1,5 @@
+loops-only M(k) uH [np.float64(2.9019), np.float64(2.2931), np.float64(2.2931), np.float64(2.9019), np.float64(2.2931), np.float64(2.2931), np.float64(2.9019), np.float64(2.2931), np.float64(2.2931)]
+loops-only period-3 dev 2.918934760033479e-16
+loops-only |M1-M2|/M1 1.8469351564016209e-16
+runs and cross terms M(k) uH [np.float64(0.4963), np.float64(0.3225), np.float64(0.2904), np.float64(0.2597), np.float64(0.2245), np.float64(0.2198), np.float64(0.2417), np.float64(0.2641), np.float64(0.2955)]
+loops-only counter-wound M(0) uH -2.9019

@@ -1,0 +1,8 @@
+R1 jumps [1, 2, 4, -1, -2, -4]
+R1 net advance per block 0
+M(k) uH, k=0..8 [np.float64(3.3982), np.float64(2.6155), np.float64(2.5834), np.float64(3.1615), np.float64(2.5176), np.float64(2.5129), np.float64(3.1436), np.float64(2.5571), np.float64(2.5885)]
+R2 max |M(k)-M(k+3)|/|M| 0.06963447387564652
+R3 |M1-M2|/|M1| 0.012272727366276178
+R4 counter-wound M(0), M(1) uH [np.float64(-2.4056), np.float64(-1.9706)]
+L (uH, thin-wire proxy) 4.4868
+R5 coupling M(0)/L 0.7573616713629016

@@ -1,0 +1,6 @@
+triangle slice (k=7): P1 single edge K = 1.000 PASS; P2 parity K = 23.70 PASS
+  R1 K(triangle) = 8.87 vs K(degree>=4) = 14.57 -> FAIL
+  R2 null: min 9.93, median 20.45, max 39.01; clique percentile 0.00 -> PASS; K/15 = 0.59
+4-clique slice (k=8): P1 single edge K = 1.000 PASS; P2 parity K = 23.70 PASS
+  R1 K(4-clique) = 6.88 vs K(degree=5) = 5.35 -> PASS
+  R2 null: min 9.05, median 24.65, max 36.43; clique percentile 0.00 -> PASS; K/15 = 0.46

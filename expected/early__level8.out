@@ -1,0 +1,13 @@
+L1 two-step growth of path-space dimension (n=40 -> 42) vs d^2:
+   k=2 ratio 2.0000 | d^2 = 2.0000
+   k=4 ratio 3.0000 | d^2 = 3.0000
+   k=8 ratio 3.6180 | d^2 = 3.6180
+L2:
+   k=8 n=3: all words length<=6 have finite order
+   k=8 n=4: INFINITE-ORDER word found: s1s1s2s2s3 (phase ratio 0.5589700133)
+   k=8 n=5: INFINITE-ORDER word found: s1s1s2s2s3 (phase ratio 0.5589700133)
+   k=8 n=6: INFINITE-ORDER word found: s1s1s2s2s3 (phase ratio 0.5589700133)
+   k=4 n=5: all words length<=6 have finite order
+   k=4 n=6: all words length<=6 have finite order
+   k=2 n=6: all words length<=6 have finite order
+L3 level 8, 4 strands: <s1,s2> order 600 | <s1,s2,s3> order >30000

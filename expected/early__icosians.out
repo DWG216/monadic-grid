@@ -1,0 +1,3 @@
+unit icosians: 120  all norm 1: True
+closed under quaternion multiplication (a group of order 120): False
+ordered pairs that do not commute: 13320 of 14400

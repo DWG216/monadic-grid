@@ -1,0 +1,7 @@
+S1 {'n_roots': 240, 'highest': (np.int64(2), np.int64(3), np.int64(4), np.int64(6), np.int64(5), np.int64(4), np.int64(3), np.int64(2)), 'label3_nodes': {'node2': {'fixed': 80, 'w': 84, 'w2': 84}, 'node7': {'fixed': 86, 'w': 81, 'w2': 81}}, 'chosen': 'node7', 'pass_': True}
+G1 {'w_equals_minus_w2': True, 'net_chiral_index': 0, 'pass_': True}
+G2 {'zero_pairs': 0, 'pass_': True}
+G3 {'SU3cubed': np.float64(0.0), 'SU3sq_Y': 0.0, 'SU2sq_Y': 0.0, 'Y3': 0.0, 'grav_Y': 0.0, 'n_doublets': 6, 'pass_': True}
+G4 {'psi_charges': {np.float64(-2.0): 10, np.float64(1.0): 16, np.float64(4.0): 1}, 'n_odd': 16, 'Z16_one_27': 0, 'Z16_mirror': 0, 'pass_': True}
+G5 {'family_SU3_cubic_anomaly_mirror': 27, 'family_SU3_cubic_anomaly_visible': -27, 'nonzero': True}
+C1 {'n': 15, 'Z16': 15, 'pass_': True}

@@ -1,0 +1,7 @@
+digital roots F1..F24: [1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9]
+repeats with period 24: True
+n and n+12 sum to 9 (or both 9): 12 /12
+last-digit cycle (mod 10): 60  mod 2: 3  mod 5: 20
+24-cell vertices (perms of +-1,+-1,0,0): 24
+slice w=0: 12  w=+1: 6  w=-1: 6
+antipodal pairs: 12  each vertex neighbours at distance sqrt2: 8

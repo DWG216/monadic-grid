@@ -1,0 +1,10 @@
+Kerr r=3.51: quadratic angle fit: slope -0.0753/-0.0753, curvature +0.0015/+0.0012; order-4 shape coefficient over 6 fit choices: future -0.000770..-0.000679, past -0.000748..-0.000681
+Kerr r=5.61: quadratic angle fit: slope -0.0036/-0.0037, curvature +0.0015/-0.0022; order-4 shape coefficient over 6 fit choices: future +0.000344..+0.000364, past +0.000330..+0.000366
+Kerr r=4.30: quadratic angle fit: slope -0.0202/-0.0201, curvature +0.0055/-0.0083; order-4 shape coefficient over 6 fit choices: future +0.000725..+0.000809, past +0.000624..+0.000832
+Kerr r=3.83: quadratic angle fit: slope -0.0398/-0.0398, curvature +0.0089/-0.0113; order-4 shape coefficient over 6 fit choices: future +0.000795..+0.000803, past +0.000765..+0.000898
+Kerr r=5.04: quadratic angle fit: slope +0.0270/+0.0270, curvature -0.0012/+0.0003; order-4 shape coefficient over 6 fit choices: future -0.000030..-0.000029, past -0.000030..-0.000024
+Kerr r=4.71: quadratic angle fit: slope -0.0190/-0.0189, curvature +0.0038/-0.0049; order-4 shape coefficient over 6 fit choices: future +0.000299..+0.000311, past +0.000306..+0.000313
+Schwarzschild r=3.82: order-4 shape coefficient over 6 fit choices: future -0.000354..-0.000329, past -0.000343..-0.000333
+Schwarzschild r=5.43: order-4 shape coefficient over 6 fit choices: future +0.000067..+0.000075, past +0.000047..+0.000082
+Schwarzschild r=5.60: order-4 shape coefficient over 6 fit choices: future +0.000056..+0.000091, past +0.000074..+0.000089
+Schwarzschild r=3.98: order-4 shape coefficient over 6 fit choices: future +0.000734..+0.001091, past +0.000919..+0.001021

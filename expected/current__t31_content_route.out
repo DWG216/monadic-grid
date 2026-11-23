@@ -1,0 +1,5 @@
+N1 total chirality per model [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+N1 node counts [6, 6, 4, 0, 8, 8, 0, 2, 4, 6, 6, 6, 6, 4, 4, 4, 8, 4, 4, 2]
+N1 pass True
+N2 count, +, - (16, 8, 8)
+N3 fraction degenerate (N=2,4,6,8) {2: 1.0, 4: 1.0, 6: 1.0, 8: 0.0}

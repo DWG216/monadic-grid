@@ -1,0 +1,5 @@
+zeros found up to t=400: 201  first five [14.1372 21.0244 25.0184 30.4276 32.9326]
+expected count to 400: 201.6
+K=  5 zeros: mean |error| vs true psi on [2,60] = 0.671
+K= 30 zeros: mean |error| vs true psi on [2,60] = 0.376
+K=201 zeros: mean |error| vs true psi on [2,60] = 0.135

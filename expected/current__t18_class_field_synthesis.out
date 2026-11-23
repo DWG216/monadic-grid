@@ -1,0 +1,10 @@
+H1 1+sqrt-5=(1+i)alpha True
+H1 1-sqrt-5=(1-i)beta True
+H1 2=(1+i)(1-i) True
+H1 3=alpha*beta True
+H2 alpha integral, norm (True, Fraction(9, 1), [1, Fraction(-2, 1), Fraction(2, 1), Fraction(-6, 1), Fraction(9, 1)])
+H2 beta integral, norm (True, Fraction(9, 1), [1, Fraction(-2, 1), Fraction(2, 1), Fraction(-6, 1), Fraction(9, 1)])
+H2 1+i integral, norm (True, 4, [1, -4, 8, -8, 4])
+H2 1-i integral, norm (True, 4, [1, -4, 8, -8, 4])
+H3 same atoms True
+C1 conj phi fails True

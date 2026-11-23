@@ -1,0 +1,8 @@
+P1 sparse ln2: 56.75 vs null95 2.61
+P1 sparse ln3: 29.14 vs null95 2.48
+P1 sparse ln3/2: 33.19 vs null95 2.92
+P2 fake sparse ln2: 0.74 vs null95 3.39
+P2 fake sparse ln3: 0.04 vs null95 2.55
+P2 fake sparse ln3/2: 0.25 vs null95 3.03
+P1 PASS ; P2 PASS
+P3 pipeline 1/rho: 16/16 prime-power jumps negative, ratio 4.44 PASS

@@ -1,0 +1,5 @@
+m1 = 0.365 meV, m2 = 8.67 meV, m3 = 50.13 meV
+pole M_R1, M_R2, M_R3 (GeV): 1.28e+07 1.86e+11 5.94e+14
+high-scale M_R1, M_R2, M_R3 (GeV): 6.85e+05 7.21e+09 1.28e+14
+g = 0.4  M(Zpsi) ~ g*2*M_R3 = 4.8e+14 - 1.0e+14 GeV (with v_psi = M_R3)
+g = 0.5  M(Zpsi) ~ g*2*M_R3 = 5.9e+14 - 1.3e+14 GeV (with v_psi = M_R3)

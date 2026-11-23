@@ -1,0 +1,16 @@
+Q1. 4D rotations from two quaternion spheres
+   v -> p v q* is always a rotation (orthogonal, det 1): True
+   turning only p:  self-dual moves 2.973, anti-self-dual moves 4.5e-16
+   turning only q:  self-dual moves 1.9e-17, anti-self-dual moves 3.830
+Q2. Lorentzian: one complex sphere and its mirror
+   O is a complex rotation (O O^T = 1): True | O is not real (genuine boost): True
+   after the transformation, hand - is still the mirror of hand +: True
+   invariant of each hand alone, tr(Q^2), unchanged: True
+Q3. Sky readings are squares of spinors
+   z=(0.3+0.8j): spinor-square / v(z) = [1.+0.j 1.-0.j 1.-0.j] (constant ratio -> same null direction)
+   z=(-1.2+0.1j): spinor-square / v(z) = [1.-0.j 1.+0.j 1.+0.j] (constant ratio -> same null direction)
+   z=(2-0.5j): spinor-square / v(z) = [1.-0.j 1.+0.j 1.-0.j] (constant ratio -> same null direction)
+   phase kappa -> e^{ia} kappa multiplies the quartic by e^{4ia}: True
+Q4. Is the quaternion sphere self-mirrored? (S M = conj(M) S for all M)
+   unit quaternions (SU(2)): solutions = 1 | check sigma_y works: True
+   general Lorentz (SL(2,C)): solutions = 0

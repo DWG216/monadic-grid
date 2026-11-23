@@ -1,0 +1,5 @@
+B1 band lemma on 2000 random circuits: PASS
+B4 nonempty cells (mean, max) by t: {1: (2.0, 2, 2), 2: (3.42, 4, 4), 3: (5.11, 8, 8), 4: (6.94, 16, 16)}
+B2 pseudo-complement identity and Berkowitz replacement: PASS
+B3 positive-test weights [3] negative-test weights [4, 6] shared slices: [] ; all negatives triangle-free: True
+B3 graphs by weight [triangle-free, with triangle]: {0: [1, 0], 1: [10, 0], 2: [45, 0], 3: [110, 10], 4: [140, 70], 5: [72, 180], 6: [10, 200], 7: [0, 120], 8: [0, 45], 9: [0, 10], 10: [0, 1]}

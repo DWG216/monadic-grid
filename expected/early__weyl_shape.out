@@ -1,0 +1,5 @@
+(a) |Riemann|^2 = 8.796096   |W+|^2+|W-|^2 (x1/4 norm.) = 2.199024  -> hands add, no cross term
+(b) tidal part E is the sum of the two hands: True  | twist part B too: True
+    one hand alone has |E|=|B| (self-dual): True True
+(c) over 6 observers: E.E+B.B ranges 1.099512..1.099512 (constant) ; E.E-B.B ranges -0.6805..0.3923 (observer-dependent)
+(d) only one hand present: E.E-B.B over 6 observers = [-0.  0.  0. -0. -0. -0.]  -> cross term needs both hands

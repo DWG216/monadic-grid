@@ -1,0 +1,13 @@
+Non-commuting: Q^2 and a differently-directed golden boost
+  traces: [3, 3, 6, 15, 87, 1299, 112998, 146784315, 16586334025071] ...
+  invariant along sequence (all equal?): True value -2 | tr(A B A^-1 B^-1) = -2
+  digits in last trace: 147
+Non-commuting: modular-group generators
+  traces: [2, 2, 3, 4, 10, 37, 366, 13532, 4952675] ...
+  invariant along sequence (all equal?): True value 3 | tr(A B A^-1 B^-1) = 3
+  digits in last trace: 75
+Commuting control: Q^2 and Q^4 (Millington flat case)
+  traces: [7, 3, 18, 47, 843, 39603, 33385282, 1322157322203, 44140595050111976643] ...
+  invariant along sequence (all equal?): True value 2 | tr(A B A^-1 B^-1) = 2
+  digits in last trace: 218
+det signs with M0=I, M1=Q: [1, -1, -1, 1, -1, -1, 1, -1, -1, 1, -1, -1]

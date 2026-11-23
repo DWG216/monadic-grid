@@ -1,0 +1,12 @@
+R1 K=0.1: locked fraction 0.456
+R1 K=0.5: locked fraction 0.548
+R1 K=1.0: locked fraction 0.851
+R2 widths at K=1: {'0/1': np.float64(0.1592), '1/2': np.float64(0.074), '1/3': np.float64(0.0305), '2/5': np.float64(0.0102), '3/8': np.float64(0.0037)}
+R2 golden rotation reached at K=0.5, W=0.385481
+R2 golden rotation reached at K=0.9, W=0.391618
+R2 golden rotation reached at K=0.99, W=0.393169
+R3 N=50 [np.float64(0.131), np.float64(0.147), np.float64(0.159), np.float64(0.352), np.float64(0.21), np.float64(0.616), np.float64(0.625), np.float64(0.728), np.float64(0.858)]
+R3 N=200 [np.float64(0.085), np.float64(0.109), np.float64(0.096), np.float64(0.38), np.float64(0.526), np.float64(0.58), np.float64(0.645), np.float64(0.783), np.float64(0.799)]
+R3 N=2000 [np.float64(0.021), np.float64(0.025), np.float64(0.035), np.float64(0.057), np.float64(0.446), np.float64(0.567), np.float64(0.707), np.float64(0.765), np.float64(0.803)]
+R3 theory [np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.447), np.float64(0.577), np.float64(0.707), np.float64(0.775), np.float64(0.816)]
+null signs K=2, N=2000: 0.013 1/sqrtN= 0.022

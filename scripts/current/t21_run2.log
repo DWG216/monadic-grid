@@ -1,0 +1,12 @@
+N0 True
+N1 windings True
+N1 monotone True
+N2 windings True
+N2 corr monotone down True
+N3 symmetry True
+G1 sanity max 8.882868333007365e-16
+G1 null check |k.k| 3.552713678800501e-15
+G1 ratio mean, rel spread (3.999999999999994, 6.752073043445127e-15)
+G1 min T 0.005358424445983841
+G2 one hand |T|/|C|^2 0.0
+G2 both hands |T|/|C|^2 (ref) 181.19715766563084

@@ -1,0 +1,6 @@
+slice points 252 levels 5
+control: degree-3 monomial, variance share by level: [0.350649 0.454545 0.194805 0.       0.      ]
+triangle slice: density 0.7142857142857143 iso classes 6 weights [0.     0.35   0.5833 0.0667 0.    ] mean level 2.717
+triangle is class-invariant: True
+invariant null mean level: 5th 2.6 median 3.222 95th 4.0
+unstructured random: median 3.47

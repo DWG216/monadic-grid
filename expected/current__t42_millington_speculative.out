@@ -1,0 +1,5 @@
+Moon/Earth mass ratio 1/x, x = 81.34023426859167   3^4 = 81   3^3 = 27
+sidereal month (days) 27.3217 vs 27; synodic 29.5306 vs L(7)=29
+Fibonacci mod 29: period 14 ; mod 13 zeros at [0, 7, 14, 21, 28, 35] (F(7)=13: zero every 7); mod 169 zeros [0, 91, 182, 273]
+Pisano periods: mod 9 -> 24  half -> 12 ; kissing numbers 2D 6, 3D 12, 4D 24
+sidereal days per year 366.2422 - 364 = 2.2422 ; solar 365.2422 - 364 = 1.2422

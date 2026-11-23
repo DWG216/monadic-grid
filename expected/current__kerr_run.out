@@ -1,0 +1,15 @@
+Kerr r=3.51: shape c2 0.03385/0.03385; c3 +0.00109/-0.00108; c4 -0.000691/-0.000698; w direct 0.05078 est 0.05078; area 2.4e-07; angle0 2.4874/0.6542 (sum 0.0001, off-rotation 0.054); slopes -0.0746/-0.0748
+Kerr r=5.61: shape c2 0.00881/0.00881; c3 -0.00221/+0.00221; c4 +0.000360/+0.000366; w direct 0.01322 est 0.01322; area 8.9e-08; angle0 2.3523/0.7893 (sum 0.0000, off-rotation 0.189); slopes -0.0030/-0.0047
+Kerr r=4.30: shape c2 0.01009/0.01009; c3 -0.00344/+0.00343; c4 +0.000792/+0.000832; w direct 0.01513 est 0.01513; area -1.5e-07; angle0 2.1053/1.0364 (sum 0.0001, off-rotation 0.436); slopes -0.0178/-0.0239
+Kerr r=3.83: shape c2 0.02465/0.02465; c3 -0.00595/+0.00596; c4 +0.000801/+0.000765; w direct 0.03698 est 0.03698; area -2.0e-07; angle0 2.1990/0.9427 (sum 0.0001, off-rotation 0.343); slopes -0.0358/-0.0449
+Kerr r=5.04: shape c2 0.01177/0.01177; c3 +0.00135/-0.00135; c4 -0.000029/-0.000030; w direct 0.01766 est 0.01766; area -1.5e-07; angle0 2.7274/0.4142 (sum 0.0000, off-rotation 0.186); slopes +0.0264/+0.0272
+Kerr r=4.71: shape c2 0.00627/0.00627; c3 -0.00177/+0.00177; c4 +0.000311/+0.000307; w direct 0.00941 est 0.00941; area 3.8e-07; angle0 2.3121/0.8295 (sum 0.0000, off-rotation 0.230); slopes -0.0173/-0.0211
+Schwarzschild r=3.82: shape c2 0.03542/0.03542; c3 +0.00165/-0.00165; c4 -0.000331/-0.000335
+Schwarzschild r=5.43: shape c2 0.00085/0.00085; c3 -0.00030/+0.00030; c4 +0.000074/+0.000082
+Schwarzschild r=5.60: shape c2 0.00101/0.00101; c3 +0.00034/-0.00034; c4 +0.000091/+0.000083
+Schwarzschild r=3.98: shape c2 0.01299/0.01298; c3 +0.00439/-0.00441; c4 +0.001091/+0.001003
+K1 Kerr vacuum: PASS
+K2 conjugate shear: PASS (not forced in 6 of 6)
+K3 equal rotation: FAIL
+K4 order 3 odd: PASS
+K5 order 4 even: FAIL

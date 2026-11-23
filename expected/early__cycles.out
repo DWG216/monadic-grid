@@ -1,0 +1,13 @@
+payoff matrix (row vs column) ALLC ALLD TFT:
+ [[2.98 0.07 2.93]
+ [4.88 1.06 1.89]
+ [3.01 0.85 2.94]]
+
+ k | mean coop cycles 21-30 | lag-1 correlation | share of histories ending cooperative (>0.5)
+ 0 | 0.931 | -0.00 | 1.00
+ 1 | 0.941 | 0.03 | 1.00
+ 2 | 0.941 | -0.04 | 1.00
+ 4 | 0.941 | -0.03 | 1.00
+ 8 | 0.941 | 0.05 | 1.00
+
+k=0 single-cycle spread: min 0.029 max 0.941

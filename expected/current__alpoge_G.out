@@ -1,0 +1,4 @@
+G1 max |G-log2pi|/sqrt x = 0.0183 at x = 5607170; G2 >0.02: False
+G3 max G/sqrt x for x>=1e3 = 0.0636; all G<=sqrt x: True
+sample: [(100, 1.722), (1012, 1.458), (10234, 2.094), (103532, 5.499), (1047371, 8.32)]
+N1 Cramer max ratio = 1234.7530

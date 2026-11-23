@@ -1,0 +1,2 @@
+eps=0.003 GATED: times=[np.float64(5.4), np.float64(5.8), np.float64(5.8), np.float64(6.4), np.float64(6.5)]... agreement in 20/20; median final r = 1.0000; median time to agree = 7.5 cycles
+eps=0.003 UNGATED: times=[]... agreement in 0/20; median final r = 0.3712; median time to agree = nan cycles

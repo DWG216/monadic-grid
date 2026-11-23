@@ -1,0 +1,21 @@
+B1a. Knill-Laflamme violation over all single-qubit error pairs: 1.11e-16  (0 = corrects any single error)
+code frame search: 5-fold axis z; second 5-fold axis at azimuth 0.00 deg -> total leak 1.2e-15
+icosahedron in code frame: 12 vertices, 20 face centres (dodecahedron vertices)
+
+5-fold (icosahedron vertex) target, 7-qubit icosahedral code:
+   input error 0.05 -> output error 0.0064 (better) | output purity |b| = 0.987 | success 0.211
+   input error 0.10 -> output error 0.0280 (better) | output purity |b| = 0.944 | success 0.148
+   input error 0.20 -> output error 0.1271 (better) | output purity |b| = 0.746 | success 0.072
+   input error 0.30 -> output error 0.2944 (better) | output purity |b| = 0.411 | success 0.036
+   input error 0.40 -> output error 0.4559 (worse) | output purity |b| = 0.088 | success 0.020
+   input error 0.50 -> output error 0.5000 (better) | output purity |b| = 0.000 | success 0.016
+   improves for input error up to 0.305
+
+3-fold (dodecahedron vertex) target, 7-qubit icosahedral code:
+   input error 0.05 -> output error 0.1136 (worse) | output purity |b| = 0.831 | success 0.170
+   input error 0.10 -> output error 0.1864 (worse) | output purity |b| = 0.675 | success 0.127
+   input error 0.20 -> output error 0.3158 (worse) | output purity |b| = 0.396 | success 0.069
+   input error 0.30 -> output error 0.4201 (worse) | output purity |b| = 0.172 | success 0.036
+   input error 0.40 -> output error 0.4855 (worse) | output purity |b| = 0.031 | success 0.020
+   input error 0.50 -> output error 0.5000 (better) | output purity |b| = 0.000 | success 0.016
+   improves for input error up to 0.000

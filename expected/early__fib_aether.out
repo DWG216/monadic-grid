@@ -1,0 +1,12 @@
+F1 Fibonacci: F^2=1 1.6e-16 | unitary 1.4e-17 2.4e-16 | Yang-Baxter 3.6e-16
+   fusion-space dims (total charge 1) for n = 2..12 tau anyons: [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+F2 distinct elements (up to phase) by word length 1..12:
+   Ising      [5, 15, 23, 24, 24, 24, 24, 24, 24, 24, 24, 24] 
+   Fibonacci  [5, 17, 42, 90, 184, 360, 690, 1314, 2488, 4698, 8862, 16704]
+F3 sigma1 relative phase = 1.4000 pi -> rotation angle 1.4000 pi, half-angle 0.3000 pi (7/10 = 0.7000)
+   f(n)=i^(n-1)sin(n th)/sin th at th=7pi/10, |f(n)| n=1..10: [1.0, 1.176, 0.382, 0.727, 1.236, 0.727, 0.382, 1.176, 1.0, 0.0]
+F4 Ising     states reached 24 | max M2 0.0000 (single-qubit max 0.5850) | distinct stabilizer states reached: 6 [(np.float64(0.0), np.float64(0.0), np.float64(1.0)), (np.float64(-0.0), np.float64(-1.0), np.float64(0.0)), (np.float64(-0.0), np.float64(1.0), np.float64(0.0)), (np.float64(1.0), np.float64(-0.0), np.float64(0.0)), (np.float64(-0.0), np.float64(-0.0), np.float64(-1.0)), (np.float64(-1.0), np.float64(0.0), np.float64(0.0))]
+F4 Fibonacci states reached 16704 | max M2 0.5848 (single-qubit max 0.5850) | distinct stabilizer states reached: 1 [(np.float64(0.0), np.float64(0.0), np.float64(1.0))]
+F5 Ising     max |eig| over j=1..40: 1.0000 at j=29 | min 0.5000 | #j above Ramanujan 0.866: 37
+F5 Fibonacci max |eig| over j=1..40: 0.9639 at j=21 | min 0.5000 | #j above Ramanujan 0.866: 34
+F6 D^2 = 1+phi^2 = 3.618034 ; 2+phi = 3.618034 ; phi*sqrt5 = 3.618034 ; gamma = ln D = 0.6430 ; (2+phi)^2+2 = 15.090170 ; 7+5phi = 15.090170

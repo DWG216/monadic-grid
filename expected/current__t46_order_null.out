@@ -1,0 +1,4 @@
+doubling [(np.float64(0.572), np.float64(0.331)), (np.float64(0.578), np.float64(0.306)), (np.float64(0.595), np.float64(0.322))] dist [np.float64(0.108), np.float64(0.096), np.float64(0.119)] 1.6 s
+lambda/L=0.45: doubling dist 0.108; random orders median 0.124, fraction closer than doubling 0.45
+lambda/L=0.5: doubling dist 0.096; random orders median 0.146, fraction closer than doubling 0.28
+lambda/L=0.55: doubling dist 0.119; random orders median 0.184, fraction closer than doubling 0.23

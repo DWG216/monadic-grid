@@ -1,0 +1,7 @@
+mod 9 period, antiperiod (F flips sign): (24, 12)
+mod 13 period, antiperiod (F flips sign): (28, 14)
+mod 169 period, antiperiod (F flips sign): (364, 182)
+lines among 13 circles C(13,2)= 78
+FCC nearest neighbours: 12 + centre = 13
+phi*psi = -0.9999999999999999  F(n-1)F(n+1)-F(n)^2 for n=1..10: [-1, 1, -1, 1, -1, 1, -1, 1, -1, 1]
+cut-and-project word: LSLLSLSLLSLLSLSLLSLS

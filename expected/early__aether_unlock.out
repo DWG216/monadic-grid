@@ -1,0 +1,11 @@
+A1. five rotated cubes cover exactly the 20 dodecahedron vertices: False | each vertex shared by 2 cubes
+A2. magic M2: stabilizer (octahedron) -0.000 | cube corner (T-type) 0.585 | icosahedron vertex 0.322 | other dodecahedron vertex 0.170
+A3. one round of distillation with our 5-qubit perfect code:
+   input error 0.020 -> output error 0.0021  (better)  success prob 0.151
+   input error 0.050 -> output error 0.0137  (better)  success prob 0.131
+   input error 0.100 -> output error 0.0578  (better)  success prob 0.105
+   input error 0.150 -> output error 0.1317  (better)  success prob 0.088
+   input error 0.170 -> output error 0.1677  (better)  success prob 0.082
+   input error 0.180 -> output error 0.1865  (worse)  success prob 0.080
+   input error 0.250 -> output error 0.3208  (worse)  success prob 0.069
+   threshold: input error 0.1727

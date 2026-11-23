@@ -1,0 +1,55 @@
+Closed configurations (n = 6Y in -6..6): 13 of 78
+  ( 1,1,Y=   -1)  phase steps 2t+3d+n= -6  charges Q=['-1']
+  ( 1,1,Y=    0)  phase steps 2t+3d+n=  0  charges Q=['0']
+  ( 1,1,Y=    1)  phase steps 2t+3d+n=  6  charges Q=['1']
+  ( 1,2,Y= -1/2)  phase steps 2t+3d+n=  0  charges Q=['-1', '0']
+  ( 1,2,Y=  1/2)  phase steps 2t+3d+n=  6  charges Q=['0', '1']
+  ( 3,1,Y= -1/3)  phase steps 2t+3d+n=  0  charges Q=['-1/3']
+  ( 3,1,Y=  2/3)  phase steps 2t+3d+n=  6  charges Q=['2/3']
+  ( 3,2,Y= -5/6)  phase steps 2t+3d+n=  0  charges Q=['-1/3', '-4/3']
+  ( 3,2,Y=  1/6)  phase steps 2t+3d+n=  6  charges Q=['-1/3', '2/3']
+  (3b,1,Y= -2/3)  phase steps 2t+3d+n=  0  charges Q=['-2/3']
+  (3b,1,Y=  1/3)  phase steps 2t+3d+n=  6  charges Q=['1/3']
+  (3b,2,Y= -1/6)  phase steps 2t+3d+n=  6  charges Q=['-2/3', '1/3']
+  (3b,2,Y=  5/6)  phase steps 2t+3d+n= 12  charges Q=['1/3', '4/3']
+
+Smallest chiral anomaly-free sets: size 5, 2 found
+   (('1', '1', -6), ('1', '2', 3), ('3', '1', -2), ('3', '1', 4), ('3b', '2', -1))
+   (('1', '1', 6), ('1', '2', -3), ('3', '2', 1), ('3b', '1', -4), ('3b', '1', 2))
+
+=== 6D frequency domain as C^3 (3 real cosine axes + 3 imaginary sine axes) ===
+det U = (1-0j)  unitary: True
+120-degree rotation of all three complex planes, det(wI) = (1-0j) -> lies in SU(3): colour triality
+baryon (3 quarks, one per complex axis = complex volume) invariant: True
+meson (quark x antiquark = Hermitian length) invariant: True
+
+=== Mind -> matter: which pairings with the Higgs close (Yukawa couplings) ===
+     Q x u^c   x H   hypercharge sum 0, total winding 12 (closes)
+     Q x d^c   x H*  hypercharge sum 0, total winding 12 (closes)
+     L x e^c   x H*  hypercharge sum 0, total winding 6 (closes)
+     L x nu^c  x H   hypercharge sum 0, total winding 6 (closes)
+  4 closing pairings; every charged fermion gets one; neutrinos only if nu^c is added
+
+=== After the Higgs settles at the zero-frequency point: who stays on the null cone ===
+  generator 1*T3 + 0*Y on vacuum: -1/2 
+  generator 0*T3 + 1*Y on vacuum: 1/2 
+  generator 1*T3 + 1*Y on vacuum: 0 <- unbroken (photon)
+  generator 1*T3 + -1*Y on vacuum: -1 
+  W+ and W- shift T3 by +-1, so they cannot leave the vacuum alone -> massive
+
+=== Tilt off the null line at E = 1 TeV: chi = arcsin(m/E) ===
+  photon             m =          0 GeV   chi = 0 deg
+  gluon              m =          0 GeV   chi = 0 deg
+  neutrino (<1 eV)   m =      1e-09 GeV   chi = 5.73e-11 deg
+  electron           m =   0.000511 GeV   chi = 2.93e-05 deg
+  up                 m =    0.00216 GeV   chi = 0.000124 deg
+  down               m =     0.0047 GeV   chi = 0.000269 deg
+  strange            m =     0.0935 GeV   chi = 0.00536 deg
+  muon               m =     0.1057 GeV   chi = 0.00606 deg
+  charm              m =       1.27 GeV   chi = 0.0728 deg
+  tau                m =     1.7769 GeV   chi = 0.102 deg
+  bottom             m =       4.18 GeV   chi = 0.239 deg
+  W                  m =      80.37 GeV   chi = 4.61 deg
+  Z                  m =      91.19 GeV   chi = 5.23 deg
+  Higgs              m =      125.2 GeV   chi = 7.19 deg
+  top                m =      172.6 GeV   chi = 9.94 deg

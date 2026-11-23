@@ -1,0 +1,11 @@
+I1_products True
+I1_no_norm_2_3 True
+I2_P2sq=(2) True
+I2_P3P3c=(3) True
+I2_P2P3=(1+w) True
+I2_P2P3c=(1-w) True
+I2_(6)=P2^2P3P3c True
+I3_nonprincipal True
+C2_Q_is_whole_ring True
+C1_Zi_parses_of_6 1
+neg P2!=(2): True (1, 1, 0, 2) (2, 0, 0, 2)  P3!=P3c: True (1, 1, 0, 3) (1, 2, 0, 3)

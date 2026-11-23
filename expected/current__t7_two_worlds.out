@@ -1,0 +1,9 @@
+s=0.01 OWN   : mean within-world r = 0.9759; median lock time = 4.06 cycles over 651 switches
+s=0.01 TARGET: mean within-world r = 0.9766; median lock time = 3.19 cycles over 662 switches
+s=0.01 ANY   : mean within-world r = 0.9818; median lock time = 3.12 cycles over 662 switches
+s=0.05 OWN   : mean within-world r = 0.9399; median lock time = 3.66 cycles over 2753 switches
+s=0.05 TARGET: mean within-world r = 0.9842; median lock time = 2.78 cycles over 2919 switches
+s=0.05 ANY   : mean within-world r = 0.9940; median lock time = 2.61 cycles over 3031 switches
+s=0.2 OWN   : mean within-world r = 0.9881; median lock time = 3.17 cycles over 6979 switches
+s=0.2 TARGET: mean within-world r = 0.9907; median lock time = 2.82 cycles over 7634 switches
+s=0.2 ANY   : mean within-world r = 0.9969; median lock time = 2.50 cycles over 8274 switches

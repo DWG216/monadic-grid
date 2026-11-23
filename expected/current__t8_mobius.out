@@ -1,0 +1,8 @@
+zeros: 201 first [14.1372 21.0244 25.0184]
+M1 control: prime powers negative 1.00; ratio 4.55
+M2 Mobius weights: correct signs 18/18; ratio squarefree/non-squarefree 77.05
+   n, mu, jump*sqrt(n): [(2, -1, np.float64(-0.83)), (3, -1, np.float64(-0.84)), (4, 0, np.float64(0.04)), (5, -1, np.float64(-0.86)), (6, 1, np.float64(0.91)), (7, -1, np.float64(-0.88)), (8, 0, np.float64(0.01)), (9, 0, np.float64(0.02)), (10, 1, np.float64(0.89)), (11, -1, np.float64(-0.89)), (12, 0, np.float64(0.0)), (13, -1, np.float64(-0.87)), (14, 1, np.float64(0.9)), (15, 1, np.float64(0.89)), (16, 0, np.float64(-0.01)), (17, -1, np.float64(-0.9)), (18, 0, np.float64(-0.01)), (19, -1, np.float64(-0.88)), (20, 0, np.float64(0.02)), (21, 1, np.float64(0.91)), (22, 1, np.float64(0.88)), (23, -1, np.float64(-0.89)), (24, 0, np.float64(-0.01)), (25, 0, np.float64(0.02)), (26, 1, np.float64(0.88)), (27, 0, np.float64(-0.0)), (28, 0, np.float64(-0.04)), (29, -1, np.float64(-0.93)), (30, -1, np.float64(-0.93))]
+M3 null A (permuted weights): 95th pct 16.0, max 17; real 18
+M4 null B (shuffled spacings): 95th pct 15.0, max 17; real 18
+M5 corr(|J|, 1/sqrt n) over squarefree: 0.999
+post hoc null A: ratio 95th 2.80 (real 77.0); corr 95th 0.424

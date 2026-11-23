@@ -1,0 +1,34 @@
+5-qubit code tensor (6 legs) is perfect: every 3 legs map unitarily to the other 3 -> True
+Step 1. perfect tensor is real (its own mirror image): True
+   hand - is exactly the complex conjugate (time-reversed) of hand +: True
+
+Step 2. first order: entropies (and full spectra) of every region, hand + vs hand -
+   all 70 arcs: identical entanglement spectra -> True  (entropy is blind to the hand)
+   entropy is EVEN in phi (S(phi)-S(-phi)): [0.0, 0.0, 0.0, 0.0, 0.0]
+   entropy change from phi (vs real links): {'one tile (4)': 0.0, 'arc 6': -0.015685, 'arc 8 (2 tiles)': -0.0, 'two separated tiles': -0.0, 'scattered 8': 0.17067}
+
+Step 3a. second order: relative entropy S(hand+ || hand-) per region = energy gap measured on the other hand's modular clock
+   one tile (4)         0.0  rank 2 of 16
+   arc 6                0.0987  rank 8 of 64
+   arc 8 (2 tiles)      0.1732  rank 4 of 256
+   two separated tiles  0.3019  rank 4 of 256
+   scattered 8          0.0  rank 256 of 256
+   scaling with the Janus phase (all links phi, region arc 8):
+     phi=0.00  D=0.000000  D/phi^2=-
+     phi=0.05  D=0.002836  D/phi^2=1.1346
+     phi=0.10  D=0.011233  D/phi^2=1.1233
+     phi=0.20  D=0.043157  D/phi^2=1.0789
+     phi=0.40  D=0.146450  D/phi^2=0.9153
+   hands coupled vs not: maximal links (th=pi/4) vs thermal links (th=0.6), arc 8:
+     th=0.79  D=0.0000
+     th=0.60  D=0.1732
+     th=0.30  D=0.2045
+
+Step 3b. modular flow: run hand + along hand -'s own clock K- for modular time s; how far does it move?
+     s= 0.00  on the other hand's clock: 1-overlap=0.00000   on its own clock: 0.0e+00
+     s= 0.25  on the other hand's clock: 1-overlap=0.01428   on its own clock: 0.0e+00
+     s= 0.50  on the other hand's clock: 1-overlap=0.05401   on its own clock: 1.1e-16
+     s= 1.00  on the other hand's clock: 1-overlap=0.17166   on its own clock: 1.1e-16
+     s= 2.00  on the other hand's clock: 1-overlap=0.23841   on its own clock: 1.1e-16
+     s=-1.00  on the other hand's clock: 1-overlap=0.17166   on its own clock: 1.1e-16
+     real network (phi=0), other-hand clock at s=1: 8.9e-16
