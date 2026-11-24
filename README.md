@@ -14,19 +14,20 @@ Paper: `paper/monadic_grid.pdf` ("QM and GR from one record: The Monadic Grid").
 | Which symmetry group, and why this matter (grand unification, 1974) | The Fibonacci step and the hand swap generate the quaternions, SL(2,3), the Hessian group of 216 and all of SL(2, ℤ/3^k); McKay on the hand pair gives E6, whose 27 splits 1 + 16 + 10 with exactly the U(1)_ψ charges. | t53–t56, t64 |
 | Where the Standard Model's gauge group comes from | Cut E6 at its dimension-3 node, the same rule that gave three generations: SU(3)_C × SU(3)_L × SU(3)_R, permuted by the counting phase so the couplings are equal. A U(1) inside gives exactly the Standard Model hypercharges, and sin²θ_W = 3/8 at the cut. The couplings then meet at the cut, about 5 × 10¹³ GeV, when two or three pairs of the 27's extra lepton-like doublets are light (t67). | t66 |
 | Do the forces meet? | Yes: with two or three pairs of the 27's lepton-like doublets between about 1.3 TeV (the LHC limit) and 10⁹ GeV, all three couplings meet at about 4.5 × 10¹³ GeV (α⁻¹ ≈ 38), at one and two loops. Extras all at one mass cannot do it. A prediction for colliders. | t67, t70 |
-| Why the proton has not decayed | The forces the cut leaves (three SU(3)s) cannot turn quarks into leptons; only E6's own bosons can, and the counting phases keep the couplings equal at any scale, so E6 may break above the Super-K bound (4.6 × 10¹⁵ GeV). The coloured triplets may sit at the cut. | t68 |
+| Why the proton has not decayed | The forces the cut leaves (three SU(3)s) cannot turn quarks into leptons; only E6's own bosons can, and the counting phases keep the couplings equal at any scale, so E6 may break above the Super-K bound (4.6 × 10¹⁵ GeV). With the coupling run to that scale the bound is 4.6–4.8 × 10¹⁵ GeV. The coloured triplets sit between 5.5 × 10¹¹ GeV and the meeting. | t68, t71 |
 | The chirality objection (Distler–Garibaldi) | The theorem holds: the E8 content is vector-like. The mirror has no mass term of its own, but no anomaly forbids gapping it by interaction (Z16 index 0); family symmetry must break where it is gapped. | t69 |
 | Why three generations (the muon, 1936) | E8 from the same steps mod 5, cut at the meeting of the hands, is E6 × SU(3): 240 = 78 + 81 + 81, each 81 the 27 three times. | t60 |
 | Why matter comes first (Sakharov, 1967) | The balanced seed (0, 1) and the arrow fix the first moving count; the step conserves it. | t62, t63 |
-| Why Koide's lepton relation holds (1981) | Q = 2/3 is the balance of the hands at the three-phase level; m_τ = 1776.969 MeV (world average 1776.94 ± 0.09). | t39, t40 |
-| The neutrino mass scale | Normal ordering, Σmν = 59.16 ± 0.21 meV, Majorana with m_ββ = 1.16–4.11 meV, Z′_ψ near 10¹⁴–10¹⁵ GeV. | t40, t41, t65 |
+| Why Koide's lepton relation holds (1981) | Q = 2/3 is the balance of the hands at the three-phase level; m_τ = 1776.969 MeV (PDG 2026: 1776.93 ± 0.09). | t39, t40 |
+| The neutrino mass scale | Normal ordering, Σmν = 59.16 ± 0.21 meV, Majorana with m_ββ = 1.16–4.11 meV. Z′_ψ is broken with the forces at the meeting, near 10¹⁴ GeV. | t40, t41, t65, t71 |
+| Dark energy (1998) | Λ is the leftover of the record count, fluctuating as N^(−1/2) (Sorkin's everpresent Λ). Simulated against DESI DR2 it gives a band, not a point: 61% of runs lie in DESI's quadrant (w0 > −1, wa < 0) and 6% in its 2σ box. Most runs dip below zero density before z = 2, which a direct distance test must check next. | t72 |
 
 Each claim carries a label in the paper: [M] computed, [S] forced by sufficient reason, [I] a reading that experiment tests.
 
 ## Run
 Python 3.10+ with numpy and scipy (`pip install -r requirements.txt`).
 ```
-python3 run_all.py --group grid          # t17–t65: the results above; compares each with its recorded log
+python3 run_all.py --group grid          # t17–t72: the results above; compares each with its recorded log
 python3 run_all.py --only t60_generations # one script
 python3 run_all.py --group quick         # earlier tests (sections 28–87 of the record)
 python3 run_all.py --group all -j 4 --timeout 3600
@@ -34,7 +35,7 @@ python3 run_all.py --group all -j 4 --timeout 3600
 Each script runs in a fresh copy of its folder under `results/work/`; outputs go to `results/out/`, a summary to `results/summary.json`. For the grid group the expected output is the log recorded when the script first ran (`tNN_run1.log`, `tNN_posthoc.log`). Where the record amended a script after its first run (t21, t22), the expected output is the amended run; the first-run log stays beside the script. t25 and t27 print timings, which vary. A mismatch from a different numpy version means "inspect", not "wrong".
 
 ## Layout
-- `scripts/current/`: t1–t65 with their `PREDICTIONS_*.md` and logs. Post hoc analyses are named `*_posthoc*` and labelled as such.
+- `scripts/current/`: t1–t72 and DATA_CHECK_2026-11-24.md (posted numbers against the newest data) with their `PREDICTIONS_*.md` and logs. Post hoc analyses are named `*_posthoc*` and labelled as such.
 - `scripts/early/`: the first tests (2026-11-08 to 11-13), with pre-registrations and logs.
 - `scripts/indep/`, `scripts/spiral/`, `scripts/catalogue/`: an independent re-implementation, the Euler-spiral table and the winding catalogue.
 - `GRID_SPEC.md`: the grid in one file. `TEST_INDEX.md`: every test and its section. `CHANGELOG.md`.

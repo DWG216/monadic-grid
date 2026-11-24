@@ -2293,5 +2293,27 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t71_consistency.py",
+  "sections": [
+   "170"
+  ],
+  "predictions": [
+   "PREDICTIONS_t71.md"
+  ],
+  "group": "grid",
+  "timeout": 900
+ },
+ {
+  "script": "scripts/current/t72_everpresent.py",
+  "sections": [
+   "171"
+  ],
+  "predictions": [
+   "PREDICTIONS_t72.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

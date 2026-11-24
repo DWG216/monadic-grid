@@ -139,3 +139,7 @@
 
 ## 2026-11-23 t66
 - t66 (Standard Model from the E6 cut) added to the grid group; run 2 reproduces.
+
+## 2026-11-24 t71, t72, data check
+- t71 (posts 30, 62, 64 agree; Z'_psi near 1e14 GeV) and t72 (everpresent Lambda against DESI DR2) added to the grid group; t71 run 1 (script error) kept as t71_consistency_run1.py and t71_run1.log.
+- DATA_CHECK_2026-11-24.md: posted numbers against PDG 2026, JUNO, KamLAND-Zen, LEGEND-200, GWTC-4.0/5.0, DESI DR2.

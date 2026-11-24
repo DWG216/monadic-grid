@@ -1,0 +1,11 @@
+alpha {'alpha': 0.5, 'survived': 20000, 'accepted': 0, 'acc_rate': 0.0, 'neg_somewhere_frac': 0.0, 'fitted': 0}
+alpha {'alpha': 1, 'survived': 18884, 'accepted': 347, 'acc_rate': 0.01735, 'neg_somewhere_frac': 0.7723342939481268, 'fitted': 79, 'desi_box': 0.06329113924050633, 'quadrant': 0.6075949367088608, 'median_abs_w0p1': 0.9004065769313683, 'sn_point_box': 0.08860759493670886, 'w0_med': -0.12289824160868346, 'wa_med': -0.3830711678752732, 'w0_16_84': [-1.0221864860965866, 0.602126412608266], 'wa_16_84': [-2.7581217543683985, 1.7588319699123558]}
+alpha {'alpha': 2, 'survived': 357, 'accepted': 20, 'acc_rate': 0.001, 'neg_somewhere_frac': 1.0, 'fitted': 0}
+alpha {'alpha': 4, 'survived': 624, 'accepted': 0, 'acc_rate': 0.0, 'neg_somewhere_frac': 0.0, 'fitted': 0}
+alpha {'alpha': 8, 'survived': 2372, 'accepted': 0, 'acc_rate': 0.0, 'neg_somewhere_frac': 0.0, 'fitted': 0}
+S1 {'w0': -0.9999999999999998, 'wa': -3.8073558739392957e-16, 'pass_': np.True_}
+S2 {'w0': -0.4200000000000005, 'wa': -1.7500000000000016, 'pass_': np.True_}
+primary_alpha 1
+P1 {'desi_box': 0.0633, 'pass_': True, 'refuted': False}
+P2 {'median_abs_w0p1': 0.9, 'pass_': True}
+P3 {'quadrant': 0.6076, 'pass_': True}

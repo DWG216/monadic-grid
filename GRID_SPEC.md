@@ -1,6 +1,6 @@
-# R2R grid: specification (version 2026-11-24.2)
+# R2R grid: specification (version 2026-11-24.3)
 
-This is the compact, self-contained statement of the grid: definitions, notation, the levels, the main identities, and the rules of method. The narrative history and every result live in `docs/R2R_progress_2026-11-08.md` (sections 1-168); this file is what to read first.
+This is the compact, self-contained statement of the grid: definitions, notation, the levels, the main identities, and the rules of method. The narrative history and every result live in `docs/R2R_progress_2026-11-08.md` (sections 1-171); this file is what to read first.
 
 ## 0. Rules of method
 1. **Labels.** Every claim is one of: **[M]** mathematics (proved or checked by computation); **[A]** argument from the PSR; **[I]** interpretation (a reading of the mathematics in the corpus's terms). Interpretations never upgrade to mathematics.
@@ -179,10 +179,10 @@ PT = PG(3,9): 280 null twistors, 112 spacetime lines (10 points each, 4 per ligh
 One record |O + R|^2 of the two hands: cross terms = QM (phase i = phi^2), meeting term = GR (positive, conserved; equation of state gives Einstein; its degree class bends twistor space, both helicities in one deformation). Quantum at the grain, classical curvature as the first correction up the 3-adic tower.
 
 ## 152-157. Chirality, Z'_psi, predictions, launch
-The seed (0, 1) and the arrow fix the first moving count; the step conserves it (t62, t63). U(1)_psi is the counting U(1); Z'_psi near 1e14-1e15 GeV through the seesaw (t64, t65). Positive predictions: normal ordering, Sum m_nu = 59.16 +- 0.21 meV, m_bb = 1.16-4.11 meV, m_beta = 8.84 meV, m_tau = 1776.969 MeV, tensor-only gravitational waves. PSR review: matter as the 27 and Q = 2/3 are [S].
+The seed (0, 1) and the arrow fix the first moving count; the step conserves it (t62, t63). U(1)_psi is the counting U(1); Z'_psi near 1e14 GeV, broken with the forces at the meeting (t64, t65, t71). Positive predictions: normal ordering, Sum m_nu = 59.16 +- 0.21 meV, m_bb = 1.16-4.11 meV, m_beta = 8.84 meV, m_tau = 1776.969 MeV, tensor-only gravitational waves. PSR review: matter as the 27 and Q = 2/3 are [S].
 
 ## 158. Against the Standard Model; correction map; roadmap
-Shared: the SO(10) 16 per generation, three generations, chirality. Added: gravity (meeting term), the 27's 1 and 10, U(1)_psi, Majorana masses, Q = 2/3. Not derived: couplings, quark masses and mixing, Higgs, theta_QCD, dark matter, inflation. Dark energy: Sorkin count, everpresent Lambda (bridge). Tension: hierarchical thermal leptogenesis needs M_R1 ~ 6e10 GeV, the grid's SO(10) Dirac bridge gives 1e7 GeV (fix: Dirac masses from the record). Correction map in the record, §158.
+Shared: the SO(10) 16 per generation, three generations, chirality. Added: gravity (meeting term), the 27's 1 and 10, U(1)_psi, Majorana masses, Q = 2/3. Not derived: couplings, quark masses and mixing, Higgs, theta_QCD, dark matter, inflation. Dark energy: Sorkin count, everpresent Lambda (bridge; survives DESI DR2 as a band, t72). Tension: hierarchical thermal leptogenesis needs M_R1 ~ 6e10 GeV, the grid's SO(10) Dirac bridge gives 1e7 GeV (fix: Dirac masses from the record). Correction map in the record, §158.
 
 ## 159. The Standard Model from the same cut (t66)
 Cutting E6 at its dimension-3 node (the rule that gave three generations in E8) leaves SU(3) x SU(3) x SU(3); the counting phases permute the three factors cyclically, so their couplings are equal at the cut. The 27 is three bifundamentals; a U(1) in the commutant of SU(3)_C x SU(2)_L gives exactly the Standard Model hypercharges plus the E6 extras; sin^2 theta_W = 3/8 at the cut [M]. Open: hypercharge selection (SU(3)_L x SU(3)_R breaking) and coupling meeting with thresholds (t67).
@@ -205,3 +205,12 @@ Claude/Anthropic, Lean 4: the permanent (characteristic != 2) and the Hamiltonia
 
 ## 165. The meeting at two loops (t70)
 Two-loop gauge running with the top Yukawa keeps the meeting: M3 = 3.7-5.6e13 GeV, alpha^-1 = 37-39; two light doublet pairs at 1e3-7.5e6 GeV or three at 4e5-1.3e9 GeV [M]. Pre-registered bound 2e8 exceeded (recorded fail); wording "below about 1e9 GeV". LHC excludes vector-like e/mu doublets below about 1.3 TeV, cutting only the bottom of the window.
+
+## 166. Posted numbers against the newest data
+m_tau 0.4 sigma from PDG 2026; JUNO-era global fit prefers normal ordering (inverted at p = 2-2.6%); m_bb far below KamLAND-Zen and LEGEND-200; tensor-only holds (GWTC-4.0/5.0), with the mixed Bayes factors a watch item.
+
+## 167. Posts agree (t71)
+E6 bound with the run coupling 4.6-4.8e15 GeV; U(1)_psi in the SU(3)_L x SU(3)_R Cartan, so Z'_psi is broken at M3: near 1e14 GeV (ratio 1.3 to M3) [M]. Triplets between 5.5e11 GeV and M3/g in 577 of 1203 meetings; doublet windows unchanged.
+
+## 168. Everpresent Lambda against DESI (t72)
+Lambda = alpha W(V)/V: at alpha = 1, 61% of fitted runs lie in DESI's quadrant, 6% in its 2-sigma box, median |w0 + 1| = 0.9; 77% dip below zero at z < 2 [I]. A band, not a point; direct distance test next.
