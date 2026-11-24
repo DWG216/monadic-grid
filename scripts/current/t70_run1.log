@@ -1,0 +1,8 @@
+S2 {'b33_fermions': np.float64(76.0), 'b12_fermions': np.float64(1.8), 'pass_': np.True_}
+S1 {'n_meetings': 1108, 'nH1': {'count': 0, 'MH': None}, 'nH2': {'count': 599, 'MH': ('1.0e+03', '3.2e+05')}, 'nH3': {'count': 509, 'MH': ('4.2e+04', '1.8e+08')}, 'M3': ('4.1e+13', '6.1e+13'), 'ainv': (np.float64(36.8), np.float64(39.0)), 'best': {'nH': 2, 'MH': '1.00e+03', 'MD': '3.16e+12', 'spread': np.float64(0.002), 'M3': '4.98e+13', 'ainv': np.float64(37.7)}, 'pass_': True}
+G1 {'n_meetings': 1203, 'nH1': {'count': 0, 'MH': None}, 'nH2': {'count': 709, 'MH': ('1.0e+03', '7.5e+06')}, 'nH3': {'count': 494, 'MH': ('4.2e+05', '1.3e+09')}, 'M3': ('3.7e+13', '5.6e+13'), 'ainv': (np.float64(37.1), np.float64(39.3)), 'best': {'nH': 3, 'MH': '1.33e+08', 'MD': '3.16e+13', 'spread': np.float64(0.003), 'M3': '4.48e+13', 'ainv': np.float64(38.8)}, 'pass_': True}
+G2 {'pass_': True}
+G3 {'max_MH': '1.3e+09', 'pass_': False}
+G4 {'M3_one_loop': '4.98e+13', 'M3_two_loop': '4.48e+13', 'ratio': np.float64(0.9)}
+C1 {'spread': 3.21, 'pass_': True}
+C2 {'min_spread': 3.21, 'pass_': True}

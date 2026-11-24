@@ -1,6 +1,6 @@
-# R2R grid: specification (version 2026-11-24.1)
+# R2R grid: specification (version 2026-11-24.2)
 
-This is the compact, self-contained statement of the grid: definitions, notation, the levels, the main identities, and the rules of method. The narrative history and every result live in `docs/R2R_progress_2026-11-08.md` (sections 1-167); this file is what to read first.
+This is the compact, self-contained statement of the grid: definitions, notation, the levels, the main identities, and the rules of method. The narrative history and every result live in `docs/R2R_progress_2026-11-08.md` (sections 1-168); this file is what to read first.
 
 ## 0. Rules of method
 1. **Labels.** Every claim is one of: **[M]** mathematics (proved or checked by computation); **[A]** argument from the PSR; **[I]** interpretation (a reading of the mathematics in the corpus's terms). Interpretations never upgrade to mathematics.
@@ -202,3 +202,6 @@ The 27's extras beyond the 16 form a complete 5 + 5bar and cannot shift the meet
 
 ## 164. VP != VNP (claimed, 24 Nov 2026)
 Claude/Anthropic, Lean 4: the permanent (characteristic != 2) and the Hamiltonian cycle polynomial (every field) need superpolynomial algebraic circuits [M claim, pending human vetting]. First proved instance of "the fermionic sign is the shortcut"; holds over F9; the characteristic-2 exception is the sign being invisible. Boolean P vs NP still open.
+
+## 165. The meeting at two loops (t70)
+Two-loop gauge running with the top Yukawa keeps the meeting: M3 = 3.7-5.6e13 GeV, alpha^-1 = 37-39; two light doublet pairs at 1e3-7.5e6 GeV or three at 4e5-1.3e9 GeV [M]. Pre-registered bound 2e8 exceeded (recorded fail); wording "below about 1e9 GeV". LHC excludes vector-like e/mu doublets below about 1.3 TeV, cutting only the bottom of the window.

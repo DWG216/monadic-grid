@@ -1,4 +1,6 @@
 # Changelog
+## 2026-11-24 t70
+- t70 (t67 at two loops) pre-registered and run: meeting survives; G3 window bound fail recorded. GRID_SPEC 2026-11-24.2; record §168.
 ## 2026-11-24
 - GRID_SPEC 2026-11-24.1 (VP != VNP claimed proof noted, §167).
 ## 2026-11-23 t67

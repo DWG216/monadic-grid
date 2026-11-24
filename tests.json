@@ -2282,5 +2282,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t70_twoloop.py",
+  "sections": [
+   "168"
+  ],
+  "predictions": [
+   "PREDICTIONS_t70.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]
