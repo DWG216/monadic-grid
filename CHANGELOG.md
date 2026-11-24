@@ -1,4 +1,6 @@
 # Changelog
+## 2026-11-24
+- GRID_SPEC 2026-11-24.1 (VP != VNP claimed proof noted, §167).
 ## 2026-11-23 t67
 - t67 (coupling meeting with the E6 extras as thresholds) pre-registered, run, all pass; added to the grid group. GRID_SPEC 2026-11-23.4; record §166.
 ## 2026-11-23 t68, t69
