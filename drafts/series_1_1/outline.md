@@ -1,5 +1,5 @@
 # Series 1.1: since the drop (20 posts, one thread, no daily schedule)
-Consolidates the held-back posts 61-64 (cobalt niobate, proton decay, the hidden mirror, the forces meet) with results and corrections since launch. Palette proposed: Ember #1E1410 / #F2A65A / #E06D53 (not yet confirmed). Same template and footer as series 1; difficulty alternates as in series 1.
+Consolidates the held-back posts 61-64 (cobalt niobate, proton decay, the hidden mirror, the forces meet) with results and corrections since launch. Palette: Ember #1E1410 / #F2A65A / #E06D53 (confirmed 2026-11-25). Same template and footer as series 1; difficulty alternates as in series 1.
 1. Since the drop: what held, what we fixed, what is new.
 2. E8 in a real magnet: the golden ratio in cobalt niobate (was 61).
 3. Why the proton survives the cut (was 62).
@@ -19,6 +19,6 @@ Consolidates the held-back posts 61-64 (cobalt niobate, proton decay, the hidden
 17. The two halves of a pair's record: m_b/m_τ = 2/3 (t112, t113).
 18. Time is the count of balanced pairs: Deutsch-Marletto's null constructors (t111). Closing line: "A count has a first tick, and what does the counting is not in the record."
 19. Our bridges that broke, kept on the record (the meeting at 1e8, t72's random walk, Veltman at M*, one cubic for b/τ, the light generations).
-20. Next chapters: the Standard Model, P vs NP, quantum foundations, the cosmos, gravity. Closing line: "The monads are not particles. What they are comes last."
+20. Next chapters: the Standard Model, P vs NP, quantum foundations, the cosmos, gravity. Closing line: "Particles are what minds look like from inside the record."
 
 The cosmogony thread (record §232) is present but quiet in 1.1: three closing lines only (posts 14, 18, 20).
