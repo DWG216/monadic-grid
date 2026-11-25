@@ -1,6 +1,6 @@
 # Series 1.1: since the drop (20 posts, one thread, no daily schedule)
 Consolidates the held-back posts 61-64 (cobalt niobate, proton decay, the hidden mirror, the forces meet) with results and corrections since launch. Palette: Ember #1E1410 / #F2A65A / #E06D53 (confirmed 2026-11-25). Same template and footer as series 1; difficulty alternates as in series 1.
-1. Since the drop: what held, what we fixed, what is new.
+1. Quantum mechanics and gravity from one record: the primer (the record, what a monad is, why pairs).
 2. E8 in a real magnet: the golden ratio in cobalt niobate (was 61).
 3. Why the proton survives the cut (was 62).
 4. The hidden mirror: Distler-Garibaldi answered by interaction (was 63).
@@ -24,3 +24,4 @@ Consolidates the held-back posts 61-64 (cobalt niobate, proton decay, the hidden
 The cosmogony thread (record §232) is present but quiet in 1.1: three closing lines only (posts 14, 18, 20).
 
 Built 2026-11-25: content.py (text), build.py (template, Ember, render); posts 2-5 rewritten from 61-64 with current results and without registration or test language in the post text.
+Foundations for new readers: post 1 is a one-page primer; each post's first foundations box defines one idea the post uses (the clock, the cut, the 27, running, the count, hypercharge, the seesaw, a parity, the two hands, a vev, a pair's record), so any post reads alone.
