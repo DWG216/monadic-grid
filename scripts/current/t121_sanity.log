@@ -1,0 +1,8 @@
+keep 12000 {'arrive1': 205, 'arrive2': 35, 'ratio': 0.1707, 'novelty_drop': 26.8095, 'floor': 0.001, 'K1': 3, 'K2': 8, 'jaccard': 0.0}
+keep 12001 {'arrive1': 180, 'arrive2': 45, 'ratio': 0.25, 'novelty_drop': 20.5508, 'floor': 0.0012, 'K1': 5, 'K2': 9, 'jaccard': 0.0769}
+keep 12002 {'arrive1': 190, 'arrive2': 45, 'ratio': 0.2368, 'novelty_drop': 24.2748, 'floor': 0.0008, 'K1': 4, 'K2': 8, 'jaccard': 0.0}
+MEDIAN keep {'arrive1': 190.0, 'arrive2': 45.0, 'ratio': 0.2368, 'novelty_drop': 24.2748, 'floor': 0.001, 'K1': 4.0, 'K2': 8.0, 'jaccard': 0.0}
+reset 12000 {'arrive1': 205, 'arrive2': 210, 'ratio': 1.0244, 'novelty_drop': 26.8095, 'floor': 0.001, 'K1': 3, 'K2': 4, 'jaccard': 0.0}
+reset 12001 {'arrive1': 180, 'arrive2': 175, 'ratio': 0.9722, 'novelty_drop': 20.5508, 'floor': 0.0012, 'K1': 5, 'K2': 5, 'jaccard': 0.0}
+reset 12002 {'arrive1': 190, 'arrive2': 170, 'ratio': 0.8947, 'novelty_drop': 24.2748, 'floor': 0.0008, 'K1': 4, 'K2': 4, 'jaccard': 0.0}
+MEDIAN reset {'arrive1': 190.0, 'arrive2': 175.0, 'ratio': 0.9722, 'novelty_drop': 24.2748, 'floor': 0.001, 'K1': 4.0, 'K2': 4.0, 'jaccard': 0.0}
