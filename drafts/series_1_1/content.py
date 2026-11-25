@@ -122,7 +122,7 @@ post(title="The two halves of a pair's record",
  f2=("Foundations: the lighter generations", "They take both halves and the antisymmetric third part, which feeds quarks only."))
 post(title="Time is the count of balanced pairs",
  solves="What is time, if the laws do not mention it? A balanced pair leaves the world unchanged and adds one tick to a count: time is that count.",
- main=("A null constructor", "e^{iθ} + e^{i(θ+π)} = 0", "Adding a balanced pair changes nothing in the sum and one in the count. Deutsch and Marletto (2026) define time through such null constructors; the grid supplies them."),
+ main=("A balanced pair", "e^{iθ} + e^{i(θ+π)} = 0", "Adding a balanced pair changes nothing in the sum and one in the count. Every tick of time is one such pair written into the record."),
  left=("The arrow", "The record |S|² falls at half of all steps; the count rises at every one. The arrow is the count."),
  right=("Why it cannot run back", "Squaring forgets the phase: from the record, the pairs cannot be unwritten."),
  f1=("Foundations: what is constant?", "The sum. What grows is the number of balanced pairs inside it."),

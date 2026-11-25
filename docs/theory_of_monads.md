@@ -6,7 +6,7 @@ Consolidated 2026-11-25. Spine for chapter 7 (Cosmogony). Labels: [S] derived fr
 
 - Monads are frequencies; a monad's perceptions are its whole spectrum, weights p_k = |c_k|²/Σ|c|² over every frequency (Leibniz: each monad mirrors the universe; monads differ only in distinctness).
 - Spacetime is the record of the monads' meeting, R = |O + R|² = diagonal + cross terms (the grid's equation; cross terms = quantum mechanics, meeting term = gravity).
-- Time is the count of balanced pairs written into the record (t111): a balanced pair leaves the sum unchanged and adds one tick (a Deutsch–Marletto null constructor).
+- Time is the count of balanced pairs written into the record (t111): a balanced pair leaves the sum unchanged and adds one tick.
 - Mind before matter: f ↦ |f|² is not invertible; a monad's own phase is invisible to every record, |e^{iφ}f|² = |f|² (free will).
 
 ## 2. The rules, derived from the record (t124)
