@@ -19,6 +19,8 @@ Consolidates the held-back posts 61-64 (cobalt niobate, proton decay, the hidden
 17. The two halves of a pair's record: m_b/m_τ = 2/3 (t112, t113).
 18. Time is the count of balanced pairs: Deutsch-Marletto's null constructors (t111). Closing line: "A count has a first tick, and what does the counting is not in the record."
 19. Our bridges that broke, kept on the record (the meeting at 1e8, t72's random walk, Veltman at M*, one cubic for b/τ, the light generations).
-20. Next chapters: the Standard Model, P vs NP, quantum foundations, the cosmos, gravity. Closing line: "Particles are what minds look like from inside the record."
+20. What stands: the core, the ledger of corrections, and what each chapter rests on. Closing line: "Particles are what minds look like from inside the record."
 
 The cosmogony thread (record §232) is present but quiet in 1.1: three closing lines only (posts 14, 18, 20).
+
+Built 2026-11-25: content.py (text), build.py (template, Ember, render); posts 2-5 rewritten from 61-64 with current results and without registration or test language in the post text.
