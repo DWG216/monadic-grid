@@ -1,0 +1,5 @@
+exploratory scan (sanity, labelled), seeds 20000-20002: K at mid-Age -> end
+L=12 r=1: [(3, 2), (4, 4), (2, 3)] frac_complete [0.27, 0.37, 0.33]
+L=20 r=1: [(7, 9), (6, 7), (10, 9)] frac_complete [0.4, 0.24, 0.33]
+L=24 r=2: [(8, 7), (7, 6), (10, 9)] frac_complete [0.43, 0.39, 0.3]
+L=32 r=1: [(19, 22), (26, 26), (22, 21)] frac_complete [0.23, 0.27, 0.26]

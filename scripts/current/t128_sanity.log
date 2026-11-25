@@ -1,0 +1,6 @@
+local r=2 20000 {'K': 1, 'K_mid': 2, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+local r=2 20001 {'K': 1, 'K_mid': 2, 'frac_complete': 0.833, 'frac_held': 0.833, 'C_med': 0.997, 'a_med': 1.0}
+local r=2 20002 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global 20000 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global 20001 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global 20002 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
