@@ -1,0 +1,4 @@
+lawful refl_frac_half [0.933, 1.0, 0.983] refl_L [0.005, 0.0, 0.0]
+lawless refl_a [0.092, 0.109, 0.111] refl_C [0.016, 0.016, 0.016]
+lawless plain_a [1.0, 0.002, 1.0] false_sig [0.0, 0.0, 0.0]
+clear worlds (refl a < 0.15 and C < 0.03): 3 of 3
