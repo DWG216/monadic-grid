@@ -11,3 +11,15 @@ P2 [M] Where P1 holds, the asymmetry comes mainly from the heaviest N (its share
 Information: heavy masses at the scan's median; max eta_B; the fraction within a factor 2 of observation.
 
 Verdict: P1-P2 pass -> the grid's Dirac masses give the observed matter excess from the heaviest right-handed neutrino, for a band of Majorana phases that neutrinoless double beta decay can probe. P1 fail -> the matter excess needs another route (resonant or non-thermal) and the bridge goes in the correction map.
+
+## Scoring (2026-11-25)
+Four runs, all kept (scripts t90_leptogenesis_run1/2/3.py, logs t90_run1-4.log). Thresholds never changed; each later run fixes a code error found by inspecting the earlier output:
+- run 1: the vertex function carried an extra sqrt(x) term (|eps| up to 81, impossible); the heavy-basis Dirac matrix used V* instead of V; kappa(0) gave NaN.
+- run 2: (1 + x) ln((1 + x)/x) lost all precision at x ~ 1e15 (eps above 1 again).
+- run 3: log1p still lost precision for x > 1e4; run 4 uses the series -1/(2 sqrt x) + 1/(6 x^1.5) there (agrees with the exact form to 2e-9 at x = 1e4).
+Scored on run 4:
+- S1 PASS (seesaw round trip 1.4e-9). S2 PASS (t89 masses, eps = 0 without mixing).
+- P1 FAIL: no point of the Majorana-phase plane reaches 6.1e-10; the maximum is 8.2e-15.
+- P2 FAIL: at the best point the heaviest N gives a fraction 1e-9 of the total.
+- Information: with mixing the heavy masses spread to 9.3e4, 3.0e8 and 2.1e12 GeV (medians). The heaviest is far too heavy relative to the others for its own asymmetry to survive: its CP asymmetry is suppressed by the hierarchy, and the lighter two are too light.
+Verdict as registered: with m_D = charged-lepton masses and hierarchical thermal leptogenesis, the grid does not produce the matter excess. Correction map: the matter excess needs another route (resonant, from a near-degenerate pair; or non-thermal); the Dirac bridge itself (t89) is not refuted by this, only its use with hierarchical thermal leptogenesis.

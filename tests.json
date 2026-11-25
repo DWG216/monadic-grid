@@ -2503,5 +2503,16 @@
   ],
   "group": "grid",
   "timeout": 60
+ },
+ {
+  "script": "scripts/current/t90_leptogenesis.py",
+  "sections": [
+   "200"
+  ],
+  "predictions": [
+   "PREDICTIONS_t90.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]
