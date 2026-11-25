@@ -14,3 +14,8 @@ P3 [M] On every consistent n = 8000 instance, the local moment matrix (degree <=
 P4 [M] The number of consistent instances does not decrease from n = 2000 to n = 8000.
 
 Verdict: P1-P4 pass -> degree-4 SoS accepts random unsatisfiable-with-high-probability 3-SAT at scale, through a pseudo-distribution that is t79's balanced record on every clause. No law reads through it.
+
+## Scoring (2026-11-25)
+- S1 PASS (t83_run1_timeout.log, t83_run2.log): the planted cover is refuted.
+- S2 not completed: on the first planted satisfiable instance (n = 2000, density 4.5) the degree-4 closure grew past 0.9 GB in four minutes; run 1 hit the 590 s session limit, run 2 was stopped by hand. P1-P4 not reached. Kept.
+Why (analysis after the run, labelled): a degree-4 equation meets another sharing two variables about 324 Δ² / n times on average (about 9Δ²n/2 degree-4 equations, 6 pairs each, n²/2 pairs). At Δ = 4.5 that is 6561 / n: above 1 for n below about 6600, so the closure percolates at the registered sizes. At Δ = 1 (t82) it is 324 / n, already 0.3 at n = 1000, which is why t82 sat in the regime. The test was registered below the regime for 3-SAT's density; t84 goes where the branching is below 1/2.
