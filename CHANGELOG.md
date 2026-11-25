@@ -143,3 +143,6 @@
 ## 2026-11-24 t71, t72, data check
 - t71 (posts 30, 62, 64 agree; Z'_psi near 1e14 GeV) and t72 (everpresent Lambda against DESI DR2) added to the grid group; t71 run 1 (script error) kept as t71_consistency_run1.py and t71_run1.log.
 - DATA_CHECK_2026-11-24.md: posted numbers against PDG 2026, JUNO, KamLAND-Zen, LEGEND-200, GWTC-4.0/5.0, DESI DR2.
+
+## 2026-11-24 t73–t75
+- P vs NP on the fermionic sector: t73 (one slice, cross-term reading), t74 (low-degree root), t75 (polymorphism shortcut). Failed sanity/control checks kept (t73 C1, t75 S1).

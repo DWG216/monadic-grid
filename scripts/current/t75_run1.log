@@ -1,0 +1,4 @@
+S1 {'score': 0.885, 'pass_': False}
+G1 {'clean': {100: 100, 200: 100, 400: 100}, 'pass_': True}
+G2 {'noisy': {100: 50.0, 200: 50.0, 400: 50.0}, 'pass_': True}
+G3 {'pass_': True}
