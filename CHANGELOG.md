@@ -167,3 +167,4 @@
 - t98: Koide phase delta = 2/9 within 0.9 sigma; Q = 2/3 and 2/9 with m_mu predict m_e (1e-5) and m_tau (0.9 sigma). All pass. t99: Q = 2/3 fails for up (0.889) and down (0.743) quarks (kept): lepton-only; CKM small vs PMNS passes.
 - t100: lambda(M*) = 0 with SM two-loop running predicts m_h = 128.5 GeV (fail by 3.3 GeV, kept); the grid's extra states are the next correction.
 - t101: Higgs mass with the grid's content: meeting with two lepton-doublet pairs at 1 TeV gives m_h = 126.2-126.7 GeV (pass, within 1.5 GeV); meeting with three pairs at 1e8 GeV gives 127.5-127.9 (fail, kept).
+- t102: gauge term above the meeting for the bifundamental (c = 17/3) gives m_h = 116-118 GeV (fail, kept); t101's selection of the TeV meeting downgraded to an indication; full trinification scalar running needed.
