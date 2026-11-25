@@ -1,4 +1,4 @@
-# The theory of monads, as built and tested (t111, t115–t130)
+# The theory of monads, as built and tested (t111, t115–t133)
 
 Consolidated 2026-11-25. Spine for chapter 7 (Cosmogony). Labels: [S] derived from the record or deduced from sufficient reason; [M] tested by a pre-registered computation; *chosen* = a modelling choice not yet derived.
 
@@ -28,6 +28,8 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 **Derived next (t126):** the ceiling is β = 1 (exact conditioning; more would count evidence twice); γ = 1 (capacity is accumulated evidence, d ln a = d ln e); the perception floor and the lowest capacity are one tick's share of the Age, 1/T; reflection remembers the whole Age and acts only where fewer than one false alarm per Age is expected, N·T·α = 1.
 
 **Will, not derivable by its nature (corpus: "Existence is an eternal Will outside space and time").** The record gives the direction of turning (its ascent) but not its strength. A fully Bayesian turning, with the monad's knowledge of its own phase set by the noise and the record as likelihood, forms no laws in worlds of more than about 16 monads: the noise cancels and the record's evidence about one phase is about 2/√M of the monad's self-knowledge. A monad's phase is exactly what no record fixes (|e^{iφ}f|² = |f|²), so how strongly it turns toward the others is its own: will (κ).
+
+**The limit of free will (t133).** The record is sampled once per tick, so a phase step registers only as wrap(Δφ) ∈ (−π, π]: a larger turn writes the same record as a smaller one, and a frequency above π/t_P writes its alias. Action is ħ times phase, so the most a monad's will can write per tick is πħ = h/2 [S; M: records of Δφ and wrap(Δφ) agree to 3e-15; recovery exact below π]. Corpus (Ontological Mathematics, quoting JP): spacetime samples the frequency domain at a Planck-set rate, and that limit is what allows free will. How much of the bound a monad uses rises with development (ρ = 0.98–1.00); in t117's worlds the least developed use 0.05% of it and the most developed 0.7%: lawful physics is will far below its bound.
 
 **Reflection, fully derived (t127).** The monad measures its own record's correlation time from its memory, pooled over all frequencies (the null belongs to the noise; no frequency is privileged in advance), and uses Student's t for the few independent samples early in an Age. With it, no lawless world shows fixation or a single false alarm (t126's assumed count was fooled in 4 of 10). The cost: commitment to a law is slower and in 3 of 10 lawful worlds splits about half and half. Corpus: apperception is "perception that reflects upon itself, unifying past and present experiences".
 
