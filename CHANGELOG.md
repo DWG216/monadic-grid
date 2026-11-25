@@ -175,3 +175,4 @@
 - t112: the E6 cubic norm gives m_b = m_tau for every light-doublet direction (P1, P3 fail; P2 pass). t109 post hoc: trinification gauge terms cancel in y_b/y_tau above M3; corrected ratio 0.68 at M*.
 - t113: Sym^2(27) = 27bar + 351'; orthogonality fixes the 351' Clebsch (lepton 3, quark 2): m_b/m_tau = 2/3 for every heavy vev ratio, 1.7% from the corrected 0.678 (pass, P1 not blind, P2 blind); s/mu and d/e not 2/3 (fail, expected).
 - t114 (enumeration, not pre-registered): no texture built from the two symmetric halves fits s/mu and d/e; the antisymmetric 351 feeds quarks only. drafts/series_1_1/outline.md: series 1.1, 20 posts, folds in 61-64.
+- t115: highlighting rises by listening to the record; attention settles on lawful contents, plural (C = 1/K); a law is heard iff M e^{-sigma^2} > 1; lawless control fixates (slower than registered: P4 fail, kept).

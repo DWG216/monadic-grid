@@ -2776,5 +2776,19 @@
   "predictions": [],
   "group": "grid",
   "timeout": 120
+ },
+ {
+  "script": "scripts/current/t115_highlighting.py",
+  "sections": [
+   "236"
+  ],
+  "predictions": [
+   "PREDICTIONS_t115.md"
+  ],
+  "group": "grid",
+  "timeout": 600,
+  "args": [
+   "test"
+  ]
  }
 ]
