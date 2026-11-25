@@ -11,3 +11,13 @@ P3 [M on data] TM1's sum rule sin^2 theta12 = 1 - 2/(3(1 - sin^2 theta13)) = 0.3
 P4 [M] TM1's relation cos delta = -(1 - 5 s13^2) cot(2 theta23) / (2 sqrt2 s13 sqrt(1 - 3 s13^2)) has a solution (|cos delta| <= 1) for sin^2 theta23 anywhere in NuFIT 6.0's 1-sigma ranges (0.455-0.573, union of the two published fits).
 Information: delta predicted at sin^2 theta23 = 0.470 and 0.561 (both signs), against NuFIT's 212 deg.
 Verdict: P1-P4 pass -> the grid's flavour group with its own hand swap gives TM1: sin^2 theta12 = 0.318 (JUNO will settle it at the percent level) and delta tied to theta23 (DUNE, Hyper-K).
+
+## Scoring (2026-11-25)
+Run 1 (t97_run1.log). All pass.
+- S1 PASS: <T, S> is A4 (12).
+- P1 PASS: S4 has 24 elements; of the 6 edge-axis Z2s, the 3 not orthogonal to T's axis generate S4 with T; the 3 orthogonal ones generate S3 (6). One class survives.
+- P2 PASS: it gives the column (2/3, 1/6, 1/6): TM1.
+- P3 PASS: sin^2 theta12 = 0.3182, JUNO pull +1.0 sigma.
+- P4 PASS: cos delta stays within [-0.20, 0.32] over the NuFIT 1-sigma range of theta23.
+- Information: delta = 262 or 98 deg at sin^2 theta23 = 0.470; 270 or 90 at 0.5; 286 or 74 at 0.561. Near-maximal CP violation. NuFIT 6.0 (normal ordering) prefers 212 (+26, -41): the 262 branch sits about 1.9 sigma above it.
+Verdict: with the residuals required to make the whole group, the grid's flavour group (with its hand swap) gives TM1: sin^2 theta12 = 0.318 and delta near 270 deg (262-286 over theta23's range). JUNO (theta12) and DUNE/Hyper-K (delta) test both.

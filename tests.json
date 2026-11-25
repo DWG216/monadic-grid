@@ -2580,5 +2580,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t97_tm1.py",
+  "sections": [
+   "208"
+  ],
+  "predictions": [
+   "PREDICTIONS_t97.md"
+  ],
+  "group": "grid",
+  "timeout": 300
  }
 ]

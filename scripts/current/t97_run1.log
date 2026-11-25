@@ -1,0 +1,6 @@
+S1 {'order': 12, 'pass_': True}
+P1 {'S4_order': 24, 'table': [{'axis': (1, 1, 0), 'generated': 24, 'orthogonal_to_T_axis': np.False_}, {'axis': (1, -1, 0), 'generated': 6, 'orthogonal_to_T_axis': np.True_}, {'axis': (1, 0, 1), 'generated': 24, 'orthogonal_to_T_axis': np.False_}, {'axis': (1, 0, -1), 'generated': 6, 'orthogonal_to_T_axis': np.True_}, {'axis': (0, 1, 1), 'generated': 24, 'orthogonal_to_T_axis': np.False_}, {'axis': (0, 1, -1), 'generated': 6, 'orthogonal_to_T_axis': np.True_}], 'pass_': True}
+P2 {'columns': [[0.666667, 0.166667, 0.166667], [0.666667, 0.166667, 0.166667], [0.666667, 0.166667, 0.166667]], 'pass_': True}
+P3 {'sin2_12': 0.31823217603245213, 'pull_JUNO': 1.0381811531554201, 'pass_': True}
+P4 {'cos_delta_range': [-0.1975749077111035, 0.3226672108727824], 'pass_': True}
+info {'s23=0.47': [97.6, 262.4], 's23=0.5': [90.0, 270.0], 's23=0.561': [74.4, 285.6]}
