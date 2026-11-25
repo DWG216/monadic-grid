@@ -178,3 +178,4 @@
 - t115: highlighting rises by listening to the record; attention settles on lawful contents, plural (C = 1/K); a law is heard iff M e^{-sigma^2} > 1; lawless control fixates (slower than registered: P4 fail, kept).
 - t116: laws form themselves when attention weights each monad's alignment: order at 5x weaker coupling, laws few and distinct (C ~ 1/K); uniform coupling fails or locks everything; dissenters still hear the laws (all pass).
 - t117: no discrete levels from a continuum of capacity (P2, P5 fail); lawfulness and distinctness rise smoothly with capacity (P4 pass); laws form in 4/10 seeds with mixed capacities.
+- t118: pure relation laws (phi1 + phi2 - phi3 shared, each phase scattered) form under third-order attention; second-order readers are blind to them (all pass).

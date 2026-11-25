@@ -1,0 +1,3 @@
+triad {'pure': 18.5, 'synced': 0.0, 'single_laws': 0.0, 'w2_on_pure': 0.874, 'R_on_pure': 0.816, 'w3_on_pure': 31.454, 'share_pure': 0.823}
+pair {'pure': 0.0, 'synced': 1.0, 'single_laws': 4.5, 'w2_on_pure': nan, 'R_on_pure': nan, 'w3_on_pure': nan, 'share_pure': 0.0}
+none {'pure': 0.0, 'synced': 0.0, 'single_laws': 0.0, 'w2_on_pure': nan, 'R_on_pure': nan, 'w3_on_pure': nan, 'share_pure': 0.0}

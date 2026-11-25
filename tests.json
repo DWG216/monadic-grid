@@ -2812,5 +2812,16 @@
   ],
   "group": "grid",
   "timeout": 2400
+ },
+ {
+  "script": "scripts/current/t118_relations.py",
+  "sections": [
+   "239"
+  ],
+  "predictions": [
+   "PREDICTIONS_t118.md"
+  ],
+  "group": "grid",
+  "timeout": 2400
  }
 ]

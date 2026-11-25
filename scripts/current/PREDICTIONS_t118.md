@@ -9,3 +9,11 @@ P4 [M] Second-order blindness: on pure-relation frequencies the power-spectrum w
 P5 [M] Attention: median share on pure-relation frequencies > 0.5.
 P6 [M, blind] Third-order sight: on pure relations |B|²/Σa² has median > 10.
 Reading fixed in advance: laws with content are relations among phases, visible only to a reader of the right order; attention reading at that order forms them, and a second-order reader is blind to them however long it listens.
+
+## Scoring (2026-11-25), run 1 (t118_run1.log)
+- P1 PASS: triad mode forms a median 18.5 pure relations (R = 0.82 on them), no single-frequency laws.
+- P2 PASS: pair mode 0 pure relations in all 12 seeds (4.5 single-frequency laws). P3 PASS: none mode 0 in all 12.
+- P4 PASS: power-spectrum weight on pure-relation frequencies 0.87 (noise level).
+- P5 PASS: attention share on them 0.82.
+- P6 PASS (blind): third-order weight 31.5 (M = 50).
+Verdict as fixed in advance: laws with content are relations among phases, seen only by a reader of the right order; attention reading at that order forms them; a second-order reader is blind to them.
