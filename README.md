@@ -28,7 +28,7 @@ Each claim carries a label in the paper: [M] computed, [S] forced by sufficient 
 ## Run
 Python 3.10+ with numpy and scipy (`pip install -r requirements.txt`).
 ```
-python3 run_all.py --group grid          # t17–t102: the results above; compares each with its recorded log
+python3 run_all.py --group grid          # t17–t104: the results above; compares each with its recorded log
 python3 run_all.py --only t60_generations # one script
 python3 run_all.py --group quick         # earlier tests (sections 28–87 of the record)
 python3 run_all.py --group all -j 4 --timeout 3600
@@ -36,7 +36,7 @@ python3 run_all.py --group all -j 4 --timeout 3600
 Each script runs in a fresh copy of its folder under `results/work/`; outputs go to `results/out/`, a summary to `results/summary.json`. For the grid group the expected output is the log recorded when the script first ran (`tNN_run1.log`, `tNN_posthoc.log`). Where the record amended a script after its first run (t21, t22), the expected output is the amended run; the first-run log stays beside the script. t25 and t27 print timings, which vary. A mismatch from a different numpy version means "inspect", not "wrong".
 
 ## Layout
-- `scripts/current/`: t1–t102 and DATA_CHECK_2026-11-24.md (posted numbers against the newest data) with their `PREDICTIONS_*.md` and logs. Post hoc analyses are named `*_posthoc*` and labelled as such.
+- `scripts/current/`: t1–t104 and DATA_CHECK_2026-11-24.md (posted numbers against the newest data) with their `PREDICTIONS_*.md` and logs. Post hoc analyses are named `*_posthoc*` and labelled as such.
 - `scripts/early/`: the first tests (2026-11-08 to 11-13), with pre-registrations and logs.
 - `scripts/indep/`, `scripts/spiral/`, `scripts/catalogue/`: an independent re-implementation, the Euler-spiral table and the winding catalogue.
 - `GRID_SPEC.md`: the grid in one file. `TEST_INDEX.md`: every test and its section. `CHANGELOG.md`.

@@ -6,3 +6,9 @@ Computation [M]: generate the group; take the charged-lepton residual <C> (the c
 S1 Sanity: the four generators produce exactly 648 elements; Delta(27) = <C, D> is a subgroup of order 27.
 P1 [M on data] At least one surviving K gives sin^2 theta13 in NuFIT's 3-sigma range 0.0205-0.0240, sin^2 theta12 within 3 sigma of JUNO (0.283-0.335) and sin^2 theta23 in NuFIT's 3-sigma range (0.430-0.596).
 Verdict: P1 pass -> the next level of the grain fixes theta13 with no free angle. P1 fail -> the Hessian group's fixed patterns are excluded and the correction must come from breaking at the next level (a small angle), the next step.
+
+## Scoring (2026-11-25)
+Run 1 (t104_run1.log; check t104_check.log).
+- S1 PASS: the generators give exactly 648 elements; Delta(27) has 27.
+- P1 FAIL: the group has 9 involutions and no two commute, so it has no Klein subgroup at all: a Majorana sector cannot keep a Z2 x Z2 inside it, and no fixed pattern exists.
+Verdict: the Hessian group cannot fix theta13 by a Klein residual. theta13 must come from a small breaking at the next level (TM1's free angle set by the 3-adic correction), which needs a dynamical computation, not a symmetry count.

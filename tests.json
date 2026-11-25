@@ -2646,5 +2646,27 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t103_two_ninths.py",
+  "sections": [
+   "216"
+  ],
+  "predictions": [
+   "PREDICTIONS_t103.md"
+  ],
+  "group": "grid",
+  "timeout": 900
+ },
+ {
+  "script": "scripts/current/t104_hessian_mixing.py",
+  "sections": [
+   "217"
+  ],
+  "predictions": [
+   "PREDICTIONS_t104.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

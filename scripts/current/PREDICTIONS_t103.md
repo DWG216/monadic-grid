@@ -8,3 +8,9 @@ P1 [M on data] R1: |delta - Q/3| within 3 sigma for up and down quarks.
 P2 [M on data] R2: |delta_d - 1/9| and |delta_u - 1/18| each within 3 sigma.
 Note: R2 was suggested by t98's post hoc; its test here is the same data, so a pass is weak; a fail removes it.
 Verdict: if both fail, 2/9 remains a lepton-sector reading without a derivation, and the next attempt must come from a dynamical principle (the chord as the eigenvalues of a circulant mass matrix with the grain's phase), not from numerology.
+
+## Scoring (2026-11-25)
+Run 1 (t103_run1.log).
+- P1 FAIL: delta = Q/3 misses badly for quarks (up: 0.050 vs 0.296, -107 sigma; down: 0.102 vs 0.247, -9.5 sigma). R1 is removed: 2/9 = Q/3 for leptons is not a rule.
+- P2 PASS (weak, as stated): the halving pattern sits within 3 sigma (down -0.6, up -2.2). Same data that suggested it; not evidence on its own.
+Verdict: no derivation of 2/9 yet. R2 survives as a pattern to test with better light-quark masses (FLAG lattice averages). The derivation must come from a dynamical principle: the chord as the eigenvalues of a circulant mass matrix built from the grain, with its phase fixed by the counting phase's action.
