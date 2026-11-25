@@ -1,0 +1,5 @@
+1 E[R_k]/sum_j p_jk (random phases) (0.975638968140387, 1.0054888454735655)
+2 split vs whole, power w^0.3 2.7755575615628914e-17
+2 split vs whole, exponential e^(0.3 w) 0.3288873108188465
+2 split vs whole, additive 1 + 0.3 w 0.03304226508271807
+3 finite difference vs formula (-0.39973934073955775, -0.39973934076404816)
