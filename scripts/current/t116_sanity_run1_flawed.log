@@ -1,0 +1,6 @@
+kappa 0.0 weighted {'K': 0.0, 'share': 0.0, 'C': 1.0, 'r_max': 0.306} uniform {'K': 0.0, 'share': 0.0, 'C': 1.0, 'r_max': 0.306}
+kappa 0.02 weighted {'K': 0.0, 'share': 0.0, 'C': nan, 'r_max': nan} uniform {'K': 0.0, 'share': 0.0, 'C': 0.817, 'r_max': 0.451}
+kappa 0.05 weighted {'K': 0.0, 'share': 0.0, 'C': nan, 'r_max': nan} uniform {'K': 0.0, 'share': 0.0, 'C': 0.993, 'r_max': 0.67}
+kappa 0.1 weighted {'K': 0.0, 'share': 0.0, 'C': 0.936, 'r_max': 0.72} uniform {'K': 12.0, 'share': 0.005, 'C': 0.991, 'r_max': 0.867}
+kappa 0.2 weighted {'K': 0.0, 'share': 0.0, 'C': 0.889, 'r_max': 0.434} uniform {'K': 64.0, 'share': 1.0, 'C': 0.844, 'r_max': 0.946}
+kappa 0.4 weighted {'K': 0.0, 'share': 0.0, 'C': 0.703, 'r_max': 0.309} uniform {'K': 64.0, 'share': 1.0, 'C': 0.977, 'r_max': 0.985}
