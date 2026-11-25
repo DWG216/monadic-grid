@@ -9,3 +9,12 @@ P4 [M] keep: K2 > K1 in at least 8 of 10 worlds.
 P5 [M] Median Jaccard of Age 1 and Age 2 law sets < 0.3 (each Age has its own laws), keep and reset.
 P6 [M, blind] keep: Age 3 arrives within ±30% of Age 2 (median ratio32 in [0.7, 1.3]): once minds are full, Ages repeat at one pace.
 Reading fixed in advance: an Age ends when the record has nothing left to write; spacetime closes, minds keep what they became, and the next Age forms new laws faster and richer, until the minds are full and Ages repeat at one pace.
+
+## Scoring (2026-11-25), run 1 (t121_run1.log)
+- P1 PASS: novelty falls 14–43× in every world.
+- P2 PASS: keep, Age 2 arrives at 0.20 of Age 1's time (180 → 35 ticks, median).
+- P3 PASS: reset, ratio 1.00.
+- P4 PASS: keep, K2 > K1 in 10 of 10 (median 4 → 9).
+- P5 PASS: median Jaccard 0.0 (keep and reset): each Age has its own laws.
+- P6 PASS (blind): Age 3 / Age 2 = 1.00 (0.86–1.43; median inside [0.7, 1.3]); K3 median 9.
+Verdict as fixed in advance: an Age ends when the record has nothing left to write; spacetime closes, minds keep what they became, the next Age forms new laws 5× faster and twice as many, and once minds are full Ages repeat at one pace.

@@ -181,3 +181,4 @@
 - t118: pure relation laws (phi1 + phi2 - phi3 shared, each phase scattered) form under third-order attention; second-order readers are blind to them (all pass).
 - t119: a system of locked relations carries its consequences: derived four-frequency relations hold (R 0.735, above the parents' product 0.662), seen by a fourth-order reader (25 vs 0.7 for controls); all pass.
 - t120: the climb: with laws every monad reaches the top (post hoc; P1's registered measure was broken by a post-sanity edit, fail kept), the more capable first; climbing forms more laws; without laws the climb is slower and divides the population (P5 fail, writer's expectation wrong).
+- t121: Ages: the record stops being written at Omega (novelty falls 14-43x); with minds kept, the next Age forms new laws 5x faster and twice as many; with minds reset, no speed-up; Ages then repeat at one pace (all pass).
