@@ -2569,5 +2569,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t96_flavour.py",
+  "sections": [
+   "207"
+  ],
+  "predictions": [
+   "PREDICTIONS_t96.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

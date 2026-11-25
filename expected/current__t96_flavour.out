@@ -1,0 +1,7 @@
+S1 {'units': 24, 'closed': True, 'A4': 12, 'D27': 27, 'pass_': True}
+P1 {'n_axes': 7, 'stabiliser_orders': [2, 2, 2, 3, 3, 3, 3], 'pass_': True}
+P2 {'n_critical': 12, 'stabiliser': 9, 'bases': [3, 3, 3, 3], 'mutually_unbiased': True, 'pass_': True}
+C1 {'moduli_sq': [[0.333333, 0.333333, 0.333333], [0.333333, 0.333333, 0.333333], [0.333333, 0.333333, 0.333333]], 'pass_': True}
+P3 {'pass_': True}
+P4 {'sin2_12_TM2': 0.34088391198377394, 'nufit_3sigma': (0.275, 0.345), 'pull_nufit': 2.823659331981162, 'pull_JUNO': 3.6418289636521797, 'pass_': True}
+info {'n_points': 4954, 's23_range': [0.3918427376258112, 0.6081572623741888], 'Jmax': 0.035231297878496035}
