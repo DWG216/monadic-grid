@@ -1,0 +1,5 @@
+S1 {'found': -1, 'pass_': True}
+P1 {'consistent': 0, 'pass_': False}
+P2 {'min_eig': None, 'pass_': False}
+P3 {'pass_': False}
+P4 {'pass_': True, 'note': 'instances kept only if elimination refutes'}

@@ -2403,5 +2403,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t81_sos_balanced.py",
+  "sections": [
+   "189"
+  ],
+  "predictions": [
+   "PREDICTIONS_t81.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

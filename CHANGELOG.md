@@ -151,3 +151,4 @@
 - t78: weak symmetric degree of OR over Z2, Z3, Z6 (run 1 crash at the search limit kept; run 2 all pass).
 - t79: the balanced record of 3-SAT against BLP and AIP (all pass; BLP+AIP support check open).
 - t80: BLP+AIP support check (pass) and (2,3)-consistency (B2, B3 fail at the registered threshold, kept).
+- t81: degree-4 SoS construction for 3-XOR at n = 60 (P1 fail: below the expanding regime; post hoc refuting degree 3 -> 4 by n = 240). Kept.
