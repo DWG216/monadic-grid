@@ -1,0 +1,39 @@
+S1 {'result': 'conflict', 'pass_': True}
+S2 {'results': ['ok', 'ok', 'ok'], 'pass_': True}
+{'n': 1000, 'i': 0, 'closure': 'ok', 'size': 7034, 'sec': 0.3}
+{'n': 1000, 'i': 1, 'closure': 'ok', 'size': 6660, 'sec': 0.2}
+{'n': 1000, 'i': 2, 'closure': 'ok', 'size': 6946, 'sec': 0.3}
+{'n': 1000, 'i': 3, 'closure': 'ok', 'size': 6766, 'sec': 0.2}
+{'n': 1000, 'i': 4, 'closure': 'ok', 'size': 7042, 'sec': 0.3}
+{'n': 1000, 'i': 5, 'closure': 'ok', 'size': 6215, 'sec': 0.2}
+{'n': 1000, 'i': 6, 'closure': 'ok', 'size': 6799, 'sec': 0.3}
+{'n': 1000, 'i': 7, 'closure': 'ok', 'size': 6620, 'sec': 0.2}
+{'n': 1000, 'i': 8, 'closure': 'ok', 'size': 6602, 'sec': 0.2}
+{'n': 1000, 'i': 9, 'closure': 'ok', 'size': 7117, 'sec': 0.3}
+{'n': 2000, 'i': 0, 'closure': 'ok', 'size': 11804, 'sec': 0.4}
+{'n': 2000, 'i': 1, 'closure': 'ok', 'size': 12530, 'sec': 0.5}
+{'n': 2000, 'i': 2, 'closure': 'ok', 'size': 12442, 'sec': 0.4}
+{'n': 2000, 'i': 3, 'closure': 'ok', 'size': 12135, 'sec': 0.5}
+{'n': 2000, 'i': 4, 'closure': 'ok', 'size': 12214, 'sec': 0.4}
+{'n': 2000, 'i': 5, 'closure': 'ok', 'size': 11879, 'sec': 0.4}
+{'n': 2000, 'i': 6, 'closure': 'ok', 'size': 11844, 'sec': 0.4}
+{'n': 2000, 'i': 7, 'closure': 'ok', 'size': 12197, 'sec': 0.4}
+{'n': 2000, 'i': 8, 'closure': 'ok', 'size': 12221, 'sec': 0.4}
+{'n': 2000, 'i': 9, 'closure': 'ok', 'size': 12231, 'sec': 0.4}
+{'n': 4000, 'i': 0, 'closure': 'ok', 'size': 22721, 'sec': 0.8, 'min_local_eig': -5.5511151232091984e-15, 'local_record': True}
+{'n': 4000, 'i': 1, 'closure': 'ok', 'size': 23009, 'sec': 0.8, 'min_local_eig': -4.9197530033699015e-15, 'local_record': True}
+{'n': 4000, 'i': 2, 'closure': 'ok', 'size': 23132, 'sec': 0.9, 'min_local_eig': -5.3934281075170225e-15, 'local_record': True}
+{'n': 4000, 'i': 3, 'closure': 'ok', 'size': 23569, 'sec': 0.8, 'min_local_eig': -6.1954105226965294e-15, 'local_record': True}
+{'n': 4000, 'i': 4, 'closure': 'ok', 'size': 23174, 'sec': 0.8, 'min_local_eig': -7.993605777301435e-15, 'local_record': True}
+{'n': 4000, 'i': 5, 'closure': 'ok', 'size': 22770, 'sec': 0.9, 'min_local_eig': -3.7747162584960326e-15, 'local_record': True}
+{'n': 4000, 'i': 6, 'closure': 'ok', 'size': 23186, 'sec': 0.8, 'min_local_eig': -4.6889156621153326e-15, 'local_record': True}
+{'n': 4000, 'i': 7, 'closure': 'ok', 'size': 22656, 'sec': 0.7, 'min_local_eig': -4.0245584642661925e-15, 'local_record': True}
+{'n': 4000, 'i': 8, 'closure': 'ok', 'size': 22663, 'sec': 0.8, 'min_local_eig': -9.547918011776346e-15, 'local_record': True}
+{'n': 4000, 'i': 9, 'closure': 'ok', 'size': 22862, 'sec': 0.8, 'min_local_eig': -5.668583485175141e-15, 'local_record': True}
+S1 {'result': 'conflict', 'pass_': True}
+S2 {'results': ['ok', 'ok', 'ok'], 'pass_': True}
+P1 {'consistent_4000': 10, 'pass_': True}
+P2 {'consistent': {1000: 10, 2000: 10, 4000: 10}, 'pass_': True}
+P3 {'min_eig': -9.547918011776346e-15, 'pass_': True}
+P4 {'pass_': True}
+P5 {'refuted': 30, 'pass_': True, 'note': 'kept only if elimination refutes'}

@@ -15,3 +15,12 @@ P4 [M] On every consistent n = 4000 instance, E~ restricted to every clause is t
 P5 [M] Gaussian elimination refutes every instance kept (by construction; reported).
 
 Verdict: P1-P4 pass -> at scale, degree-4 SoS accepts unsatisfiable random 3-XOR through t79's balanced record glued across the instance; only the minority law (elimination, the polymorphism of XOR) breaks it.
+
+## Scoring (2026-11-24)
+Run 1 (t82_run1.log). All pass.
+- S1 PASS: the planted odd even cover is refuted. S2 PASS: 3/3 planted satisfiable instances consistent.
+- P1 PASS: 10/10 consistent at n = 4000 (about 23,000 derived equations each, under a second).
+- P2 PASS: 10/10 at n = 1000, 2000 and 4000.
+- P3 PASS: least local eigenvalue over 200 local moment matrices (466 x 466) -9.5e-15 (zero to machine precision: the record's linear relations).
+- P4 PASS: every clause of every n = 4000 instance carries t79's record (no singleton or in-clause pair derivable; clause monomial = its sign).
+- P5 PASS: elimination refutes all 30.
