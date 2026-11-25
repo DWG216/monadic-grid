@@ -1,0 +1,11 @@
+S1 {'max_rel_err': np.float64(21.512089612011273), 'pass_': np.False_}
+S2 {'c_engine': np.float64(5.666666666666667), 'c_t102': 5.666666666666667, 'pass_': np.True_}
+closure residual 0.7760770520447376
+beta coefficients (per 16 pi^2 already applied): {'l11': [48.669683, 0.977376], 'l22': [13.502262, 18.733032], 'l12': [49.954751, 17.339367], 'g4': [3.323906, 1.195701], 'y4': [-0.733032, -3.502262], 'gl0': [-32.0, -0.0], 'yl0': [12.0, 0.0], 'gl1': [-0.0, -32.0], 'yl1': [-0.0, 12.0], 'by_y3': np.float64(6.0), 'by_g2y': np.float64(-16.0)}
+n_h 0 {'l1': np.float64(-0.025514581849800204), 'l2': np.float64(-0.0018449188268125998), 'lsm': None, 'mh': None}
+n_h 1 {'l1': np.float64(-0.026863546923763523), 'l2': np.float64(-0.0023320144324150364), 'lsm': None, 'mh': None}
+n_h 2 {'l1': np.float64(-0.028347432771062664), 'l2': np.float64(-0.002863972606975489), 'lsm': None, 'mh': None}
+n_h 3 {'l1': np.float64(-0.029987074390341786), 'l2': np.float64(-0.003447320851891743), 'lsm': None, 'mh': None}
+S1 {'max_rel_err': np.float64(21.512089612011273), 'pass_': np.False_}
+S2 {'c_engine': np.float64(5.666666666666667), 'c_t102': 5.666666666666667, 'pass_': np.True_}
+P1 {'mh': {0: None, 1: None, 2: None, 3: None}, 'pass_': False}
