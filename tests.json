@@ -2392,5 +2392,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t80_support_and_width.py",
+  "sections": [
+   "188"
+  ],
+  "predictions": [
+   "PREDICTIONS_t80.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

@@ -1,0 +1,5 @@
+A1 {'full_support': 5, 'pass_': True}
+S1 {'pass_': True}
+B1 {'refuted': 10, 'pass_': True}
+B2 {'refuted': 2, 'pass_': False}
+B3 {'width_refuted': 2, 'elim_refuted': 10, 'pass_': False}
