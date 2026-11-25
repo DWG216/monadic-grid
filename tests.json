@@ -2481,5 +2481,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t88_f2_doll.py",
+  "sections": [
+   "196"
+  ],
+  "predictions": [
+   "PREDICTIONS_t88.md"
+  ],
+  "group": "grid",
+  "timeout": 1800
  }
 ]

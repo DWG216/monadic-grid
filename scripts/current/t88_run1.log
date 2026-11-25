@@ -1,0 +1,38 @@
+3SAT 100 5 law 0 unsat 0 of 200 0.0s
+3SAT 100 10 law 0 unsat 0 of 200 0.0s
+3SAT 100 20 law 0 unsat 0 of 200 0.1s
+3SAT 100 30 law 0 unsat 0 of 200 0.3s
+3SAT 200 5 law 0 unsat 0 of 200 0.0s
+3SAT 200 10 law 0 unsat 0 of 200 0.0s
+3SAT 200 20 law 0 unsat 0 of 200 0.1s
+3SAT 200 30 law 0 unsat 0 of 200 0.3s
+3SAT 400 5 law 0 unsat 0 of 200 0.0s
+3SAT 400 10 law 0 unsat 0 of 200 0.0s
+3SAT 400 20 law 0 unsat 0 of 200 0.2s
+3SAT 400 30 law 0 unsat 0 of 200 0.4s
+3SAT 800 5 law 0 unsat 0 of 200 0.0s
+3SAT 800 10 law 0 unsat 0 of 200 0.1s
+3SAT 800 20 law 0 unsat 0 of 200 0.2s
+3SAT 800 30 law 0 unsat 0 of 200 0.6s
+3XOR 100 5 law 200 unsat 0 of 200 0.0s
+3XOR 100 10 law 200 unsat 0 of 200 0.1s
+3XOR 100 20 law 200 unsat 0 of 200 0.8s
+3XOR 100 30 law 200 unsat 0 of 200 10.0s
+3XOR 200 5 law 200 unsat 0 of 200 0.0s
+3XOR 200 10 law 200 unsat 0 of 200 0.1s
+3XOR 200 20 law 200 unsat 0 of 200 1.2s
+3XOR 200 30 law 200 unsat 0 of 200 122.8s
+3XOR 400 5 law 200 unsat 0 of 200 0.0s
+3XOR 400 10 law 200 unsat 0 of 200 0.1s
+3XOR 400 20 law 200 unsat 0 of 200 1.0s
+3XOR 400 30 law 200 unsat 0 of 200 48.6s
+3XOR 800 5 law 200 unsat 0 of 200 0.0s
+3XOR 800 10 law 200 unsat 0 of 200 0.1s
+3XOR 800 20 law 200 unsat 0 of 200 1.0s
+3XOR 800 30 law 200 unsat 0 of 200 118.9s
+S1 S1 four=1 single=0
+S1_pass True
+C1 {'pass_': True}
+P1 {'fracs': {5: 0.0, 10: 0.0, 20: 0.0, 30: 0.0}, 'pass_': True}
+P2 {'fracs_s30': [0.0, 0.0, 0.0, 0.0], 'pass_': True}
+P3 {'pass_': True}

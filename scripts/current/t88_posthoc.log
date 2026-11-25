@@ -1,0 +1,3 @@
+100 60 timeout
+100 100 timeout
+(run stopped at the 590 s session limit; the exact law check does not scale past 30-clause pieces with this DPLL)

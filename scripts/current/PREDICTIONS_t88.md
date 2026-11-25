@@ -14,3 +14,13 @@ P2 [M] 3-SAT, s = 30: the fraction carrying a law does not increase from n = 100
 P3 [M] 3-XOR, every n and s: 100% of subsets carry a law (the law is present at every scale).
 
 Verdict: P1-P3 pass -> in the F2 doll, 3-XOR shows its law in every small piece, 3-SAT in almost none, and fewer as n grows: a parity reader working on pieces finds a law only at a scale that grows with the instance. This is the local condition the Res(+) rung needs, not the Res(+) lower bound itself.
+
+## Scoring (2026-11-25)
+Run 1 (t88_run1.log). A five-subset smoke test at n = 100 (s = 5 for 3-XOR, s = 10 for 3-SAT) was run while compiling, before the registered run; it is disclosed here and not used. All pass.
+- S1 PASS: the four-clause pattern carries the law x = 1; a single clause carries none.
+- C1 PASS: every 3-XOR piece at n = 100 (s = 5, 10) carries a law.
+- P1 PASS: no 3-SAT piece carries an F2 law at n = 800, for any s up to 30 (0 of 200 each).
+- P2 PASS at the floor: 0 of 200 at s = 30 for every n (100-800). The trend in n is not resolved because no piece of 30 clauses carries a law even at n = 100.
+- P3 PASS: every 3-XOR piece, every n and s, carries a law (3,200 of 3,200).
+Post hoc (t88_posthoc.py, labelled): an attempt to find the piece size at which 3-SAT pieces first carry a law (s = 60-200 at n = 100, 200) timed out at s = 60 with this exact DPLL check; kept.
+Verdict: in the F2 doll, 3-XOR shows its law in every piece of every size; 3-SAT shows none in any piece of up to 30 clauses at any size tested. A reader carrying the F2 law (Res(+)) finds no law to read in 3-SAT's small reasons.
