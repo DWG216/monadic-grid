@@ -1,0 +1,4 @@
+P1 {'thetabar': np.float64(-6.106226635438361e-16), 'J': np.float64(3.112760965985445e-05), 'pass_': np.True_}
+P2 {'max_thetabar': np.float64(4.529245356543756e-08), 'frac_J_gt_1e8': np.float64(1.0), 'pass_': np.False_}
+P3 {'thetabar_MZ': np.float64(1.6653345369377348e-16), 'J_MZ': np.float64(2.396079554514887e-05), 'Yd_nonhermiticity': np.float64(0.00504117778144883), 'pass_': np.True_}
+P4 future data: n2EDM null from theta; no QCD axion

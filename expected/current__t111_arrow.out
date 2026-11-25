@@ -1,0 +1,3 @@
+P1 {'max_dS': 1.1102230246251565e-15, 'pass_': np.True_}
+P2 {'frac_record_decreasing': 0.49479347934793483, 'count_increasing': 1.0, 'pass_': np.True_}
+P3 {'n_values': 38, 'min_class': 12, 'pass_': True}

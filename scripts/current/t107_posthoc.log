@@ -1,0 +1,6 @@
+double det 4.53e-08  cond(A)cond(B) 1.6e+09  hermiticity err 3.6e-15
+double det 7.65e-09  cond(A)cond(B) 9.2e+08  hermiticity err 1.8e-15
+double det 3.73e-09  cond(A)cond(B) 3.7e+08  hermiticity err 4.7e-15
+double det 2.84e-09  cond(A)cond(B) 2.7e+08  hermiticity err 2.5e-15
+double det 2.68e-09  cond(A)cond(B) 2.1e+08  hermiticity err 7.7e-15
+theta-bar from real eigenvalues, worst over 1000 pairs: 0

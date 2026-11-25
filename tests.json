@@ -2690,5 +2690,60 @@
   ],
   "group": "grid",
   "timeout": 1800
+ },
+ {
+  "script": "scripts/current/t107_strong_cp.py",
+  "sections": [
+   "223"
+  ],
+  "predictions": [
+   "PREDICTIONS_t107.md"
+  ],
+  "group": "grid",
+  "timeout": 1800
+ },
+ {
+  "script": "scripts/current/t108_veltman.py",
+  "sections": [
+   "224"
+  ],
+  "predictions": [
+   "PREDICTIONS_t108.md"
+  ],
+  "group": "grid",
+  "timeout": 1800
+ },
+ {
+  "script": "scripts/current/t109_b_tau.py",
+  "sections": [
+   "225"
+  ],
+  "predictions": [
+   "PREDICTIONS_t109.md"
+  ],
+  "group": "grid",
+  "timeout": 1800
+ },
+ {
+  "script": "scripts/current/t110_shared_asymmetry.py",
+  "sections": [
+   "226"
+  ],
+  "predictions": [
+   "PREDICTIONS_t110.md"
+  ],
+  "group": "grid",
+  "timeout": 1800
+ },
+ {
+  "script": "scripts/current/t111_arrow.py",
+  "sections": [
+   "227"
+  ],
+  "predictions": [
+   "PREDICTIONS_t111.md"
+  ],
+  "group": "grid",
+  "timeout": 1800
  }
 ]

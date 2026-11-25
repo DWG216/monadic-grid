@@ -1,0 +1,2 @@
+P1 {'mu_V': [], 'C_Mstar': np.float64(-0.21562300468455053), 'pass_': False}
+P2 {'cases': {'A0': {'mu_V': [], 'C_Mstar': np.float64(-0.2199)}, 'A1': {'mu_V': [], 'C_Mstar': np.float64(-0.1819)}, 'A2': {'mu_V': [], 'C_Mstar': np.float64(-0.1413)}, 'A3': {'mu_V': [], 'C_Mstar': np.float64(-0.0976)}, 'B0': {'mu_V': [], 'C_Mstar': np.float64(-0.1552)}, 'B1': {'mu_V': [], 'C_Mstar': np.float64(-0.1163)}, 'B2': {'mu_V': [], 'C_Mstar': np.float64(-0.0746)}, 'B3': {'mu_V': ['8.20e+18'], 'C_Mstar': np.float64(-0.0298)}}, 'pass_': False}
