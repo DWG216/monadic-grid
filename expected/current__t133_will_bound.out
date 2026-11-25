@@ -1,0 +1,14 @@
+6000 {'rho': np.float64(0.995), 'low_decile_frac_of_pi': 0.00052, 'top_decile_frac_of_pi': 0.0067}
+6001 {'rho': np.float64(0.997), 'low_decile_frac_of_pi': 0.00054, 'top_decile_frac_of_pi': 0.0072}
+6002 {'rho': np.float64(0.992), 'low_decile_frac_of_pi': 0.00052, 'top_decile_frac_of_pi': 0.0056}
+6003 {'rho': np.float64(0.999), 'low_decile_frac_of_pi': 0.00049, 'top_decile_frac_of_pi': 0.0081}
+6004 {'rho': np.float64(0.996), 'low_decile_frac_of_pi': 0.00051, 'top_decile_frac_of_pi': 0.0069}
+6005 {'rho': np.float64(0.998), 'low_decile_frac_of_pi': 0.00048, 'top_decile_frac_of_pi': 0.0071}
+6006 {'rho': np.float64(0.999), 'low_decile_frac_of_pi': 0.0005, 'top_decile_frac_of_pi': 0.0072}
+6007 {'rho': np.float64(0.979), 'low_decile_frac_of_pi': 0.0005, 'top_decile_frac_of_pi': 0.0046}
+6008 {'rho': np.float64(0.998), 'low_decile_frac_of_pi': 0.00051, 'top_decile_frac_of_pi': 0.0072}
+6009 {'rho': np.float64(0.993), 'low_decile_frac_of_pi': 0.0005, 'top_decile_frac_of_pi': 0.0061}
+S1 {'max_err': 2.4578883124399724e-12, 'pass_': np.True_}
+P1 {'max_rel_diff': 2.6682276980549116e-15, 'pass_': True}
+P2 {'max_err_inside': 1.7763568394002505e-15, 'max_err_vs_wrap': 2.55351295663786e-15, 'max_abs_recovered': 3.141579864893152, 'pass_': np.True_}
+P3 {'rhos': [0.995, 0.997, 0.992, 0.999, 0.996, 0.998, 0.999, 0.979, 0.998, 0.993], 'low_decile_median': 0.0005075989289271036, 'top_decile_median': 0.0069828063694877835, 'pass_': np.True_}
