@@ -1,0 +1,6 @@
+# t111 Arrow of time: balanced pairs as Deutsch–Marletto null constructors (pre-registered 2026-11-25, before code)
+[S] Deutsch & Marletto (J. Phys. Commun. 10 (2026) 115003) define time as the label of an equivalence class of null constructors: tasks that change a timer and nothing else. In the grid a balanced pair, e^{iθ} + e^{i(θ+π)} = 0, leaves the sum unchanged and adds one tick to the count. Correction to section 222: the monotone quantity is the count N = Σ|c_k|² (Parseval), not the record |S|² of the sum, which fluctuates.
+P1 [M, exact] Adding a balanced pair at any phase leaves S unchanged: |ΔS| < 1e-12 over 1e5 random pairs.
+P2 [M] For random-phase monads added one at a time (N up to 1e4, 200 walks), |S|² decreases at between 40% and 60% of steps (not monotone) while N increases at every step.
+P3 [M] Recovery is impossible from the record: for fixed |S|², the number of phase assignments of n = 8 monads on a 12-point grain consistent with it grows with |S|² class size > 1 for every attained value (the square forgets the phases, so the record cannot be unwritten).
+Verdict wording fixed in advance: if P1–P3 pass, the arrow is the count of balanced pairs, irreversible because squaring is not invertible.
