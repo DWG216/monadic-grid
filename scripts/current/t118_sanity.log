@@ -1,0 +1,4 @@
+triad {'pure': 19.0, 'synced': 0.0, 'single_laws': 0.0, 'w2_on_pure': 0.81, 'R_on_pure': 0.811, 'share_pure': 0.822}
+  print(mode, {k: round(float(np.nanmedian([r[k] for r in rs])), 3) for k in rs[0]})
+pair {'pure': 0.0, 'synced': 1.0, 'single_laws': 4.0, 'w2_on_pure': nan, 'R_on_pure': nan, 'share_pure': 0.0}
+none {'pure': 0.0, 'synced': 0.0, 'single_laws': 0.0, 'w2_on_pure': nan, 'R_on_pure': nan, 'share_pure': 0.0}
