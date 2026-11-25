@@ -1,0 +1,15 @@
+6000 {'K': 0, 'sharpness': np.float64(2.27), 'second_over_first': np.float64(0.7), 'L_above': 0.0, 'L_below': 0.0, 'steps': [np.float64(0.37), np.float64(0.26), np.float64(0.19), np.float64(0.08), np.float64(0.06), np.float64(0.14), np.float64(0.1), np.float64(0.18), np.float64(0.1)]}
+6001 {'K': 0, 'sharpness': np.float64(2.24), 'second_over_first': np.float64(0.97), 'L_above': 0.0, 'L_below': 0.0, 'steps': [np.float64(0.26), np.float64(0.26), np.float64(0.22), np.float64(0.08), np.float64(0.09), np.float64(0.08), np.float64(0.02), np.float64(0.01), np.float64(0.04)]}
+6002 {'K': 2, 'sharpness': np.float64(2.44), 'second_over_first': np.float64(0.86), 'L_above': 0.94, 'L_below': 0.16, 'steps': [np.float64(0.37), np.float64(0.32), np.float64(0.29), np.float64(0.11), np.float64(0.07), np.float64(0.04), np.float64(0.03), np.float64(0.11), np.float64(0.04)]}
+6003 {'K': 0, 'sharpness': np.float64(2.71), 'second_over_first': np.float64(0.83), 'L_above': 0.0, 'L_below': 0.0, 'steps': [np.float64(0.29), np.float64(0.35), np.float64(0.13), np.float64(0.04), np.float64(0.02), np.float64(0.03), np.float64(0.06), np.float64(0.1), np.float64(0.13)]}
+6004 {'K': 3, 'sharpness': np.float64(2.51), 'second_over_first': np.float64(0.98), 'L_above': 0.86, 'L_below': 0.3, 'steps': [np.float64(0.32), np.float64(0.33), np.float64(0.14), np.float64(0.08), np.float64(0.04), np.float64(0.06), np.float64(0.04), np.float64(0.09), np.float64(0.07)]}
+6005 {'K': 0, 'sharpness': np.float64(2.79), 'second_over_first': np.float64(0.9), 'L_above': 0.0, 'L_below': 0.0, 'steps': [np.float64(0.35), np.float64(0.39), np.float64(0.14), np.float64(0.08), np.float64(0.06), np.float64(0.06), np.float64(0.1), np.float64(0.05), np.float64(0.03)]}
+6006 {'K': 0, 'sharpness': np.float64(2.21), 'second_over_first': np.float64(0.86), 'L_above': 0.0, 'L_below': 0.0, 'steps': [np.float64(0.26), np.float64(0.3), np.float64(0.23), np.float64(0.11), np.float64(0.05), np.float64(0.11), np.float64(0.07), np.float64(0.07), np.float64(0.03)]}
+6007 {'K': 1, 'sharpness': np.float64(2.11), 'second_over_first': np.float64(0.98), 'L_above': 0.95, 'L_below': 0.09, 'steps': [np.float64(0.36), np.float64(0.37), np.float64(0.3), np.float64(0.25), np.float64(0.2), np.float64(0.07), np.float64(0.02), np.float64(0.0), np.float64(0.0)]}
+6008 {'K': 3, 'sharpness': np.float64(2.48), 'second_over_first': np.float64(0.85), 'L_above': 0.85, 'L_below': 0.2, 'steps': [np.float64(0.32), np.float64(0.27), np.float64(0.23), np.float64(0.07), np.float64(0.04), np.float64(0.04), np.float64(0.05), np.float64(0.04), np.float64(0.11)]}
+6009 {'K': 0, 'sharpness': np.float64(2.53), 'second_over_first': np.float64(0.91), 'L_above': 0.0, 'L_below': 0.0, 'steps': [np.float64(0.38), np.float64(0.34), np.float64(0.19), np.float64(0.09), np.float64(0.07), np.float64(0.06), np.float64(0.05), np.float64(0.09), np.float64(0.06)]}
+P1 fraction with laws 0.4
+P2 median sharpness (laws) 2.46 pass False
+P3 median sharpness (no laws) 2.4 pass True
+P4 L above / below 0.9 0.18 pass True
+P5 second/first 0.92 pass False

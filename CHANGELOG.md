@@ -177,3 +177,4 @@
 - t114 (enumeration, not pre-registered): no texture built from the two symmetric halves fits s/mu and d/e; the antisymmetric 351 feeds quarks only. drafts/series_1_1/outline.md: series 1.1, 20 posts, folds in 61-64.
 - t115: highlighting rises by listening to the record; attention settles on lawful contents, plural (C = 1/K); a law is heard iff M e^{-sigma^2} > 1; lawless control fixates (slower than registered: P4 fail, kept).
 - t116: laws form themselves when attention weights each monad's alignment: order at 5x weaker coupling, laws few and distinct (C ~ 1/K); uniform coupling fails or locks everything; dissenters still hear the laws (all pass).
+- t117: no discrete levels from a continuum of capacity (P2, P5 fail); lawfulness and distinctness rise smoothly with capacity (P4 pass); laws form in 4/10 seeds with mixed capacities.
