@@ -1,0 +1,6 @@
+T1 formation (equal a=0.3, no growth) {'worlds_with_laws': 3, 'K': [1, 1, 1], 'L_med': 0.998, 'C_over_1K': [1.0, 1.0, 1.0]}
+T2 climb lawful {'frac_half': [1.0, 1.0, 1.0], 'K': [1, 1, 1], 'rho': [-0.984, -0.966, -0.981]}
+T2 climb lawless (no turning) {'frac_half': [0.0, 0.0, 0.0], 'C': [0.636, 0.573, 0.507]}
+T3 ages {'keep': {'arrive': [(15, 5), (15, 5), (15, 5)], 'ratio': [0.33, 0.33, 0.33], 'jaccard': [0.0, 0.0, 0.0], 'novelty_drop': [59345.8, 54453.2, 51851.2]}, 'reset': {'arrive': [(15, 15), (15, 15), (15, 15)], 'ratio': [1.0, 1.0, 1.0], 'jaccard': [0.0, 0.0, 0.0], 'novelty_drop': [59345.8, 54453.2, 51851.2]}}
+T4 reflection lawful {'refl_frac_half': [1.0, 1.0, 1.0], 'refl_L': [0.998, 0.998, 0.998]}
+T4 reflection lawless {'refl_a': [1.0, 0.083, 0.083], 'refl_C': [0.184, 0.016, 0.016], 'plain_a': [0.003, 1.0, 1.0], 'false_sig': [0.0006261384335154827, 0.0, 0.0], 'z': np.float64(4.05), 'k0': 0.0}

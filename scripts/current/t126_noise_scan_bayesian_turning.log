@@ -1,0 +1,16 @@
+exploratory scan (sanity, labelled): equal capacities, no growth, M = 120, seeds 16000-16002
+a=0.3 eta=0.3: K=[0, 0, 0]  L_med=[0.0, 0.0, 0.0]  C*K=[None, None, None]  eta^2 sqrtM=0.99
+a=0.3 eta=0.2: K=[0, 0, 0]  L_med=[0.0, 0.0, 0.0]  C*K=[None, None, None]  eta^2 sqrtM=0.44
+a=0.3 eta=0.1: K=[0, 0, 0]  L_med=[0.0, 0.0, 0.0]  C*K=[None, None, None]  eta^2 sqrtM=0.11
+a=0.3 eta=0.05: K=[0, 0, 0]  L_med=[0.0, 0.0, 0.0]  C*K=[None, None, None]  eta^2 sqrtM=0.03
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+  File "/home/claude/monadic-grid/scripts/current/t126_derived.py", line 24, in world
+    rng = rng or np.random.default_rng(seed); k0 = k0_of(eta); eps = 1/T; z_thr = norm.isf(1/(N*T))
+                                                   ~~~~~^^^^^
+  File "/home/claude/monadic-grid/scripts/current/t126_derived.py", line 12, in k0_of
+    def k0_of(eta): return brentq(lambda k: i1(k)/i0(k) - np.exp(-eta**2/2), 1e-3, 500)
+                           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/scipy/optimize/_zeros_py.py", line 858, in brentq
+    r = _zeros._brentq(f, a, b, xtol, rtol, maxiter, args, full_output, disp)
+ValueError: f(a) and f(b) must have different signs
