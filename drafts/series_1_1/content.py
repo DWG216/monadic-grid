@@ -21,36 +21,28 @@ post(title="Why the proton survives",
  left=("What the cut gives", "The 24 forces left by the cut (three SU(3)s) carry no colour triplet: none can turn a quark into a lepton."),
  right=("Where E6 breaks", "At gravity's meeting, 2.4 × 10¹⁸ GeV: its proton-decaying forces sit far above any limit. Only the 27's coloured partners could show decay, if they lie below 7.9 × 10¹¹ GeV."),
  f1=("Foundations: why can E6 break so high?", "The counting phases permute the three SU(3)s, which keeps their couplings equal at every scale. E6 is free to break where gravity meets."),
- f2=("Foundations: what sets the lifetime?", "The coloured partners' mass. Above 7.9 × 10¹¹ GeV the proton outlives every reach; below it, its decay is the partners' signature."),
- credit=("Trinification's gauge forces conserve baryon number: Glashow (1984); Willenbrock (2003).",
-  "why E6 breaks at gravity's meeting, so its own forces are harmless."))
+ f2=("Foundations: what sets the lifetime?", "The coloured partners' mass. Above 7.9 × 10¹¹ GeV the proton outlives every reach; below it, its decay is the partners' signature."))
 post(title="The hidden mirror",
  solves="The sharpest objection to E8 unification is that it cannot be chiral. The theorem holds for the grid; its mirror family is gapped by interaction, which ties the mirror to the breaking of family symmetry.",
  main=("The theorem", "248 = (78, 1) + (1, 8) + (27, 3) + (bar{27}, bar{3})", "Distler and Garibaldi (2010): no embedding in E8 gives a chiral theory. Three generations arrive as (27, 3) + (bar{27}, bar{3}), each 27 one family of matter plus extras, and each with its mirror: net chiral index 0."),
  left=("The answer", "The mirror is gapped by interaction, not by a mass term. It carries no Standard Model anomaly and Z₁₆ index 0, so nothing forbids it."),
  right=("The price", "Family SU(3) has anomaly 27 on the mirror, so the mirror gaps only where family symmetry breaks: mirror gapping and family masses come together."),
  f1=("Foundations: does this evade the theorem?", "It steps outside its assumptions: the theorem is about representations, and gapping by interaction is not one."),
- f2=("Foundations: where the mirror goes", "It is gapped where family symmetry breaks: the same place the family masses are made."),
- credit=('Distler and Garibaldi (2010); gapping by interaction is symmetric mass generation (Wang and Wen; Tong; Razamat).',
-  'the mirror gaps exactly where family symmetry breaks.'))
+ f2=("Foundations: where the mirror goes", "It is gapped where family symmetry breaks: the same place the family masses are made."))
 post(title="The forces meet",
  solves="Unification needs the three forces, followed up in energy, to reach one strength at one energy. With the Standard Model alone they miss. The extra particles the grid already carries make them meet at the cut, about 5 × 10¹³ GeV.",
  main=("The miss", "α₁⁻¹ = α₂⁻¹ = 42.4 at 10¹³ GeV,  α₃⁻¹ = 36.8", "With the Standard Model alone the weak and electromagnetic forces meet at 10¹³ GeV, and the strong force misses them by six units."),
  left=("What closes it", "Each family's 27 carries coloured triplets and lepton-like doublets. With the triplets heavy and two doublet pairs light, all three forces meet at the cut, α⁻¹ ≈ 38."),
  right=("Where the doublets sit", "Between about 1.3 TeV, where the LHC's reach ends, and 10⁹ GeV. The Higgs mass points to the light end, near 1 TeV."),
  f1=("Foundations: one loop or two?", "Both. At two loops the meeting moves only from 5.0 to 4.5 × 10¹³ GeV."),
- f2=("Foundations: why do extras at one mass not help?", "A complete 5 + 5̄ shifts all three couplings equally. Only split masses, triplets heavy and doublets light, move them together."),
- credit=('Light doublets unify trinification near 10¹⁴ GeV: Sayre, Wiesenfeldt and Willenbrock (2006).',
-  'the doublets are already in the three 27s; nothing is added to make the forces meet.'))
+ f2=("Foundations: why do extras at one mass not help?", "A complete 5 + 5̄ shifts all three couplings equally. Only split masses, triplets heavy and doublets light, move them together."))
 post(title="Dark energy does not flicker",
  solves="Dark energy does not flicker. It is the exact, constant leftover of a fixed count, and the constant fits DESI's distances.",
  main=("A fixed count", "Λ l_{P}² = 1/√N,   N ≈ 1.2 × 10²⁴³", "Λ is what is left over from a fixed count of Planck four-volumes. The count's total is fixed, so Λ does not change: w = −1 exactly."),
  left=("The distances", "A constant Λ fits DESI DR2's baryon acoustic distances (p = 0.41), and the count gives its size within a factor of 2."),
  right=("The constant, not the walk", "Post 46 let Λ wander as a random walk. A fixed count has no walk in it: its remainder is constant."),
  f1=("Foundations: the count", "Spacetime is a count of smallest cells, each a Planck length on every side. Λ is the remainder the count cannot cancel."),
- f2=("Foundations: why constant?", "A change in time would need a reason the count does not supply: a fixed total leaves a fixed remainder. So w = −1."),
- credit=("Λ ~ 1/√N from a count of spacetime cells: Sorkin's everpresent Λ, which fluctuates.",
-  'the count is fixed, so the remainder is constant: w = −1.'))
+ f2=("Foundations: why constant?", "A change in time would need a reason the count does not supply: a fixed total leaves a fixed remainder. So w = −1."))
 post(title="E6 breaks where gravity meets",
  solves="Unification needs one scale where the larger symmetry breaks. In the grid it is gravity's own meeting: the reduced Planck mass, where the Higgs is also born.",
  main=("One meeting", "M* = (8πG)^{−1/2} = 2.435 × 10¹⁸ GeV", "E6 breaks to three SU(3)s at gravity's meeting, the scale where the meeting term of the record becomes gravity. The cut to the Standard Model follows lower, at about 5 × 10¹³ GeV."),
@@ -64,90 +56,70 @@ post(title="Hypercharge is forced",
  left=("What it fixes", "Every particle's charge, the quantisation of electric charge, and the weak mixing angle at the cut."),
  right=("Why it matters", "Charge quantisation is not put in; it follows from the cut. The 3/8 runs down to the measured 0.231."),
  f1=("Foundations: why one orbit?", "The Weyl group permutes the three SU(3)s; an answer that differed between them would need a reason the cut does not give."),
- f2=("Foundations: what was checked", "Every embedding enumerated by computation (t91); only the one orbit survives."),
- credit=('The three hypercharge assignments in E6: Harada (2003).',
-  'the three are one Weyl orbit, so no choice is made.'))
+ f2=("Foundations: what was checked", "Every embedding enumerated by computation (t91); only the one orbit survives."))
 post(title="Neutrinos take the charged leptons' masses",
  solves="Neutrino masses need a Dirac mass and a heavy Majorana partner. In the grid the Dirac masses are the charged leptons' own, which fixes the heavy partners.",
  main=("The seesaw", "m_{ν} = m_{D}² / M_{R},   m_{D} = m_{ℓ}", "With the charged leptons' masses as Dirac masses, the measured splittings fix the heavy partners at 7.2 × 10⁵, 1.3 × 10⁹ and 6.3 × 10¹⁰ GeV."),
  left=("What follows", "Normal ordering; the sum of the three masses 59.16 meV; neutrinoless double beta decay at 1.2–4.1 meV."),
  right=("Where the matter excess comes from", "Not from these partners' decays. One count is shared by matter and dark matter, and it writes the excess (post 11)."),
  f1=("Foundations: the seesaw", "A neutrino is light because it pairs with a very heavy partner: light × heavy = (Dirac mass)². Neutrino and electron share one coupling, so their Dirac masses match."),
- f2=("Foundations: the lightest partner", "At 7.2 × 10⁵ GeV it is far below the 6 × 10¹⁰ GeV thermal leptogenesis needs."),
- credit=('The seesaw: Minkowski; Gell-Mann, Ramond and Slansky; Yanagida; Mohapatra and Senjanović.',
-  "the Dirac masses are the charged leptons', which fixes the three heavy partners."))
+ f2=("Foundations: the lightest partner", "At 7.2 × 10⁵ GeV it is far below the 6 × 10¹⁰ GeV thermal leptogenesis needs."))
 post(title="Dark matter is a light singlet",
  solves="Dark matter must be stable, neutral and abundant. The grid's breaking leaves a parity under which every new particle of the 27 is odd: the lightest of them cannot decay.",
  main=("ψ parity", "P = (−1)^{Qψ + F}", "Breaking the extra U(1)_{ψ} with charge-2 vevs leaves P: +1 on every particle of the 16, −1 on the 11 extras. The lightest extra is stable."),
  left=("Its mass", "A singlet of ψ charge 4 gets M_{N} = v_{ψ}⁴ / M*³: between 0.015 and 21 GeV."),
  right=("Why a singlet", "Z exchange on nuclei rules out the doublets. The parity leaves one stable particle: a light singlet."),
  f1=("Foundations: why stable?", "P is a label, +1 or −1, that every vev and every 27³ coupling keeps. The lightest particle labelled −1 has nothing to decay into."),
- f2=("Foundations: why light?", "Four powers of the breaking over three of gravity's meeting: a high scale makes a light particle."),
- credit=("A residual E6 parity that stabilises exotics: the E6SSM's Z₂; Bandyopadhyay and Maji (2019).",
-  'the parity follows from ψ breaking by charge-2 vevs, and leaves one light singlet.'))
+ f2=("Foundations: why light?", "Four powers of the breaking over three of gravity's meeting: a high scale makes a light particle."))
 post(title="One count for matter and dark matter",
  solves="Why is there five times as much dark matter as ordinary matter? If one conserved count is shared, every dark matter particle has a baryon partner, and the ratio fixes its mass.",
  main=("The shared count", "m_{N} = (Ω_{DM} / Ω_{B}) m_{p} = 5.0 GeV", "With n_{N} = n_{B}, the dark singlet's mass is the proton's times the observed ratio: 5.03 ± 0.06 GeV, inside the window of post 10."),
  left=("Where the breaking sits", "Then v_{ψ} = (m_{N} M*³)^{1/4} = 9 × 10¹³ GeV: at the cut, where the forces meet."),
  right=("What it predicts", "A dark matter particle near 5 GeV: below where xenon detectors are most sensitive, inside the reach of low-threshold searches."),
  f1=("Foundations: one count, two sectors", "Baryon number and the dark parity are written by one process, so their counts match."),
- f2=("Foundations: no free number", "Dark matter's mass follows from the proton's and the observed ratio of the two."),
- credit=('Asymmetric dark matter near 5 GeV: Nussinov (1985); Kaplan, Luty and Zurek (2009).',
-  "the count's carrier and its breaking at the cut, from M_{N} = v_{ψ}⁴/M*³."))
+ f2=("Foundations: no free number", "Dark matter's mass follows from the proton's and the observed ratio of the two."))
 post(title="Flavour from the grain's symmetry, S₄",
  solves="Why do neutrinos mix so much and quarks so little? The grain's symmetry S₄ fixes the pattern, and the residual symmetries leave one mixing family: TM1.",
  main=("S₄ = 2T + the hand swap", "sin²θ₁₂ = 0.318,   δ ≈ 262°–286°", "S₄ = PGL(2, 3) is the tetrahedral group plus the swap of the two hands (φ → 1 − φ). Its residual symmetries must generate the whole group, which leaves TM1."),
  left=("What TM1 fixes", "The solar angle at 0.318 from the reactor angle, and the CP phase in 262°–286°."),
  right=("Against the data", "TM2 sits 3.6σ from JUNO's solar angle; TM1 fits."),
  f1=("Foundations: the two hands", "Every frequency comes as a pair, e^{+iωt} and e^{−iωt}: two hands. The symmetry that exchanges them is the hand swap."),
- f2=("Foundations: and the quarks?", "Both quark sectors keep the same Z₃, so their mixing starts at zero and stays small."),
- credit=('TM1: Albright and Rodejohann (2009); S₄ flavour models: Luhn (2013) and others.',
-  "S₄ is the grain's own symmetry, not a choice made to fit the data."))
+ f2=("Foundations: and the quarks?", "Both quark sectors keep the same Z₃, so their mixing starts at zero and stays small."))
 post(title="The lepton masses are one chord",
  solves="The electron, muon and tau masses look arbitrary. Their square roots form a balanced chord with a phase of 2/9: from the muon alone, the other two follow.",
  main=("Koide's chord", "√m_{k} = A (1 + √2 cos(2/9 + 2πk/3))", "Q = Σm / (Σ√m)² = 2/3 holds for the charged leptons, and the phase is 2/9 to 0.9σ."),
  left=("What follows", "From the muon's mass alone: the electron's to 1 part in 10⁵, the tau's within 0.9σ."),
  right=("The quarks", "Q is 0.889 for the up quarks and 0.743 for the down quarks: the quarks are chords of their own amplitude."),
  f1=("Foundations: why 2/3?", "Balance: the chord's two parts, its mean and its swing, carry equal weight."),
- f2=("Foundations: why 2/9?", "Two hands over the nine-point grain."),
- credit=('Koide (1982); the 2/9 phase: Brannen (2006).',
-  '2/9 is two hands over the nine-point grain.'))
+ f2=("Foundations: why 2/9?", "Two hands over the nine-point grain."))
 post(title="The Higgs is born at gravity's meeting",
  solves="The Higgs mass is a free number in the Standard Model. In the grid the Higgs self-coupling starts from zero at gravity's meeting, and the running fixes the mass.",
  main=("The zero rule", "λ(M*) = 0  ⇒  m_{h} = 116–128 GeV", "Run down from zero at 2.4 × 10¹⁸ GeV, the self-coupling gives a Higgs mass between 116 and 128 GeV, depending on the scalars above the cut. The measured 125.2 sits inside."),
  left=("Standard Model alone", "128.5 GeV."),
  right=("With the grid's meeting", "126.2–126.7 GeV with two light doublet pairs near 1 TeV."),
  f1=("Foundations: why zero?", "A self-coupling at gravity's meeting with no reason must be zero or infinite; infinite has no record."),
- f2=("Foundations: closing", "The field that gives mass is born at gravity's meeting. That is where spacetime begins."),
- credit=('λ = 0 at the Planck scale giving ~126 GeV: Shaposhnikov and Wetterich (2009); Holthausen, Lim and Lindner (2011).',
-  'the zero is forced at M*, and the light doublets set 126.2–126.7 GeV.'))
+ f2=("Foundations: closing", "The field that gives mass is born at gravity's meeting. That is where spacetime begins."))
 post(title="The scalar vacuum needs two Higgs 27s",
  solves="Breaking SU(3)³ to the Standard Model needs the right scalars. One Higgs 27 leaves an extra symmetry unbroken; two leave exactly SU(2) × U(1).",
  main=("The breaking", "unbroken generators: 7 with one 27, 4 with two", "Vevs (the values fields keep in empty space) in the singlet row of one lepton bifundamental leave an extra SU(2); a second 27 breaks it, leaving exactly SU(2)_{L} × U(1)_{Y}."),
  left=("The zero rule's reach", "With all twenty quartics of the two 27s zero at M*, the potential at the cut is unbounded. The rule applies to the light Higgs's own self-coupling."),
  right=("What stabilises it", "The scalars that break E6, through their couplings to the Higgs."),
  f1=("Foundations: why two?", "The minimum that breaks to the Standard Model and nothing else."),
- f2=("Foundations: the engine", "One-loop running of every coupling built on explicit tensors and checked against the Standard Model to 4 × 10⁻¹⁴."),
- credit=('Minimal trinification needs two lepton Higgs multiplets: Sayre, Wiesenfeldt and Willenbrock (2006).',
-  'the zero rule covers the light Higgs only; the E6-breaking scalars stabilise the rest.'))
+ f2=("Foundations: the engine", "One-loop running of every coupling built on explicit tensors and checked against the Standard Model to 4 × 10⁻¹⁴."))
 post(title="Strong CP from the hand swap",
  solves="Why is the strong force's CP-violating angle zero to one part in 10¹⁰? The hand swap exchanges the two hands of the record, and that forces bar{θ} = 0.",
  main=("The swap", "bar{θ} = θ + arg det(M_{u} M_{d}) = 0", "The hand swap maps θ to −θ and each quark mass matrix to its adjoint, so θ = 0 and the mass matrices are Hermitian. Hermitian matrices have real determinants: bar{θ} = 0."),
  left=("CP survives in mixing", "The CKM phase lives in the off-diagonal entries: J = 3.1 × 10⁻⁵ with bar{θ} = 0. Running to the Z mass keeps bar{θ} at 10⁻¹⁶."),
  right=("What follows", "No θ-induced neutron electric dipole moment, and no QCD axion."),
  f1=("Foundations: the hand swap", "The same exchange that completes S₄ (post 12) is parity between SU(3)_{L} and SU(3)_{R}."),
- f2=("Foundations: the condition", "The scalar vacuum carries no relative phase between its vevs."),
- credit=('Strong CP from parity in trinification: Carlson and Wang (1992); parity solutions: Babu and Mohapatra (1990).',
-  'the parity is the hand swap, the same element that completes S₄.'))
+ f2=("Foundations: the condition", "The scalar vacuum carries no relative phase between its vevs."))
 post(title="The two halves of a pair's record",
  solves="With one 27³ coupling the bottom and the tau have equal masses at the meeting; the data say 0.68. The record of a pair has a second half, and it gives 2/3.",
  main=("The record's second half", "Sym²(27) = bar{27} + 351′;   4a − 6b = 0 ⇒ (a, b) = (3, 2)", "The light Higgs's charges occur twice in a pair's record: in the leptons and in the quarks. The cubic takes (+1, −1); the orthogonal half takes the only other direction, lepton 3, quark 2."),
  left=("The result", "m_{b} / m_{τ} = 2/3 at gravity's meeting, for every ratio of the heavy vevs; the data give 0.678."),
  right=("Two jobs", "The cubic half breaks SU(3)³ at the cut; the orthogonal half carries the light Higgs."),
  f1=("Foundations: why orthogonal?", "A pair's record splits into parts that do not mix, like perpendicular directions: two halves, no third, the second fixed by being orthogonal to the first."),
- f2=("Foundations: the lighter generations", "They take both halves and the antisymmetric third part, which feeds quarks only."),
- credit=('E6 Yukawas with a 351′: Bajc and Susič (2014); Babu, Bajc and Susič (2015). Clebsch ratios: Georgi and Jarlskog (1979).',
-  'the 3 : 2 split from orthogonality to the cubic (t113).'))
+ f2=("Foundations: the lighter generations", "They take both halves and the antisymmetric third part, which feeds quarks only."))
 post(title="Time is the count of balanced pairs",
  solves="What is time, if the laws do not mention it? A balanced pair leaves the world unchanged and adds one tick to a count: time is that count.",
  main=("A null constructor", "e^{iθ} + e^{i(θ+π)} = 0", "Adding a balanced pair changes nothing in the sum and one in the count. Deutsch and Marletto (2026) define time through such null constructors; the grid supplies them."),
