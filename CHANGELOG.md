@@ -185,3 +185,4 @@
 - t122: reflection (acting only on what memory shows significant) separates reason from fixation: reflective monads climb fully in lawful worlds and stay clear in lawless ones (all pass; definition chosen after three sanity runs, all kept).
 - t123: bridge numbers: count N = 1.2e243, largest record S_dS = 3 pi sqrt(N) = 3.3e122 k, written so far 1e-18 of it.
 - t124: listening and turning derived from the record (w = 1 + cross/diagonal; composability forces p w^beta; turning = ascent of the record). docs/theory_of_monads.md consolidates t111, t115-t124.
+- t125: capacity growth a e^gamma derived (capacity is a scale; growth must compose across independent parts), exact for the power law, with experience multiplicative only in the many-frequency limit.

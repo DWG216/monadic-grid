@@ -2885,5 +2885,14 @@
   "predictions": [],
   "group": "grid",
   "timeout": 600
+ },
+ {
+  "script": "scripts/current/t125_capacity.py",
+  "sections": [
+   "246"
+  ],
+  "predictions": [],
+  "group": "grid",
+  "timeout": 600
  }
 ]

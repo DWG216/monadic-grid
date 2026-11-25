@@ -1,4 +1,4 @@
-# The theory of monads, as built and tested (t111, t115–t124)
+# The theory of monads, as built and tested (t111, t115–t125)
 
 Consolidated 2026-11-25. Spine for chapter 7 (Cosmogony). Labels: [S] derived from the record or the corpus's premises; [M] tested by a pre-registered computation; *chosen* = a modelling choice not yet derived.
 
@@ -21,9 +21,11 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 
 **Turning.** The record's weight at k depends on a monad's phase through ∂R_k/∂φ_jk = −2√p_jk |S₋ⱼ| sin(φ_jk − arg S₋ⱼ), S₋ⱼ the others' sum [M: matches finite differences to 10 digits]. Turning toward the others' phase is the ascent of the record; its fixed point is agreement.
 
+**Capacity growth.** Capacity is a scale with no privileged zero or unit, so it changes by multiplication, a → a·h(e), with e = E_p[w]/mean w the experience: what the monad's attention hears over a bare (uniform) listener. If growth must not depend on how the record is split into independent parts, h(e₁e₂) = h(e₁)h(e₂), so h = e^γ: d ln a = γ d ln e, capacity grows by the information its attention gains over a bare listener [S; M: the power rule composes exactly, additive and linear rules fail by 0.018 and 0.0036, t125]. Caveat: experience multiplies across independent parts only approximately (median error 13%, 6.5%, 1.7% at N = 64, 1024, 16384), so this holds in the limit of many frequencies.
+
 **Attention raises what it hears.** Under p' ∝ p·w, the attended resonance never falls: E_{p'}[w] = E_p[w²]/E_p[w] ≥ E_p[w] [S: Cauchy–Schwarz; M: zero violations in 120,000 monad-ticks, t115].
 
-**Chosen, not yet derived:** the turning rate (min(κ N p, 1)), the perception floor ε (Monadology §21, a monad is never without perceptions), the capacity's growth with experience (a ← a·e^γ), and reflection's 3σ threshold.
+**Chosen, not yet derived:** the turning rate (min(κ N p, 1)), the perception floor ε (Monadology §21, a monad is never without perceptions), reflection's 3σ threshold, and the values of γ and of the capacity ceiling.
 
 ## 3. What the rules give
 
@@ -51,7 +53,7 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 
 ## 5. Open
 
-- Derive the chosen rules (turning rate, floor, growth with experience, reflection's threshold) from the record.
+- Derive the chosen rules (turning rate, floor, reflection's threshold, the values of γ and the ceiling) from the record.
 - Tie a model "law" to a physical one: show a cluster of locked relations carrying the grid's gauge structure.
 - Connect the capacity scale to the corpus's quantitative claims, if any (Hockney's Selector Function).
 - The crossover in the grid: what the fading of the Higgs at an Age's end does to the count.
