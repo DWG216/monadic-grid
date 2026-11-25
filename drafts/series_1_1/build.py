@@ -35,6 +35,11 @@ def found(head, text):
     return (f'<div style="border: 1px solid #2A3B57; border-radius: 21px; padding: 21px 26px; display: flex; flex-direction: column; gap: 8px">\n'
             f'<div style="font-family: \'Space Grotesk\', sans-serif; font-size: 18px; font-weight: 500; color: #A9B8CC">{E(head)}</div>\n'
             f'<p style="margin: 0; font-size: 18px; line-height: 1.5; color: #EEF2F7">{E(text)}</p>\n</div>')
+def credit(p):
+    if 'credit' not in p: return ''
+    k, a = p['credit']
+    return (GAP + '\n<div style="border-top: 1px solid #2A3B57; padding-top: 13px; font-size: 16px; line-height: 1.45; color: #A9B8CC">'
+            f'<span style="color: #B5E6F2; font-weight: 600">Prior work</span> {E(k)} <br><span style="color: #B5E6F2; font-weight: 600">The grid adds</span> {E(a)}</div>\n')
 def page(p):
     h, eq, tx = p['main']
     body = ('<div data-gl="1" aria-hidden="true" style="flex: 1 1 0px; min-height: 0; margin-top: -21px"></div>\n'
@@ -45,7 +50,7 @@ def page(p):
       f'<div style="font-family: \'Space Grotesk\', sans-serif; font-size: 26px; font-weight: 600; color: #5CC8E0">{E(h)}</div><div style="font-family: \'STIX Two Text\', serif; font-size: 26px; color: #EEF2F7">{E(eq)}</div>\n'
       f'<p style="margin: 0; font-size: 19px; line-height: 1.5; color: #EEF2F7">{E(tx)}</p>\n</div>' + GAP + '\n'
       '<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 21px">' + card(*p['left'], '#5CC8E0') + card(*p['right'], '#9C8CF0') + '</div>' + GAP + '\n'
-      '<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 21px">' + found(*p['f1']) + found(*p['f2']) + '</div>\n')
+      '<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 21px">' + found(*p['f1']) + found(*p['f2']) + '</div>\n' + credit(p))
     s = HEAD.replace('<title>One record, two readings</title>', '<title>Since the drop</title>') + body + TAIL
     for a, b in EMBER.items(): s = s.replace(a, b).replace(a.lower(), b)
     return s
