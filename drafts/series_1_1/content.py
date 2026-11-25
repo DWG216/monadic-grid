@@ -37,7 +37,7 @@ post(title="The forces meet",
  f1=("Foundations: one loop or two?", "Both. At two loops the meeting moves only from 5.0 to 4.5 × 10¹³ GeV."),
  f2=("Foundations: why do extras at one mass not help?", "A complete 5 + 5̄ shifts all three couplings equally. Only split masses, triplets heavy and doublets light, move them together."))
 post(title="Dark energy does not flicker",
- solves="On this one thing we stand corrected: dark energy does not flicker. It is the exact, constant leftover of a fixed count, and the constant fits DESI's distances.",
+ solves="Dark energy does not flicker. It is the exact, constant leftover of a fixed count, and the constant fits DESI's distances.",
  main=("A fixed count", "Λ l_{P}² = 1/√N,   N ≈ 1.2 × 10²⁴³", "Λ is what is left over from a fixed count of Planck four-volumes. The count's total is fixed, so Λ does not change: w = −1 exactly."),
  left=("The distances", "A constant Λ fits DESI DR2's baryon acoustic distances (p = 0.41), and the count gives its size within a factor of 2."),
  right=("The constant, not the walk", "Post 46 let Λ wander as a random walk. A fixed count has no walk in it: its remainder is constant."),
