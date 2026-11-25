@@ -154,3 +154,4 @@
 - t81: degree-4 SoS construction for 3-XOR at n = 60 (P1 fail: below the expanding regime; post hoc refuting degree 3 -> 4 by n = 240). Kept.
 - t82: degree-4 SoS pseudo-expectation for unsatisfiable random 3-XOR at n = 1000-4000: consistent 30/30, local PSD, t79 record on every clause. All pass.
 - t83: Schoenebeck reduction at n = 2000-8000 (below the regime for density 4.5; kept). t84: n = 16k-64k, C++ closure; run 2 key-collision bug in local-block lookups (kept, src/closure4_run2_keybug.cpp); run 3 all pass.
+- t85: E6's bosons at the gravitational meeting (reduced Planck mass) [S]; no gauge-boson proton decay at Hyper-K; triplet scalars visible only below 7.9e11 GeV. All pass.

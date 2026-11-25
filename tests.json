@@ -2448,5 +2448,16 @@
   ],
   "group": "grid",
   "timeout": 3600
+ },
+ {
+  "script": "scripts/current/t85_e6_scale.py",
+  "sections": [
+   "192"
+  ],
+  "predictions": [
+   "PREDICTIONS_t85.md"
+  ],
+  "group": "grid",
+  "timeout": 60
  }
 ]

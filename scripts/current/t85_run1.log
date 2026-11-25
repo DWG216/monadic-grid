@@ -1,0 +1,6 @@
+S1 {'M': 4643208750808557.0, 'pass_': True}
+G1 {'alpha_inv_at_Mred': {0: np.float64(47.43653000988138), 1: np.float64(45.701224007905104), 2: np.float64(43.96591800592883), 3: np.float64(42.23061200395255)}, 'pass_': True}
+G2 {'tau_yr': {0: np.float64(2.272104905479999e+45), 1: np.float64(2.108910831798e+45), 2: np.float64(1.9517978937099128e+45), 3: np.float64(1.800766091215739e+45)}, 'pass_': True}
+G3 {'tau_low': np.float64(2.5415459923964667e+34), 'tau_high': np.float64(8.176942027905596e+42), 'hyperK_reach_mass': np.float64(788703074358.2378), 'pass_': np.True_}
+C1 {'tau': 1.7381461239081067e+26, 'pass_': True}
+C2 {'tau': 7.352696788344284e+36, 'pass_': True}
