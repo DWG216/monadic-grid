@@ -8,3 +8,11 @@ P3 [M] Third order: whole among border monads < 0.1 (median): third-order readin
 P4 [M] Third order forms relations: ≥ 1 per world in ≥ 8 of 10.
 P5 [M] Completeness, third minus second: median difference within ±0.1 (no gain).
 Reading fixed in advance: if P1–P5 pass, t128's unsettled majority are fixated in lawless zones, not on borders; third-order reading forms relations but does not make border monads whole; what the Community lacks is not a reader of higher order.
+
+## Scoring (2026-11-25), run 1 (t129_run1.log)
+- P1 PASS: second order, border fraction 0.0 in all 10 worlds.
+- P2 PASS: second order, fixated in incoherent zones 0.545–0.71 (median 0.57).
+- P3 PASS: third order, no border monad whole in any world (borders 2–14% of monads).
+- P4 PASS: third order forms 3–8 relations in every world.
+- P5 PASS: completeness third minus second, median −0.01 (−0.13 to +0.17).
+Verdict as fixed in advance: t128's unsettled majority are fixated in lawless zones, not on borders between laws; third-order reading forms relations but makes no border monad whole. What the Community lacks is not a reader of higher order.

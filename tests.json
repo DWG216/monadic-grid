@@ -2927,5 +2927,16 @@
   ],
   "group": "grid",
   "timeout": 9000
+ },
+ {
+  "script": "scripts/current/t129_border.py",
+  "sections": [
+   "251"
+  ],
+  "predictions": [
+   "PREDICTIONS_t129.md"
+  ],
+  "group": "grid",
+  "timeout": 9000
  }
 ]
