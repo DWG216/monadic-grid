@@ -1,0 +1,4 @@
+second 22000 {'frac_complete': 0.352, 'frac_whole': 0.352, 'frac_border': 0.0, 'whole_on_border': nan, 'relations': 0, 'C_med': 0.996}
+second 22001 {'frac_complete': 0.472, 'frac_whole': 0.472, 'frac_border': 0.0, 'whole_on_border': nan, 'relations': 0, 'C_med': 0.997}
+third 22000 {'frac_complete': 0.451, 'frac_whole': 0.366, 'frac_border': 0.085, 'whole_on_border': 0.0, 'relations': 4, 'C_med': 0.996}
+third 22001 {'frac_complete': 0.33, 'frac_whole': 0.292, 'frac_border': 0.038, 'whole_on_border': 0.0, 'relations': 7, 'C_med': 0.995}
