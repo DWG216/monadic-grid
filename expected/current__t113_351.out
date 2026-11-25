@@ -1,0 +1,4 @@
+S1 {'inner_27_351': 0.0, 'ratio_t0': np.float64(0.6666666666666667), 'pass_': np.True_}
+P1 {'ratio': np.float64(0.6666666666666667), 'dev': np.float64(-0.01671583087512285), 'pass_': np.True_}
+P2 {'min': np.float64(0.6666636737044321), 'max': np.float64(0.6666703749092755), 'at_t1': np.float64(0.666666721826914), 'pass_': True}
+P3 {'s_over_mu': 0.23108151730880525, 'd_over_e': 2.4365454466781213, 'pass_': False}

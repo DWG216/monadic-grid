@@ -7,3 +7,10 @@ P1 [M, not blind] |m_b/m_τ ÷ 0.678 − 1| < 5% at t = 0 (0.678 = t109 post hoc
 P2 [M, blind] For every t in [0.1, 10], m_b/m_τ within 5% of 0.678.
 P3 [M] Same Yukawa matrix for all generations: s/μ and d/e also 2/3 at M*. Expected fail (t109 information: 0.20 and 2.1, to be recomputed with the corrected running and reported).
 Consequence fixed in advance: if P1 and P2 pass, the third generation's b/τ is the 351′ Clebsch; the light generations need the 27̄ part as well (a two-term texture), which is the next item.
+
+## Scoring (2026-11-25), run 1 (t113_run1.log)
+- S1 PASS: inner product of the 27 and 351′ light tensors 0.0; t = 0 gives 2/3 exactly.
+- P1 PASS (not blind): 2/3 is 1.7% below 0.678.
+- P2 PASS (blind): over t in [0.1, 10] the ratio stays 0.666664–0.666670: the heavy mixing does not move it.
+- P3 FAIL (expected): with the corrected running, s/μ = 0.231 and d/e = 2.44 at M*, not 2/3. Kept.
+Verdict as fixed in advance: the third generation's b/τ is the 351′ Clebsch, 2/3, by orthogonality in the pair's record; the light generations need the 27̄ half as well (two-term texture), the next item.
