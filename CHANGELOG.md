@@ -158,3 +158,4 @@
 - t86: everpresent Lambda (t72 model, alpha = 1) against DESI DR2 BAO distances directly: 0/347 within Delta chi2 = 4 of Lambda-CDM (best 18). Bridge as written refuted; correction map.
 - t87: constant Lambda from a fixed count: fits DESI DR2 BAO (p = 0.41), size within factor 2; P2 fail (BAO alone leans to evolution, 2.1 sigma), kept. Run 1 script slip (refinement left the box) kept.
 - t88: F2 laws in small pieces: 3-XOR 3200/3200, 3-SAT 0/3200 (s <= 30, n = 100-800). All pass (P2 at the floor). Post hoc scale search timed out, kept. src/f2law.cpp.
+- t89: Dirac neutrino masses from the lepton bifundamental (m_D = charged leptons): M_R = 7.2e5, 1.3e9, 6.3e10 GeV; N1 leptogenesis out, N3 viable. All pass.

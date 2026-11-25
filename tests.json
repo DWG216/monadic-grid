@@ -2492,5 +2492,16 @@
   ],
   "group": "grid",
   "timeout": 1800
+ },
+ {
+  "script": "scripts/current/t89_dirac_cut.py",
+  "sections": [
+   "198"
+  ],
+  "predictions": [
+   "PREDICTIONS_t89.md"
+  ],
+  "group": "grid",
+  "timeout": 60
  }
 ]

@@ -12,3 +12,12 @@ P3 [M] Thermal N1 leptogenesis with the lepton bridge: the Davidson-Ibarra maxim
 P4 [M] The heaviest right-handed neutrino with the lepton bridge passes the Davidson-Ibarra requirement on its own (M_R3 >= the M needed for eta_B = 6.1e-10 at kappa = 0.1), so an asymmetry is available from N3 if N1 and N2 washout is avoided (information for the next step: flavoured or N3-dominated leptogenesis).
 
 Verdict: P1-P2 pass -> the grid's own cut replaces the SO(10) bridge; P3 records that thermal N1 leptogenesis is out either way; P4 says where the asymmetry must come from.
+
+## Scoring (2026-11-25)
+Run 1 (t89_run1.log). All pass.
+- S1 PASS: SO(10) bridge reproduces t65 (1.28e7, 1.86e11, 5.94e14 GeV).
+- P1 PASS: lepton bridge M_R = 7.2e5, 1.3e9, 6.3e10 GeV.
+- P2 PASS: M_R3 = 6.3e10 GeV is three orders below the meeting scale 4.5e13 GeV.
+- P3 PASS: thermal N1 leptogenesis gives at most eta_B = 6.8e-14 (needs 6.1e-10): out, as registered.
+- P4 PASS: N3 at 6.3e10 GeV is ten times the 6.4e9 GeV Davidson-Ibarra needs at kappa = 0.1.
+Verdict: the grid's own cut puts the Dirac masses at the charged-lepton masses. The heaviest right-handed neutrino, 6.3e10 GeV, is where the asymmetry can come from; the next step is N3-dominated, flavoured leptogenesis with the lighter N1 and N2 washout computed.
