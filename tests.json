@@ -2790,5 +2790,16 @@
   "args": [
    "test"
   ]
+ },
+ {
+  "script": "scripts/current/t116_dialectic.py",
+  "sections": [
+   "237"
+  ],
+  "predictions": [
+   "PREDICTIONS_t116.md"
+  ],
+  "group": "grid",
+  "timeout": 1800
  }
 ]

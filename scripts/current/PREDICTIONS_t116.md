@@ -10,3 +10,12 @@ P4 [M] Weighted, every κ ≥ 0.02: median C within a factor 2 of 1/K (plural at
 P5 [M] Uniform κ = 0.2 and 0.4: K = 64 (everything locks) and C < 2/N = 0.031 (nothing distinct).
 P6 [M, blind] Dissent: 30% of monads never turn their phases (κ = 0.1, weighted): laws still form (K ≥ 1), and the dissenters, who still listen, put > 50% of their attention on the laws the others formed.
 Reading fixed in advance: attention is what makes laws: it lowers the coupling needed for order and keeps the laws few and distinct; coupling without attention either fails or locks everything, which is uniformity, not law. A refusing monad still hears the laws.
+
+## Scoring (2026-11-25), run 1 (t116_run1.log)
+- P1 PASS: κ = 0 gives K = 0.
+- P2 PASS: weighted κ = 0.02 forms 1 law (r = 1.0) holding 99.7% of attention; uniform κ = 0.02 and 0.05 form none.
+- P3 PASS: weighted K = 1, 2, 5, 12, 28 over κ = 0.02–0.4.
+- P4 PASS: C = 0.994, 0.601, 0.267, 0.115, 0.046 against 1/K = 1, 0.5, 0.2, 0.083, 0.036 (ratios 0.99–1.38).
+- P5 PASS: uniform κ = 0.2, 0.4 lock all 64 frequencies, C = 0.019, 0.017.
+- P6 PASS (blind): with 30% refusing, K = 3 laws form (fewer than 5 without dissent) and the dissenters put 99.7% of their attention on them.
+Verdict as fixed in advance: attention makes laws. It lowers the coupling needed for order (one law at κ = 0.02, where uniform coupling needs about 0.1 for any), keeps laws few and distinct, and coupling without attention either fails or locks everything. A refusing monad still hears the laws; refusal makes fewer of them.
