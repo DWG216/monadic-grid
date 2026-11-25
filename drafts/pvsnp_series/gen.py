@@ -67,7 +67,7 @@ a{{color:#7FD4E8}}a:hover{{color:#B5E6F2}}
 {inner}
 <div data-gl="1" aria-hidden="true" style="flex: 1.618 1 0px; min-height: 0; margin-top: -21px"></div>
 <div style="margin-top: 0; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #2A3B57; padding-top: 21px; font-size: 16px; color: #A9B8CC">
-<span>Deduced, not modelled · nothing in it is arbitrary</span>
+<span></span>
 <span style="font-family: 'Space Grotesk', sans-serif">The Monadic Grid</span>
 </div>
 </div>
