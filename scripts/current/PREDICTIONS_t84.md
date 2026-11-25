@@ -14,3 +14,14 @@ P3 [M] On every consistent n = 64,000 instance, the local moment matrices (degre
 P4 [M] Consistent counts do not decrease from n = 16,000 to n = 64,000.
 
 Verdict: P1-P4 pass -> degree-4 SoS accepts random 3-SAT above the threshold through t79's balanced record, glued across the instance. No law reads through it.
+
+## Run 2 (t84_run2.log, 2026-11-25)
+S1, S2, P1 (10/10 at n = 64,000), P2 and P4 (10/10 at every size) PASS. P3 FAIL as run: one of 200 local blocks (n = 64,000, seed 840001, ball 4) had least eigenvalue -1.67; the other 199 were zero to machine precision.
+Post hoc (t84_posthoc.py, labelled): the failing block was missing products of equations sharing two or three variables, which the closure rule does find. The cause was a bug in src/closure4.cpp: the hash key ORed the degree into bits 60-63, which overlap the first variable of a degree-4 monomial (variables >= 4096), so lookups of some degree-4 monomials returned another monomial's entry. The closure itself was unaffected (identical size, 6,832,409, after the fix); the lookups used for the local blocks were. The buggy source is kept as src/closure4_run2_keybug.cpp. With the fix the same block's least eigenvalue is -2.1e-15. Run 3 reruns the registered test unchanged with the fixed key.
+
+## Run 3 (t84_run3.log, fixed key, registered test unchanged). All pass.
+- S1 PASS (planted cover refuted). S2 PASS (3/3 planted satisfiable consistent; hidden assignment satisfies all 72,000 derived XORs; no clause violated).
+- P1 PASS: 10/10 consistent at n = 64,000 (about 6.5-6.8 million derived equations each).
+- P2 PASS: zero weight on the falsifying tuple of every 3-SAT clause on every instance (72,000 / 144,000 / 288,000 clauses), and every degree-4 product checked vanishes.
+- P3 PASS: least local eigenvalue over 200 blocks -6.3e-15.
+- P4 PASS: 10/10 at all three sizes.

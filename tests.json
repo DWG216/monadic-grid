@@ -2425,5 +2425,28 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t83_schoenebeck.py",
+  "sections": [
+   "191"
+  ],
+  "predictions": [
+   "PREDICTIONS_t83.md"
+  ],
+  "group": "grid",
+  "timeout": 900,
+  "note": "below regime; kept, not in default run"
+ },
+ {
+  "script": "scripts/current/t84_schoenebeck_scale.py",
+  "sections": [
+   "191"
+  ],
+  "predictions": [
+   "PREDICTIONS_t84.md"
+  ],
+  "group": "grid",
+  "timeout": 3600
  }
 ]

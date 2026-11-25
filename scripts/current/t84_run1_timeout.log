@@ -1,0 +1,21 @@
+S1 {'result': 'conflict', 'pass_': True}
+S2 {'results': [('ok', 72000, 0), ('ok', 72000, 0), ('ok', 72000, 0)], 'pass_': True}
+{'n': 16000, 'i': 0, 'status': 'ok', 'size': 2214678, 'clause_viol': 0, 'prod_viol': 0, 'sec': 22.8}
+{'n': 16000, 'i': 1, 'status': 'ok', 'size': 2110539, 'clause_viol': 0, 'prod_viol': 0, 'sec': 18.7}
+{'n': 16000, 'i': 2, 'status': 'ok', 'size': 2202878, 'clause_viol': 0, 'prod_viol': 0, 'sec': 22.1}
+{'n': 16000, 'i': 3, 'status': 'ok', 'size': 2175511, 'clause_viol': 0, 'prod_viol': 0, 'sec': 21.4}
+{'n': 16000, 'i': 4, 'status': 'ok', 'size': 2169507, 'clause_viol': 0, 'prod_viol': 0, 'sec': 21.6}
+{'n': 16000, 'i': 5, 'status': 'ok', 'size': 2107373, 'clause_viol': 0, 'prod_viol': 0, 'sec': 18.8}
+{'n': 16000, 'i': 6, 'status': 'ok', 'size': 2258622, 'clause_viol': 0, 'prod_viol': 0, 'sec': 22.7}
+{'n': 16000, 'i': 7, 'status': 'ok', 'size': 2124887, 'clause_viol': 0, 'prod_viol': 0, 'sec': 19.5}
+{'n': 16000, 'i': 8, 'status': 'ok', 'size': 2085427, 'clause_viol': 0, 'prod_viol': 0, 'sec': 18.4}
+{'n': 16000, 'i': 9, 'status': 'ok', 'size': 2124463, 'clause_viol': 0, 'prod_viol': 0, 'sec': 19.6}
+{'n': 32000, 'i': 0, 'status': 'ok', 'size': 3509159, 'clause_viol': 0, 'prod_viol': 0, 'sec': 31.9}
+{'n': 32000, 'i': 1, 'status': 'ok', 'size': 3503221, 'clause_viol': 0, 'prod_viol': 0, 'sec': 31.3}
+{'n': 32000, 'i': 2, 'status': 'ok', 'size': 3553726, 'clause_viol': 0, 'prod_viol': 0, 'sec': 33.0}
+{'n': 32000, 'i': 3, 'status': 'ok', 'size': 3529300, 'clause_viol': 0, 'prod_viol': 0, 'sec': 32.5}
+{'n': 32000, 'i': 4, 'status': 'ok', 'size': 3678410, 'clause_viol': 0, 'prod_viol': 0, 'sec': 37.8}
+{'n': 32000, 'i': 5, 'status': 'ok', 'size': 3556494, 'clause_viol': 0, 'prod_viol': 0, 'sec': 33.0}
+{'n': 32000, 'i': 6, 'status': 'ok', 'size': 3691757, 'clause_viol': 0, 'prod_viol': 0, 'sec': 37.4}
+{'n': 32000, 'i': 7, 'status': 'ok', 'size': 3720469, 'clause_viol': 0, 'prod_viol': 0, 'sec': 38.6}
+{'n': 32000, 'i': 8, 'status': 'ok', 'size': 3502513, 'clause_viol': 0, 'prod_viol': 0, 'sec': 31.3}

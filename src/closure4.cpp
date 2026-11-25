@@ -17,7 +17,7 @@ int main(int argc,char**argv){
  vector<Mono> eq; vector<int8_t> sg; unordered_map<u64,int> idx; idx.reserve(1<<24);
  vector<vector<int>> varAll(n+1),varLow(n+1); unordered_map<u64,vector<int>> pairIdx; pairIdx.reserve(1<<24);
  deque<int> q; string status="ok"; const size_t CAP=40000000;
- auto add=[&](Mono c,int s)->bool{ if(c.d==0)return s==1; u64 k=key(c)|((u64)c.d<<60); auto it=idx.find(k); if(it!=idx.end())return sg[it->second]==s; int id=eq.size(); eq.push_back(c); sg.push_back(s); idx[k]=id; q.push_back(id); return true;};
+ auto add=[&](Mono c,int s)->bool{ if(c.d==0)return s==1; u64 k=key(c); auto it=idx.find(k); if(it!=idx.end())return sg[it->second]==s; int id=eq.size(); eq.push_back(c); sg.push_back(s); idx[k]=id; q.push_back(id); return true;};
  for(size_t i=0;i<T.size();i++){Mono c;c.d=3;int a[3]={T[i][0],T[i][1],T[i][2]};sort(a,a+3);for(int j=0;j<3;j++)c.v[j]=a[j];int par=(F[i][0]+F[i][1]+F[i][2])%2;int s=par?1:-1; if(!add(c,s)){status="conflict";break;}}
  auto combine=[&](int a,int b)->bool{Mono c=symd(eq[a],eq[b]); if(c.d>4)return true; return add(c,sg[a]*sg[b]);};
  while(status=="ok"&&!q.empty()){int a=q.front();q.pop_front();const Mono A=eq[a];unordered_set<int> seen;
@@ -33,7 +33,7 @@ int main(int argc,char**argv){
  if(getenv("DUMP")){FILE*fd=fopen(getenv("DUMP"),"w");for(size_t i=0;i<T.size();i++)fprintf(fd,"%d %d %d %d %d %d\n",T[i][0],T[i][1],T[i][2],F[i][0],F[i][1],F[i][2]);fclose(fd);}
  printf("{\"status\":\"%s\",\"size\":%zu",status.c_str(),eq.size());
  if(status!="ok"){printf("}\n");return 0;}
- auto E=[&](vector<int> v)->int{ if(v.empty())return 1; sort(v.begin(),v.end()); Mono c;c.d=v.size();if(c.d>4)return 0;for(int i=0;i<c.d;i++)c.v[i]=v[i]; auto it=idx.find(key(c)|((u64)c.d<<60)); return it==idx.end()?0:sg[it->second];};
+ auto E=[&](vector<int> v)->int{ if(v.empty())return 1; sort(v.begin(),v.end()); Mono c;c.d=v.size();if(c.d>4)return 0;for(int i=0;i<c.d;i++)c.v[i]=v[i]; auto it=idx.find(key(c)); return it==idx.end()?0:sg[it->second];};
  auto viol=[&](size_t i,int extra)->double{double tot=0;for(int mask=0;mask<8;mask++){int s=1;set<int> mono;for(int j=0;j<3;j++)if(mask>>j&1){if(F[i][j])s=-s;mono.insert(T[i][j]);}
    if(extra){if(mono.count(extra))mono.erase(extra);else mono.insert(extra);} tot+=s*E(vector<int>(mono.begin(),mono.end()));}return tot/8;};
  long bad=0; for(size_t i=0;i<T.size();i++)if(fabs(viol(i,0))>1e-12)bad++;

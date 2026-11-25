@@ -1,0 +1,38 @@
+S1 {'result': 'conflict', 'pass_': True}
+S2 {'results': [('ok', 72000, 0), ('ok', 72000, 0), ('ok', 72000, 0)], 'pass_': True}
+{'n': 16000, 'i': 0, 'status': 'ok', 'size': 2214678, 'clause_viol': 0, 'prod_viol': 0, 'sec': 25.7}
+{'n': 16000, 'i': 1, 'status': 'ok', 'size': 2110539, 'clause_viol': 0, 'prod_viol': 0, 'sec': 21.0}
+{'n': 16000, 'i': 2, 'status': 'ok', 'size': 2202878, 'clause_viol': 0, 'prod_viol': 0, 'sec': 24.4}
+{'n': 16000, 'i': 3, 'status': 'ok', 'size': 2175511, 'clause_viol': 0, 'prod_viol': 0, 'sec': 23.4}
+{'n': 16000, 'i': 4, 'status': 'ok', 'size': 2169507, 'clause_viol': 0, 'prod_viol': 0, 'sec': 25.4}
+{'n': 16000, 'i': 5, 'status': 'ok', 'size': 2107373, 'clause_viol': 0, 'prod_viol': 0, 'sec': 21.6}
+{'n': 16000, 'i': 6, 'status': 'ok', 'size': 2258622, 'clause_viol': 0, 'prod_viol': 0, 'sec': 27.0}
+{'n': 16000, 'i': 7, 'status': 'ok', 'size': 2124887, 'clause_viol': 0, 'prod_viol': 0, 'sec': 22.1}
+{'n': 16000, 'i': 8, 'status': 'ok', 'size': 2085427, 'clause_viol': 0, 'prod_viol': 0, 'sec': 22.2}
+{'n': 16000, 'i': 9, 'status': 'ok', 'size': 2124463, 'clause_viol': 0, 'prod_viol': 0, 'sec': 21.2}
+{'n': 32000, 'i': 0, 'status': 'ok', 'size': 3509159, 'clause_viol': 0, 'prod_viol': 0, 'sec': 33.9}
+{'n': 32000, 'i': 1, 'status': 'ok', 'size': 3503221, 'clause_viol': 0, 'prod_viol': 0, 'sec': 33.5}
+{'n': 32000, 'i': 2, 'status': 'ok', 'size': 3553726, 'clause_viol': 0, 'prod_viol': 0, 'sec': 36.4}
+{'n': 32000, 'i': 3, 'status': 'ok', 'size': 3529300, 'clause_viol': 0, 'prod_viol': 0, 'sec': 35.3}
+{'n': 32000, 'i': 4, 'status': 'ok', 'size': 3678410, 'clause_viol': 0, 'prod_viol': 0, 'sec': 40.7}
+{'n': 32000, 'i': 5, 'status': 'ok', 'size': 3556494, 'clause_viol': 0, 'prod_viol': 0, 'sec': 37.3}
+{'n': 32000, 'i': 6, 'status': 'ok', 'size': 3691757, 'clause_viol': 0, 'prod_viol': 0, 'sec': 42.0}
+{'n': 32000, 'i': 7, 'status': 'ok', 'size': 3720469, 'clause_viol': 0, 'prod_viol': 0, 'sec': 41.8}
+{'n': 32000, 'i': 8, 'status': 'ok', 'size': 3502513, 'clause_viol': 0, 'prod_viol': 0, 'sec': 35.2}
+{'n': 32000, 'i': 9, 'status': 'ok', 'size': 3488327, 'clause_viol': 0, 'prod_viol': 0, 'sec': 34.5}
+{'n': 64000, 'i': 0, 'status': 'ok', 'size': 6543483, 'clause_viol': 0, 'prod_viol': 0, 'min_local_eig': -4.6629367034256575e-15, 'sec': 81.3}
+{'n': 64000, 'i': 1, 'status': 'ok', 'size': 6832409, 'clause_viol': 0, 'prod_viol': 0, 'min_local_eig': -6.3402095349150584e-15, 'sec': 94.0}
+{'n': 64000, 'i': 2, 'status': 'ok', 'size': 6537069, 'clause_viol': 0, 'prod_viol': 0, 'min_local_eig': -3.20778320263474e-15, 'sec': 87.2}
+{'n': 64000, 'i': 3, 'status': 'ok', 'size': 6841165, 'clause_viol': 0, 'prod_viol': 0, 'min_local_eig': -2.6496913861283484e-15, 'sec': 99.2}
+{'n': 64000, 'i': 4, 'status': 'ok', 'size': 6560228, 'clause_viol': 0, 'prod_viol': 0, 'min_local_eig': -5.954159214197199e-15, 'sec': 87.2}
+{'n': 64000, 'i': 5, 'status': 'ok', 'size': 6532906, 'clause_viol': 0, 'prod_viol': 0, 'min_local_eig': -6.3402095349150584e-15, 'sec': 81.0}
+{'n': 64000, 'i': 6, 'status': 'ok', 'size': 6555495, 'clause_viol': 0, 'prod_viol': 0, 'min_local_eig': -5.954159214197199e-15, 'sec': 82.3}
+{'n': 64000, 'i': 7, 'status': 'ok', 'size': 6533053, 'clause_viol': 0, 'prod_viol': 0, 'min_local_eig': -6.3402095349150584e-15, 'sec': 83.7}
+{'n': 64000, 'i': 8, 'status': 'ok', 'size': 6546837, 'clause_viol': 0, 'prod_viol': 0, 'min_local_eig': -5.954159214197199e-15, 'sec': 83.7}
+{'n': 64000, 'i': 9, 'status': 'ok', 'size': 6510832, 'clause_viol': 0, 'prod_viol': 0, 'min_local_eig': -6.3402095349150584e-15, 'sec': 81.1}
+S1 {'result': 'conflict', 'pass_': True}
+S2 {'results': [('ok', 72000, 0), ('ok', 72000, 0), ('ok', 72000, 0)], 'pass_': True}
+P1 {'consistent_64000': 10, 'pass_': True}
+P2 {'pass_': True}
+P3 {'min_eig': -6.3402095349150584e-15, 'pass_': True}
+P4 {'consistent': {16000: 10, 32000: 10, 64000: 10}, 'pass_': True}
