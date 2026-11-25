@@ -133,12 +133,12 @@ post(title="Six bridges, rebuilt",
  left=("Replaced", "Flickering dark energy → a constant count. A 1.1 TeV doublet → a light singlet. The r = 1 route → one shared count. The 10⁸ GeV meeting → the TeV one."),
  right=("Narrowed", "One cubic for b/τ → two halves, 2/3. Q = 2/3 for every sector → the leptons' chord; the quarks have their own."),
  f1=("Foundations: what never moved", "|O + R|², the cut, E6 at gravity's meeting, the forces meeting."),
- f2=("Foundations: chapter two", "The light generations, the hierarchy's balance at gravity's meeting, and the process that writes the shared count."))
+ f2=("Foundations: what a bridge is", "The step from an equation to a measured number. The equation is fixed; the bridge is built from the best reading of it."))
 post(title="What stands",
- solves="Chapter one ends here: the core, the ledger, and what each chapter to come rests on.",
+ solves="Chapter one ends here: the core, the ledger, and what holds.",
  main=("The core", "|O + R|² = |O|² + |R|² + 2 Re(O*R)", "Quantum mechanics in the cross terms, gravity in the meeting term, one record. Everything in posts 2–18 follows from this line and the cut of E6."),
- left=("The chapters", "Particle physics, P vs NP, foundations, the cosmos, gravity, and last, the monads themselves."),
- right=("What they rest on", "The cut and E6 for particle physics; the root √n for P vs NP; the count for time and the cosmos; the meeting term for gravity."),
+ left=("What holds", "The forces meet at the cut; hypercharge is forced; flavour follows S₄; the leptons are one chord; bar{θ} = 0; m_{b}/m_{τ} = 2/3; the Higgs is born at gravity's meeting."),
+ right=("What it rests on", "Two things: the record |O + R|² and the cut of E6. Everything in this series follows from them."),
  f1=("Foundations: the record", "Every computation is in the repository with its registration and its log."),
  f2=("Foundations: closing", "Particles are what minds look like from inside the record."))
 assert len(P) == 20
