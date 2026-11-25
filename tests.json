@@ -2370,5 +2370,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t78_mixed_dolls.py",
+  "sections": [
+   "186"
+  ],
+  "predictions": [
+   "PREDICTIONS_t78.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

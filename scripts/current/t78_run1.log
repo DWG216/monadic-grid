@@ -1,0 +1,9 @@
+{2: {2: 2, 3: 1, 6: 1}, 4: {2: 4, 3: 3, 6: 1}, 8: {2: 8, 3: 5, 6: 2}, 12: {2: 12, 3: 9, 6: 3}, 16: {2: 16, 3: 9, 6: 3}, 20: {2: 20, 3: 11, 6: 3}, 24: {2: None, 3: None, 6: 3}, 30: {2: None, 3: None, 6: 4}, 35: {2: None, 3: None, 6: 4}, 40: {2: None, 3: None, 6: 5}}
+Traceback (most recent call last):
+  File "/home/claude/monadic-grid/scripts/current/t78_mixed_dolls.py", line 31, in <module>
+    g2 = all(res[n][6] is not None and res[n][6] < min(v for v in (res[n][2], res[n][3]) if v is not None) for n in res if n >= 12) and res[40][6] is not None and res[40][6] <= 2 * sqrt(40)
+         ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/monadic-grid/scripts/current/t78_mixed_dolls.py", line 31, in <genexpr>
+    g2 = all(res[n][6] is not None and res[n][6] < min(v for v in (res[n][2], res[n][3]) if v is not None) for n in res if n >= 12) and res[40][6] is not None and res[40][6] <= 2 * sqrt(40)
+                                                   ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() iterable argument is empty
