@@ -1,0 +1,9 @@
+# t113 The record of a pair has two parts: 27̄ ⊕ 351′, and b/τ (pre-registered 2026-11-25, before any t113 code is written or run)
+Equation. A fermion pair's record is the symmetric square: Sym²(27) = 27̄ ⊕ 351′ (378 = 27 + 351). Under SU(3)³ the Higgs quantum numbers (1,3,3̄) of the light doublet occur exactly twice in Sym²(27): once in the leptons' εεLL and once in the colour-singlet Q_L Q_R. The cubic norm N takes one combination, (lepton, quark) = (+1, −1) in unit-entry tensors whose squared norms are 4 (εε, per component) and 6 (three colours, both orderings). The 351′ takes the orthogonal one: 4a − 6b = 0, so (a, b) = (3, 2). [S] Derived analytically by the writer before registering: a light doublet carried by the 351′ gives m_b/m_τ = 2/3 (not blind against t109's corrected 0.678).
+[S] Grid rule (the two halves of the record do two jobs): the 27s break SU(3)³ at the meeting (t106); the light doublet lives in the orthogonal half, the 351′.
+Engine: t112's Hessian machinery; heavy part from the 27 cubic with W_33 = 1, W_32 = t; light part from the 351′ tensor (lepton 3 εεW, quark +2 W) with κ in the R1 position (column 2).
+S1 [sanity] orthogonality: the Frobenius inner product of the 27 and 351′ light tensors is 0; t = 0 gives m_b/m_τ = 2/3 to 1e-6.
+P1 [M, not blind] |m_b/m_τ ÷ 0.678 − 1| < 5% at t = 0 (0.678 = t109 post hoc, meeting B, at M*).
+P2 [M, blind] For every t in [0.1, 10], m_b/m_τ within 5% of 0.678.
+P3 [M] Same Yukawa matrix for all generations: s/μ and d/e also 2/3 at M*. Expected fail (t109 information: 0.20 and 2.1, to be recomputed with the corrected running and reported).
+Consequence fixed in advance: if P1 and P2 pass, the third generation's b/τ is the 351′ Clebsch; the light generations need the 27̄ part as well (a two-term texture), which is the next item.
