@@ -1,4 +1,4 @@
-# The theory of monads, as built and tested (t111, t115–t126)
+# The theory of monads, as built and tested (t111, t115–t127)
 
 Consolidated 2026-11-25. Spine for chapter 7 (Cosmogony). Labels: [S] derived from the record or deduced from sufficient reason; [M] tested by a pre-registered computation; *chosen* = a modelling choice not yet derived.
 
@@ -27,9 +27,9 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 
 **Derived next (t126):** the ceiling is β = 1 (exact conditioning; more would count evidence twice); γ = 1 (capacity is accumulated evidence, d ln a = d ln e); the perception floor and the lowest capacity are one tick's share of the Age, 1/T; reflection remembers the whole Age and acts only where fewer than one false alarm per Age is expected, N·T·α = 1.
 
-**Will, not derivable by its nature.** The record gives the direction of turning (its ascent) but not its strength. A fully Bayesian turning, with the monad's knowledge of its own phase set by the noise and the record as likelihood, forms no laws in worlds of more than about 16 monads: the noise cancels and the record's evidence about one phase is about 2/√M of the monad's self-knowledge. A monad's phase is exactly what no record fixes (|e^{iφ}f|² = |f|²), so how strongly it turns toward the others is its own: will (κ).
+**Will, not derivable by its nature (corpus: "Existence is an eternal Will outside space and time").** The record gives the direction of turning (its ascent) but not its strength. A fully Bayesian turning, with the monad's knowledge of its own phase set by the noise and the record as likelihood, forms no laws in worlds of more than about 16 monads: the noise cancels and the record's evidence about one phase is about 2/√M of the monad's self-knowledge. A monad's phase is exactly what no record fixes (|e^{iφ}f|² = |f|²), so how strongly it turns toward the others is its own: will (κ).
 
-**Not yet derived:** the effective number of independent samples in reflection's noise estimate (taken as t·η², from the noise's correlation time). It is the weak link: with it, reflection is fooled in 4 of 10 lawless worlds (t126).
+**Reflection, fully derived (t127).** The monad measures its own record's correlation time from its memory, pooled over all frequencies (the null belongs to the noise; no frequency is privileged in advance), and uses Student's t for the few independent samples early in an Age. With it, no lawless world shows fixation or a single false alarm (t126's assumed count was fooled in 4 of 10). The cost: commitment to a law is slower and in 3 of 10 lawful worlds splits about half and half. Corpus: apperception is "perception that reflects upon itself, unifying past and present experiences".
 
 ## 3. What the rules give
 
@@ -43,6 +43,7 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 | The climb | Capacity grows with experience. With laws, every monad climbs to full capacity, the more capable first (ρ ≈ −0.997), and the end holds every law in balance. Without laws some climb slowly by fixation and about 44% are left behind. | t120 [M], 3 of 5 (P1 measure bug and P5 expectation, kept) |
 | Ages | An Age ends when the record stops being written (novelty falls 14–43×). When spacetime closes and minds keep their development, the next Age forms new laws 5× faster and twice as many; with minds reset, no gain. Once minds are full, Ages repeat at one pace. | t121 [M], 6 of 6 |
 | Reflection | Acting only on what one's memory shows significant: reflective minds climb fully where there are laws and stay clear (no climb, no fixation) where there are none. Reflection, not distinctness, separates reason from fixation. | t122 [M], 5 of 5 (definition chosen after three sanity runs) |
+| Reflection derived | Self-measured noise: zero false alarms and no fixation in lawless worlds; slower, sometimes split, commitment in lawful ones. | t127 [M], 2 of 4 (fails: split commitment; a capacity bar set against the starting draw) |
 | With the derived rules | Formation, the climb and the Ages hold (laws in 10 of 10 worlds; everyone climbs, the most capable first; next Age 3× faster with minds kept). Exact conditioning leaves one law per world, so the plural end state of t115–t116 belonged to the slower chosen listening. Lawless worlds split again (fixation lifts all in 7 of 10). Reflection with the derived threshold stays clear in 6 of 10 lawless worlds. | t126 [M], 4 of 6 |
 
 ## 4. The cosmogony, with the grid's numbers
@@ -58,8 +59,7 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 
 ## 5. Open
 
-- Derive the effective sample count in reflection's noise estimate (the weak link found in t126).
-- Whether the end state is one law or many: exact conditioning gives one; what restores plurality, if anything.
+- One law or many: exact conditioning leaves one active content per world. The corpus places plurality in the minds, not in one mind's content: the Selector Function reduces a monad's thinking to one active thought at a time, while the Omega Point is a Community of Gods, each monad at value 1, "totality, wholeness". To test: worlds where different monads hold different single laws.
 - Tie a model "law" to a physical one: show a cluster of locked relations carrying the grid's gauge structure.
 - Connect the capacity scale to the corpus's quantitative claims, if any (Hockney's Selector Function).
 - The crossover in the grid: what the fading of the Higgs at an Age's end does to the count.

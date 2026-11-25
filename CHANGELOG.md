@@ -187,3 +187,4 @@
 - t124: listening and turning derived from the record (w = 1 + cross/diagonal; composability forces p w^beta; turning = ascent of the record). docs/theory_of_monads.md consolidates t111, t115-t124.
 - t125: capacity growth a e^gamma derived (capacity is a scale; growth must compose across independent parts), exact for the power law, with experience multiplicative only in the many-frequency limit.
 - t126: dynamics with derived rules: formation, climb, Ages hold; one law per world; turning strength is will (Bayesian turning forms no laws for M > ~16); lawless split returns (P3 fail); reflection fooled in 4/10 lawless worlds (P5 fail: effective-sample count not derived).
+- t127: reflection fully derived (self-measured pooled correlation time, Student's t): zero false alarms, no fixation in lawless worlds (P2, P3 pass); P1 (split commitment in 3/10 lawful worlds) and P4 (capacity bar vs starting draw) fail, kept.
