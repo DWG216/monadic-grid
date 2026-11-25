@@ -1,0 +1,8 @@
+P1a {'unbroken': 7, 'pass_': np.True_} P1b {'unbroken': 4, 'pass_': np.True_}
+quartic invariants (real, independent): 20
+closure residuals: gauge 5.539831857092117e-14 yukawa 1.918093880212024e-14
+P2 {'n_invariants': 20, 'min_V_unit_sphere': -0.014259302796663287, 'pass_': False}
+P1a {'unbroken': 7, 'pass_': np.True_}
+P1b {'unbroken': 4, 'pass_': np.True_}
+P2 {'n_invariants': 20, 'min_V_unit_sphere': -0.014259302796663287, 'pass_': False}
+P3 {'mu_CW': 1.889181017210347e+18, 'ratio_to_Mstar': 0.7758443602506558, 'pass_': True}

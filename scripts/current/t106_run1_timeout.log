@@ -1,0 +1,3 @@
+P1a {'unbroken': 7, 'pass_': np.True_} P1b {'unbroken': 4, 'pass_': np.True_}
+quartic invariants (real, independent): 20
+closure residuals: gauge 5.539831857092117e-14 yukawa 1.918093880212024e-14

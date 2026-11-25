@@ -170,3 +170,4 @@
 - t102: gauge term above the meeting for the bifundamental (c = 17/3) gives m_h = 116-118 GeV (fail, kept); t101's selection of the TeV meeting downgraded to an indication; full trinification scalar running needed.
 - t103: delta = Q/3 fails for quarks (removed); halving pattern passes weakly. t104: the Hessian group (648) has no Klein subgroup: no fixed theta13 (fail, kept).
 - t105: general-formula RGE engine (SM limit reproduced to 4e-14). Bifundamental quartics from zero at M*: lambda1 + lambda2 < 0 at the meeting: no stable vacuum with one bifundamental (fail, kept). Run 1 pairing bug kept.
+- t106: breaking needs two lepton bifundamentals (unbroken 7 vs 4: pass); with all 20 quartics zero at M* the vacuum at the meeting is unbounded (fail, kept); Coleman-Weinberg scale 0.78 M* (pass): the zero rule cannot apply to every quartic of the 27s.

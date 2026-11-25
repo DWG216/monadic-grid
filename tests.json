@@ -2679,5 +2679,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t106_scalar_content.py",
+  "sections": [
+   "220"
+  ],
+  "predictions": [
+   "PREDICTIONS_t106.md"
+  ],
+  "group": "grid",
+  "timeout": 1800
  }
 ]
