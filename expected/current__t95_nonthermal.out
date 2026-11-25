@@ -1,0 +1,4 @@
+S1 {'max_eta': np.float64(8.242270760008952e-15), 'pass_': np.True_}
+eps_max [{'N': 1, 'eps': np.float64(1.0039459897351166e-11), 'M': 162848.76068135575, 'at': (3.094, 0.393), 'TR_over_mphi_needed': np.float64(16.269135491683926)}, {'N': 2, 'eps': np.float64(3.166005671529795e-10), 'M': 396137766.0492011, 'at': (3.597, 4.398), 'TR_over_mphi_needed': np.float64(0.515897159635888)}, {'N': 3, 'eps': np.float64(1.5043439374440712e-11), 'M': 2175973575137.8298, 'at': (6.189, 1.508), 'TR_over_mphi_needed': np.float64(10.857446177557101)}]
+P1 {'pass_': False}
+P2 {'windows': [], 'pass_': False}

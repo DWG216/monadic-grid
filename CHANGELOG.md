@@ -161,3 +161,4 @@
 - t89: Dirac neutrino masses from the lepton bifundamental (m_D = charged leptons): M_R = 7.2e5, 1.3e9, 6.3e10 GeV; N1 leptogenesis out, N3 viable. All pass.
 - t90: hierarchical thermal leptogenesis with m_D = charged leptons fails (max eta_B 8e-15 over the Majorana-phase plane). Runs 1-3 had code errors (vertex function, precision), kept. Correction map: matter excess needs resonant or non-thermal route.
 - t91: hypercharge forced up to relabelling (3 solutions, one Weyl orbit; sin^2 = 3/8). t92: no near-degenerate right-handed pair (closest factor 627): resonance closed. t93: psi parity makes the 27's exotics odd; dark matter = lightest vector-like lepton doublet, ~1.1 TeV thermal. All pass.
+- t94: N's mass v_psi^4/M*^3 = 0.3-2 GeV; doublet splitting automatic; dark matter is a light mostly-singlet state (0.015-21 GeV); t93's 1.1 TeV doublet reading withdrawn. t95: max CP asymmetry 3e-10: no N-decay route makes the matter excess with m_D = m_l (fail, kept).

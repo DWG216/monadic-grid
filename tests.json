@@ -2547,5 +2547,27 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t94_singlet.py",
+  "sections": [
+   "204"
+  ],
+  "predictions": [
+   "PREDICTIONS_t94.md"
+  ],
+  "group": "grid",
+  "timeout": 900
+ },
+ {
+  "script": "scripts/current/t95_nonthermal.py",
+  "sections": [
+   "205"
+  ],
+  "predictions": [
+   "PREDICTIONS_t95.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]
