@@ -2514,5 +2514,38 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t91_hypercharge.py",
+  "sections": [
+   "201"
+  ],
+  "predictions": [
+   "PREDICTIONS_t91.md"
+  ],
+  "group": "grid",
+  "timeout": 900
+ },
+ {
+  "script": "scripts/current/t92_degenerate_pair.py",
+  "sections": [
+   "202"
+  ],
+  "predictions": [
+   "PREDICTIONS_t92.md"
+  ],
+  "group": "grid",
+  "timeout": 900
+ },
+ {
+  "script": "scripts/current/t93_dark_matter.py",
+  "sections": [
+   "203"
+  ],
+  "predictions": [
+   "PREDICTIONS_t93.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

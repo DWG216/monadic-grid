@@ -11,3 +11,7 @@ G2 [M] The antiquark multiset has exactly 3 solutions (b, c), one for each choic
 G3 [M] For each of the 3 solutions the lepton bifundamental gives exactly the multiset {doublet -1/2, doublet +1/2, doublet -1/2, singlet +1, singlet 0, singlet 0} (L, H_u, H_d, e^c, nu^c, N), with no fitting.
 G4 [M] sin^2 theta_W = 3/8 at the cut for each solution (Tr T3_L^2 / Tr Q^2 over the 27).
 Verdict: G1-G4 pass -> hypercharge is forced up to relabelling; the "selection" left open in t66 carries no free choice.
+
+## Scoring (2026-11-25)
+Run 1 (t91_run1.log). All pass. G1: a = -1/sqrt3 fixed by the quarks (D at -1/3). G2: exactly 3 solutions (b, c) = (-1, -1/sqrt3), (1, -1/sqrt3), (0, 2/sqrt3), one per choice of the u^c component, permuted by SU(3)_R's Weyl group. G3: each gives the lepton multiset (L, H_u, H_d, e^c, nu^c, N) exactly, with consistent SU(2)_L doublets. G4: sin^2 theta_W = 3/8 for each.
+Verdict: hypercharge is forced up to relabelling; t66's open "selection" carries no free choice.

@@ -7,3 +7,7 @@ S1 Sanity: t90's median masses are reproduced at a scan point (order 1e5, 1e8-1e
 P1 [M] The minimum ratio over the whole plane exceeds 10 (no pair within an order of magnitude): resonance is closed.
 Information: the minimum ratio and where it occurs.
 Verdict: P1 pass -> the grid offers no reason for a degenerate pair; the matter excess must come from a non-thermal route (next: inflaton or E6-breaking decays).
+
+## Scoring (2026-11-25)
+Run 1 (t92_run1.log). S1 PASS (7.6e4, 3.5e8, 2.2e12 GeV at the origin). P1 PASS: over the 400 x 400 Majorana-phase plane the closest pair is still a factor 627 apart (at alpha21 = 3.06, alpha31 = 1.02; masses 2.2e5, 1.4e8, 2.0e12 GeV).
+Verdict: the grid offers no near-degenerate pair; resonant leptogenesis is closed. The matter excess must be non-thermal (next: decays at the E6 or meeting scale).

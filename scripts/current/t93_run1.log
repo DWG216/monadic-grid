@@ -1,0 +1,4 @@
+G1 {'n16': 16, 'nex': 11, 'pass_': True}
+G2 {'vevs': {'Higgs doublets (10, scalar)': 1, 'nu^c Majorana mass (charge-2 combination)': 1, 'N direction (charge +4)': 1, 'L-like direction (charge +1)': -1}, 'pass_': True}
+G3 {'pass_': True}
+G4 {'relic_GeV': 1100.0, 'n_H2_window': (1000.0, 7500000.0), 'pass_': True}

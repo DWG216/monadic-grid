@@ -1,0 +1,5 @@
+S1 {'pass_': np.True_}
+G1 {'a': np.float64(-0.5773502691896256), 'D': np.float64(-0.3333333333333333), 'pass_': np.True_}
+G2 {'n': 3, 'sols': [(0, [np.float64(-1.0), np.float64(-0.57735)]), (1, [np.float64(1.0), np.float64(-0.57735)]), (2, [np.float64(-0.0), np.float64(1.154701)])], 'pass_': True}
+G3 {'each': [True, True, True], 'pass_': True}
+G4 {'values': [np.float64(0.3750000000000001), np.float64(0.375), np.float64(0.375)], 'pass_': True}
