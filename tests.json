@@ -2470,5 +2470,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t87_constant_lambda.py",
+  "sections": [
+   "195"
+  ],
+  "predictions": [
+   "PREDICTIONS_t87.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

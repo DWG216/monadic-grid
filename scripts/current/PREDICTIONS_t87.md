@@ -13,3 +13,11 @@ P3 [M] The count's size: Sorkin's estimate Lambda ~ 1/sqrt(N), N the four-volume
 Prediction recorded with this test: w = -1 exactly. DESI's evolving-dark-energy signal (which rests on adding the CMB and supernovae) should weaken, not strengthen, with DR3, Euclid and Rubin.
 
 Verdict: P1-P3 pass -> the corrected statement for the next round: dark energy is the exact, constant leftover of a fixed count; it does not flicker.
+
+## Scoring (2026-11-25)
+Run 1 (t87_run1.log, script kept as t87_constant_lambda_run1.py): the refinement step let w_a reach -3.1, outside the registered box (a script slip). Run 2 (t87_run2.log) keeps the refinement inside the box; no threshold changed. Scored on run 2.
+- S1 PASS (0.2995, 11.44). S2 PASS.
+- P1 PASS: constant Lambda, chi2 = 11.44 for 11 degrees of freedom, p = 0.41.
+- P2 FAIL: the best CPL point in the box, (Omega_m, w0, wa) = (0.393, -0.10, -3.0), has chi2 = 4.95; Lambda-CDM is 6.48 above it (threshold 6.18), about 2.1 sigma. The best point sits on the box's edge along the known Omega_m-w0-wa degeneracy, and the likelihood omits DESI's D_M-D_H correlations; both are recorded, neither changes the score. Kept.
+- P3 PASS: Sorkin's count gives 1.4e-122 against the observed 2.9e-122 (ratio 0.48).
+Verdict: constant Lambda fits DESI's distances well (p = 0.41) and the count gives its size within a factor of about 2. DESI's distances alone already lean toward evolution at about 2 sigma in this likelihood. The grid's statement stands as a prediction against that lean: w = -1 exactly; the lean should fade with DR3, Euclid and Rubin. If it grows past 5 sigma with distances alone, the fixed-count bridge fails.

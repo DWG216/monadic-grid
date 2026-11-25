@@ -156,3 +156,4 @@
 - t83: Schoenebeck reduction at n = 2000-8000 (below the regime for density 4.5; kept). t84: n = 16k-64k, C++ closure; run 2 key-collision bug in local-block lookups (kept, src/closure4_run2_keybug.cpp); run 3 all pass.
 - t85: E6's bosons at the gravitational meeting (reduced Planck mass) [S]; no gauge-boson proton decay at Hyper-K; triplet scalars visible only below 7.9e11 GeV. All pass.
 - t86: everpresent Lambda (t72 model, alpha = 1) against DESI DR2 BAO distances directly: 0/347 within Delta chi2 = 4 of Lambda-CDM (best 18). Bridge as written refuted; correction map.
+- t87: constant Lambda from a fixed count: fits DESI DR2 BAO (p = 0.41), size within factor 2; P2 fail (BAO alone leans to evolution, 2.1 sigma), kept. Run 1 script slip (refinement left the box) kept.

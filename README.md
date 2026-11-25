@@ -21,14 +21,14 @@ Paper: `paper/monadic_grid.pdf` ("QM and GR from one record: The Monadic Grid").
 | Why matter comes first (Sakharov, 1967) | The balanced seed (0, 1) and the arrow fix the first moving count; the step conserves it. | t62, t63 |
 | Why Koide's lepton relation holds (1981) | Q = 2/3 is the balance of the hands at the three-phase level; m_τ = 1776.969 MeV (PDG 2026: 1776.93 ± 0.09). | t39, t40 |
 | The neutrino mass scale | Normal ordering, Σmν = 59.16 ± 0.21 meV, Majorana with m_ββ = 1.16–4.11 meV. Z′_ψ is broken with the forces at the meeting, near 10¹⁴ GeV. | t40, t41, t65, t71 |
-| Dark energy (1998) | Λ is the leftover of the record count, fluctuating as N^(−1/2) (Sorkin's everpresent Λ). Simulated against DESI DR2 it gives a band, not a point: 61% of runs lie in DESI's quadrant (w0 > −1, wa < 0) and 6% in its 2σ box. Against DESI DR2's distances directly, this implementation (a Wiener process in the Hubble four-volume, α = 1) fails: none of 347 histories comes within Δχ² = 4 of Λ-CDM (best 18). The bridge is in the correction map; the count and its N^(−1/2) scaling remain, the implementation does not. | t72, t86 |
+| Dark energy (1998) | Λ is the leftover of the record count, fluctuating as N^(−1/2) (Sorkin's everpresent Λ). Simulated against DESI DR2 it gives a band, not a point: 61% of runs lie in DESI's quadrant (w0 > −1, wa < 0) and 6% in its 2σ box. Against DESI DR2's distances directly, this implementation (a Wiener process in the Hubble four-volume, α = 1) fails: none of 347 histories comes within Δχ² = 4 of Λ-CDM (best 18). The random walk is withdrawn (nothing in the grid is random). Corrected: Λ is the exact leftover of a fixed count, so it is constant. It fits DESI's distances (χ² = 11.4 for 11 dof, p = 0.41) and the count gives its size within a factor of 2 (1.4e-122 vs 2.9e-122); DESI's distances alone lean toward evolution at about 2σ, and the grid predicts the lean fades: w = −1 exactly. | t72, t86, t87 |
 
 Each claim carries a label in the paper: [M] computed, [S] forced by sufficient reason, [I] a reading that experiment tests.
 
 ## Run
 Python 3.10+ with numpy and scipy (`pip install -r requirements.txt`).
 ```
-python3 run_all.py --group grid          # t17–t86: the results above; compares each with its recorded log
+python3 run_all.py --group grid          # t17–t87: the results above; compares each with its recorded log
 python3 run_all.py --only t60_generations # one script
 python3 run_all.py --group quick         # earlier tests (sections 28–87 of the record)
 python3 run_all.py --group all -j 4 --timeout 3600
@@ -36,7 +36,7 @@ python3 run_all.py --group all -j 4 --timeout 3600
 Each script runs in a fresh copy of its folder under `results/work/`; outputs go to `results/out/`, a summary to `results/summary.json`. For the grid group the expected output is the log recorded when the script first ran (`tNN_run1.log`, `tNN_posthoc.log`). Where the record amended a script after its first run (t21, t22), the expected output is the amended run; the first-run log stays beside the script. t25 and t27 print timings, which vary. A mismatch from a different numpy version means "inspect", not "wrong".
 
 ## Layout
-- `scripts/current/`: t1–t86 and DATA_CHECK_2026-11-24.md (posted numbers against the newest data) with their `PREDICTIONS_*.md` and logs. Post hoc analyses are named `*_posthoc*` and labelled as such.
+- `scripts/current/`: t1–t87 and DATA_CHECK_2026-11-24.md (posted numbers against the newest data) with their `PREDICTIONS_*.md` and logs. Post hoc analyses are named `*_posthoc*` and labelled as such.
 - `scripts/early/`: the first tests (2026-11-08 to 11-13), with pre-registrations and logs.
 - `scripts/indep/`, `scripts/spiral/`, `scripts/catalogue/`: an independent re-implementation, the Euler-spiral table and the winding catalogue.
 - `GRID_SPEC.md`: the grid in one file. `TEST_INDEX.md`: every test and its section. `CHANGELOG.md`.
