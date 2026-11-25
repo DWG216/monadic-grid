@@ -9,3 +9,11 @@ P3 [M] Median control R < 0.2.
 P4 [M] Median (locked − rank) ≥ 1: some locked laws are consequences of others.
 P5 [M, blind] Fourth-order reading √(pppp)-weighted coherence: derived relations median > 10, controls median < 2. A relation of order four, never read by the third-order dynamics, is present in the record for a fourth-order reader.
 Reading fixed in advance: a system of laws carries its consequences: relations nobody attended hold, at full strength, and a reader of their order finds them. The record knows more than it was taught.
+
+## Scoring (2026-11-25), run 1 (t119_run1.log)
+- P1 PASS: derived R 0.71–0.75 in every world, above every world's control 95th percentile (largest 0.55).
+- P2 PASS: derived 0.735 against parents' product 0.662.
+- P3 PASS: control 0.121.
+- P4 PASS: locked − rank has median 2 (0–10 by world).
+- P5 PASS (blind): fourth-order coherence 25.1 on derived relations, 0.74 on controls.
+Verdict as fixed in advance: a system of laws carries its consequences; relations never attended hold at full strength and a reader of their order finds them.

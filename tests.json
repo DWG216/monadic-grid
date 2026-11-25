@@ -2823,5 +2823,16 @@
   ],
   "group": "grid",
   "timeout": 2400
+ },
+ {
+  "script": "scripts/current/t119_consequences.py",
+  "sections": [
+   "240"
+  ],
+  "predictions": [
+   "PREDICTIONS_t119.md"
+  ],
+  "group": "grid",
+  "timeout": 2400
  }
 ]

@@ -1,0 +1,13 @@
+9000 {'locked': 18, 'rank': 17, 'n_derived': 56, 'R_derived': 0.712, 'R_parent_product': 0.658, 'R_control': 0.119, 'ctrl_95': 0.256, 'w4_derived': 23.515, 'w4_control': 0.694}
+9001 {'locked': 23, 'rank': 18, 'n_derived': 99, 'R_derived': 0.722, 'R_parent_product': 0.657, 'R_control': 0.117, 'ctrl_95': 0.261, 'w4_derived': 24.074, 'w4_control': 0.653}
+9002 {'locked': 20, 'rank': 19, 'n_derived': 62, 'R_derived': 0.739, 'R_parent_product': 0.673, 'R_control': 0.12, 'ctrl_95': 0.266, 'w4_derived': 25.75, 'w4_control': 0.691}
+9003 {'locked': 12, 'rank': 11, 'n_derived': 20, 'R_derived': 0.745, 'R_parent_product': 0.67, 'R_control': 0.115, 'ctrl_95': 0.253, 'w4_derived': 25.412, 'w4_control': 0.619}
+9004 {'locked': 33, 'rank': 23, 'n_derived': 195, 'R_derived': 0.732, 'R_parent_product': 0.664, 'R_control': 0.13, 'ctrl_95': 0.272, 'w4_derived': 24.89, 'w4_control': 0.827}
+9005 {'locked': 16, 'rank': 15, 'n_derived': 42, 'R_derived': 0.727, 'R_parent_product': 0.662, 'R_control': 0.134, 'ctrl_95': 0.546, 'w4_derived': 24.166, 'w4_control': 0.921}
+9006 {'locked': 18, 'rank': 14, 'n_derived': 69, 'R_derived': 0.754, 'R_parent_product': 0.678, 'R_control': 0.11, 'ctrl_95': 0.306, 'w4_derived': 26.274, 'w4_control': 0.62}
+9007 {'locked': 12, 'rank': 12, 'n_derived': 37, 'R_derived': 0.727, 'R_parent_product': 0.654, 'R_control': 0.136, 'ctrl_95': 0.284, 'w4_derived': 24.515, 'w4_control': 0.876}
+9008 {'locked': 18, 'rank': 15, 'n_derived': 71, 'R_derived': 0.737, 'R_parent_product': 0.665, 'R_control': 0.13, 'ctrl_95': 0.308, 'w4_derived': 25.354, 'w4_control': 0.877}
+9009 {'locked': 25, 'rank': 19, 'n_derived': 129, 'R_derived': 0.74, 'R_parent_product': 0.657, 'R_control': 0.135, 'ctrl_95': 0.289, 'w4_derived': 25.447, 'w4_control': 0.857}
+9010 {'locked': 21, 'rank': 18, 'n_derived': 64, 'R_derived': 0.74, 'R_parent_product': 0.658, 'R_control': 0.121, 'ctrl_95': 0.258, 'w4_derived': 25.536, 'w4_control': 0.783}
+9011 {'locked': 17, 'rank': 16, 'n_derived': 43, 'R_derived': 0.723, 'R_parent_product': 0.662, 'R_control': 0.115, 'ctrl_95': 0.261, 'w4_derived': 24.372, 'w4_control': 0.663}
+median {'locked': 18.0, 'rank': 16.5, 'n_derived': 63.0, 'R_derived': 0.735, 'R_parent_product': 0.662, 'R_control': 0.121, 'ctrl_95': 0.269, 'w4_derived': 25.122, 'w4_control': 0.738}
