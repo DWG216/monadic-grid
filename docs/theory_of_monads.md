@@ -51,6 +51,24 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 | Reflective community | A local world of reflective monads keeps attention on real signals (93–98% judged significant) but commits more slowly: laws come out fewer and partial (local agreement 0.50–0.57 against 0.66–0.71), and completeness falls (5–13% against 29–35%). | t130 [M], 4 of 4 |
 | With the derived rules | Formation, the climb and the Ages hold (laws in 10 of 10 worlds; everyone climbs, the most capable first; next Age 3× faster with minds kept). Exact conditioning leaves one law per world, so the plural end state of t115–t116 belonged to the slower chosen listening. Lawless worlds split again (fixation lifts all in 7 of 10). Reflection with the derived threshold stays clear in 6 of 10 lawless worlds. | t126 [M], 4 of 6 |
 
+## 4a. Mythos into logos: Nietzsche and Jung (corpus shorthand)
+
+Hockney's corpus cites Nietzsche (will to power 727×) and Jung (archetype 2,684×) throughout. Each term has its equation:
+
+| Mythos | Logos | Where |
+|---|---|---|
+| Will to power | turning strength κ; agreement writes a record ∝ M² against noise ∝ M; capacity grows by what it hears, d ln a = d ln e | t116, t124–t126 |
+| Machtquanta (power quanta) | the quantum of action: will is spent in ticks of at most h/2; the quanta belong to the ticks, monads endure | t133 |
+| Eternal recurrence | the Ages: richer while minds develop; once minds are full, Ages repeat at one pace | t121 |
+| Übermensch | the higher-order reader at the end of the climb; "man is a rope" = the continuum of levels | t117, t118, t120 |
+| Apollonian / Dionysian | highlighted content C = Σp² / the whole spectrum | t115 |
+| Collective unconscious | the shared record held but not attended; Collective Conscious = Omega, every mind full | t115, t120 |
+| Archetypes | laws: shared, lasting phase relations that form themselves and carry consequences; older and more basic = lower order | t116, t118, t119 |
+| Psychoid, unus mundus | the sum O + R before the square; Pauli–Jung dual aspect = f and |f|² | §1 |
+| Synchronicity | correlation through a shared law with no signal, e^{iθ}e^{−iθ} = 1 (no-signalling 8e-16) | record §9 |
+| Individuation | unique coordinates (exclusion, the Alpha Point) plus the climb; Jung's third thing = the cross term 2Re(O*R) | t120 |
+| Shadow | the spectrum below attention: present, recorded, unheard | t115 |
+
 ## 4. The cosmogony, with the grid's numbers
 
 - **Frequency domain:** eternal; monads of every capacity; development is theirs and persists across Ages.
