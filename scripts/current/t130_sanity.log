@@ -1,0 +1,6 @@
+refl=0.0 24000 {'K': 7, 'complete': 0.337, 'fixated': 0.655, 'open': 0.0, 'complete_plain': 0.337, 'fixated_plain': 0.655, 'open_plain': 0.0}
+refl=0.0 24001 {'K': 11, 'complete': 0.306, 'fixated': 0.693, 'open': 0.0, 'complete_plain': 0.306, 'fixated_plain': 0.693, 'open_plain': 0.0}
+refl=1.0 24000 {'K': 3, 'complete': 0.056, 'fixated': 0.84, 'open': 0.047, 'complete_refl': 0.056, 'fixated_refl': 0.84, 'open_refl': 0.047}
+refl=1.0 24001 {'K': 3, 'complete': 0.075, 'fixated': 0.766, 'open': 0.108, 'complete_refl': 0.075, 'fixated_refl': 0.766, 'open_refl': 0.108}
+refl=0.5 24000 {'K': 6, 'complete': 0.243, 'fixated': 0.75, 'open': 0.0, 'complete_refl': 0.188, 'fixated_refl': 0.808, 'open_refl': 0.0, 'complete_plain': 0.298, 'fixated_plain': 0.692, 'open_plain': 0.0}
+refl=0.5 24001 {'K': 11, 'complete': 0.257, 'fixated': 0.738, 'open': 0.0, 'complete_refl': 0.158, 'fixated_refl': 0.839, 'open_refl': 0.0, 'complete_plain': 0.35, 'fixated_plain': 0.643, 'open_plain': 0.0}
