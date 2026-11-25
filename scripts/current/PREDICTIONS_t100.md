@@ -7,3 +7,10 @@ S1 Sanity: with the measured m_h and M_t = 173.34 the code gives lambda(M_Pl = 1
 P1 [M on data] lambda(M*) = 0 with M_t = 172.57 predicts m_h within 2 GeV of 125.20 (2 GeV covers M_t, alpha_s and the matching's theory error). Expected by the writer: fail (near 129 GeV), as known for the SM.
 Information: the predicted m_h at M_t = 172.57 +- 0.29 (two-sigma band), and the M_t for which lambda(M*) = 0 gives 125.20.
 Verdict: P1 pass -> the Higgs mass follows from the zero/infinity rule at gravity's meeting with SM running. P1 fail -> the grid's own states between the electroweak scale and M* must be included (they enter beta_lambda); that is the next test, not a refutation of the rule.
+
+## Scoring (2026-11-25)
+Run 1 (t100_run1.log).
+- S1 PASS: lambda(M_Pl) = -0.0149 at M_t = 173.34 (Buttazzo et al.: -0.0143), crossing zero at 5.2e9 GeV.
+- P1 FAIL: lambda(M*) = 0 with Standard Model running gives m_h = 128.5 GeV (127.3-129.7 over M_t's 2-sigma range), 3.3 GeV above 125.20. As the writer expected; kept.
+- Information: it would give 125.20 only for M_t = 170.9 GeV, 5.7 sigma below PDG.
+Verdict as registered: the zero/infinity rule with SM running alone misses by 3.3 GeV. The grid's own states between the electroweak scale and M* enter beta_lambda and are the next test: extra fermions with Higgs couplings push the prediction up, extra scalars and the faster-running gauge couplings above the doublet thresholds push it down; the sign of the net correction is not known in advance.

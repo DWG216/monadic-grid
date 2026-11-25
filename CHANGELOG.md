@@ -165,3 +165,4 @@
 - t96: flavour from the grain: PSR critical directions (A4: 7 axes; Delta(27): 12 lines in 4 MUBs); Z3 Dirac x A4 Z2 Majorana gives TM2 (sin^2 theta12 = 0.341): passes NuFIT 3 sigma as registered, but JUNO pulls it 3.6 sigma. Post hoc: the hand swap extends A4 to S4, whose edge-axis Z2 gives TM1 (0.318, JUNO 1.0 sigma).
 - t97: residuals must generate the group (S4 with the hand swap): one Z2 class survives, giving TM1: sin^2 theta12 = 0.318 (JUNO 1.0 sigma), delta ~ 262-286 deg. All pass. Criterion chosen after t96's post hoc; stated in the file.
 - t98: Koide phase delta = 2/9 within 0.9 sigma; Q = 2/3 and 2/9 with m_mu predict m_e (1e-5) and m_tau (0.9 sigma). All pass. t99: Q = 2/3 fails for up (0.889) and down (0.743) quarks (kept): lepton-only; CKM small vs PMNS passes.
+- t100: lambda(M*) = 0 with SM two-loop running predicts m_h = 128.5 GeV (fail by 3.3 GeV, kept); the grid's extra states are the next correction.
