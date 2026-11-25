@@ -24,4 +24,4 @@ Consolidates the held-back posts 61-64 (cobalt niobate, proton decay, the hidden
 The cosmogony thread (record §232) is present but quiet in 1.1: three closing lines only (posts 14, 18, 20).
 
 Built 2026-11-25: content.py (text), build.py (template, Ember, render); posts 2-5 rewritten from 61-64 with current results and without registration or test language in the post text.
-Foundations for new readers: post 1 is a one-page primer; each post's first foundations box defines one idea the post uses (the clock, the cut, the 27, running, the count, hypercharge, the seesaw, a parity, the two hands, a vev, a pair's record), so any post reads alone.
+Foundations for new readers: post 1 is a one-page primer; terms are defined where they first appear (inline, or in a foundations box where it carries the reason too: the clock, the count, the seesaw, the two hands); the advanced reasons and equations stay throughout.
