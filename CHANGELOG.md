@@ -146,3 +146,4 @@
 
 ## 2026-11-24 t73–t75
 - P vs NP on the fermionic sector: t73 (one slice, cross-term reading), t74 (low-degree root), t75 (polymorphism shortcut). Failed sanity/control checks kept (t73 C1, t75 S1).
+- t76: exact low-degree norm for planted 3-XOR (m* ~ n^{3/2} at every degree; G2 fail at the registered size kept).

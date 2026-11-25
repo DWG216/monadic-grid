@@ -2348,5 +2348,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t76_polymorphism_invisible.py",
+  "sections": [
+   "184"
+  ],
+  "predictions": [
+   "PREDICTIONS_t76.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]
