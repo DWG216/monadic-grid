@@ -2624,5 +2624,16 @@
   ],
   "group": "grid",
   "timeout": 600
+ },
+ {
+  "script": "scripts/current/t101_higgs_full.py",
+  "sections": [
+   "212"
+  ],
+  "predictions": [
+   "PREDICTIONS_t101.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

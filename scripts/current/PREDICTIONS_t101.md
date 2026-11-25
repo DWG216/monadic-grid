@@ -9,3 +9,11 @@ P1 [M on data] Meeting (A): m_h from lambda(M*) = 0 lies within 2 GeV of 125.20 
 P2 [M on data] Meeting (B): the same.
 Information: m_h for each case; the shift relative to t100; the M_t that would give 125.20.
 Verdict: P1 or P2 pass -> the grid's own content brings the zero/infinity rule at gravity's meeting onto the measured Higgs mass. Both fail -> the remaining piece is the scalar sector above the meeting (portal couplings of the psi-breaking field), recorded as the next step.
+
+## Scoring (2026-11-25)
+Run 1 (t101_run1.log). (The script carries one dead line computing the gauge beta twice; the second, used, line is the registered b = -5 + n_h; noted, no effect.)
+- S1 PASS (128.499, t100 reproduced). S2 PASS: couplings agree at M3 to 0.2% (A) and 0.5% (B).
+- P1 FAIL: meeting (A) (three doublet pairs at 1.3e8 GeV) gives m_h = 127.5-127.9 GeV over n_h = 0..3, 2.3-2.7 GeV high. Kept.
+- P2 PASS: meeting (B) (two doublet pairs at 1.0e3 GeV, D at 3.2e12 GeV) gives m_h = 126.2-126.7 GeV, 1.0-1.5 GeV above 125.20.
+- Information: (A) would need M_t = 171.2 GeV.
+Verdict: with the grid's own content, the zero/infinity rule at gravity's meeting gives the Higgs mass within 1.5 GeV, provided the coupling meeting is the one with two light lepton-like doublet pairs near 1 TeV. That selects meeting (B) and predicts vector-like lepton doublets near the TeV scale (HL-LHC, future colliders). Approximations stated: Standard-Model-form running of lambda and y_t above the meeting; exotic couplings to the Higgs neglected (first-generation size).
