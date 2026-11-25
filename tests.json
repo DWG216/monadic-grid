@@ -2326,5 +2326,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t74_lowdegree_root.py",
+  "sections": [
+   "181"
+  ],
+  "predictions": [
+   "PREDICTIONS_t74.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]
