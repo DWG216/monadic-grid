@@ -1,0 +1,15 @@
+Y(L) =
+ [[ 0.5 -0.5 -0.5]
+ [ 0.5 -0.5 -0.5]
+ [ 1.  -0.   0. ]] 
+Q(L) =
+ [[ 1.  0.  0.]
+ [ 0. -1. -1.]
+ [ 1. -0.  0.]]
+neutral down-type doublet entries [(0, 1), (0, 2)]  up-type [(1, 0)]
+S1 {'ratio': np.float64(1.0), 'sv_b': array([1.e+00, 1.e-10]), 'sv_tau': array([1.e+00, 1.e-10]), 'pass_': np.True_}
+S2 {'sv_b': array([1.41421356e+00, 7.07106840e-11]), 'sv_tau': array([1.41421356e+00, 7.07106781e-11]), 'pass_': np.True_}
+P1 {'ratio': np.float64(1.000000082740371), 'pass_': np.False_}
+P2 {'min': np.float64(0.9999956674907902), 'max': np.float64(1.0000183404112402), 't_star': [], 'pass_': np.True_}
+P3 {'ratio': np.float64(377880.15729909024), 'pass_': np.False_}
+info {'grid': {'x=0,t=0.1': np.float64(1.0), 'x=0,t=1': np.float64(1.0), 'x=0,t=10': np.float64(1.0), 'x=0.25,t=0.1': np.float64(1.0), 'x=0.25,t=1': np.float64(1.0), 'x=0.25,t=10': np.float64(1.0), 'x=0.5,t=0.1': np.float64(1.0), 'x=0.5,t=1': np.float64(1.0), 'x=0.5,t=10': np.float64(1.0), 'x=1,t=0.1': np.float64(1.0), 'x=1,t=1': np.float64(377880.1573), 'x=1,t=10': np.float64(1.0), 'x=2,t=0.1': np.float64(1.0), 'x=2,t=1': np.float64(1.0), 'x=2,t=10': np.float64(1.0)}, 'R1_t1_with_ku50': np.float64(1.000000082740371)}

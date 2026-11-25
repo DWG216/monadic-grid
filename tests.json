@@ -2745,5 +2745,16 @@
   ],
   "group": "grid",
   "timeout": 1800
+ },
+ {
+  "script": "scripts/current/t112_doublet_direction.py",
+  "sections": [
+   "228"
+  ],
+  "predictions": [
+   "PREDICTIONS_t112.md"
+  ],
+  "group": "grid",
+  "timeout": 600
  }
 ]

@@ -8,3 +8,6 @@ Information: R(M*) for meeting A; s/μ and d/e ratios at M* (Georgi–Jarlskog-l
 - P1 FAIL: R(M*) = 0.597 (meeting B), 0.598 (A), 0.606 (SM only). As the writer expected; kept.
 - Information: y_s/y_μ = 0.20 and y_d/y_e = 2.1 at M* (meeting B).
 Verdict: the single 27³ coupling with quark and lepton masses from the same doublet column fails by 40%; the light doublet's direction (its mixing with the exotic D and the third column) must carry the difference. This is the same object as the hierarchy item.
+
+## Post hoc correction (2026-11-25, found during t112; t109_posthoc.py)
+Above M3 the gauge parts of the two couplings are equal in trinification, so t109's running above the meeting was wrong in its gauge term. Corrected: R(M3) = 0.69, R(M*) = 0.68 (meetings A and B). P1 still fails.
