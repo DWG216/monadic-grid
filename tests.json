@@ -2359,5 +2359,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t77_doll_mismatch.py",
+  "sections": [
+   "185"
+  ],
+  "predictions": [
+   "PREDICTIONS_t77.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]
