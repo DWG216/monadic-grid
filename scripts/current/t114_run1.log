@@ -1,0 +1,10 @@
+2-2 both  1-2 orth   s/mu 0.274  d/e 1.624  off 18%, 33%
+2-2 both  1-2 cubic  s/mu 0.302  d/e 3.306  off 31%, 35%
+2-2 both  1-2 both   s/mu 0.250  d/e 0.250  off 8%, 90%
+2-2 orth  1-2 cubic  s/mu 0.680  d/e 1.470  off 195%, 40%
+2-2 orth  1-2 orth   s/mu 0.667  d/e 0.667  off 189%, 73%
+2-2 orth  1-2 both   s/mu 0.657  d/e 0.095  off 184%, 96%
+2-2 cubic 1-2 cubic  s/mu 1.000  d/e 1.000  off 333%, 59%
+2-2 cubic 1-2 orth   s/mu 0.991  d/e 0.449  off 329%, 82%
+2-2 cubic 1-2 both   s/mu 0.984  d/e 0.064  off 326%, 97%
+fits both within 10%: []

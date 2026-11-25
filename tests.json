@@ -2767,5 +2767,14 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t114_light_generations.py",
+  "sections": [
+   "230"
+  ],
+  "predictions": [],
+  "group": "grid",
+  "timeout": 120
  }
 ]
