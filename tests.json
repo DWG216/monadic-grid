@@ -2834,5 +2834,16 @@
   ],
   "group": "grid",
   "timeout": 2400
+ },
+ {
+  "script": "scripts/current/t120_climb.py",
+  "sections": [
+   "241"
+  ],
+  "predictions": [
+   "PREDICTIONS_t120.md"
+  ],
+  "group": "grid",
+  "timeout": 3600
  }
 ]

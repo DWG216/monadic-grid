@@ -1,0 +1,2 @@
+climb frac of all monads at a>=0.5 at end: min 1.0 median 1.0 | ticks for median capacity to reach 0.5: [108, 128, 122, 134, 132, 120, 108, 121, 129, 116] | attention on laws 0.998
+climb_nolaws frac of all monads at a>=0.5 at end: min 0.542 median 0.567 | ticks for median capacity to reach 0.5: [436, 700, 615, 611, 455, 488, 566, 406, 536, 455] | attention on laws 0.0
