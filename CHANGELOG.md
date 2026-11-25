@@ -186,3 +186,4 @@
 - t123: bridge numbers: count N = 1.2e243, largest record S_dS = 3 pi sqrt(N) = 3.3e122 k, written so far 1e-18 of it.
 - t124: listening and turning derived from the record (w = 1 + cross/diagonal; composability forces p w^beta; turning = ascent of the record). docs/theory_of_monads.md consolidates t111, t115-t124.
 - t125: capacity growth a e^gamma derived (capacity is a scale; growth must compose across independent parts), exact for the power law, with experience multiplicative only in the many-frequency limit.
+- t126: dynamics with derived rules: formation, climb, Ages hold; one law per world; turning strength is will (Bayesian turning forms no laws for M > ~16); lawless split returns (P3 fail); reflection fooled in 4/10 lawless worlds (P5 fail: effective-sample count not derived).

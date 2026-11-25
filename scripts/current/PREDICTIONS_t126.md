@@ -10,3 +10,12 @@ P4 [M] Ages: keep ratio median < 0.5; reset in [0.7, 1.4]; Jaccard median < 0.3;
 P5 [M] Reflection: lawful reflective ≥ 95% reach 0.5 with attention on laws > 0.9; lawless reflective median capacity < 0.15 and C < 0.03 in ≥ 8 of 10 worlds.
 P6 [M, blind] Lawless false alarms: median fraction of (tick, frequency) judged significant < 1e-3.
 Reading fixed in advance: if P1–P6 pass, the theory's results hold with every rule but one derived, and the one left is will.
+
+## Scoring (2026-11-25), run 1 (t126_run1.log)
+- P1 PASS: laws in 10 of 10 worlds, attention on laws 0.998, C·K = 1.0 (one law per world in every case).
+- P2 PASS: 100% reach 0.5 in every world; ρ −0.964 to −0.988.
+- P3 FAIL: lawless plain monads climb by fixation in 7 of 10 worlds (median fraction 1.0); sanity showed 0 of 3. t120's split returns, by world.
+- P4 PASS: keep ratio median 0.33, reset 1.0, Jaccard 0, novelty drop 5×10⁴ or more.
+- P5 FAIL: lawful part passes (100%, attention 0.998); lawless reflective monads stay clear in 6 of 10 worlds (registered ≥ 8).
+- P6 PASS on the median (0), but false alarms occur in 4 of 10 worlds at 3×10⁻⁴–9×10⁻⁴, far above the nominal 2.6×10⁻⁵: the effective-sample count t·η² (from the noise's correlation time) is assumed, not derived, and it is the weak link of reflection's threshold.
+Verdict: formation, the climb and the Ages hold with the derived rules; exact conditioning makes one law per world (the plural end state of t115–t116 depended on the chosen slower listening); reflection's derived threshold is too permissive because its noise estimate is not derived.

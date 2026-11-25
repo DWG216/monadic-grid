@@ -75,4 +75,5 @@ def report(seeds):
     return R
 if __name__ == '__main__':
     mode = sys.argv[1] if len(sys.argv) > 1 else 'test'; seeds = range(16000, 16003) if mode == 'sanity' else range(17000, 17010)
-    for k, v in report(seeds).items(): print(k, v)
+    R = report(seeds)
+    for k, v in R.items(): print(k, v)

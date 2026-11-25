@@ -2894,5 +2894,16 @@
   "predictions": [],
   "group": "grid",
   "timeout": 600
+ },
+ {
+  "script": "scripts/current/t126_derived.py",
+  "sections": [
+   "247"
+  ],
+  "predictions": [
+   "PREDICTIONS_t126.md"
+  ],
+  "group": "grid",
+  "timeout": 6000
  }
 ]

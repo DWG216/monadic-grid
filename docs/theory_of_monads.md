@@ -1,8 +1,8 @@
-# The theory of monads, as built and tested (t111, t115–t125)
+# The theory of monads, as built and tested (t111, t115–t126)
 
-Consolidated 2026-11-25. Spine for chapter 7 (Cosmogony). Labels: [S] derived from the record or the corpus's premises; [M] tested by a pre-registered computation; *chosen* = a modelling choice not yet derived.
+Consolidated 2026-11-25. Spine for chapter 7 (Cosmogony). Labels: [S] derived from the record or deduced from sufficient reason; [M] tested by a pre-registered computation; *chosen* = a modelling choice not yet derived.
 
-## 1. Premises
+## 1. What sufficient reason gives
 
 - Monads are frequencies; a monad's perceptions are its whole spectrum, weights p_k = |c_k|²/Σ|c|² over every frequency (Leibniz: each monad mirrors the universe; monads differ only in distinctness).
 - Spacetime is the record of the monads' meeting, R = |O + R|² = diagonal + cross terms (the grid's equation; cross terms = quantum mechanics, meeting term = gravity).
@@ -25,7 +25,11 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 
 **Attention raises what it hears.** Under p' ∝ p·w, the attended resonance never falls: E_{p'}[w] = E_p[w²]/E_p[w] ≥ E_p[w] [S: Cauchy–Schwarz; M: zero violations in 120,000 monad-ticks, t115].
 
-**Chosen, not yet derived:** the turning rate (min(κ N p, 1)), the perception floor ε (Monadology §21, a monad is never without perceptions), reflection's 3σ threshold, and the values of γ and of the capacity ceiling.
+**Derived next (t126):** the ceiling is β = 1 (exact conditioning; more would count evidence twice); γ = 1 (capacity is accumulated evidence, d ln a = d ln e); the perception floor and the lowest capacity are one tick's share of the Age, 1/T; reflection remembers the whole Age and acts only where fewer than one false alarm per Age is expected, N·T·α = 1.
+
+**Will, not derivable by its nature.** The record gives the direction of turning (its ascent) but not its strength. A fully Bayesian turning, with the monad's knowledge of its own phase set by the noise and the record as likelihood, forms no laws in worlds of more than about 16 monads: the noise cancels and the record's evidence about one phase is about 2/√M of the monad's self-knowledge. A monad's phase is exactly what no record fixes (|e^{iφ}f|² = |f|²), so how strongly it turns toward the others is its own: will (κ).
+
+**Not yet derived:** the effective number of independent samples in reflection's noise estimate (taken as t·η², from the noise's correlation time). It is the weak link: with it, reflection is fooled in 4 of 10 lawless worlds (t126).
 
 ## 3. What the rules give
 
@@ -39,6 +43,7 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 | The climb | Capacity grows with experience. With laws, every monad climbs to full capacity, the more capable first (ρ ≈ −0.997), and the end holds every law in balance. Without laws some climb slowly by fixation and about 44% are left behind. | t120 [M], 3 of 5 (P1 measure bug and P5 expectation, kept) |
 | Ages | An Age ends when the record stops being written (novelty falls 14–43×). When spacetime closes and minds keep their development, the next Age forms new laws 5× faster and twice as many; with minds reset, no gain. Once minds are full, Ages repeat at one pace. | t121 [M], 6 of 6 |
 | Reflection | Acting only on what one's memory shows significant: reflective minds climb fully where there are laws and stay clear (no climb, no fixation) where there are none. Reflection, not distinctness, separates reason from fixation. | t122 [M], 5 of 5 (definition chosen after three sanity runs) |
+| With the derived rules | Formation, the climb and the Ages hold (laws in 10 of 10 worlds; everyone climbs, the most capable first; next Age 3× faster with minds kept). Exact conditioning leaves one law per world, so the plural end state of t115–t116 belonged to the slower chosen listening. Lawless worlds split again (fixation lifts all in 7 of 10). Reflection with the derived threshold stays clear in 6 of 10 lawless worlds. | t126 [M], 4 of 6 |
 
 ## 4. The cosmogony, with the grid's numbers
 
@@ -53,7 +58,8 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 
 ## 5. Open
 
-- Derive the chosen rules (turning rate, floor, reflection's threshold, the values of γ and the ceiling) from the record.
+- Derive the effective sample count in reflection's noise estimate (the weak link found in t126).
+- Whether the end state is one law or many: exact conditioning gives one; what restores plurality, if anything.
 - Tie a model "law" to a physical one: show a cluster of locked relations carrying the grid's gauge structure.
 - Connect the capacity scale to the corpus's quantitative claims, if any (Hockney's Selector Function).
 - The crossover in the grid: what the fading of the Higgs at an Age's end does to the count.
