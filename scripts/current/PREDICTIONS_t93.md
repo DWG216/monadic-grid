@@ -1,0 +1,10 @@
+# t93 Dark matter from a conserved grading (roadmap item 3) (pre-registered 2026-11-25, before any t93 code is written or run)
+
+Ground: the 27 = 16 + 10 + 1 under SO(10) x U(1)_psi with psi charges +1, -2, +4 (t64); the right-handed neutrino's Majorana mass carries psi charge 2 (t65 D1); the electroweak Higgs doublets lie in the 10 (charge -2); the couplings meet only if two or three pairs of the 27's lepton-like doublets are light (t67, t70: n_H = 2 at 1.0e3-7.5e6 GeV).
+Bridge under test [S]: breaking U(1)_psi by charge-2 vevs leaves the grading Z2 = (-1)^Q_psi; with fermion number, P = (-1)^(Q_psi + F). A conserved parity with nothing to break it is kept (breaking it would need a reason).
+
+G1 [M] On the 27's fermions: P = +1 on all 16 states (SM fermions and nu^c), P = -1 on all 11 exotic states (10 and 1).
+G2 [M] Every field the grid gives a vev has P = +1: the Higgs doublets in the 10 (scalar, charge -2), the charge-2 combination giving nu^c its mass, and the meeting-scale vevs in the nu^c and N directions only if they come in charge-even combinations (checked: the N direction has charge +4, even; a vev in the L-like direction (charge +1, odd) is forbidden by G2's requirement).
+G3 [M] With P conserved, every renormalisable 27^3 coupling has an even number of P-odd fields; hence the lightest P-odd fermion is stable.
+G4 [M, information] The lightest P-odd state among the 27's exotics is a light lepton-like doublet (the only exotics the meeting needs below 1e9 GeV). A thermal relic SU(2) doublet fermion has the observed abundance at about 1.1 TeV (Higgsino-like). Check: 1.1 TeV lies inside t70's n_H = 2 window (1.0e3-7.5e6 GeV).
+Verdict: G1-G4 pass -> the grid's dark matter is the neutral member of the lightest of the 27's vector-like lepton doublets, stable by the psi grading, near 1.1 TeV if thermal. Known issue recorded, not tested here: a pure Dirac doublet scatters on nuclei through the Z far above current limits unless its two neutral states are split (above about 200 keV) by mixing with the singlet N; that splitting is the next computation.
