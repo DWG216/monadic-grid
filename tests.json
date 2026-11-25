@@ -2938,5 +2938,16 @@
   ],
   "group": "grid",
   "timeout": 9000
+ },
+ {
+  "script": "scripts/current/t130_reflective_community.py",
+  "sections": [
+   "252"
+  ],
+  "predictions": [
+   "PREDICTIONS_t130.md"
+  ],
+  "group": "grid",
+  "timeout": 9000
  }
 ]

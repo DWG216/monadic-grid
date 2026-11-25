@@ -190,3 +190,4 @@
 - t127: reflection fully derived (self-measured pooled correlation time, Student's t): zero false alarms, no fixation in lawless worlds (P2, P3 pass); P1 (split commitment in 3/10 lawful worlds) and P4 (capacity bar vs starting draw) fail, kept.
 - t128: local records on a grid: small worlds coarsen to one law; large worlds keep 7-11 laws but only ~30% of monads hold one (borders); Ages do not settle borders (all pass). No Community of Gods from these dynamics.
 - t129: border test: unsettled monads in large worlds are fixated in lawless zones, not between laws; third-order reading forms relations but makes no border monad whole (all pass).
+- t130: reflective local world: attention stays on real signals but laws come out fewer and partial (all pass); t129's 'fixated on noise' reading withdrawn: the unsettled majority sit on partial laws (record 10-15x noise, order 0.5-0.7).

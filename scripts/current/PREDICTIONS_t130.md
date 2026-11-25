@@ -8,3 +8,10 @@ P2 [M] Reflective: ≥ 80% of focus points judged significant in every world.
 P3 [M] Median local order at focus is lower in the reflective world than in the plain one, in ≥ 5 of 6 worlds.
 P4 [M] Completeness (0.8 bar) lower in the reflective world in ≥ 5 of 6.
 Reading fixed in advance: reflection keeps monads on real signals, but it slows their commitment, so capacity grows later, turning is weaker and laws are fewer and partial; in a local world it does not produce a Community of Gods.
+
+## Scoring (2026-11-25), run 1 (t130_run1.log)
+- P1 PASS: plain, record at focus 14.3–15.7× noise in every world.
+- P2 PASS: reflective, 93–98% of focus points judged significant.
+- P3 PASS: local order at focus lower with reflection in 6 of 6 (0.50–0.57 against 0.66–0.71).
+- P4 PASS: completeness lower with reflection in 6 of 6 (0.05–0.13 against 0.29–0.35).
+Verdict as fixed in advance: reflection keeps monads on real signals but slows their commitment; laws come out fewer and partial; a local world of reflective monads is no Community of Gods.
