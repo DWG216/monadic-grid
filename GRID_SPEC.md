@@ -1,4 +1,4 @@
-# R2R grid: specification (version 2026-11-24.4)
+# R2R grid: specification (version 2026-11-25.1)
 
 This is the compact, self-contained statement of the grid: definitions, notation, the levels, the main identities, and the rules of method. The narrative history and every result live in `docs/R2R_progress_2026-11-08.md` (sections 1-182); this file is what to read first.
 
@@ -182,7 +182,7 @@ One record |O + R|^2 of the two hands: cross terms = QM (phase i = phi^2), meeti
 The seed (0, 1) and the arrow fix the first moving count; the step conserves it (t62, t63). U(1)_psi is the counting U(1); Z'_psi near 1e14 GeV, broken with the forces at the meeting (t64, t65, t71). Positive predictions: normal ordering, Sum m_nu = 59.16 +- 0.21 meV, m_bb = 1.16-4.11 meV, m_beta = 8.84 meV, m_tau = 1776.969 MeV, tensor-only gravitational waves. PSR review: matter as the 27 and Q = 2/3 are [S].
 
 ## 158. Against the Standard Model; correction map; roadmap
-Shared: the SO(10) 16 per generation, three generations, chirality. Added: gravity (meeting term), the 27's 1 and 10, U(1)_psi, Majorana masses, Q = 2/3. Not derived: couplings, quark masses and mixing, Higgs, theta_QCD, dark matter, inflation. Dark energy: Sorkin count, everpresent Lambda (bridge; survives DESI DR2 as a band, t72). Tension: hierarchical thermal leptogenesis needs M_R1 ~ 6e10 GeV, the grid's SO(10) Dirac bridge gives 1e7 GeV (fix: Dirac masses from the record). Correction map in the record, §158.
+Shared: the SO(10) 16 per generation, three generations, chirality. Added: gravity (meeting term), the 27's 1 and 10, U(1)_psi, Majorana masses, Q = 2/3. Not derived: couplings, quark masses and mixing, Higgs, theta_QCD, dark matter, inflation. Dark energy: the exact leftover of a fixed count, constant, w = -1 (t87); the random-walk bridge failed DESI's distances and is withdrawn (t86). Tension: hierarchical thermal leptogenesis needs M_R1 ~ 6e10 GeV, the grid's SO(10) Dirac bridge gives 1e7 GeV (fix: Dirac masses from the record). Correction map in the record, §158.
 
 ## 159. The Standard Model from the same cut (t66)
 Cutting E6 at its dimension-3 node (the rule that gave three generations in E8) leaves SU(3) x SU(3) x SU(3); the counting phases permute the three factors cyclically, so their couplings are equal at the cut. The 27 is three bifundamentals; a U(1) in the commutant of SU(3)_C x SU(2)_L gives exactly the Standard Model hypercharges plus the E6 extras; sin^2 theta_W = 3/8 at the cut [M]. Open: hypercharge selection (SU(3)_L x SU(3)_R breaking) and coupling meeting with thresholds (t67).
@@ -213,7 +213,17 @@ m_tau 0.4 sigma from PDG 2026; JUNO-era global fit prefers normal ordering (inve
 E6 bound with the run coupling 4.6-4.8e15 GeV; U(1)_psi in the SU(3)_L x SU(3)_R Cartan, so Z'_psi is broken at M3: near 1e14 GeV (ratio 1.3 to M3) [M]. Triplets between 5.5e11 GeV and M3/g in 577 of 1203 meetings; doublet windows unchanged.
 
 ## 168. Everpresent Lambda against DESI (t72)
-Lambda = alpha W(V)/V: at alpha = 1, 61% of fitted runs lie in DESI's quadrant, 6% in its 2-sigma box, median |w0 + 1| = 0.9; 77% dip below zero at z < 2 [I]. A band, not a point; direct distance test next.
+Lambda = alpha W(V)/V: at alpha = 1, 61% of fitted runs lie in DESI's quadrant, 6% in its 2-sigma box, median |w0 + 1| = 0.9; 77% dip below zero at z < 2 [I]. A band, not a point. Superseded: against DESI's distances directly the random walk fails (t86, 0/347 within Delta chi2 = 4); withdrawn, see §172.
 
 ## 169. P vs NP on the fermionic sector (t73-t75)
 A central slice is the fermionic sector; on it a clique is an object in a reference, the instance the record |O + R|^2. The cross-term reading (+-1 matrix) sees it from k ~ sqrt(n) at every size [M]. The root is the meeting term (k/n)^2 per vertex against n distinct places per vertex: degree-D thresholds 1.08-0.69 sqrt(n) for D = 2-8 [M]. Only a polymorphism beats the meetings (3-XOR: elimination at m = 2n; gone under noise) [M]. Clique has only projections; by sufficient reason every polynomial reading of it is a bounded-degree sum of meetings, so its slice threshold is the root and P != NP [S]. Average-case hardness on the slice suffices.
+
+## 170. Sum of squares (t81-t84)
+Degree-4 SoS (Grigoriev's pseudo-expectation; Schoenebeck's reduction for 3-SAT) is t79's balanced record glued across an expanding instance: consistent and PSD on unsatisfiable 3-XOR (n = 1000-4000) and random 3-SAT at density 4.5 (n = 16k-64k, zero weight on every forbidden tuple) [M]. Open rungs: resolution over parities, AC0[p]-Frege, Frege, Extended Frege. Target: a reason shorter than the instance is a law.
+
+## 171. Where E6 breaks (t85)
+Equal indices hide M_E6 from the couplings; the grid's other scale is gravity's meeting term, so E6's bosons sit at the reduced Planck mass [S]. Gauge-boson proton decay ~2e45 yr; Hyper-K sees decay only via triplet scalars below 7.9e11 GeV [M].
+
+## 172. Dark energy corrected (t86, t87)
+Nothing in the grid is random, so Lambda is not a random walk. Lambda is the exact leftover of a fixed count: constant, w = -1 [S]. Fits DESI DR2 BAO (chi2 11.4 / 11 dof); Sorkin's count gives its size within a factor of 2 [M]. DESI's distances alone lean to evolution at ~2 sigma; prediction: the lean fades.
+
