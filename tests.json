@@ -2949,5 +2949,27 @@
   ],
   "group": "grid",
   "timeout": 9000
+ },
+ {
+  "script": "scripts/current/t131_vacuum.py",
+  "sections": [
+   "257"
+  ],
+  "predictions": [
+   "PREDICTIONS_t131.md"
+  ],
+  "group": "grid",
+  "timeout": 9000
+ },
+ {
+  "script": "scripts/current/t132_light_351.py",
+  "sections": [
+   "257"
+  ],
+  "predictions": [
+   "PREDICTIONS_t132.md"
+  ],
+  "group": "grid",
+  "timeout": 600
  }
 ]

@@ -1,0 +1,19 @@
+P1a {'unbroken': 7, 'pass_': np.True_} P1b {'unbroken': 4, 'pass_': np.True_}
+S1 {'max_dV': -0.47029286671263676, 'pass_': True}
+lepton term invariance residual 4.434503968315247e-16
+closure S2 (t106: quark term on H1) gauge 5.539831857092117e-14 yukawa 1.9184765547440622e-14
+closure P1 r=0 (full cubic on H1) gauge 5.539831857092117e-14 yukawa 5.585879266277955e-15
+closure P2 r=0.5 gauge 5.539831857092117e-14 yukawa 9.478586343538528e-14
+closure P2 r=1.0 gauge 5.539831857092117e-14 yukawa 1.081808819112802e-13
+g, y at M*: [0.54011005 0.34260989]
+Traceback (most recent call last):
+  File "/home/claude/monadic-grid/scripts/current/t131_vacuum.py", line 121, in <module>
+    lam = run(cH, Y2); m, u = vmin(lam)
+  File "/home/claude/monadic-grid/scripts/current/t131_vacuum.py", line 98, in run
+    k1 = fb(t0, c); k2 = fb(t0 + h/2, c + h/2*k1); k3 = fb(t0 + h/2, c + h/2*k2); k4 = fb(t1, c + h*k3); c = c + h/6*(k1 + 2*k2 + 2*k3 + k4)
+  File "/home/claude/monadic-grid/scripts/current/t131_vacuum.py", line 97, in <lambda>
+    h = t1 - t0; fb = lambda t, c: beta(c, *up.sol(t))
+                                   ~~~~^^^^^^^^^^^^^^^
+  File "/home/claude/monadic-grid/scripts/current/t131_vacuum.py", line 92, in beta
+    sC = C2S.diagonal(); s4 = sC[:, None, None, None] + sC[None, :, None, None] + sC[None, None, :, None] + sC[None, None, None, :]
+ValueError: diag requires an array of at least two dimensions

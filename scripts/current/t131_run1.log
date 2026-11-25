@@ -1,0 +1,18 @@
+P1a {'unbroken': 7, 'pass_': np.True_} P1b {'unbroken': 4, 'pass_': np.True_}
+S1 {'max_dV': -0.47029286671263676, 'pass_': True}
+lepton term invariance residual 4.434503968315247e-16
+closure S2 (t106: quark term on H1) gauge 5.539831857092117e-14 yukawa 1.9184765547440622e-14
+closure P1 r=0 (full cubic on H1) gauge 5.539831857092117e-14 yukawa 5.585879266277955e-15
+closure P2 r=0.5 gauge 5.539831857092117e-14 yukawa 9.478586343538528e-14
+closure P2 r=1.0 gauge 5.539831857092117e-14 yukawa 1.081808819112802e-13
+g, y at M*: [0.54011005 0.34260989]
+S2 (t106: quark term on H1) {'min_V': -0.014259251733536316, 'yfree_overlap': 0.9999717531430465}
+P1 r=0 (full cubic on H1) {'min_V': -0.014253083368829744, 'yfree_overlap': 0.9999967185271276}
+P2 r=0.5 {'min_V': -0.014248818239894205, 'yfree_overlap': 0.8011797728078136}
+P2 r=1.0 {'min_V': -0.014236303670907483, 'yfree_overlap': 0.9999869199393381}
+S1 {'max_dV': -0.47029286671263676, 'pass_': True}
+inv_lepton 4.434503968315247e-16
+S2 {'min_V': -0.014259251733536316, 'yfree_overlap': 0.9999717531430465, 'pass_': True}
+P1 {'min_V': -0.014253083368829744, 'yfree_overlap': 0.9999967185271276, 'pass_': True}
+P2 {'r05': {'min_V': -0.014248818239894205, 'yfree_overlap': 0.8011797728078136}, 'r1': {'min_V': -0.014236303670907483, 'yfree_overlap': 0.9999869199393381}, 'pass_': True}
+P3 {'overlaps': [0.9999967185271276, 0.8011797728078136, 0.9999869199393381], 'pass_': False}

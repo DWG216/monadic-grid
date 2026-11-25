@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/claude/monadic-grid/scripts/current/t131_vacuum.py", line 9, in <module>
+    ns = {'__file__': os.path.abspath('t106_scalar_content.py')}; exec(pre, ns)
+                                                                  ~~~~^^^^^^^^^
+  File "<string>", line 12, in <module>
+NameError: name 'gens_on' is not defined
