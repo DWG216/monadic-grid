@@ -8,3 +8,10 @@ P2 [M on data] Down quarks: |Q_d - 2/3| < 0.02. Expected: fail (near 0.73).
 P3 [M on data] Leading-order CKM = identity: the sum of squared off-diagonal CKM moduli is below 20% of the same sum for the PMNS matrix.
 Information: Q for mixed triplets (s, c, b) and (c, b, t), long noted to sit near 2/3; no grid reason is claimed for them.
 Verdict: P1, P2 decide whether the chord's balance (Q = 2/3) is general or lepton-only; P3 checks the small-quark-mixing reading.
+
+## Scoring (2026-11-25)
+Run 1 (t99_run1.log).
+- P1 FAIL: Q_u = 0.889 +- 0.004. P2 FAIL: Q_d = 0.743 +- 0.017. As the writer expected; kept. The chord's balance Q = 2/3 holds for the charged leptons only.
+- P3 PASS: off-diagonal CKM weight is 7% of the PMNS's (0.105 vs 1.53): quark mixing small, lepton mixing large, as the shared-Z3 reading says.
+- Information: Q(s, c, b) = 0.48, Q(c, b, t) = 0.72 at M_Z (the mixed triplets are not near 2/3 with these masses).
+Verdict: Q = 2/3 is not general: the [S] proposal of section 156 is restricted to the charged leptons (colourless Dirac sector). Quarks are chords with their own amplitudes (c_u = 1.83, c_d = 1.56 against sqrt2) and small phases; a reason for their amplitudes is open.

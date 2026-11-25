@@ -2591,5 +2591,27 @@
   ],
   "group": "grid",
   "timeout": 300
+ },
+ {
+  "script": "scripts/current/t98_koide_phase.py",
+  "sections": [
+   "209"
+  ],
+  "predictions": [
+   "PREDICTIONS_t98.md"
+  ],
+  "group": "grid",
+  "timeout": 300
+ },
+ {
+  "script": "scripts/current/t99_quark_chords.py",
+  "sections": [
+   "210"
+  ],
+  "predictions": [
+   "PREDICTIONS_t99.md"
+  ],
+  "group": "grid",
+  "timeout": 300
  }
 ]
