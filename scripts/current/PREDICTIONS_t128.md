@@ -8,3 +8,11 @@ P2 [M] Large (L = 24, r = 2): ≥ 3 laws at the end in every world, and the frac
 P3 [M] Global: one law and ≥ 90% complete in every world.
 P4 [M, blind; writer's expectation stated] Large world over three Ages with capacities kept: laws stay ≥ 3 in every Age, and the fraction complete does not rise: Age 3 within ±0.1 of Age 1 (median). If it rises, developed minds settle borders across Ages.
 Reading fixed in advance: a single Age gives either one law with everyone complete, or many laws with many monads unsettled on borders; P4 decides whether Ages turn the second into a Community of Gods.
+
+## Scoring (2026-11-25), run 1 (t128_run1.log)
+- P1 PASS (at the bar): small worlds end with one law in 7 of 10 (2–3 laws in the other 3).
+- P2 PASS: large worlds keep 7–11 laws in every world; fraction complete median 0.30 (0.17–0.37).
+- P3 PASS: global, one law and 100% complete in all 10.
+- P4 PASS (writer's expectation held): over three Ages laws stay ≥ 6 in every world and Age (medians 9, 9, 7); fraction complete medians 0.30, 0.28, 0.35: within ±0.1.
+Information: in large worlds nearly every monad reaches full capacity and C ≈ 1 (medians 1.0 and 0.996), but only about 30% hold a law (local phase order > 0.8 at their focus): the rest are distinct and capable but focused on content their neighbours do not share, on the borders between domains.
+Verdict: one Age gives either one law with everyone complete, or many laws with most monads distinct but unshared on borders; developed minds carried across Ages do not settle the borders. These dynamics do not produce a Community of Gods.

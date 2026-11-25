@@ -1,0 +1,40 @@
+A small L=12 r=2 21000 {'K': 2, 'K_mid': 2, 'frac_complete': 0.125, 'frac_held': 0.125, 'C_med': 0.996, 'a_med': 1.0}
+A small L=12 r=2 21001 {'K': 3, 'K_mid': 3, 'frac_complete': 0.271, 'frac_held': 0.271, 'C_med': 0.996, 'a_med': 1.0}
+A small L=12 r=2 21002 {'K': 2, 'K_mid': 3, 'frac_complete': 0.521, 'frac_held': 0.521, 'C_med': 0.996, 'a_med': 1.0}
+A small L=12 r=2 21003 {'K': 1, 'K_mid': 2, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+A small L=12 r=2 21004 {'K': 1, 'K_mid': 1, 'frac_complete': 0.181, 'frac_held': 0.181, 'C_med': 0.996, 'a_med': 1.0}
+A small L=12 r=2 21005 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+A small L=12 r=2 21006 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+A small L=12 r=2 21007 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+A small L=12 r=2 21008 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+A small L=12 r=2 21009 {'K': 1, 'K_mid': 2, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+B large L=24 r=2 21000 {'K': 8, 'K_mid': 9, 'frac_complete': 0.299, 'frac_held': 0.299, 'C_med': 0.996, 'a_med': 1.0}
+B large L=24 r=2 21001 {'K': 11, 'K_mid': 10, 'frac_complete': 0.299, 'frac_held': 0.299, 'C_med': 0.996, 'a_med': 1.0}
+B large L=24 r=2 21002 {'K': 7, 'K_mid': 7, 'frac_complete': 0.312, 'frac_held': 0.312, 'C_med': 0.996, 'a_med': 1.0}
+B large L=24 r=2 21003 {'K': 11, 'K_mid': 9, 'frac_complete': 0.281, 'frac_held': 0.281, 'C_med': 0.996, 'a_med': 1.0}
+B large L=24 r=2 21004 {'K': 8, 'K_mid': 8, 'frac_complete': 0.368, 'frac_held': 0.368, 'C_med': 0.996, 'a_med': 1.0}
+B large L=24 r=2 21005 {'K': 11, 'K_mid': 11, 'frac_complete': 0.321, 'frac_held': 0.321, 'C_med': 0.996, 'a_med': 1.0}
+B large L=24 r=2 21006 {'K': 9, 'K_mid': 10, 'frac_complete': 0.286, 'frac_held': 0.286, 'C_med': 0.996, 'a_med': 1.0}
+B large L=24 r=2 21007 {'K': 7, 'K_mid': 8, 'frac_complete': 0.17, 'frac_held': 0.17, 'C_med': 0.996, 'a_med': 1.0}
+B large L=24 r=2 21008 {'K': 9, 'K_mid': 9, 'frac_complete': 0.227, 'frac_held': 0.227, 'C_med': 0.996, 'a_med': 1.0}
+B large L=24 r=2 21009 {'K': 9, 'K_mid': 7, 'frac_complete': 0.356, 'frac_held': 0.356, 'C_med': 0.996, 'a_med': 1.0}
+global L=12 21000 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global L=12 21001 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global L=12 21002 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global L=12 21003 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global L=12 21004 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global L=12 21005 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global L=12 21006 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global L=12 21007 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global L=12 21008 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+global L=12 21009 {'K': 1, 'K_mid': 1, 'frac_complete': 1.0, 'frac_held': 1.0, 'C_med': 0.997, 'a_med': 1.0}
+AGES B 21000 [(8, 0.299), (6, 0.352), (10, 0.321)]
+AGES B 21001 [(11, 0.299), (9, 0.243), (7, 0.453)]
+AGES B 21002 [(7, 0.312), (9, 0.255), (7, 0.443)]
+AGES B 21003 [(11, 0.281), (9, 0.429), (8, 0.24)]
+AGES B 21004 [(8, 0.368), (8, 0.306), (7, 0.378)]
+AGES B 21005 [(11, 0.321), (9, 0.273), (7, 0.318)]
+AGES B 21006 [(9, 0.286), (10, 0.286), (8, 0.307)]
+AGES B 21007 [(7, 0.17), (10, 0.269), (6, 0.41)]
+AGES B 21008 [(9, 0.227), (7, 0.328), (7, 0.285)]
+AGES B 21009 [(9, 0.356), (6, 0.196), (9, 0.38)]

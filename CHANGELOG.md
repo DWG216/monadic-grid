@@ -188,3 +188,4 @@
 - t125: capacity growth a e^gamma derived (capacity is a scale; growth must compose across independent parts), exact for the power law, with experience multiplicative only in the many-frequency limit.
 - t126: dynamics with derived rules: formation, climb, Ages hold; one law per world; turning strength is will (Bayesian turning forms no laws for M > ~16); lawless split returns (P3 fail); reflection fooled in 4/10 lawless worlds (P5 fail: effective-sample count not derived).
 - t127: reflection fully derived (self-measured pooled correlation time, Student's t): zero false alarms, no fixation in lawless worlds (P2, P3 pass); P1 (split commitment in 3/10 lawful worlds) and P4 (capacity bar vs starting draw) fail, kept.
+- t128: local records on a grid: small worlds coarsen to one law; large worlds keep 7-11 laws but only ~30% of monads hold one (borders); Ages do not settle borders (all pass). No Community of Gods from these dynamics.

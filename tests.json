@@ -2916,5 +2916,16 @@
   ],
   "group": "grid",
   "timeout": 6000
+ },
+ {
+  "script": "scripts/current/t128_community.py",
+  "sections": [
+   "250"
+  ],
+  "predictions": [
+   "PREDICTIONS_t128.md"
+  ],
+  "group": "grid",
+  "timeout": 9000
  }
 ]
