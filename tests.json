@@ -2856,5 +2856,25 @@
   ],
   "group": "grid",
   "timeout": 3600
+ },
+ {
+  "script": "scripts/current/t122_reflection.py",
+  "sections": [
+   "243"
+  ],
+  "predictions": [
+   "PREDICTIONS_t122.md"
+  ],
+  "group": "grid",
+  "timeout": 3600
+ },
+ {
+  "script": "scripts/current/t123_bridge.py",
+  "sections": [
+   "244"
+  ],
+  "predictions": [],
+  "group": "grid",
+  "timeout": 60
  }
 ]

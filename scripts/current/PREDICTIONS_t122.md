@@ -9,3 +9,11 @@ P3 [M] Lawless: reflective median final capacity < 0.15 (no climb) and median C 
 P4 [M] Lawless: plain median final capacity > 0.4 (they climb by fixation, as in t120).
 P5 [M, blind] Lawless: fraction of (tick, frequency) judged significant after tick 200 < 0.01: reflection is rarely fooled.
 Reading fixed in advance: reflection is what separates reason from fixation: a judging mind climbs only where there are laws, and in a lawless world stays clear instead of fixating.
+
+## Scoring (2026-11-25), run 1 (t122_run1.log)
+- P1 PASS: lawful, reflective monads all reach 0.5 (1.0), attention on laws 0.997.
+- P2 PASS: arrival 211 against 175 ticks (1.21×).
+- P3 PASS: lawless, reflective median final capacity 0.096 (they started at a median near 0.09) and C = 0.016 (= 1/N): no climb, no fixation.
+- P4 PASS: lawless, plain monads climb to 0.93 by fixation (C = 0.34).
+- P5 PASS (blind): lawless, nothing judged significant after tick 200 (fraction 0.0); in lawful worlds 11.6% of (tick, frequency) pairs are judged significant: the laws.
+Verdict as fixed in advance: reflection separates reason from fixation: a judging mind climbs only where there are laws, and in a lawless world stays clear.

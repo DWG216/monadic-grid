@@ -1,0 +1,5 @@
+Lambda = 1.0891e-52 m^-2   Lambda l_P^2 = 2.8451e-122
+count N = (Lambda l_P^2)^-2 = 1.235e+243   sqrt(N) = 3.515e+121
+largest record S_dS = 3 pi sqrt(N) = 3.313e+122 k   (horizon today 2.6e+122 k = 78% of it)
+written inside so far S_obs = 3.1e+104 k = 9.4e-19 of the largest record (log10 -18.0)
+log10 S_dS / log10 N = 0.5040  (the root: 1/2 up to 3 pi)
