@@ -2381,5 +2381,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t79_balanced_record.py",
+  "sections": [
+   "187"
+  ],
+  "predictions": [
+   "PREDICTIONS_t79.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

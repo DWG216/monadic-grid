@@ -1,0 +1,4 @@
+S1 {'lp': True, 'record': True, 'pass_': True}
+P1 {'lp_accepts': 10, 'record_ok': 10, 'pass_': True}
+P2 {'int_record_ok': 10, 'pass_': True}
+P3 {'lp_accepts_xor': 10, 'aip_rejects_xor': 10, 'pass_': True}

@@ -149,3 +149,4 @@
 - t76: exact low-degree norm for planted 3-XOR (m* ~ n^{3/2} at every degree; G2 fail at the registered size kept).
 - t77: Nullstellensatz degree over F2 and F3 for 3-XOR and 3-SAT (all pass).
 - t78: weak symmetric degree of OR over Z2, Z3, Z6 (run 1 crash at the search limit kept; run 2 all pass).
+- t79: the balanced record of 3-SAT against BLP and AIP (all pass; BLP+AIP support check open).
