@@ -1,6 +1,6 @@
-# R2R grid: specification (version 2026-11-24.3)
+# R2R grid: specification (version 2026-11-24.4)
 
-This is the compact, self-contained statement of the grid: definitions, notation, the levels, the main identities, and the rules of method. The narrative history and every result live in `docs/R2R_progress_2026-11-08.md` (sections 1-171); this file is what to read first.
+This is the compact, self-contained statement of the grid: definitions, notation, the levels, the main identities, and the rules of method. The narrative history and every result live in `docs/R2R_progress_2026-11-08.md` (sections 1-182); this file is what to read first.
 
 ## 0. Rules of method
 1. **Labels.** Every claim is one of: **[M]** mathematics (proved or checked by computation); **[A]** argument from the PSR; **[I]** interpretation (a reading of the mathematics in the corpus's terms). Interpretations never upgrade to mathematics.
@@ -214,3 +214,6 @@ E6 bound with the run coupling 4.6-4.8e15 GeV; U(1)_psi in the SU(3)_L x SU(3)_R
 
 ## 168. Everpresent Lambda against DESI (t72)
 Lambda = alpha W(V)/V: at alpha = 1, 61% of fitted runs lie in DESI's quadrant, 6% in its 2-sigma box, median |w0 + 1| = 0.9; 77% dip below zero at z < 2 [I]. A band, not a point; direct distance test next.
+
+## 169. P vs NP on the fermionic sector (t73-t75)
+A central slice is the fermionic sector; on it a clique is an object in a reference, the instance the record |O + R|^2. The cross-term reading (+-1 matrix) sees it from k ~ sqrt(n) at every size [M]. The root is the meeting term (k/n)^2 per vertex against n distinct places per vertex: degree-D thresholds 1.08-0.69 sqrt(n) for D = 2-8 [M]. Only a polymorphism beats the meetings (3-XOR: elimination at m = 2n; gone under noise) [M]. Clique has only projections; by sufficient reason every polynomial reading of it is a bounded-degree sum of meetings, so its slice threshold is the root and P != NP [S]. Average-case hardness on the slice suffices.
