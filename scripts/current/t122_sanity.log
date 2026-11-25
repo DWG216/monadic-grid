@@ -1,0 +1,4 @@
+MEDIAN lawful refl {'a_end': 1.0, 'frac_half': 1.0, 'C': 0.401, 'L': 0.997, 't_half': 211.0}
+MEDIAN lawful plain {'a_end': 1.0, 'frac_half': 1.0, 'C': 0.42, 'L': 0.998, 't_half': 174.0}
+MEDIAN lawless refl {'a_end': 0.078, 'frac_half': 0.15, 'C': 0.016, 'L': 0.0, 't_half': 0.0}
+MEDIAN lawless plain {'a_end': 0.664, 'frac_half': 0.5, 'C': 0.216, 'L': 0.0, 't_half': 109.0}
