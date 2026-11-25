@@ -16,3 +16,10 @@ P3 [I] Among accepted histories with rho_Lambda < 0 somewhere at z < 2, at least
 Information: P1's passers' CPL quadrant where fittable; the best chi2 against chi2_ref.
 
 Verdict: P1-P3 pass -> the everpresent band meets DESI's distances directly, sign excursions included. P1 below 1% -> the bridge fails at alpha = 1.
+
+## Scoring (2026-11-25)
+Run 1 (t86_run1.log). S1 PASS (constant Lambda matches Lambda-CDM to 2e-13). S2 PASS (best Omega_m = 0.2995, chi2_ref = 11.44 for 13 numbers, one free scale). S3 PASS (347 accepted, as t72).
+- P1 FAIL, below the refutation line: 0 of 347 accepted histories come within chi2_ref + 4. Best chi2 29.5 (Delta chi2 = 18 over Lambda-CDM); median 467; 16-84% range 192-988.
+- P2 FAIL: no history beats Lambda-CDM at Omega_m = 0.31 (12.69).
+- P3 FAIL: 0 of 268 histories with a negative excursion pass.
+Verdict as registered: the bridge Lambda = alpha W(V)/V with alpha = 1 (t72's model) fails DESI DR2's distances. The CPL direction t72 found typical does not carry over to the distances: the histories that survive to Omega_Lambda0 near 0.7 fluctuate far too much at z < 2.3. Correction-map entry: the everpresent-Lambda bridge as written in t72 is refuted; the record count and the N^(-1/2) scaling are not on trial here, only this implementation (a Wiener process in the four-volume of the Hubble sphere, alpha = 1, start at a = 1e-3).

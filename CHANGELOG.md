@@ -155,3 +155,4 @@
 - t82: degree-4 SoS pseudo-expectation for unsatisfiable random 3-XOR at n = 1000-4000: consistent 30/30, local PSD, t79 record on every clause. All pass.
 - t83: Schoenebeck reduction at n = 2000-8000 (below the regime for density 4.5; kept). t84: n = 16k-64k, C++ closure; run 2 key-collision bug in local-block lookups (kept, src/closure4_run2_keybug.cpp); run 3 all pass.
 - t85: E6's bosons at the gravitational meeting (reduced Planck mass) [S]; no gauge-boson proton decay at Hyper-K; triplet scalars visible only below 7.9e11 GeV. All pass.
+- t86: everpresent Lambda (t72 model, alpha = 1) against DESI DR2 BAO distances directly: 0/347 within Delta chi2 = 4 of Lambda-CDM (best 18). Bridge as written refuted; correction map.

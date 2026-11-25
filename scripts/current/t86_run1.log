@@ -1,0 +1,7 @@
+S1 {'chi2': 12.693266407986055, 'chi2_lcdm031': 12.693266407986254, 'pass_': True}
+S2 {'om_best': 0.2995, 'chi2_ref': 11.438313303802518, 'pass_': np.True_}
+S3 {'accepted': 347, 'pass_': True}
+P1 {'frac': 0.0, 'n': 0, 'of': 347, 'pass_': np.False_, 'refuted': np.True_}
+P2 {'best_chi2': 29.460823008606834, 'chi2_lcdm031': 12.693266407986254, 'n_better': 0, 'pass_': False}
+P3 {'frac': 0.0, 'n': 0, 'of': 268, 'pass_': np.False_}
+info {'chi2_ref': 11.438313303802518, 'chi2_median': 467.22792820805597, 'chi2_16_84': [192.00012676430904, 988.2529387651042], 'passers_with_negative': 0}
