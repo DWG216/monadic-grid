@@ -13,10 +13,12 @@ Consolidates the held-back posts 61-64 (cobalt niobate, proton decay, the hidden
 11. One count for matter and dark matter: m_N = 5.0 GeV (t110).
 12. Flavour from S4 = 2T + the hand swap: TM1, sin²θ12 = 0.318 (t96, t97).
 13. Koide's 2/3 and the phase 2/9 (t98); quarks are their own chords (t99).
-14. The Higgs from zero at gravity's meeting: 116-128 GeV (t100-t102).
+14. The Higgs from zero at gravity's meeting: 116-128 GeV (t100-t102). Closing line: "The field that gives mass is born at gravity's meeting. That is where spacetime begins."
 15. The scalar vacuum: two Higgs 27s, and why all-zero quartics fail (t105, t106).
 16. Strong CP from the hand swap: θ̄ = 0, no axion (t107).
 17. The two halves of a pair's record: m_b/m_τ = 2/3 (t112, t113).
-18. Time is the count of balanced pairs: Deutsch-Marletto's null constructors (t111).
+18. Time is the count of balanced pairs: Deutsch-Marletto's null constructors (t111). Closing line: "A count has a first tick, and what does the counting is not in the record."
 19. Our bridges that broke, kept on the record (the meeting at 1e8, t72's random walk, Veltman at M*, one cubic for b/τ, the light generations).
-20. Next chapters: the Standard Model, P vs NP, quantum foundations, the cosmos, gravity.
+20. Next chapters: the Standard Model, P vs NP, quantum foundations, the cosmos, gravity. Closing line: "The monads are not particles. What they are comes last."
+
+The cosmogony thread (record §232) is present but quiet in 1.1: three closing lines only (posts 14, 18, 20).
