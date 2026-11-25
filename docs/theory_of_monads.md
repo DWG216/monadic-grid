@@ -64,7 +64,7 @@ Hockney's corpus cites Nietzsche (will to power 727×) and Jung (archetype 2,684
 | Apollonian / Dionysian | highlighted content C = Σp² / the whole spectrum | t115 |
 | Collective unconscious | the shared record held but not attended; Collective Conscious = Omega, every mind full | t115, t120 |
 | Archetypes | laws: shared, lasting phase relations that form themselves and carry consequences; older and more basic = lower order | t116, t118, t119 |
-| Psychoid, unus mundus | the sum O + R before the square; Pauli–Jung dual aspect = f and |f|² | §1 |
+| Psychoid, unus mundus | the sum O + R before the square; Pauli–Jung dual aspect = f and its square, f*f | §1 |
 | Synchronicity | correlation through a shared law with no signal, e^{iθ}e^{−iθ} = 1 (no-signalling 8e-16) | record §9 |
 | Individuation | unique coordinates (exclusion, the Alpha Point) plus the climb; Jung's third thing = the cross term 2Re(O*R) | t120 |
 | Shadow | the spectrum below attention: present, recorded, unheard | t115 |
