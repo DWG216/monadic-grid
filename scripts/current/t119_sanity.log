@@ -1,0 +1,4 @@
+7000 {'locked': 10, 'rank': 10, 'n_derived': 19, 'R_derived': 0.731, 'R_parent_product': 0.66, 'R_control': 0.134, 'ctrl_95': 0.277}
+7001 {'locked': 19, 'rank': 14, 'n_derived': 77, 'R_derived': 0.749, 'R_parent_product': 0.67, 'R_control': 0.131, 'ctrl_95': 0.269}
+7002 {'locked': 26, 'rank': 22, 'n_derived': 121, 'R_derived': 0.732, 'R_parent_product': 0.661, 'R_control': 0.109, 'ctrl_95': 0.252}
+median {'locked': 19.0, 'rank': 14.0, 'n_derived': 77.0, 'R_derived': 0.732, 'R_parent_product': 0.661, 'R_control': 0.131, 'ctrl_95': 0.269}

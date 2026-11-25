@@ -7,7 +7,7 @@ Controls: 'pair' = t116's second-order dynamics; 'none' = no turning."""
 import numpy as np, sys
 def triads(N):
     return np.array([(a, b, (a + b) % N) for a in range(1, N) for b in range(a, N) if (a + b) % N not in (0, a, b)])
-def run(seed, mode='triad', kappa=0.2, M=50, N=24, T=300, eta=0.3, beta=0.1, eps=1e-3):
+def run(seed, mode='triad', kappa=0.2, M=50, N=24, T=300, eta=0.3, beta=0.1, eps=1e-3, return_state=False):
     rng = np.random.default_rng(seed); tr = triads(N); p = rng.uniform(0.5, 1.5, (M, N)); p /= p.sum(1, keepdims=True)
     phi = rng.uniform(0, 2*np.pi, (M, N))
     for t in range(T):
@@ -23,6 +23,7 @@ def run(seed, mode='triad', kappa=0.2, M=50, N=24, T=300, eta=0.3, beta=0.1, eps
         else:
             w = np.abs((np.sqrt(p)*np.exp(1j*phi)).sum(0))**2/p.sum(0)
         p = p*w[None, :]**beta; p /= p.sum(1, keepdims=True); p = (1 - eps)*p + eps/N
+    if return_state: return phi, p, tr
     psi = phi[:, tr[:, 0]] + phi[:, tr[:, 1]] - phi[:, tr[:, 2]]; R = np.abs(np.exp(1j*psi).mean(0)); r = np.abs(np.exp(1j*phi).mean(0))
     rmax = np.max(r[tr], axis=1); pure = (R > 0.8) & (rmax < 0.3); synced = (R > 0.8) & (rmax >= 0.3)
     z = (np.sqrt(p)*np.exp(1j*phi)).sum(0); w2 = np.abs(z)**2/p.sum(0)
