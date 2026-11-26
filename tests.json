@@ -3376,5 +3376,27 @@
   ],
   "group": "grid",
   "timeout": 120
+ },
+ {
+  "script": "scripts/current/t162_gap.py",
+  "sections": [
+   "303"
+  ],
+  "predictions": [
+   "PREDICTIONS_t162.md"
+  ],
+  "group": "grid",
+  "timeout": 1200
+ },
+ {
+  "script": "scripts/current/t163_sha.py",
+  "sections": [
+   "303"
+  ],
+  "predictions": [
+   "PREDICTIONS_t163.md"
+  ],
+  "group": "grid",
+  "timeout": 3600
  }
 ]

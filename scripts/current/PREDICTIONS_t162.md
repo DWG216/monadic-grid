@@ -10,3 +10,10 @@ P1 [M]: generic maps: the least nonzero mismatch falls with n and is below 0.01 
 P2 [M]: grain maps: the least nonzero mismatch is at least 1 for every n ≤ 6 in all 10 draws (gap = one step of the clock, independent of n).
 P3 [M]: with the will on, linearised turning toward the neighbourhood (radius 2) on an L × L torus is a graph Laplacian; its smallest nonzero rate falls as L⁻² (fitted exponent −2 ± 0.1 over L = 8…64) for continuous phases (gapless spin waves). For phases on the clock of three, the least excitation (one monad turned by 2π/3) costs a fixed amount, 24 neighbours × (1 − cos 2π/3) = 36 in coupling units, at every L.
 Consequence fixed in advance: P1–P3 pass → in the monad analogue the gap exists because the grain is discrete (the clock of three), and vanishes in a continuum. The grid's reading of the Yang–Mills question: the gap is the grain's; a theory with no grain has none to keep.
+
+## Scoring (2026-11-26), run 1 (t162_run1.log)
+- S1 PASS: 45 invariant three-voice chords.
+- P1 FAIL (as registered): the least nonzero mismatch for generic maps is below 0.01 at n = 6 in all 10 draws (2e-5 to 2.5e-4), but it does not fall monotonically with n; it is already below 0.008 at n = 2. Generic maps are gapless from the start, not only in the limit.
+- P2 PASS: on the grain the least nonzero mismatch is 1 (in two draws 3 at n = 3 and 6) for every n ≤ 6: the gap is one step of the clock.
+- P3 PASS: continuous phases: slowest turning rate falls from 12.9 (L = 8) to 0.24 (L = 64), exponent −1.93; on the clock of three the least excitation costs 36 at every L.
+Verdict: in the monad analogue the gap exists because the grain is discrete and is absent for continuous frequencies and phases. Reading [I]: the grid's gap is the grain's; the Yang–Mills question (a gap surviving the continuum limit) is one the grid answers by denying the continuum is fundamental. This is an analogue, not a proof of anything about Yang–Mills.
