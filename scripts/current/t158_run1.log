@@ -1,0 +1,4 @@
+S1 {'r_times_integral': {1.0: 2.00000000750055, 3.0: 2.000000000095517, 10.0: 2.000000000014307}, 'pass_': False}
+P1 {'ratio_at_20': np.float64(0.9980596527572521), 'power': np.float64(-0.9972651583458865), 'pass_': np.True_}
+P2 {'links': {'eta0.5_perp': np.float64(0.9999999999999919), 'eta0.5_par': np.float64(1.000000000000007), 'eta1.0_perp': np.float64(0.9999999999999999), 'eta1.0_par': np.float64(0.9999999999999987)}, 'newtonian': {'eta1.0_perp': np.float64(1.5430806348152437), 'eta1.0_par': np.float64(2.3810978455418157)}, 'pass_': True}
+P3 {'k0': np.float64(1.2303843443417377), 'R_link_grain_units': np.float64(0.4585474336879675), 'R_link_m': np.float64(2.467961509509702e-35), 'gran_sasso_m': 5.4e-11, 'orders_short': 24.3400553776943, 'pass_': np.True_}

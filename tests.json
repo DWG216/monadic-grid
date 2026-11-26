@@ -3332,5 +3332,16 @@
   ],
   "group": "grid",
   "timeout": 1500
+ },
+ {
+  "script": "scripts/current/t158_links_kernel.py",
+  "sections": [
+   "297"
+  ],
+  "predictions": [
+   "PREDICTIONS_t158.md"
+  ],
+  "group": "grid",
+  "timeout": 600
  }
 ]
