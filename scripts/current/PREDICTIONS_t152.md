@@ -15,3 +15,10 @@ P1 [I, number fixed here]: astrophysical black holes (larger than the lightest n
 P2 [M] in t152_microstates.py: the pairwise-balanced count of n straddling pairs of 16-state cells has zero log coefficient (exactly 16^n), against −5/2 for the t150 count; and the arithmetic of P1.
 Not computed here: the scalar −1/90 on the t27 lattice (needs the large-l tail treatment of Lohmayer et al.; cited, to be reproduced as t153).
 Consequence fixed in advance: if P2 passes, the microstate count is: cells for the area term, edge-mode pairs for the gauge charges, the record's field entanglement for the log term, and no graviton loop. The sign of the log term then separates classical gravity (grid, Oppenheim) from quantised gravity (Sen's +1.71).
+
+## Scoring (2026-11-26), run 1 (t152_run1.log)
+- Code note: the first draft asserted that the 16 is closed under negation; it is not. Negating a spinor weight flips the parity of minus signs, so every cell's balancing partner lies in the 16̄. The assertion was replaced by a count before any result printed: partners in 16: 0, in 16̄: 16. Reading [I]: the partner across the horizon is the other hand, as in the record's two sides.
+- P2a PASS: the pairwise-balanced count is exactly 16^n, log coefficient 0 (t150's global balance: −2.5).
+- P2b PASS (arithmetic): astrophysical Schwarzschild, grid −0.6444 ln A, quantised graviton (Sen) +1.7111 ln A; all Standard Model fields massless: grid −1.256, Sen +1.100.
+- Open: t153, the scalar's −1/90 reproduced on the t27 lattice.
+Verdict as fixed in advance: the microstate count is cells (area), straddling balanced pairs (the gauge charges' edge modes, no charge log), the record's field entanglement (anomaly log), and no graviton loop. The log term's sign separates classical gravity (−0.644) from quantised gravity (+1.711).

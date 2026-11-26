@@ -1,0 +1,3 @@
+S1 {'partners_in_16': 0, 'partners_in_16bar': 16, 'pass_': True}
+P2a {'log_coefficient_pairwise': -1.151426849686747e-13, 't150_global': -2.5, 'pass_': np.True_}
+P2b {'coefficients': {'grid, astrophysical (photon only, no graviton loop)': {'C': -0.28888888888888886, 'lnA': -0.6444444444444444}, 'Sen, astrophysical (photon + quantised graviton)': {'C': 4.4222222222222225, 'lnA': 1.7111111111111112}, 'grid, Standard Model all massless (no graviton loop)': {'C': -1.511111111111111, 'lnA': -1.2555555555555555}, 'Sen, Standard Model all massless + graviton': {'C': 3.2, 'lnA': 1.1}}, 'pass_': True}
