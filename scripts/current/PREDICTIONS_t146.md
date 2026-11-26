@@ -7,3 +7,9 @@ P2 [M] Uniform sphere, mass m, radius R, displaced by d: E_G = (Gm²/R)(2λ² �
 Reported (no prediction): τ for benchmark masses (10⁻¹⁴ kg at 2000 kg/m³ displaced by its diameter; a 10⁻¹⁷ kg sphere; a 1 μg sphere at 0.1 nm), beside ħ/E_G.
 
 Consequence fixed now: if P1 and P2 pass, the grid's reduction time is τ = πħ/E_G given the chosen gap; the factor π is a sharp difference from the usual ħ/E_G that experiments on mesoscopic superpositions can test. The chosen step (gap = E_G) remains to be derived from the record before it is stated as [S].
+
+### Scored (2026-11-25, t146_reduction_time.py, t146_run1.log)
+P1 PASS: the two-branch overlap first vanishes at t E_G/ħ = π to machine precision; 0 of 10,000 random states (2 to 8 levels) beat πħ/(2ΔE); 956 meet it (the two-level states).
+P2 PASS: closed forms join at d = 2R exactly; the independent Fourier integral matches within 6e-10.
+Reported: 10⁻¹⁴ kg (2000 kg/m³) displaced by its diameter: E_G = 4.4e-33 J, ħ/E_G = 0.024 s, τ = 0.075 s. 10⁻¹⁷ kg: τ = 7.5e3 s. 1 μg at 0.1 nm: τ = 119 s.
+Status: τ = πħ/E_G follows from the record writing one geometry plus the speed limit, given the chosen gap (= E_G). The gap's derivation from the record is the remaining step; until then the result is stated with that label.

@@ -3114,5 +3114,16 @@
   ],
   "group": "grid",
   "timeout": 1200
+ },
+ {
+  "script": "scripts/current/t146_reduction_time.py",
+  "sections": [
+   "273"
+  ],
+  "predictions": [
+   "PREDICTIONS_t146.md"
+  ],
+  "group": "grid",
+  "timeout": 600
  }
 ]

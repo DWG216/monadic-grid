@@ -1,0 +1,6 @@
+P1 two-branch zero at t*E_G/hbar = 3.141592653590 (pi = 3.141592653590), rel err 0.0e+00; random states beating the bound: 0 / 10000; meeting it: 956
+P2 join at d = 2R: 0.0e+00 | Fourier vs closed: {0.25: '5.91e-10', 0.5: '1.89e-10', 1.0: '8.59e-11'}
+P1 pass: True | P2 pass: True
+1e-14 kg, displaced by its diameter    R = 1.06e-06 m  E_G = 4.40e-33 J  hbar/E_G = 0.0239 s  tau = pi hbar/E_G = 0.0752 s
+1e-17 kg, by its diameter              R = 1.06e-07 m  E_G = 4.40e-38 J  hbar/E_G = 2.39e+03 s  tau = pi hbar/E_G = 7.52e+03 s
+1 ug at 0.1 nm                         R = 4.92e-05 m  E_G = 2.80e-36 J  hbar/E_G = 37.7 s  tau = pi hbar/E_G = 119 s
