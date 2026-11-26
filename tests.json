@@ -3081,5 +3081,27 @@
   ],
   "group": "grid",
   "timeout": 600
+ },
+ {
+  "script": "scripts/current/t143_cross_chords.py",
+  "sections": [
+   "272"
+  ],
+  "predictions": [
+   "PREDICTIONS_t143_t144.md"
+  ],
+  "group": "grid",
+  "timeout": 7200
+ },
+ {
+  "script": "scripts/current/t144_light_z3.py",
+  "sections": [
+   "272"
+  ],
+  "predictions": [
+   "PREDICTIONS_t143_t144.md"
+  ],
+  "group": "grid",
+  "timeout": 600
  }
 ]

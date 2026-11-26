@@ -1,4 +1,4 @@
-# The theory of monads, as built and tested (t111, t115–t141)
+# The theory of monads, as built and tested (t111, t115–t144)
 
 Consolidated 2026-11-25. Vocabulary for public text is musical: a law is a held tone; agreement is unison; relations among phases are chords; the end of the climb is a resolution to unison; Ages are movements; a tick is a beat (corpus terms such as Community of Gods stay in the record only). Spine for chapter 7 (Cosmogony). Labels: [S] derived from the record or deduced from sufficient reason; [M] tested by a pre-registered computation; *chosen* = a modelling choice not yet derived.
 
@@ -59,6 +59,8 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 | Chords on E6's tones (first try) | Design failed to impose resonance and flattened hearing; nothing formed (C ≈ 1/27), no cubic term locked. Corrected design needed. | t139 [M], 0 of 2 (kept) |
 | Chords on E6's tones need three voices | With a time-averaged record, no false chord locks (the t139 flaw is gone) and every world resolves to one shared tone (10 of 10), but no cubic chord locks in any mind. E6's 27 has no octaves (no chord repeats a tone), so each cubic term needs three different notes, more than one focused mind holds. A cubic chord is sung by three voices together, as the cubic couples three different fields. | t140 [M], 2 of 3 (chord-locks prediction failed, kept) |
 | The soloist | Ten times the will does not carry a minority's tone (k1 in 10 of 10): strong will joins faster. Refusers (will 0) do not change the key either, but keep most of the world from completing (median 0.35): will cannot choose the key, and withholding it keeps the chord from resolving. | t141 [M], 3 of 4 (completeness with refusers failed, kept) |
+| Chords across monads | Three neighbouring minds on three different notes lock chords in every world, and every cubic trace chord is held (21 to 27 of 27); turning the tones removes about 60% of the other chords but not all. Resonance favours the gauge invariant; it does not yet single it out. | t143 [M], 2 of 3 (exclusivity failed, kept) |
+| Light generations from Z₃ | The grain's Z₃ fixes which mass entries vanish, not their sizes: the registered three-entry texture cannot occur, and the four-entry textures miss the down-quark ratios by factors of 5. The hierarchy needs its own source. | t144 [M], 0 of 1 |
 | With the derived rules | Formation, the climb and the Ages hold (laws in 10 of 10 worlds; everyone climbs, the most capable first; next Age 3× faster with minds kept). Exact conditioning leaves one law per world, so the plural end state of t115–t116 belonged to the slower chosen listening. Lawless worlds split again (fixation lifts all in 7 of 10). Reflection with the derived threshold stays clear in 6 of 10 lawless worlds. | t126 [M], 4 of 6 |
 
 ## 4a. Mythos into logos: Nietzsche and Jung (corpus shorthand)

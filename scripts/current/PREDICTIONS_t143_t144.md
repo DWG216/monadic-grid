@@ -13,3 +13,16 @@ Generations carry charges q = a permutation of (0, 1, 2) under a Z₃ of the fam
 P1 [M, blind] At least one kept assignment predicts s/μ and d/e within 10% and b/τ within 5%.
 Reported: the number of assignments kept, every prediction, and the down-sector mixing angle θ₁₂ of each (to set beside the Cabibbo angle, 0.225, which also needs the up sector).
 Consequence fixed now: if P1 passes, the grain's Z₃ fixes the light-generation texture and the lepton masses fix its sizes, so the down-quark masses follow with no new input. If it fails, Z₃ selection rules with one part per entry cannot give the light generations, and the hierarchy needs its own source.
+
+### t144 scored (2026-11-25, t144_light_z3.py, t144_run1.log)
+Kept assignments: 0. **P1 FAIL** as registered.
+Why (read after the run, from the construction): with q a permutation of (0, 1, 2), each Z₃ class of entries is one diagonal entry and one off-diagonal pair, so each symmetric part (cubic, 351′) fills exactly two independent entries. If h_c = h_o every entry comes from two parts (rejected); if not, there are four entries. Exactly three is impossible, so the registered filter is empty by construction.
+Post hoc (labelled, not scored; t144_posthoc.py, t144_posthoc.log): the two four-entry textures with the 3-3 entry from the 351′, one entry scanned and two solved from the lepton masses (754 lepton-consistent points), give at best s/μ = 1.35, d/e = 13.3, b/τ = 0.709 against 0.231, 2.44, 0.678. They miss by factors of 5.
+Consequence (as fixed at registration): Z₃ selection rules with one part per entry cannot give the light generations; the hierarchy needs its own source. The candidate is the 3-adic grain step (sizes set by powers of a grain ratio, the texture by Z₃), to be registered separately.
+
+### t143 scored (2026-11-25, t143_cross_chords.py, t143_run1.log)
+P1 PASS: chords lock across monads in 10/10 worlds (239 to 354 locked chords each).
+P2 FAIL: every world also locks non-cubic chords (214 to 328 with rotation).
+C1 PASS: with ω = 0, non-cubic chords lock in 10/10 worlds (558 to 702).
+Read off the table (labelled, not scored): the cubic's cross-block trace chords lock almost completely in both settings (21 to 27 of 27); rotation removes about 60% of the non-cubic locks (median about 670 to 290) and none of the cubic ones. Resonance favours the invariant but, at τ = 20 beats and ω ≤ 0.3 rad, does not exclude the rest: a slowly detuned chord stays coherent across a 20-beat window, and the will's turning holds it.
+Consequence: the registered statement (resonance alone selects exactly the cubic across monads) does not hold in this design. What holds: every cubic chord is held, and resonance cuts the rest by more than half. Whether a longer window (τ ≫ 1/δ_min) makes the selection exact is a new question, to register separately; not re-run here.

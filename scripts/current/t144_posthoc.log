@@ -1,0 +1,6 @@
+textures scanned: 2 | lepton-consistent points: 754
+4.846 (0, 1) {'11': 'cubic', '23': 'cubic', '33': 'orth', '12': 'orth'} {'s_mu': np.float64(1.35), 'd_e': np.float64(13.331), 'b_tau': np.float64(0.709)}
+4.846 (2, 1) {'22': 'cubic', '13': 'cubic', '33': 'orth', '12': 'orth'} {'s_mu': np.float64(1.35), 'd_e': np.float64(13.331), 'b_tau': np.float64(0.709)}
+4.846 (0, 1) {'11': 'cubic', '23': 'cubic', '33': 'orth', '12': 'orth'} {'s_mu': np.float64(1.35), 'd_e': np.float64(13.331), 'b_tau': np.float64(0.709)}
+4.846 (0, 1) {'11': 'cubic', '23': 'cubic', '33': 'orth', '12': 'orth'} {'s_mu': np.float64(1.35), 'd_e': np.float64(13.331), 'b_tau': np.float64(0.709)}
+4.846 (2, 1) {'22': 'cubic', '13': 'cubic', '33': 'orth', '12': 'orth'} {'s_mu': np.float64(1.35), 'd_e': np.float64(13.331), 'b_tau': np.float64(0.709)}
