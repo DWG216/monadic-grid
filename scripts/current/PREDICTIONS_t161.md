@@ -7,3 +7,8 @@ Derivation [M]. Writing the mix instead of branch A for time τ gives the superp
 S1 [M]: over 10,000 random configurations (two branches of a Gaussian-smeared mass, separations 0.1–10 R₀, weights p_B in (0, 1)), the discrepancy computed from the potentials equals p_B π to 1e-10 and never exceeds π.
 P1 [M, guard]: the rule "the record writes as soon as any reader could tell" fails: for a rubidium atom in a vertical superposition of 0.5 m (Kasevich-type fountain) the Earth's phase discrepancy rate is 0.5 m g d/ħ, about 6e9 per second, which would write within a nanosecond, against observed coherence over seconds. So the writing time is the superposed mass's own E_G (t146), not an external reader's.
 Consequence fixed in advance: S1 passes → item 4 closes at the record's resolution for the source itself: the jump in T at writing is below what one tick can register. Open: whether an external quantum reader can resolve it (P1 shows the naive rule is excluded; the exact statement for coherent probes is not derived).
+
+## Scoring (2026-11-26), run 1 (t161_run1.log)
+- S1 PASS: over 10,000 configurations the discrepancy equals p_B π to 6e-13 and never exceeds π (largest 3.1413).
+- P1 PASS (with a registration slip): the registered rate "about 6e9 per second" was miscomputed; 0.5 m g d/ħ for ⁸⁷Rb at d = 0.5 m is 3.4e9 per second, writing in 0.94 ns. The conclusion holds: the "any reader" rule is excluded by fountain coherence over seconds.
+Verdict as fixed in advance: obstacle 4 closes at the record's resolution for the source itself: the jump in the written source at τ = πħ/E_G is always within one wrap. Open: the exact statement for coherent external readers.

@@ -1,0 +1,3 @@
+S1 {'max_diff': 0.0, 'orders_differ': True, 'links': 1849, 'pass_': True}
+P1 {'max_diff': 1.189171738763433, 'pass_': True}
+P2 {'slices_diff': 0.41937244593287937, 'links_diff': 0.0, 'pass_': True}

@@ -3343,5 +3343,38 @@
   ],
   "group": "grid",
   "timeout": 600
+ },
+ {
+  "script": "scripts/current/t159_topology.py",
+  "sections": [
+   "301"
+  ],
+  "predictions": [
+   "PREDICTIONS_t159.md"
+  ],
+  "group": "grid",
+  "timeout": 1800
+ },
+ {
+  "script": "scripts/current/t160_order.py",
+  "sections": [
+   "301"
+  ],
+  "predictions": [
+   "PREDICTIONS_t160.md"
+  ],
+  "group": "grid",
+  "timeout": 900
+ },
+ {
+  "script": "scripts/current/t161_writing_jump.py",
+  "sections": [
+   "301"
+  ],
+  "predictions": [
+   "PREDICTIONS_t161.md"
+  ],
+  "group": "grid",
+  "timeout": 120
  }
 ]

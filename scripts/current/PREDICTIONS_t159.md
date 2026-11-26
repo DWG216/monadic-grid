@@ -9,3 +9,9 @@ P1 [M]: in M, the mean change of a monad's record entry across tick 300 exceeds 
 P2 [M]: in M, the fraction of monads holding a law falls by more than half across tick 300 in at least 8 of 10 seeds.
 P3 [M]: in C (change only at the closing) the world still reaches one law held completely (completeness > 0.9) by the end of Age 2 in at least 8 of 10 seeds (t134's result, with η = 0).
 Consequence fixed in advance: P1–P3 pass → topology changes are uncaused jumps in a record being written, and harmless at closings; with Geroch, the grid allows topology change only between Ages.
+
+## Scoring (2026-11-26), run 1 (t159_run1.log)
+- P1 FAIL (9 of 10, registered 10 of 10): a mid-Age change of neighbourhoods jumps the record entries 520× to 3.5×10⁵× the natural tick-to-tick change in 9 seeds; control 0.05–1.79×. Seed 59002 had reached one law held by every monad before tick 300, and the change left the record unchanged (jump 0): where every neighbourhood already agrees, a topology change writes nothing different.
+- P2 PASS: laws held fall from 0.54–0.81 to 0–0.19 across the change in 9 of 9 unsettled seeds (59002: 1.0 → 1.0).
+- P3 PASS: with the change only at the closing, every seed completes Age 2 at completeness 1.0 (Age 1: 0.60–1.0).
+Verdict: a topology change while the record is written is an uncaused jump in it, except in a world already at unison, where it changes nothing; at closings it is harmless. With Geroch: topology changes only between Ages, or where it makes no difference to the record.

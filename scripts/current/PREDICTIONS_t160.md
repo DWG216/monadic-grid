@@ -9,3 +9,9 @@ S1 [M]: two different random linear extensions of the causal order (seeds 1, 2) 
 P1 [M]: with η = 0.3 and noise drawn in update order (uncaused noise), the same two orders give different records (max difference > 0.1).
 P2 [M]: a foliation update (all events in a time slice updated from the previous slice's states, slices of width 0.05) in two frames (rapidity 0 and 0.8) gives different records (max difference > 0.1), while the link update gives the same record in both frames (frame enters only through the order, which is invariant: difference 0 to 1e-12).
 Consequence fixed in advance: S1 and P2 pass → the record is slicing-free exactly because nothing uncaused enters (P1).
+
+## Scoring (2026-11-26), run 1 (t160_run1.log)
+- S1 PASS: two different causal orders of updating (400 events, 1849 links) give identical records (difference 0.0).
+- P1 PASS: with uncaused noise drawn in update order, the same two orders differ by 1.19.
+- P2 PASS: a foliation update differs between frames (0.42); the link update is identical in both frames (0.0).
+Verdict as fixed in advance: the record is slicing-free exactly because nothing uncaused enters. Obstacle 5 does not arise for the record: there is no evolution from slice to slice, only each event read from its own past.

@@ -1,0 +1,13 @@
+59000 M jump/base 520.45 ctrl 1.31 laws (np.float64(0.6388888888888888), np.float64(0.013888888888888888)) closing comp (0.7430555555555556, 1.0)
+59001 M jump/base 603.25 ctrl 0.91 laws (np.float64(0.7083333333333334), np.float64(0.05555555555555555)) closing comp (0.7361111111111112, 1.0)
+59002 M jump/base 0.0 ctrl 0.0 laws (np.float64(1.0), np.float64(1.0)) closing comp (1.0, 1.0)
+59003 M jump/base 2964.25 ctrl 1.01 laws (np.float64(0.5833333333333334), np.float64(0.006944444444444444)) closing comp (0.6458333333333334, 1.0)
+59004 M jump/base 346098.45 ctrl 1.0 laws (np.float64(0.6805555555555556), np.float64(0.13194444444444445)) closing comp (0.75, 1.0)
+59005 M jump/base 3904.21 ctrl 1.54 laws (np.float64(0.6319444444444444), np.float64(0.006944444444444444)) closing comp (0.7083333333333334, 1.0)
+59006 M jump/base 843.57 ctrl 0.85 laws (np.float64(0.8055555555555556), np.float64(0.1875)) closing comp (1.0, 1.0)
+59007 M jump/base 945.79 ctrl 0.15 laws (np.float64(0.5416666666666666), np.float64(0.0)) closing comp (0.6041666666666666, 1.0)
+59008 M jump/base 18121.94 ctrl 1.79 laws (np.float64(0.6805555555555556), np.float64(0.0)) closing comp (0.7430555555555556, 1.0)
+59009 M jump/base 9923.9 ctrl 0.05 laws (np.float64(0.6736111111111112), np.float64(0.0)) closing comp (0.7569444444444444, 1.0)
+P1 {'M': [np.float64(520.45), np.float64(603.25), np.float64(0.0), np.float64(2964.25), np.float64(346098.45), np.float64(3904.21), np.float64(843.57), np.float64(945.79), np.float64(18121.94), np.float64(9923.9)], 'ctrl': [np.float64(1.31), np.float64(0.91), np.float64(0.0), np.float64(1.01), np.float64(1.0), np.float64(1.54), np.float64(0.85), np.float64(0.15), np.float64(1.79), np.float64(0.05)], 'pass_': np.False_}
+P2 {'laws_before_after': [(np.float64(0.6388888888888888), np.float64(0.013888888888888888)), (np.float64(0.7083333333333334), np.float64(0.05555555555555555)), (np.float64(1.0), np.float64(1.0)), (np.float64(0.5833333333333334), np.float64(0.006944444444444444)), (np.float64(0.6805555555555556), np.float64(0.13194444444444445)), (np.float64(0.6319444444444444), np.float64(0.006944444444444444)), (np.float64(0.8055555555555556), np.float64(0.1875)), (np.float64(0.5416666666666666), np.float64(0.0)), (np.float64(0.6805555555555556), np.float64(0.0)), (np.float64(0.6736111111111112), np.float64(0.0))], 'pass_': np.True_}
+P3 {'completeness': [(0.7430555555555556, 1.0), (0.7361111111111112, 1.0), (1.0, 1.0), (0.6458333333333334, 1.0), (0.75, 1.0), (0.7083333333333334, 1.0), (1.0, 1.0), (0.6041666666666666, 1.0), (0.7430555555555556, 1.0), (0.7569444444444444, 1.0)], 'pass_': True}

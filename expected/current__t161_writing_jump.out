@@ -1,0 +1,2 @@
+S1 {'max_dev_from_pB_pi': 5.993538998438908e-13, 'max_discrepancy': 3.1412509878448294, 'pi': 3.141592653589793, 'pass_': np.True_}
+P1 {'rate_per_s': 3355045186.6601787, 'write_time_s': 9.363786413610514e-10, 'observed_coherence_s': 1.0, 'pass_': True}
