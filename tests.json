@@ -3464,5 +3464,16 @@
   ],
   "group": "slow",
   "timeout": 2400
+ },
+ {
+  "script": "scripts/current/t170_field_cut.py",
+  "sections": [
+   "316"
+  ],
+  "predictions": [
+   "PREDICTIONS_t170.md"
+  ],
+  "group": "slow",
+  "timeout": 2400
  }
 ]

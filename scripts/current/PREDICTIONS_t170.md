@@ -14,3 +14,11 @@ S1 [sanity]: complement symmetry |S(R) − S(R')|/mean < 0.15 for every sprinkli
 P1 [M]: area law: S ∝ A^p over the six sprinklings with 0.75 < p < 1.25.
 P2 [M, the test]: one η. η_f = S/A (mean of the N = 6000 runs) lies within a factor 1.5 of the meeting count η_m = (√3/10) ln 3 = 0.190 (between 0.127 and 0.285). Pass: the field route, cut where the record cuts, gives the meeting count; one η. Fail: reported with the value.
 Reported, not scored: modes kept in the diamond and in each half against the Nyquist count (π/6)V_s; S/A for each N; 3η_f.
+
+## Scoring (2026-11-26), run 1 (t170_run1.log)
+- Modes kept: the cut keeps 193–205, 440–441 and 942–949 modes in the diamond against the Nyquist counts 304, 511 and 859: at the largest size the cut sits at the Nyquist count, as reasoned.
+- S1 FAIL: complement asymmetry 1.9, 1.2, 0.51, 0.30 for N ≥ 3000.
+- P1 PASS on the registered criterion (p = 1.07), void in substance: the entropies fluctuate around zero with both signs (−1.9 to +1.8), and the code fitted log|S|, which was not registered. No area law is shown.
+- P2 FAIL: η_f = −0.008 per cell area (S/A between −0.013 and +0.008), against η_m = 0.190.
+Diagnosis: with the record's own cut, the field's entanglement across the wall vanishes at these sizes (|S| ≤ 2 over 84–168 cell areas). Negative values mean the diamond's cut state, projected into each half's cut subspace, is not a state there (Σμ ln|μ| < 0 needs μ outside [0, 1]): the double truncation does not preserve positivity.
+Verdict as fixed in advance: fail. With t169: uncut, the field's entropy on the grain goes with volume; cut where the record cuts, it is zero within noise. Neither gives an area-law η at reachable sizes. The meeting count stays the only area law on the grain.
