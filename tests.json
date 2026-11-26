@@ -3048,5 +3048,16 @@
   ],
   "group": "grid",
   "timeout": 20000
+ },
+ {
+  "script": "scripts/current/t140_e6_chords_avg.py",
+  "sections": [
+   "267"
+  ],
+  "predictions": [
+   "PREDICTIONS_t140.md"
+  ],
+  "group": "grid",
+  "timeout": 20000
  }
 ]

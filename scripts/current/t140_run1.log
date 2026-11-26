@@ -1,0 +1,10 @@
+40000 {'n_locked': 0, 'kinds': [], 'kstar': ('A', 2, 2), 'focus_frac': 1.0, 'kstar_in_locked': False, 'C_med': 0.997}
+40001 {'n_locked': 0, 'kinds': [], 'kstar': ('B', 2, 2), 'focus_frac': 1.0, 'kstar_in_locked': False, 'C_med': 0.997}
+40002 {'n_locked': 0, 'kinds': [], 'kstar': ('B', 2, 1), 'focus_frac': 1.0, 'kstar_in_locked': False, 'C_med': 0.997}
+40003 {'n_locked': 0, 'kinds': [], 'kstar': ('A', 0, 1), 'focus_frac': 1.0, 'kstar_in_locked': False, 'C_med': 0.997}
+40004 {'n_locked': 0, 'kinds': [], 'kstar': ('C', 1, 1), 'focus_frac': 1.0, 'kstar_in_locked': False, 'C_med': 0.997}
+40005 {'n_locked': 0, 'kinds': [], 'kstar': ('B', 2, 2), 'focus_frac': 1.0, 'kstar_in_locked': False, 'C_med': 0.997}
+40006 {'n_locked': 0, 'kinds': [], 'kstar': ('A', 2, 0), 'focus_frac': 1.0, 'kstar_in_locked': False, 'C_med': 0.997}
+40007 {'n_locked': 0, 'kinds': [], 'kstar': ('B', 0, 0), 'focus_frac': 1.0, 'kstar_in_locked': False, 'C_med': 0.997}
+40008 {'n_locked': 0, 'kinds': [], 'kstar': ('A', 0, 0), 'focus_frac': 1.0, 'kstar_in_locked': False, 'C_med': 0.997}
+40009 {'n_locked': 0, 'kinds': [], 'kstar': ('A', 2, 1), 'focus_frac': 1.0, 'kstar_in_locked': False, 'C_med': 0.997}
