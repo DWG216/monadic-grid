@@ -3160,5 +3160,25 @@
   ],
   "group": "grid",
   "timeout": 120
+ },
+ {
+  "script": "scripts/current/t143_cross_chords.py",
+  "args": [
+   "rot",
+   "43000",
+   "43010",
+   "600",
+   "100",
+   "0.2",
+   "0"
+  ],
+  "sections": [
+   "274"
+  ],
+  "predictions": [
+   "PREDICTIONS_t143c.md"
+  ],
+  "group": "grid",
+  "timeout": 7200
  }
 ]
