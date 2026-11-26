@@ -10,7 +10,7 @@ OFF1 = [(1, 0), (0, 1), (-1, -1)]; OFF2 = [(-1, 0), (0, -1), (1, 1)]            
 PAIRS = [(d1, d2) for d1 in OFF1 for d2 in OFF2]
 def roll(X, L, d):
     G = X.reshape((L, L) + X.shape[1:]); return np.roll(np.roll(G, -d[0], 0), -d[1], 1).reshape(X.shape)
-def run(seed, rotate=True, L=12, T=600, r=2, eta=0.3, will=0.2, tau=20.0):
+def run(seed, rotate=True, L=12, T=600, r=2, eta=0.3, will=0.2, tau=20.0, release=0):
     rng = np.random.default_rng(seed); M = L*L; eps = 1/T; k = 1/tau
     xs, ys = np.meshgrid(np.arange(L), np.arange(L), indexing='ij'); lab = ((xs + ys) % 3).ravel()
     v = rng.normal(size=9); om = W @ v; om = 0.3*om/np.abs(om).max()
@@ -19,7 +19,9 @@ def run(seed, rotate=True, L=12, T=600, r=2, eta=0.3, will=0.2, tau=20.0):
     omm = om[tone]
     a = 10**rng.uniform(-2, 0, M); p = rng.uniform(0.5, 1.5, (M, 9)); p /= p.sum(1, keepdims=True); phi = rng.uniform(0, 2*np.pi, (M, 9))
     Pz = None; Eb = None
-    for t in range(T):
+    will0 = will
+    for t in range(T + release):
+        will = will0 if t < T else 0.0
         phi = phi + omm + eta*rng.standard_normal((M, 9))
         cf = np.zeros((M, 27), complex); pf = np.zeros((M, 27))
         np.put_along_axis(cf, tone, np.sqrt(p)*np.exp(1j*phi), 1); np.put_along_axis(pf, tone, p, 1)
@@ -51,4 +53,5 @@ if __name__ == '__main__':
     mode, s0, s1 = sys.argv[1], int(sys.argv[2]), int(sys.argv[3])
     kw = dict(T=int(sys.argv[4]), tau=float(sys.argv[5]), will=float(sys.argv[6])) if len(sys.argv) > 4 else {}
     if len(sys.argv) > 7: kw['eta'] = float(sys.argv[7])
+    if len(sys.argv) > 8: kw['release'] = int(sys.argv[8])
     for s in range(s0, s1): print(mode, s, *([kw] if kw else []), run(s, rotate=(mode == 'rot'), **kw), flush=True)
