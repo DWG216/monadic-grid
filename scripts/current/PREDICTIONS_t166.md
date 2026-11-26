@@ -12,3 +12,11 @@ S1 [M]: the integral converges (tightening tolerances changes a⁽⁴⁾ by less
 S2 [M]: a Monte Carlo sprinkling at ρ = 1 (transverse box with margins, 40 runs) counts molecules per unit area equal to a⁽⁴⁾ within 3 standard errors.
 P1 [M, the derivation test]: a⁽⁴⁾ ln 16 = 1/4 within 10%. Pass → the 1/4 is derived from the grain's density and the pair's 16 states; fail → reported with the value, and the coefficient the count gives in place of 1/4.
 Reported, not scored: a⁽⁴⁾ ln 2 (one bit per molecule, Dou–Sorkin's picture), for comparison.
+
+## Scoring (2026-11-26), run 1 (t166_run1.log)
+- S1 PASS: a⁽⁴⁾ = 0.1732050807, stable to 7e-10. Noticed after the run: this is √3/10 to 1e-11.
+- S2 PASS: a Monte Carlo sprinkling counts 0.180 ± 0.016 molecules per unit area (0.4 standard errors from the integral).
+- P1 FAIL: a⁽⁴⁾ ln 16 = 0.480, 1.92 times the 1/4. With the grain at one cell per Planck 4-volume and 16 states per straddling pair, the count gives S = 0.48 A/l_P², not A/4l_P².
+Reported: one bit per molecule gives 0.120 (half of 1/4). The 1/4 would need e^(1/4a⁽⁴⁾) = 4.23 states per molecule at this density, or, with 16 states, a cell 4-volume 1.92² = 3.69 l_P⁴.
+Post hoc (noted, not read): 4 states per molecule give 0.240, 4% below 1/4.
+Verdict as fixed in advance: the 1/4 is not derived. The count with the grid's two inputs overshoots by 1.92. Open: either a horizon molecule does not carry the whole pair's 16 states, or the grain's density is not one cell per l_P⁴.
