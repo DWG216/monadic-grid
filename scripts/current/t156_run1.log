@@ -1,0 +1,4 @@
+S1 {'min_eig_rel': -1.7609414976244954e-16, 'zero_eigs': 24, 'D0_equals': 2.7755575615628914e-16, 'pass_': True}
+P1 {'Gamma_fit': np.float64(0.0771621835901426), 'Gamma': np.float64(0.07708018238645636), 'a_dev': np.float64(0.001063842886036559), 'b_mean_resid_over_se': [0.24508046265857256, 0.983861600954273, -1.000980395615066], 'c_cov_rel_dev': 0.0015574224783942991, 'pass_': np.True_}
+P2 {'R0_bound_DP_A': 0.54, 'R0_bound_grid_A': 0.36870339415785974, 'pass_': True}
+P3 {'R0_proposal_A': 0.529177, 'signal_over_bound': 0.33824277382440465}

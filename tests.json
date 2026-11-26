@@ -3310,5 +3310,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t156_cq_record.py",
+  "sections": [
+   "292"
+  ],
+  "predictions": [
+   "PREDICTIONS_t156.md"
+  ],
+  "group": "grid",
+  "timeout": 1200
  }
 ]

@@ -11,3 +11,10 @@ P1 [M]: unravelling (Gaussian Kraus update of one mass in a two-site superpositi
 P2 [M, number]: the Gran Sasso radiation bound (Donadi et al., Nat. Phys. 17, 74 (2021): R₀ > 0.54 Å for the parameter-free rate, rate ∝ 1/R₀³) becomes R₀ > 0.54/π^(1/3) Å = 0.37 Å for the grid's rate, which is 1/π of Diósi–Penrose.
 P3 [I, proposal, not derived]: the record resolves mass at the atomic scale, R₀ = a₀ = 0.529 Å. Consequence: the grid's radiation signal is (0.37/0.529)³ = 0.34 of the present 95% bound; a threefold improvement in sensitivity would see it or exclude this proposal.
 Not built here: the full general-relativistic version (the Hamiltonian constraint in a covariant classical–quantum dynamics); stated as open.
+
+## Scoring (2026-11-26), run 1 (t156_run1.log)
+- S1 PASS: block matrix positive semidefinite (smallest eigenvalue −1.8e-16 relative), exactly 24 zero eigenvalues: the trade-off is saturated in every direction; D₀ = (πħG/4)K to 3e-16.
+- P1 PASS: (a) coherence decays at 0.07716 against E_G/(πħ) = 0.07708 (0.1%); (b) mean Φ residuals 0.25, 0.98, −1.00 standard errors; (c) Φ noise covariance equals (πħG/4)K to 0.16%.
+- P2 PASS: R₀ > 0.369 Å for the grid's rate.
+- P3 (proposal): with R₀ = a₀ the grid's radiation signal is 0.34 of the present bound.
+Verdict: the grid's weak-field gravity is an explicit classical–quantum dynamics in Oppenheim's form, completely positive, saturating his trade-off, with D₀, D₁, D₂ fixed; its one physical parameter is the mass resolution R₀, bounded below by Gran Sasso at 0.37 Å. Open: the covariant (full GR) version.
