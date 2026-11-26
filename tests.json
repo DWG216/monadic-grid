@@ -3026,5 +3026,27 @@
   ],
   "group": "grid",
   "timeout": 20000
+ },
+ {
+  "script": "scripts/current/t138_focus_in_chord.py",
+  "sections": [
+   "266"
+  ],
+  "predictions": [
+   "PREDICTIONS_t138_t139.md"
+  ],
+  "group": "grid",
+  "timeout": 20000
+ },
+ {
+  "script": "scripts/current/t139_e6_chords.py",
+  "sections": [
+   "266"
+  ],
+  "predictions": [
+   "PREDICTIONS_t138_t139.md"
+  ],
+  "group": "grid",
+  "timeout": 20000
  }
 ]

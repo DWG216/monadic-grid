@@ -1,0 +1,10 @@
+37000 {'tone_frac': 1.0, 'relations': 1, 'kstar': 21, 'chord': [21, 21, 18], 'in_chord': True, 'chord_monads': 490}
+37001 {'tone_frac': 1.0, 'relations': 1, 'kstar': 2, 'chord': [2, 2, 4], 'in_chord': True, 'chord_monads': 452}
+37002 {'tone_frac': 1.0, 'relations': 1, 'kstar': 21, 'chord': [21, 21, 18], 'in_chord': True, 'chord_monads': 436}
+37003 {'tone_frac': 1.0, 'relations': 1, 'kstar': 20, 'chord': [20, 20, 16], 'in_chord': True, 'chord_monads': 438}
+37004 {'tone_frac': 1.0, 'relations': 1, 'kstar': 20, 'chord': [20, 20, 16], 'in_chord': True, 'chord_monads': 469}
+37005 {'tone_frac': 1.0, 'relations': 1, 'kstar': 2, 'chord': [2, 2, 4], 'in_chord': True, 'chord_monads': 467}
+37006 {'tone_frac': 1.0, 'relations': 1, 'kstar': 20, 'chord': [20, 20, 16], 'in_chord': True, 'chord_monads': 471}
+37007 {'tone_frac': 1.0, 'relations': 1, 'kstar': 8, 'chord': [8, 8, 16], 'in_chord': True, 'chord_monads': 471}
+37008 {'tone_frac': 1.0, 'relations': 1, 'kstar': 3, 'chord': [3, 3, 6], 'in_chord': True, 'chord_monads': 450}
+37009 {'tone_frac': 1.0, 'relations': 1, 'kstar': 7, 'chord': [7, 7, 14], 'in_chord': True, 'chord_monads': 462}

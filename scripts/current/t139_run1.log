@@ -1,0 +1,10 @@
+39000 {'n_locked': 1, 'kinds': ['non-cubic'], 'all_cubic': False, 'any_cubic': False, 'kstar': ('B', 0, 2), 'focus_frac': 0.06944444444444445, 'kstar_in_locked': False, 'C_med': 0.0420990440219899}
+39001 {'n_locked': 0, 'kinds': [], 'all_cubic': True, 'any_cubic': False, 'kstar': ('A', 2, 2), 'focus_frac': 0.10416666666666667, 'kstar_in_locked': False, 'C_med': 0.047118199410939504}
+39002 {'n_locked': 0, 'kinds': [], 'all_cubic': True, 'any_cubic': False, 'kstar': ('A', 0, 1), 'focus_frac': 0.0763888888888889, 'kstar_in_locked': False, 'C_med': 0.040089673607873466}
+39003 {'n_locked': 0, 'kinds': [], 'all_cubic': True, 'any_cubic': False, 'kstar': ('C', 1, 2), 'focus_frac': 0.09027777777777778, 'kstar_in_locked': False, 'C_med': 0.04531830447886631}
+39004 {'n_locked': 0, 'kinds': [], 'all_cubic': True, 'any_cubic': False, 'kstar': ('A', 2, 1), 'focus_frac': 0.08333333333333333, 'kstar_in_locked': False, 'C_med': 0.041532701805106494}
+39005 {'n_locked': 0, 'kinds': [], 'all_cubic': True, 'any_cubic': False, 'kstar': ('A', 1, 2), 'focus_frac': 0.06944444444444445, 'kstar_in_locked': False, 'C_med': 0.04296267071789675}
+39006 {'n_locked': 2, 'kinds': ['non-cubic', 'non-cubic'], 'all_cubic': False, 'any_cubic': False, 'kstar': ('A', 2, 2), 'focus_frac': 0.0763888888888889, 'kstar_in_locked': False, 'C_med': 0.04202532640282543}
+39007 {'n_locked': 0, 'kinds': [], 'all_cubic': True, 'any_cubic': False, 'kstar': ('C', 1, 1), 'focus_frac': 0.08333333333333333, 'kstar_in_locked': False, 'C_med': 0.04539340599417781}
+39008 {'n_locked': 0, 'kinds': [], 'all_cubic': True, 'any_cubic': False, 'kstar': ('C', 1, 1), 'focus_frac': 0.08333333333333333, 'kstar_in_locked': False, 'C_med': 0.046781433081728385}
+39009 {'n_locked': 1, 'kinds': ['non-cubic'], 'all_cubic': False, 'any_cubic': False, 'kstar': ('A', 2, 1), 'focus_frac': 0.06944444444444445, 'kstar_in_locked': False, 'C_med': 0.04209498279851516}
