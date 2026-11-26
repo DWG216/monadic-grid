@@ -1,0 +1,8 @@
+kept textures: 5
+11o 12o 13o 22o 23o 33o          q=(0, 0, 0) hc=1 ho=0 | lepton-consistent   663 | best (s/mu, d/e, b/tau) = [0.667 0.667 0.667] | worst/tol 18.86
+11c 12c 22c 33o                  q=(0, 0, 1) hc=0 ho=1 | lepton-consistent   723 | best (s/mu, d/e, b/tau) = [0.667 1.    1.   ] | worst/tol 18.86
+11c 22o 23o 33o                  q=(0, 1, 0) hc=1 ho=0 | lepton-consistent  1600 | best (s/mu, d/e, b/tau) = [0.667 1.    0.667] | worst/tol 18.86
+11o 12c 13o 23c 33o              q=(0, 1, 0) hc=2 ho=0 | lepton-consistent  1221 | best (s/mu, d/e, b/tau) = [0.667 1.499 0.667] | worst/tol 18.86
+11c 12o 23c 33o                  q=(0, 1, 2) hc=0 ho=2 | lepton-consistent  1182 | best (s/mu, d/e, b/tau) = [0.667 0.445 1.   ] | worst/tol 18.86
+points within tolerance: 0
+P1 pass: False

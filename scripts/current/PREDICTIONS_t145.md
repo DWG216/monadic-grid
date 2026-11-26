@@ -8,3 +8,8 @@ P1 [M] At least one kept texture, at some lepton-consistent sizes, gives s/μ an
 Reported: kept textures (distinct up to relabelling of generations), the best point of each.
 
 Consequence fixed now: if P1 passes, the surviving textures are the candidates whose sizes the grain step must then fix (t146, registered separately). If P1 fails, no Z₃ texture with one part per entry carries the light generations, at any sizes: the down/lepton split needs entries that mix the cubic and the 351′, i.e. light Higgs directions that are mixtures of the two, and the mixing angle becomes the quantity to derive.
+
+### Scored (2026-11-25, t145_z3_textures.py, t145_run1.log)
+Kept textures: 5 (up to relabelling). Lepton-consistent points: 663 to 1600 per texture. Points within tolerance: 0. **P1 FAIL.**
+Read off the log (labelled): in every texture s/μ never falls below 2/3 (data 0.231), and d/e stays at most about 1.5 (data 2.44). With one part per entry the only quark-to-lepton factors are 1 and 2/3, so the ratios stay near [2/3, 3/2]; the data asks for about 1/4 and about 2.4, the same pattern as a Clebsch of 3 on the second generation (Georgi–Jarlskog).
+Consequence (as fixed): no Z₃ texture with one part per entry carries the light generations at any sizes. The down/lepton split needs entries mixing the cubic and the 351′ (light Higgs directions that mix the two), and the mixing becomes the quantity to derive; or a part with Clebsch near 3 on the 2-2 entry.

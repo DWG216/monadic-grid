@@ -3103,5 +3103,16 @@
   ],
   "group": "grid",
   "timeout": 600
+ },
+ {
+  "script": "scripts/current/t145_z3_textures.py",
+  "sections": [
+   "273"
+  ],
+  "predictions": [
+   "PREDICTIONS_t145.md"
+  ],
+  "group": "grid",
+  "timeout": 1200
  }
 ]
