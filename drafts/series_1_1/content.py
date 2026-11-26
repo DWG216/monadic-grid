@@ -140,5 +140,5 @@ post(title="What stands",
  left=("What holds", "The forces meet at the cut; hypercharge is forced; flavour follows S₄; the leptons are one chord; bar{θ} = 0; m_{b}/m_{τ} = 2/3; the Higgs is born at gravity's meeting."),
  right=("What it rests on", "Two things: the record |O + R|² and the cut of E6. Everything in this series follows from them."),
  f1=("Foundations: the record", "Every computation is in the repository with its registration and its log."),
- f2=("Foundations: closing", "Particles are what minds look like from inside the record."))
+ f2=("Foundations: closing", "Everything here is one line, heard at every scale."))
 assert len(P) == 20
