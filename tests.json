@@ -3398,5 +3398,16 @@
   ],
   "group": "grid",
   "timeout": 3600
+ },
+ {
+  "script": "scripts/current/t164_horizon_decoherence.py",
+  "sections": [
+   "305"
+  ],
+  "predictions": [
+   "PREDICTIONS_t164.md"
+  ],
+  "group": "grid",
+  "timeout": 120
  }
 ]

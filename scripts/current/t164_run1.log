@@ -1,0 +1,3 @@
+S1 {'T_D_s': 2.1474214524309047e-05, 'paper_s': 1e-05, 'pass_': True}
+P1 {'T_grid_s': 0.011624648510898979, 'T_grid_fast_s': 0.010533389371963554, 'M_star_kg': 2.91492286552451e+21, 'pass_': True}
+P2 {'ratio_at_1Msun_6rg': 1.4789423310212783e+44, 'ratio_grows_with_M': True, 'pass_': True}
