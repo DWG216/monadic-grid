@@ -13,3 +13,10 @@ S2 [convergence]: S(n) changes by less than 1e-6 between the base settings and d
 P1 [M]: fit S(n) = c₂R² + c_log ln R + c₀ + c₋₂/R² over all radii: c_log = −0.01111 within 10%.
 P2 [M]: the same within 15% when the 1/R² term is dropped or when the three smallest radii are removed (stability of the fit).
 Consequence fixed in advance: P1 and P2 pass → the record's lattice carries the anomaly log term, and t152's field part is computed here, not only cited.
+
+## Scoring (2026-11-26), run 1 (t153_run1.log)
+- S1 PASS: c₂ = 0.29543 (t27: 0.295).
+- S2 PASS: S(20) changes by 8e-11 when the exact-l cutoff is doubled (4000 to 8000). The perturbative tail matches the exact partial waves to 5e-8 or better (r-fit residuals).
+- P1 PASS: c_log = −0.010850, against −1/90 = −0.011111: 2.3% off.
+- P2 PASS: −0.010565 without the 1/R² term (4.9% off); −0.010918 without the three smallest radii (1.7% off).
+Verdict as fixed in advance: the record's lattice carries the anomaly log term; t152's field part is now computed here, not only cited.

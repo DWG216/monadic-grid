@@ -3277,5 +3277,16 @@
   ],
   "group": "grid",
   "timeout": 120
+ },
+ {
+  "script": "scripts/current/t153_log_term.py",
+  "sections": [
+   "289"
+  ],
+  "predictions": [
+   "PREDICTIONS_t153.md"
+  ],
+  "group": "grid",
+  "timeout": 600
  }
 ]
