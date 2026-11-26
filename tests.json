@@ -1,3457 +1,3468 @@
 [
- {
-  "script": "scripts/current/alpoge_G.py",
-  "sections": [
-   "37"
-  ],
-  "predictions": [
-   "PREDICTIONS_alpoge_G.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/aurora.py",
-  "sections": [
-   "42"
-  ],
-  "predictions": [
-   "PREDICTIONS_aurora.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/dolls.py",
-  "sections": [
-   "31"
-  ],
-  "predictions": [
-   "PREDICTIONS_dolls.md"
-  ],
-  "group": "superseded",
-  "timeout": 1200,
-  "note": "superseded by dolls2.py (direct loop needs about 1e11 steps)"
- },
- {
-  "script": "scripts/current/dolls2.py",
-  "sections": [
-   "31"
-  ],
-  "predictions": [],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/downtree.py",
-  "sections": [
-   "35"
-  ],
-  "predictions": [
-   "PREDICTIONS_downtree.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/green_rodin.py",
-  "sections": [
-   "47"
-  ],
-  "predictions": [
-   "PREDICTIONS_green_rodin71.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/kabbalah.py",
-  "sections": [
-   "34"
-  ],
-  "predictions": [
-   "PREDICTIONS_kabbalah.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/mill216.py",
-  "sections": [
-   "48"
-  ],
-  "predictions": [
-   "PREDICTIONS_mill216.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/mirror_pair.py",
-  "sections": [
-   "29"
-  ],
-  "predictions": [
-   "PREDICTIONS_mirror_pair.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/resonance.py",
-  "sections": [
-   "43"
-  ],
-  "predictions": [
-   "PREDICTIONS_resonance.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/resonance_r1b.py",
-  "sections": [
-   "43"
-  ],
-  "predictions": [
-   "PREDICTIONS_resonance.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/susy.py",
-  "sections": [
-   "28"
-  ],
-  "predictions": [
-   "PREDICTIONS_susy.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/wolfram_inv.py",
-  "sections": [
-   "30"
-  ],
-  "predictions": [
-   "PREDICTIONS_wolfram.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/yinyang.py",
-  "sections": [
-   "32"
-  ],
-  "predictions": [
-   "PREDICTIONS_yinyang.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/early/ade_ladder.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_ade_ladder.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/aether_unlock.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [
-   "PREDICTIONS_aether_unlock.md",
-   "PREDICTIONS_fibonacci_aether.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/arena.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_replicator_arena.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/arena2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/arena3.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/astronomy.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_astronomy.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/bh.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "V1"
-  ]
- },
- {
-  "script": "scripts/early/bh.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "V2"
-  ]
- },
- {
-  "script": "scripts/early/bh_edge.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "well"
-  ]
- },
- {
-  "script": "scripts/early/bh_pde.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "well"
-  ]
- },
- {
-  "script": "scripts/early/bigcode.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [
-   "PREDICTIONS_bigcode.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/bigrun.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/bigrun2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/bigrun3.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/boundary.py",
-  "sections": [
-   "9",
-   "10",
-   "11",
-   "14",
-   "15",
-   "23",
-   "31",
-   "48"
-  ],
-  "predictions": [
-   "PREDICTIONS_boundary.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/bridge1.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null
- },
- {
-  "script": "scripts/early/causet.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_causet_variety.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/causet_variety.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_causet_variety.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/chiral_curv.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/coexist.py",
-  "sections": [
-   "14"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/cycles.py",
-  "sections": [
-   "13",
-   "14",
-   "16",
-   "44"
-  ],
-  "predictions": [
-   "PREDICTIONS_cycles.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/cycles2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "50"
-  ]
- },
- {
-  "script": "scripts/early/da5.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/da5_race.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/dm11.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/docking_budget.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_docking_steer.md",
-   "PREDICTIONS_docking_budget.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/docking_steer.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_docking_steer.md",
-   "PREDICTIONS_docking_budget.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/e8.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [
-   "PREDICTIONS_e8.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/e8b.py",
-  "sections": [],
-  "predictions": [],
-  "group": "broken",
-  "timeout": 60,
-  "note": "execs a part of e8.py that no longer defines toq; kept for the record"
- },
- {
-  "script": "scripts/early/ff2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/fib_aether.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_fibonacci_aether.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/frozen_fluid.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_frozen_fluid.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/fullrel.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/golden_23.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_golden_walk.md",
-   "PREDICTIONS_golden.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/golden_3.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_golden_walk.md",
-   "PREDICTIONS_golden.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/golden_3b.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_golden_walk.md",
-   "PREDICTIONS_golden.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/golden_janus.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_golden_walk.md",
-   "PREDICTIONS_golden.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/golden_strike.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [
-   "PREDICTIONS_golden_walk.md",
-   "PREDICTIONS_golden.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/golden_walk.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_golden_walk.md",
-   "PREDICTIONS_golden.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/golden_walk2.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_golden_walk.md",
-   "PREDICTIONS_golden.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/happy.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/holenmer.py",
-  "sections": [],
-  "predictions": [],
-  "group": "broken",
-  "timeout": 60,
-  "note": "singular matrix; superseded by holenmer2.py"
- },
- {
-  "script": "scripts/early/holenmer2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/holo.py",
-  "sections": [
-   "18"
-  ],
-  "predictions": [
-   "PREDICTIONS_holo_dim.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/holo_dim.py",
-  "sections": [
-   "22"
-  ],
-  "predictions": [
-   "PREDICTIONS_holo_dim.md"
-  ],
-  "group": "heavy",
-  "timeout": null
- },
- {
-  "script": "scripts/early/holo_dim_d3.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_holo_dim.md"
-  ],
-  "group": "heavy",
-  "timeout": null
- },
- {
-  "script": "scripts/early/hw.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/icosa_code.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [
-   "PREDICTIONS_icosa_code.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/icosa_code2.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_icosa_code.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/icosians.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/janus.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/jones_fix.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/leibniz2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/level8.py",
-  "sections": [
-   "3"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/lightcut.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [
-   "PREDICTIONS_lightcut.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/lightcut2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/mckay_galois.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_mckay_galois.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/music.py",
-  "sections": [
-   "13",
-   "19",
-   "23",
-   "24",
-   "26",
-   "36",
-   "39",
-   "41"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/nearmiss.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_nearmiss.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/pisano.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/potential.py",
-  "sections": [
-   "14",
-   "40",
-   "42"
-  ],
-  "predictions": [
-   "PREDICTIONS_potential.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/push.py",
-  "sections": [
-   "8",
-   "32"
-  ],
-  "predictions": [
-   "PREDICTIONS_push.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/q2_strong.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/quat_redo.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [
-   "PREDICTIONS_quaternion.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/radiation.py",
-  "sections": [
-   "2",
-   "8"
-  ],
-  "predictions": [
-   "PREDICTIONS_radiation.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/radiation2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/ratchet.py",
-  "sections": [
-   "14"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/reality.py",
-  "sections": [
-   "1",
-   "2",
-   "39",
-   "43"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/replicator.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_replicator_arena.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/rh59.py",
-  "sections": [
-   "18"
-  ],
-  "predictions": [
-   "PREDICTIONS_rh59.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/rh_holo.py",
-  "sections": [
-   "18"
-  ],
-  "predictions": [
-   "PREDICTIONS_rh59.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/rodin.py",
-  "sections": [
-   "47"
-  ],
-  "predictions": [
-   "PREDICTIONS_rodin.md",
-   "PREDICTIONS_rodin2.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/rodin2.py",
-  "sections": [
-   "17"
-  ],
-  "predictions": [
-   "PREDICTIONS_rodin2.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/shadows.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/shared.py",
-  "sections": [
-   "9",
-   "14",
-   "17",
-   "23",
-   "25",
-   "36",
-   "37",
-   "39",
-   "43"
-  ],
-  "predictions": [
-   "PREDICTIONS_shared.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/step1.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/step12.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/step2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/step3.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/step3a.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/t60b_m3.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null
- },
- {
-  "script": "scripts/early/t60b_mitm.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "m3"
-  ]
- },
- {
-  "script": "scripts/early/taper_size.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_taperwidth.md"
-  ],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "40"
-  ]
- },
- {
-  "script": "scripts/early/taper_size.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_taperwidth.md"
-  ],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "80"
-  ]
- },
- {
-  "script": "scripts/early/taper_size.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_taperwidth.md"
-  ],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "120"
-  ]
- },
- {
-  "script": "scripts/early/taperwidth.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_taperwidth.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/taperwidth2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "0.0"
-  ]
- },
- {
-  "script": "scripts/early/taperwidth2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "0.1"
-  ]
- },
- {
-  "script": "scripts/early/taperwidth2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "heavy",
-  "timeout": null,
-  "args": [
-   "0.2"
-  ]
- },
- {
-  "script": "scripts/early/tau60.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [
-   "PREDICTIONS_tau60_braid.md",
-   "PREDICTIONS_tau60.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/tau60_braid.py",
-  "sections": [
-   "15"
-  ],
-  "predictions": [
-   "PREDICTIONS_tau60_braid.md",
-   "PREDICTIONS_tau60.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/taubnut.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [
-   "PREDICTIONS_taubnut.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/time_dim.py",
-  "sections": [
-   "23"
-  ],
-  "predictions": [
-   "PREDICTIONS_time_dim.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/undermine.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_undermine.md"
-  ],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/undermine2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/undermine3.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/weyl_shape.py",
-  "sections": [
-   "8"
-  ],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/early/wieferich_rungs.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/indep/czcheck.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/indep/run.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/catalogue/catalogue.py",
-  "sections": [],
-  "predictions": [],
-  "group": "early",
-  "timeout": 60
- },
- {
-  "script": "scripts/current/mill91_233.py",
-  "sections": [
-   "50"
-  ],
-  "predictions": [
-   "PREDICTIONS_mill91_233.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/mill104_125.py",
-  "sections": [
-   "51"
-  ],
-  "predictions": [
-   "PREDICTIONS_mill104_125.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/mill122.py",
-  "sections": [
-   "52"
-  ],
-  "predictions": [
-   "PREDICTIONS_mill122.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/mill38_57.py",
-  "sections": [
-   "53"
-  ],
-  "predictions": [
-   "PREDICTIONS_mill38_57.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/cs_square_root.py",
-  "sections": [
-   "55"
-  ],
-  "predictions": [
-   "PREDICTIONS_cs_square_root.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/qc_frozen_fluid.py",
-  "sections": [
-   "57"
-  ],
-  "predictions": [
-   "PREDICTIONS_qc_frozen_fluid.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/tightened.py",
-  "sections": [
-   "58"
-  ],
-  "predictions": [
-   "PREDICTIONS_tightened.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/mirror_pair2.py",
-  "sections": [
-   "59"
-  ],
-  "predictions": [
-   "PREDICTIONS_round_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/golden_artin.py",
-  "sections": [
-   "59"
-  ],
-  "predictions": [
-   "PREDICTIONS_round_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/zero_gated.py",
-  "sections": [
-   "59"
-  ],
-  "predictions": [
-   "PREDICTIONS_round_2026-11-22.md"
-  ],
-  "group": "heavy",
-  "timeout": 1800,
-  "args": [
-   "0.003"
-  ]
- },
- {
-  "script": "scripts/current/t1_four_solutions.py",
-  "sections": [
-   "60"
-  ],
-  "predictions": [
-   "PREDICTIONS_round2_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t2_golden_artin.py",
-  "sections": [
-   "60"
-  ],
-  "predictions": [
-   "PREDICTIONS_round2_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t3_jacobi.py",
-  "sections": [
-   "60"
-  ],
-  "predictions": [
-   "PREDICTIONS_round2_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t5_queen.py",
-  "sections": [
-   "60"
-  ],
-  "predictions": [
-   "PREDICTIONS_round2_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t4_tail.py",
-  "sections": [
-   "60"
-  ],
-  "predictions": [
-   "PREDICTIONS_round2_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t4_weil.py",
-  "sections": [
-   "60"
-  ],
-  "predictions": [
-   "PREDICTIONS_round2_2026-11-22.md"
-  ],
-  "group": "heavy",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t4_weil_posthoc.py",
-  "sections": [
-   "60"
-  ],
-  "predictions": [
-   "PREDICTIONS_round2_2026-11-22.md"
-  ],
-  "group": "heavy",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t4_debug.py",
-  "sections": [
-   "60"
-  ],
-  "predictions": [
-   "PREDICTIONS_round2_2026-11-22.md"
-  ],
-  "group": "heavy",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t6_weighted_operator.py",
-  "sections": [
-   "61"
-  ],
-  "predictions": [
-   "PREDICTIONS_round3_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t7_two_worlds.py",
-  "sections": [
-   "61"
-  ],
-  "predictions": [
-   "PREDICTIONS_round3_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t8_sanity.py",
-  "sections": [
-   "62"
-  ],
-  "predictions": [
-   "PREDICTIONS_round4_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t8_mobius.py",
-  "sections": [
-   "62"
-  ],
-  "predictions": [
-   "PREDICTIONS_round4_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t9_make_vs_join.py",
-  "sections": [
-   "62"
-  ],
-  "predictions": [
-   "PREDICTIONS_round4_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 1800,
-  "args": [
-   "full"
-  ]
- },
- {
-  "script": "scripts/current/t10_sanity.py",
-  "sections": [
-   "63"
-  ],
-  "predictions": [
-   "PREDICTIONS_round5_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t10_operator.py",
-  "sections": [
-   "63"
-  ],
-  "predictions": [
-   "PREDICTIONS_round5_2026-11-22.md"
-  ],
-  "group": "heavy",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t10_posthoc.py",
-  "sections": [
-   "63"
-  ],
-  "predictions": [
-   "PREDICTIONS_round5_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t11_sanity.py",
-  "sections": [
-   "64"
-  ],
-  "predictions": [
-   "PREDICTIONS_round6_2026-11-22.md"
-  ],
-  "group": "quick",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t11_sanity2.py",
-  "sections": [
-   "64"
-  ],
-  "predictions": [
-   "PREDICTIONS_round6_2026-11-22.md"
-  ],
-  "group": "heavy",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/t11_controls.py",
-  "sections": [
-   "64"
-  ],
-  "predictions": [
-   "PREDICTIONS_round6_2026-11-22.md"
-  ],
-  "group": "heavy",
-  "timeout": 3600
- },
- {
-  "script": "scripts/current/t11_liouville.py",
-  "sections": [
-   "64"
-  ],
-  "predictions": [
-   "PREDICTIONS_round6_2026-11-22.md"
-  ],
-  "group": "heavy",
-  "timeout": 3600
- },
- {
-  "script": "scripts/current/polymorphisms.py",
-  "sections": [
-   "67"
-  ],
-  "predictions": [
-   "PREDICTIONS_polymorphisms.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/ledger.py",
-  "sections": [
-   "68"
-  ],
-  "predictions": [
-   "PREDICTIONS_ledger.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/bands.py",
-  "sections": [
-   "69"
-  ],
-  "predictions": [
-   "PREDICTIONS_bands.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/t12_sanity.py",
-  "sections": [
-   "70"
-  ],
-  "predictions": [
-   "PREDICTIONS_step3.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/t12_step3.py",
-  "sections": [
-   "70"
-  ],
-  "predictions": [
-   "PREDICTIONS_step3.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t13_sanity.py",
-  "sections": [
-   "71"
-  ],
-  "predictions": [
-   "PREDICTIONS_step4.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/t13_step4.py",
-  "sections": [
-   "71"
-  ],
-  "predictions": [
-   "PREDICTIONS_step4.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t14_sanity.py",
-  "sections": [
-   "73"
-  ],
-  "predictions": [
-   "PREDICTIONS_step5.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/t14_step5.py",
-  "sections": [
-   "73"
-  ],
-  "predictions": [
-   "PREDICTIONS_step5.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/operator_limit.py",
-  "sections": [
-   "74"
-  ],
-  "predictions": [
-   "PREDICTIONS_operator_limit.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t15_sanity.py",
-  "sections": [
-   "75"
-  ],
-  "predictions": [
-   "PREDICTIONS_operator.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t15_operator.py",
-  "sections": [
-   "75"
-  ],
-  "predictions": [
-   "PREDICTIONS_operator.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/twistor.py",
-  "sections": [
-   "76"
-  ],
-  "predictions": [
-   "PREDICTIONS_twistor.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/twistor_posthoc.py",
-  "sections": [
-   "76"
-  ],
-  "predictions": [
-   "PREDICTIONS_twistor.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/t16_sanity.py",
-  "sections": [
-   "77"
-  ],
-  "predictions": [
-   "PREDICTIONS_operator2.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t16_operator2.py",
-  "sections": [
-   "77"
-  ],
-  "predictions": [
-   "PREDICTIONS_operator2.md"
-  ],
-  "group": "quick",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/twistor_pairing.py",
-  "sections": [
-   "78"
-  ],
-  "predictions": [
-   "PREDICTIONS_twistor_pairing.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/split.py",
-  "sections": [
-   "79"
-  ],
-  "predictions": [
-   "PREDICTIONS_split.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/split_posthoc.py",
-  "sections": [
-   "79"
-  ],
-  "predictions": [
-   "PREDICTIONS_split.md"
-  ],
-  "group": "heavy",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/g_sanity.py",
-  "sections": [
-   "80"
-  ],
-  "predictions": [
-   "PREDICTIONS_paths236.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/paths236.py",
-  "sections": [
-   "80"
-  ],
-  "predictions": [
-   "PREDICTIONS_paths236.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/paths236_posthoc.py",
-  "sections": [
-   "80"
-  ],
-  "predictions": [
-   "PREDICTIONS_paths236.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/cone_sanity.py",
-  "sections": [
-   "81"
-  ],
-  "predictions": [
-   "PREDICTIONS_cone.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/cone_run.py",
-  "sections": [
-   "81"
-  ],
-  "predictions": [
-   "PREDICTIONS_cone.md"
-  ],
-  "group": "quick",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/pf_sanity.py",
-  "sections": [
-   "83"
-  ],
-  "predictions": [
-   "PREDICTIONS_pastfuture.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/pf_run.py",
-  "sections": [
-   "83"
-  ],
-  "predictions": [
-   "PREDICTIONS_pastfuture.md"
-  ],
-  "group": "quick",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/kerr_sanity.py",
-  "sections": [
-   "84"
-  ],
-  "predictions": [
-   "PREDICTIONS_kerr.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/kerr_run.py",
-  "sections": [
-   "84"
-  ],
-  "predictions": [
-   "PREDICTIONS_kerr.md"
-  ],
-  "group": "quick",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/kerr_posthoc.py",
-  "sections": [
-   "84"
-  ],
-  "predictions": [
-   "PREDICTIONS_kerr.md"
-  ],
-  "group": "quick",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/o4_sanity.py",
-  "sections": [
-   "85"
-  ],
-  "predictions": [
-   "PREDICTIONS_order4.md"
-  ],
-  "group": "quick",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/o4_run.py",
-  "sections": [
-   "85"
-  ],
-  "predictions": [
-   "PREDICTIONS_order4.md"
-  ],
-  "group": "quick",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/branching.py",
-  "sections": [
-   "87"
-  ],
-  "predictions": [
-   "PREDICTIONS_branching.md"
-  ],
-  "group": "quick",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t17_ideal_synthesis.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t18_class_field_synthesis.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t19_action_vs_loss.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t19_posthoc.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t20_holo_hands.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t21_nonlinear_hands.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t22_interaction_term.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t22_interaction_term_v2.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t23_checklist_kerr.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t24_P1_P4.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t25_quantum_monads.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t26_records_darwinism.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t27_area_law_G.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t28_toric_fermion.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t29_equation_of_state.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t30_eta_over_s.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t31_content_route.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t32_hands_energy.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t33_gravity_entanglement.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t34_smith_apollonian.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t35_swing_rafer.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t36_cayley_aether.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t37_packing_lambda.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t38_inputs.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t39_masses_as_chord.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t40_balance_neutrinos.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t41_neutrino_observables.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t42_millington_speculative.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t43_posthoc.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t43_rodin_coil.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t44_sequence_shift.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t45_coil_sweep.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t46_order_null.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t47_meeting_source.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t47.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t47_posthoc.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t47.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t48_winding_hands.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t48.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t49_peec.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t49.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t49_posthoc.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t49.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t50_metatron_time.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t51_digit_cycle.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t52_cycle216.py",
-  "sections": [],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t53_generate.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t53.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t54_primes.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t54.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t55_open1to4.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t55.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t56_generation.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t56.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t57_googly.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t57.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t58_googly2.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t58.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t58_posthoc.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t58.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t58_posthoc2.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t58.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t59_hensel.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t59.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t60_generations.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t60.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t61_googly_explicit.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t61.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t61b_googly.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t61b.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t62_chirality.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t62.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t63_seed.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t63.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t64_zprime.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t64.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t65_zprime_scale.py",
-  "sections": [],
-  "predictions": [
-   "PREDICTIONS_t65.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t66_sm_cut.py",
-  "sections": [
-   "159"
-  ],
-  "predictions": [
-   "PREDICTIONS_t66.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t68_proton.py",
-  "sections": [
-   "161"
-  ],
-  "predictions": [
-   "PREDICTIONS_t68.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t69_mirror.py",
-  "sections": [
-   "162"
-  ],
-  "predictions": [
-   "PREDICTIONS_t69.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t67_couplings.py",
-  "sections": [
-   "166"
-  ],
-  "predictions": [
-   "PREDICTIONS_t67.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t70_twoloop.py",
-  "sections": [
-   "168"
-  ],
-  "predictions": [
-   "PREDICTIONS_t70.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t71_consistency.py",
-  "sections": [
-   "170"
-  ],
-  "predictions": [
-   "PREDICTIONS_t71.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t72_everpresent.py",
-  "sections": [
-   "171"
-  ],
-  "predictions": [
-   "PREDICTIONS_t72.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t73_slice_reading.py",
-  "sections": [
-   "180"
-  ],
-  "predictions": [
-   "PREDICTIONS_t73.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t74_lowdegree_root.py",
-  "sections": [
-   "181"
-  ],
-  "predictions": [
-   "PREDICTIONS_t74.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t75_polymorphism_shortcut.py",
-  "sections": [
-   "182"
-  ],
-  "predictions": [
-   "PREDICTIONS_t75.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t76_polymorphism_invisible.py",
-  "sections": [
-   "184"
-  ],
-  "predictions": [
-   "PREDICTIONS_t76.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t77_doll_mismatch.py",
-  "sections": [
-   "185"
-  ],
-  "predictions": [
-   "PREDICTIONS_t77.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t78_mixed_dolls.py",
-  "sections": [
-   "186"
-  ],
-  "predictions": [
-   "PREDICTIONS_t78.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t79_balanced_record.py",
-  "sections": [
-   "187"
-  ],
-  "predictions": [
-   "PREDICTIONS_t79.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t80_support_and_width.py",
-  "sections": [
-   "188"
-  ],
-  "predictions": [
-   "PREDICTIONS_t80.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t81_sos_balanced.py",
-  "sections": [
-   "189"
-  ],
-  "predictions": [
-   "PREDICTIONS_t81.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t82_sos_scale.py",
-  "sections": [
-   "190"
-  ],
-  "predictions": [
-   "PREDICTIONS_t82.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t83_schoenebeck.py",
-  "sections": [
-   "191"
-  ],
-  "predictions": [
-   "PREDICTIONS_t83.md"
-  ],
-  "group": "grid",
-  "timeout": 900,
-  "note": "below regime; kept, not in default run"
- },
- {
-  "script": "scripts/current/t84_schoenebeck_scale.py",
-  "sections": [
-   "191"
-  ],
-  "predictions": [
-   "PREDICTIONS_t84.md"
-  ],
-  "group": "grid",
-  "timeout": 3600
- },
- {
-  "script": "scripts/current/t85_e6_scale.py",
-  "sections": [
-   "192"
-  ],
-  "predictions": [
-   "PREDICTIONS_t85.md"
-  ],
-  "group": "grid",
-  "timeout": 60
- },
- {
-  "script": "scripts/current/t86_everpresent_distances.py",
-  "sections": [
-   "193"
-  ],
-  "predictions": [
-   "PREDICTIONS_t86.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t87_constant_lambda.py",
-  "sections": [
-   "195"
-  ],
-  "predictions": [
-   "PREDICTIONS_t87.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t88_f2_doll.py",
-  "sections": [
-   "196"
-  ],
-  "predictions": [
-   "PREDICTIONS_t88.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t89_dirac_cut.py",
-  "sections": [
-   "198"
-  ],
-  "predictions": [
-   "PREDICTIONS_t89.md"
-  ],
-  "group": "grid",
-  "timeout": 60
- },
- {
-  "script": "scripts/current/t90_leptogenesis.py",
-  "sections": [
-   "200"
-  ],
-  "predictions": [
-   "PREDICTIONS_t90.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t91_hypercharge.py",
-  "sections": [
-   "201"
-  ],
-  "predictions": [
-   "PREDICTIONS_t91.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t92_degenerate_pair.py",
-  "sections": [
-   "202"
-  ],
-  "predictions": [
-   "PREDICTIONS_t92.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t93_dark_matter.py",
-  "sections": [
-   "203"
-  ],
-  "predictions": [
-   "PREDICTIONS_t93.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t94_singlet.py",
-  "sections": [
-   "204"
-  ],
-  "predictions": [
-   "PREDICTIONS_t94.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t95_nonthermal.py",
-  "sections": [
-   "205"
-  ],
-  "predictions": [
-   "PREDICTIONS_t95.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t96_flavour.py",
-  "sections": [
-   "207"
-  ],
-  "predictions": [
-   "PREDICTIONS_t96.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t97_tm1.py",
-  "sections": [
-   "208"
-  ],
-  "predictions": [
-   "PREDICTIONS_t97.md"
-  ],
-  "group": "grid",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/t98_koide_phase.py",
-  "sections": [
-   "209"
-  ],
-  "predictions": [
-   "PREDICTIONS_t98.md"
-  ],
-  "group": "grid",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/t99_quark_chords.py",
-  "sections": [
-   "210"
-  ],
-  "predictions": [
-   "PREDICTIONS_t99.md"
-  ],
-  "group": "grid",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/t100_higgs.py",
-  "sections": [
-   "211"
-  ],
-  "predictions": [
-   "PREDICTIONS_t100.md"
-  ],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t101_higgs_full.py",
-  "sections": [
-   "212"
-  ],
-  "predictions": [
-   "PREDICTIONS_t101.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t102_higgs_gauge.py",
-  "sections": [
-   "213"
-  ],
-  "predictions": [
-   "PREDICTIONS_t102.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t103_two_ninths.py",
-  "sections": [
-   "216"
-  ],
-  "predictions": [
-   "PREDICTIONS_t103.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t104_hessian_mixing.py",
-  "sections": [
-   "217"
-  ],
-  "predictions": [
-   "PREDICTIONS_t104.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t105_scalar_sector.py",
-  "sections": [
-   "219"
-  ],
-  "predictions": [
-   "PREDICTIONS_t105.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t106_scalar_content.py",
-  "sections": [
-   "220"
-  ],
-  "predictions": [
-   "PREDICTIONS_t106.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t107_strong_cp.py",
-  "sections": [
-   "223"
-  ],
-  "predictions": [
-   "PREDICTIONS_t107.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t108_veltman.py",
-  "sections": [
-   "224"
-  ],
-  "predictions": [
-   "PREDICTIONS_t108.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t109_b_tau.py",
-  "sections": [
-   "225"
-  ],
-  "predictions": [
-   "PREDICTIONS_t109.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t110_shared_asymmetry.py",
-  "sections": [
-   "226"
-  ],
-  "predictions": [
-   "PREDICTIONS_t110.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t111_arrow.py",
-  "sections": [
-   "227"
-  ],
-  "predictions": [
-   "PREDICTIONS_t111.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t112_doublet_direction.py",
-  "sections": [
-   "228"
-  ],
-  "predictions": [
-   "PREDICTIONS_t112.md"
-  ],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t113_351.py",
-  "sections": [
-   "229"
-  ],
-  "predictions": [
-   "PREDICTIONS_t113.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t114_light_generations.py",
-  "sections": [
-   "230"
-  ],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 120
- },
- {
-  "script": "scripts/current/t115_highlighting.py",
-  "sections": [
-   "236"
-  ],
-  "predictions": [
-   "PREDICTIONS_t115.md"
-  ],
-  "group": "grid",
-  "timeout": 600,
-  "args": [
-   "test"
-  ]
- },
- {
-  "script": "scripts/current/t116_dialectic.py",
-  "sections": [
-   "237"
-  ],
-  "predictions": [
-   "PREDICTIONS_t116.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t117_levels.py",
-  "sections": [
-   "238"
-  ],
-  "predictions": [
-   "PREDICTIONS_t117.md"
-  ],
-  "group": "grid",
-  "timeout": 2400
- },
- {
-  "script": "scripts/current/t118_relations.py",
-  "sections": [
-   "239"
-  ],
-  "predictions": [
-   "PREDICTIONS_t118.md"
-  ],
-  "group": "grid",
-  "timeout": 2400
- },
- {
-  "script": "scripts/current/t119_consequences.py",
-  "sections": [
-   "240"
-  ],
-  "predictions": [
-   "PREDICTIONS_t119.md"
-  ],
-  "group": "grid",
-  "timeout": 2400
- },
- {
-  "script": "scripts/current/t120_climb.py",
-  "sections": [
-   "241"
-  ],
-  "predictions": [
-   "PREDICTIONS_t120.md"
-  ],
-  "group": "grid",
-  "timeout": 3600
- },
- {
-  "script": "scripts/current/t121_ages.py",
-  "sections": [
-   "242"
-  ],
-  "predictions": [
-   "PREDICTIONS_t121.md"
-  ],
-  "group": "grid",
-  "timeout": 3600
- },
- {
-  "script": "scripts/current/t122_reflection.py",
-  "sections": [
-   "243"
-  ],
-  "predictions": [
-   "PREDICTIONS_t122.md"
-  ],
-  "group": "grid",
-  "timeout": 3600
- },
- {
-  "script": "scripts/current/t123_bridge.py",
-  "sections": [
-   "244"
-  ],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 60
- },
- {
-  "script": "scripts/current/t124_derivation.py",
-  "sections": [
-   "245"
-  ],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t125_capacity.py",
-  "sections": [
-   "246"
-  ],
-  "predictions": [],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t126_derived.py",
-  "sections": [
-   "247"
-  ],
-  "predictions": [
-   "PREDICTIONS_t126.md"
-  ],
-  "group": "grid",
-  "timeout": 6000
- },
- {
-  "script": "scripts/current/t127_reflection_derived.py",
-  "sections": [
-   "248"
-  ],
-  "predictions": [
-   "PREDICTIONS_t127.md"
-  ],
-  "group": "grid",
-  "timeout": 6000
- },
- {
-  "script": "scripts/current/t128_community.py",
-  "sections": [
-   "250"
-  ],
-  "predictions": [
-   "PREDICTIONS_t128.md"
-  ],
-  "group": "grid",
-  "timeout": 9000
- },
- {
-  "script": "scripts/current/t129_border.py",
-  "sections": [
-   "251"
-  ],
-  "predictions": [
-   "PREDICTIONS_t129.md"
-  ],
-  "group": "grid",
-  "timeout": 9000
- },
- {
-  "script": "scripts/current/t130_reflective_community.py",
-  "sections": [
-   "252"
-  ],
-  "predictions": [
-   "PREDICTIONS_t130.md"
-  ],
-  "group": "grid",
-  "timeout": 9000
- },
- {
-  "script": "scripts/current/t131_vacuum.py",
-  "sections": [
-   "257"
-  ],
-  "predictions": [
-   "PREDICTIONS_t131.md"
-  ],
-  "group": "grid",
-  "timeout": 9000
- },
- {
-  "script": "scripts/current/t132_light_351.py",
-  "sections": [
-   "257"
-  ],
-  "predictions": [
-   "PREDICTIONS_t132.md"
-  ],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t133_will_bound.py",
-  "sections": [
-   "258"
-  ],
-  "predictions": [
-   "PREDICTIONS_t133.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t134_community_ages.py",
-  "sections": [
-   "262"
-  ],
-  "predictions": [
-   "PREDICTIONS_t134.md"
-  ],
-  "group": "grid",
-  "timeout": 9000
- },
- {
-  "script": "scripts/current/t135_which_law.py",
-  "sections": [
-   "263"
-  ],
-  "predictions": [
-   "PREDICTIONS_t135.md"
-  ],
-  "group": "grid",
-  "timeout": 3600
- },
- {
-  "script": "scripts/current/t136_e6_resonance.py",
-  "sections": [
-   "265"
-  ],
-  "predictions": [
-   "PREDICTIONS_t136_t137.md"
-  ],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t137_chord_resolution.py",
-  "sections": [
-   "265"
-  ],
-  "predictions": [
-   "PREDICTIONS_t136_t137.md"
-  ],
-  "group": "grid",
-  "timeout": 20000
- },
- {
-  "script": "scripts/current/t138_focus_in_chord.py",
-  "sections": [
-   "266"
-  ],
-  "predictions": [
-   "PREDICTIONS_t138_t139.md"
-  ],
-  "group": "grid",
-  "timeout": 20000
- },
- {
-  "script": "scripts/current/t139_e6_chords.py",
-  "sections": [
-   "266"
-  ],
-  "predictions": [
-   "PREDICTIONS_t138_t139.md"
-  ],
-  "group": "grid",
-  "timeout": 20000
- },
- {
-  "script": "scripts/current/t140_e6_chords_avg.py",
-  "sections": [
-   "267"
-  ],
-  "predictions": [
-   "PREDICTIONS_t140.md"
-  ],
-  "group": "grid",
-  "timeout": 20000
- },
- {
-  "script": "scripts/current/t141_soloist.py",
-  "sections": [
-   "269"
-  ],
-  "predictions": [
-   "PREDICTIONS_t141.md"
-  ],
-  "group": "grid",
-  "timeout": 3600
- },
- {
-  "script": "scripts/current/t142_wilson_line.py",
-  "sections": [
-   "270"
-  ],
-  "predictions": [
-   "PREDICTIONS_t142.md"
-  ],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t143_cross_chords.py",
-  "sections": [
-   "272"
-  ],
-  "predictions": [
-   "PREDICTIONS_t143_t144.md"
-  ],
-  "group": "grid",
-  "timeout": 7200,
-  "args": [
-   "rot",
-   "43000",
-   "43010"
-  ]
- },
- {
-  "script": "scripts/current/t144_light_z3.py",
-  "sections": [
-   "272"
-  ],
-  "predictions": [
-   "PREDICTIONS_t143_t144.md"
-  ],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t145_z3_textures.py",
-  "sections": [
-   "273"
-  ],
-  "predictions": [
-   "PREDICTIONS_t145.md"
-  ],
-  "group": "grid",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/t146_reduction_time.py",
-  "sections": [
-   "273"
-  ],
-  "predictions": [
-   "PREDICTIONS_t146.md"
-  ],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t143_cross_chords.py",
-  "args": [
-   "rot",
-   "43000",
-   "43010",
-   "1200",
-   "100",
-   "0.2"
-  ],
-  "sections": [
-   "273"
-  ],
-  "predictions": [
-   "PREDICTIONS_t143b.md"
-  ],
-  "group": "grid",
-  "timeout": 7200
- },
- {
-  "script": "scripts/current/t147_unison.py",
-  "sections": [
-   "274"
-  ],
-  "predictions": [
-   "PREDICTIONS_t147.md"
-  ],
-  "group": "grid",
-  "timeout": 120
- },
- {
-  "script": "scripts/current/t143_cross_chords.py",
-  "args": [
-   "rot",
-   "43000",
-   "43010",
-   "600",
-   "100",
-   "0.2",
-   "0"
-  ],
-  "sections": [
-   "274"
-  ],
-  "predictions": [
-   "PREDICTIONS_t143c.md"
-  ],
-  "group": "grid",
-  "timeout": 7200
- },
- {
-  "script": "scripts/current/t143_cross_chords.py",
-  "args": [
-   "rot",
-   "43000",
-   "43005",
-   "600",
-   "100",
-   "0.2",
-   "0",
-   "300"
-  ],
-  "sections": [
-   "274"
-  ],
-  "predictions": [
-   "PREDICTIONS_t143d.md"
-  ],
-  "group": "grid",
-  "timeout": 7200
- },
- {
-  "script": "scripts/current/t143_cross_chords.py",
-  "args": [
-   "rot",
-   "43005",
-   "43010",
-   "600",
-   "100",
-   "0.2",
-   "0",
-   "300"
-  ],
-  "sections": [
-   "274"
-  ],
-  "predictions": [
-   "PREDICTIONS_t143d.md"
-  ],
-  "group": "grid",
-  "timeout": 7200
- },
- {
-  "script": "scripts/current/t148_brain_phase.py",
-  "sections": [
-   "274"
-  ],
-  "predictions": [
-   "PREDICTIONS_t148.md"
-  ],
-  "group": "grid",
-  "timeout": 120
- },
- {
-  "script": "scripts/current/t149_tradeoff.py",
-  "sections": [
-   "287"
-  ],
-  "predictions": [
-   "PREDICTIONS_t149.md"
-  ],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t150_horizon_count.py",
-  "sections": [
-   "287"
-  ],
-  "predictions": [
-   "PREDICTIONS_t150.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t151_boost_diamonds.py",
-  "sections": [
-   "287"
-  ],
-  "predictions": [
-   "PREDICTIONS_t151.md"
-  ],
-  "group": "grid",
-  "timeout": 300
- },
- {
-  "script": "scripts/current/t152_microstates.py",
-  "sections": [
-   "288"
-  ],
-  "predictions": [
-   "PREDICTIONS_t152.md"
-  ],
-  "group": "grid",
-  "timeout": 120
- },
- {
-  "script": "scripts/current/t153_log_term.py",
-  "sections": [
-   "289"
-  ],
-  "predictions": [
-   "PREDICTIONS_t153.md"
-  ],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t154_schwarzschild_log.py",
-  "sections": [
-   "290"
-  ],
-  "predictions": [
-   "PREDICTIONS_t154.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t155_photon_horizon.py",
-  "sections": [
-   "291"
-  ],
-  "predictions": [
-   "PREDICTIONS_t155.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t156_cq_record.py",
-  "sections": [
-   "292"
-  ],
-  "predictions": [
-   "PREDICTIONS_t156.md"
-  ],
-  "group": "grid",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/t157_feedback.py",
-  "sections": [
-   "295"
-  ],
-  "predictions": [
-   "PREDICTIONS_t157.md"
-  ],
-  "group": "grid",
-  "timeout": 1500
- },
- {
-  "script": "scripts/current/t158_links_kernel.py",
-  "sections": [
-   "297"
-  ],
-  "predictions": [
-   "PREDICTIONS_t158.md"
-  ],
-  "group": "grid",
-  "timeout": 600
- },
- {
-  "script": "scripts/current/t159_topology.py",
-  "sections": [
-   "301"
-  ],
-  "predictions": [
-   "PREDICTIONS_t159.md"
-  ],
-  "group": "grid",
-  "timeout": 1800
- },
- {
-  "script": "scripts/current/t160_order.py",
-  "sections": [
-   "301"
-  ],
-  "predictions": [
-   "PREDICTIONS_t160.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t161_writing_jump.py",
-  "sections": [
-   "301"
-  ],
-  "predictions": [
-   "PREDICTIONS_t161.md"
-  ],
-  "group": "grid",
-  "timeout": 120
- },
- {
-  "script": "scripts/current/t162_gap.py",
-  "sections": [
-   "303"
-  ],
-  "predictions": [
-   "PREDICTIONS_t162.md"
-  ],
-  "group": "grid",
-  "timeout": 1200
- },
- {
-  "script": "scripts/current/t163_sha.py",
-  "sections": [
-   "303"
-  ],
-  "predictions": [
-   "PREDICTIONS_t163.md"
-  ],
-  "group": "grid",
-  "timeout": 3600
- },
- {
-  "script": "scripts/current/t164_horizon_decoherence.py",
-  "sections": [
-   "305"
-  ],
-  "predictions": [
-   "PREDICTIONS_t164.md"
-  ],
-  "group": "grid",
-  "timeout": 120
- },
- {
-  "script": "scripts/current/t165_killing_horizons.py",
-  "sections": [
-   "305"
-  ],
-  "predictions": [
-   "PREDICTIONS_t165.md"
-  ],
-  "group": "grid",
-  "timeout": 120
- },
- {
-  "script": "scripts/current/t166_horizon_count.py",
-  "sections": [
-   "306"
-  ],
-  "predictions": [
-   "PREDICTIONS_t166.md"
-  ],
-  "group": "grid",
-  "timeout": 1500
- },
- {
-  "script": "scripts/current/t167_horizon_memory.py",
-  "sections": [
-   "305"
-  ],
-  "predictions": [
-   "PREDICTIONS_t167.md"
-  ],
-  "group": "grid",
-  "timeout": 900
- },
- {
-  "script": "scripts/current/t168_cell.py",
-  "sections": [
-   "306"
-  ],
-  "predictions": [
-   "PREDICTIONS_t168.md"
-  ],
-  "group": "grid",
-  "timeout": 300
- }
+  {
+    "script": "scripts/current/alpoge_G.py",
+    "sections": [
+      "37"
+    ],
+    "predictions": [
+      "PREDICTIONS_alpoge_G.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/aurora.py",
+    "sections": [
+      "42"
+    ],
+    "predictions": [
+      "PREDICTIONS_aurora.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/dolls.py",
+    "sections": [
+      "31"
+    ],
+    "predictions": [
+      "PREDICTIONS_dolls.md"
+    ],
+    "group": "superseded",
+    "timeout": 1200,
+    "note": "superseded by dolls2.py (direct loop needs about 1e11 steps)"
+  },
+  {
+    "script": "scripts/current/dolls2.py",
+    "sections": [
+      "31"
+    ],
+    "predictions": [],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/downtree.py",
+    "sections": [
+      "35"
+    ],
+    "predictions": [
+      "PREDICTIONS_downtree.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/green_rodin.py",
+    "sections": [
+      "47"
+    ],
+    "predictions": [
+      "PREDICTIONS_green_rodin71.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/kabbalah.py",
+    "sections": [
+      "34"
+    ],
+    "predictions": [
+      "PREDICTIONS_kabbalah.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/mill216.py",
+    "sections": [
+      "48"
+    ],
+    "predictions": [
+      "PREDICTIONS_mill216.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/mirror_pair.py",
+    "sections": [
+      "29"
+    ],
+    "predictions": [
+      "PREDICTIONS_mirror_pair.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/resonance.py",
+    "sections": [
+      "43"
+    ],
+    "predictions": [
+      "PREDICTIONS_resonance.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/resonance_r1b.py",
+    "sections": [
+      "43"
+    ],
+    "predictions": [
+      "PREDICTIONS_resonance.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/susy.py",
+    "sections": [
+      "28"
+    ],
+    "predictions": [
+      "PREDICTIONS_susy.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/wolfram_inv.py",
+    "sections": [
+      "30"
+    ],
+    "predictions": [
+      "PREDICTIONS_wolfram.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/yinyang.py",
+    "sections": [
+      "32"
+    ],
+    "predictions": [
+      "PREDICTIONS_yinyang.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/early/ade_ladder.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_ade_ladder.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/aether_unlock.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [
+      "PREDICTIONS_aether_unlock.md",
+      "PREDICTIONS_fibonacci_aether.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/arena.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_replicator_arena.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/arena2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/arena3.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/astronomy.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_astronomy.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/bh.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "V1"
+    ]
+  },
+  {
+    "script": "scripts/early/bh.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "V2"
+    ]
+  },
+  {
+    "script": "scripts/early/bh_edge.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "well"
+    ]
+  },
+  {
+    "script": "scripts/early/bh_pde.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "well"
+    ]
+  },
+  {
+    "script": "scripts/early/bigcode.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [
+      "PREDICTIONS_bigcode.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/bigrun.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/bigrun2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/bigrun3.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/boundary.py",
+    "sections": [
+      "9",
+      "10",
+      "11",
+      "14",
+      "15",
+      "23",
+      "31",
+      "48"
+    ],
+    "predictions": [
+      "PREDICTIONS_boundary.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/bridge1.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null
+  },
+  {
+    "script": "scripts/early/causet.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_causet_variety.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/causet_variety.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_causet_variety.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/chiral_curv.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/coexist.py",
+    "sections": [
+      "14"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/cycles.py",
+    "sections": [
+      "13",
+      "14",
+      "16",
+      "44"
+    ],
+    "predictions": [
+      "PREDICTIONS_cycles.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/cycles2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "50"
+    ]
+  },
+  {
+    "script": "scripts/early/da5.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/da5_race.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/dm11.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/docking_budget.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_docking_steer.md",
+      "PREDICTIONS_docking_budget.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/docking_steer.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_docking_steer.md",
+      "PREDICTIONS_docking_budget.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/e8.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [
+      "PREDICTIONS_e8.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/e8b.py",
+    "sections": [],
+    "predictions": [],
+    "group": "broken",
+    "timeout": 60,
+    "note": "execs a part of e8.py that no longer defines toq; kept for the record"
+  },
+  {
+    "script": "scripts/early/ff2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/fib_aether.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_fibonacci_aether.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/frozen_fluid.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_frozen_fluid.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/fullrel.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/golden_23.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_golden_walk.md",
+      "PREDICTIONS_golden.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/golden_3.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_golden_walk.md",
+      "PREDICTIONS_golden.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/golden_3b.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_golden_walk.md",
+      "PREDICTIONS_golden.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/golden_janus.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_golden_walk.md",
+      "PREDICTIONS_golden.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/golden_strike.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [
+      "PREDICTIONS_golden_walk.md",
+      "PREDICTIONS_golden.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/golden_walk.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_golden_walk.md",
+      "PREDICTIONS_golden.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/golden_walk2.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_golden_walk.md",
+      "PREDICTIONS_golden.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/happy.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/holenmer.py",
+    "sections": [],
+    "predictions": [],
+    "group": "broken",
+    "timeout": 60,
+    "note": "singular matrix; superseded by holenmer2.py"
+  },
+  {
+    "script": "scripts/early/holenmer2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/holo.py",
+    "sections": [
+      "18"
+    ],
+    "predictions": [
+      "PREDICTIONS_holo_dim.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/holo_dim.py",
+    "sections": [
+      "22"
+    ],
+    "predictions": [
+      "PREDICTIONS_holo_dim.md"
+    ],
+    "group": "heavy",
+    "timeout": null
+  },
+  {
+    "script": "scripts/early/holo_dim_d3.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_holo_dim.md"
+    ],
+    "group": "heavy",
+    "timeout": null
+  },
+  {
+    "script": "scripts/early/hw.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/icosa_code.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [
+      "PREDICTIONS_icosa_code.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/icosa_code2.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_icosa_code.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/icosians.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/janus.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/jones_fix.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/leibniz2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/level8.py",
+    "sections": [
+      "3"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/lightcut.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [
+      "PREDICTIONS_lightcut.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/lightcut2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/mckay_galois.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_mckay_galois.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/music.py",
+    "sections": [
+      "13",
+      "19",
+      "23",
+      "24",
+      "26",
+      "36",
+      "39",
+      "41"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/nearmiss.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_nearmiss.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/pisano.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/potential.py",
+    "sections": [
+      "14",
+      "40",
+      "42"
+    ],
+    "predictions": [
+      "PREDICTIONS_potential.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/push.py",
+    "sections": [
+      "8",
+      "32"
+    ],
+    "predictions": [
+      "PREDICTIONS_push.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/q2_strong.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/quat_redo.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [
+      "PREDICTIONS_quaternion.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/radiation.py",
+    "sections": [
+      "2",
+      "8"
+    ],
+    "predictions": [
+      "PREDICTIONS_radiation.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/radiation2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/ratchet.py",
+    "sections": [
+      "14"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/reality.py",
+    "sections": [
+      "1",
+      "2",
+      "39",
+      "43"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/replicator.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_replicator_arena.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/rh59.py",
+    "sections": [
+      "18"
+    ],
+    "predictions": [
+      "PREDICTIONS_rh59.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/rh_holo.py",
+    "sections": [
+      "18"
+    ],
+    "predictions": [
+      "PREDICTIONS_rh59.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/rodin.py",
+    "sections": [
+      "47"
+    ],
+    "predictions": [
+      "PREDICTIONS_rodin.md",
+      "PREDICTIONS_rodin2.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/rodin2.py",
+    "sections": [
+      "17"
+    ],
+    "predictions": [
+      "PREDICTIONS_rodin2.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/shadows.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/shared.py",
+    "sections": [
+      "9",
+      "14",
+      "17",
+      "23",
+      "25",
+      "36",
+      "37",
+      "39",
+      "43"
+    ],
+    "predictions": [
+      "PREDICTIONS_shared.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/step1.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/step12.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/step2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/step3.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/step3a.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/t60b_m3.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null
+  },
+  {
+    "script": "scripts/early/t60b_mitm.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "m3"
+    ]
+  },
+  {
+    "script": "scripts/early/taper_size.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_taperwidth.md"
+    ],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "40"
+    ]
+  },
+  {
+    "script": "scripts/early/taper_size.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_taperwidth.md"
+    ],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "80"
+    ]
+  },
+  {
+    "script": "scripts/early/taper_size.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_taperwidth.md"
+    ],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "120"
+    ]
+  },
+  {
+    "script": "scripts/early/taperwidth.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_taperwidth.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/taperwidth2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "0.0"
+    ]
+  },
+  {
+    "script": "scripts/early/taperwidth2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "0.1"
+    ]
+  },
+  {
+    "script": "scripts/early/taperwidth2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "heavy",
+    "timeout": null,
+    "args": [
+      "0.2"
+    ]
+  },
+  {
+    "script": "scripts/early/tau60.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [
+      "PREDICTIONS_tau60_braid.md",
+      "PREDICTIONS_tau60.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/tau60_braid.py",
+    "sections": [
+      "15"
+    ],
+    "predictions": [
+      "PREDICTIONS_tau60_braid.md",
+      "PREDICTIONS_tau60.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/taubnut.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [
+      "PREDICTIONS_taubnut.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/time_dim.py",
+    "sections": [
+      "23"
+    ],
+    "predictions": [
+      "PREDICTIONS_time_dim.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/undermine.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_undermine.md"
+    ],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/undermine2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/undermine3.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/weyl_shape.py",
+    "sections": [
+      "8"
+    ],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/early/wieferich_rungs.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/indep/czcheck.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/indep/run.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/catalogue/catalogue.py",
+    "sections": [],
+    "predictions": [],
+    "group": "early",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/current/mill91_233.py",
+    "sections": [
+      "50"
+    ],
+    "predictions": [
+      "PREDICTIONS_mill91_233.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/mill104_125.py",
+    "sections": [
+      "51"
+    ],
+    "predictions": [
+      "PREDICTIONS_mill104_125.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/mill122.py",
+    "sections": [
+      "52"
+    ],
+    "predictions": [
+      "PREDICTIONS_mill122.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/mill38_57.py",
+    "sections": [
+      "53"
+    ],
+    "predictions": [
+      "PREDICTIONS_mill38_57.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/cs_square_root.py",
+    "sections": [
+      "55"
+    ],
+    "predictions": [
+      "PREDICTIONS_cs_square_root.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/qc_frozen_fluid.py",
+    "sections": [
+      "57"
+    ],
+    "predictions": [
+      "PREDICTIONS_qc_frozen_fluid.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/tightened.py",
+    "sections": [
+      "58"
+    ],
+    "predictions": [
+      "PREDICTIONS_tightened.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/mirror_pair2.py",
+    "sections": [
+      "59"
+    ],
+    "predictions": [
+      "PREDICTIONS_round_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/golden_artin.py",
+    "sections": [
+      "59"
+    ],
+    "predictions": [
+      "PREDICTIONS_round_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/zero_gated.py",
+    "sections": [
+      "59"
+    ],
+    "predictions": [
+      "PREDICTIONS_round_2026-11-22.md"
+    ],
+    "group": "heavy",
+    "timeout": 1800,
+    "args": [
+      "0.003"
+    ]
+  },
+  {
+    "script": "scripts/current/t1_four_solutions.py",
+    "sections": [
+      "60"
+    ],
+    "predictions": [
+      "PREDICTIONS_round2_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t2_golden_artin.py",
+    "sections": [
+      "60"
+    ],
+    "predictions": [
+      "PREDICTIONS_round2_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t3_jacobi.py",
+    "sections": [
+      "60"
+    ],
+    "predictions": [
+      "PREDICTIONS_round2_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t5_queen.py",
+    "sections": [
+      "60"
+    ],
+    "predictions": [
+      "PREDICTIONS_round2_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t4_tail.py",
+    "sections": [
+      "60"
+    ],
+    "predictions": [
+      "PREDICTIONS_round2_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t4_weil.py",
+    "sections": [
+      "60"
+    ],
+    "predictions": [
+      "PREDICTIONS_round2_2026-11-22.md"
+    ],
+    "group": "heavy",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t4_weil_posthoc.py",
+    "sections": [
+      "60"
+    ],
+    "predictions": [
+      "PREDICTIONS_round2_2026-11-22.md"
+    ],
+    "group": "heavy",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t4_debug.py",
+    "sections": [
+      "60"
+    ],
+    "predictions": [
+      "PREDICTIONS_round2_2026-11-22.md"
+    ],
+    "group": "heavy",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t6_weighted_operator.py",
+    "sections": [
+      "61"
+    ],
+    "predictions": [
+      "PREDICTIONS_round3_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t7_two_worlds.py",
+    "sections": [
+      "61"
+    ],
+    "predictions": [
+      "PREDICTIONS_round3_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t8_sanity.py",
+    "sections": [
+      "62"
+    ],
+    "predictions": [
+      "PREDICTIONS_round4_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t8_mobius.py",
+    "sections": [
+      "62"
+    ],
+    "predictions": [
+      "PREDICTIONS_round4_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t9_make_vs_join.py",
+    "sections": [
+      "62"
+    ],
+    "predictions": [
+      "PREDICTIONS_round4_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 1800,
+    "args": [
+      "full"
+    ]
+  },
+  {
+    "script": "scripts/current/t10_sanity.py",
+    "sections": [
+      "63"
+    ],
+    "predictions": [
+      "PREDICTIONS_round5_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t10_operator.py",
+    "sections": [
+      "63"
+    ],
+    "predictions": [
+      "PREDICTIONS_round5_2026-11-22.md"
+    ],
+    "group": "heavy",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t10_posthoc.py",
+    "sections": [
+      "63"
+    ],
+    "predictions": [
+      "PREDICTIONS_round5_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t11_sanity.py",
+    "sections": [
+      "64"
+    ],
+    "predictions": [
+      "PREDICTIONS_round6_2026-11-22.md"
+    ],
+    "group": "quick",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t11_sanity2.py",
+    "sections": [
+      "64"
+    ],
+    "predictions": [
+      "PREDICTIONS_round6_2026-11-22.md"
+    ],
+    "group": "heavy",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/t11_controls.py",
+    "sections": [
+      "64"
+    ],
+    "predictions": [
+      "PREDICTIONS_round6_2026-11-22.md"
+    ],
+    "group": "heavy",
+    "timeout": 3600
+  },
+  {
+    "script": "scripts/current/t11_liouville.py",
+    "sections": [
+      "64"
+    ],
+    "predictions": [
+      "PREDICTIONS_round6_2026-11-22.md"
+    ],
+    "group": "heavy",
+    "timeout": 3600
+  },
+  {
+    "script": "scripts/current/polymorphisms.py",
+    "sections": [
+      "67"
+    ],
+    "predictions": [
+      "PREDICTIONS_polymorphisms.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/ledger.py",
+    "sections": [
+      "68"
+    ],
+    "predictions": [
+      "PREDICTIONS_ledger.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/bands.py",
+    "sections": [
+      "69"
+    ],
+    "predictions": [
+      "PREDICTIONS_bands.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/t12_sanity.py",
+    "sections": [
+      "70"
+    ],
+    "predictions": [
+      "PREDICTIONS_step3.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/t12_step3.py",
+    "sections": [
+      "70"
+    ],
+    "predictions": [
+      "PREDICTIONS_step3.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t13_sanity.py",
+    "sections": [
+      "71"
+    ],
+    "predictions": [
+      "PREDICTIONS_step4.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/t13_step4.py",
+    "sections": [
+      "71"
+    ],
+    "predictions": [
+      "PREDICTIONS_step4.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t14_sanity.py",
+    "sections": [
+      "73"
+    ],
+    "predictions": [
+      "PREDICTIONS_step5.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/t14_step5.py",
+    "sections": [
+      "73"
+    ],
+    "predictions": [
+      "PREDICTIONS_step5.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/operator_limit.py",
+    "sections": [
+      "74"
+    ],
+    "predictions": [
+      "PREDICTIONS_operator_limit.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t15_sanity.py",
+    "sections": [
+      "75"
+    ],
+    "predictions": [
+      "PREDICTIONS_operator.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t15_operator.py",
+    "sections": [
+      "75"
+    ],
+    "predictions": [
+      "PREDICTIONS_operator.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/twistor.py",
+    "sections": [
+      "76"
+    ],
+    "predictions": [
+      "PREDICTIONS_twistor.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/twistor_posthoc.py",
+    "sections": [
+      "76"
+    ],
+    "predictions": [
+      "PREDICTIONS_twistor.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/t16_sanity.py",
+    "sections": [
+      "77"
+    ],
+    "predictions": [
+      "PREDICTIONS_operator2.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t16_operator2.py",
+    "sections": [
+      "77"
+    ],
+    "predictions": [
+      "PREDICTIONS_operator2.md"
+    ],
+    "group": "quick",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/twistor_pairing.py",
+    "sections": [
+      "78"
+    ],
+    "predictions": [
+      "PREDICTIONS_twistor_pairing.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/split.py",
+    "sections": [
+      "79"
+    ],
+    "predictions": [
+      "PREDICTIONS_split.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/split_posthoc.py",
+    "sections": [
+      "79"
+    ],
+    "predictions": [
+      "PREDICTIONS_split.md"
+    ],
+    "group": "heavy",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/g_sanity.py",
+    "sections": [
+      "80"
+    ],
+    "predictions": [
+      "PREDICTIONS_paths236.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/paths236.py",
+    "sections": [
+      "80"
+    ],
+    "predictions": [
+      "PREDICTIONS_paths236.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/paths236_posthoc.py",
+    "sections": [
+      "80"
+    ],
+    "predictions": [
+      "PREDICTIONS_paths236.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/cone_sanity.py",
+    "sections": [
+      "81"
+    ],
+    "predictions": [
+      "PREDICTIONS_cone.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/cone_run.py",
+    "sections": [
+      "81"
+    ],
+    "predictions": [
+      "PREDICTIONS_cone.md"
+    ],
+    "group": "quick",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/pf_sanity.py",
+    "sections": [
+      "83"
+    ],
+    "predictions": [
+      "PREDICTIONS_pastfuture.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/pf_run.py",
+    "sections": [
+      "83"
+    ],
+    "predictions": [
+      "PREDICTIONS_pastfuture.md"
+    ],
+    "group": "quick",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/kerr_sanity.py",
+    "sections": [
+      "84"
+    ],
+    "predictions": [
+      "PREDICTIONS_kerr.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/kerr_run.py",
+    "sections": [
+      "84"
+    ],
+    "predictions": [
+      "PREDICTIONS_kerr.md"
+    ],
+    "group": "quick",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/kerr_posthoc.py",
+    "sections": [
+      "84"
+    ],
+    "predictions": [
+      "PREDICTIONS_kerr.md"
+    ],
+    "group": "quick",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/o4_sanity.py",
+    "sections": [
+      "85"
+    ],
+    "predictions": [
+      "PREDICTIONS_order4.md"
+    ],
+    "group": "quick",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/o4_run.py",
+    "sections": [
+      "85"
+    ],
+    "predictions": [
+      "PREDICTIONS_order4.md"
+    ],
+    "group": "quick",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/branching.py",
+    "sections": [
+      "87"
+    ],
+    "predictions": [
+      "PREDICTIONS_branching.md"
+    ],
+    "group": "quick",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t17_ideal_synthesis.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t18_class_field_synthesis.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t19_action_vs_loss.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t19_posthoc.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t20_holo_hands.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t21_nonlinear_hands.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t22_interaction_term.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t22_interaction_term_v2.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t23_checklist_kerr.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t24_P1_P4.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t25_quantum_monads.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t26_records_darwinism.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t27_area_law_G.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t28_toric_fermion.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t29_equation_of_state.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t30_eta_over_s.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t31_content_route.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t32_hands_energy.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t33_gravity_entanglement.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t34_smith_apollonian.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t35_swing_rafer.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t36_cayley_aether.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t37_packing_lambda.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t38_inputs.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t39_masses_as_chord.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t40_balance_neutrinos.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t41_neutrino_observables.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t42_millington_speculative.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t43_posthoc.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t43_rodin_coil.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t44_sequence_shift.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t45_coil_sweep.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t46_order_null.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t47_meeting_source.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t47.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t47_posthoc.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t47.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t48_winding_hands.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t48.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t49_peec.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t49.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t49_posthoc.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t49.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t50_metatron_time.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t51_digit_cycle.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t52_cycle216.py",
+    "sections": [],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t53_generate.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t53.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t54_primes.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t54.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t55_open1to4.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t55.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t56_generation.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t56.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t57_googly.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t57.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t58_googly2.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t58.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t58_posthoc.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t58.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t58_posthoc2.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t58.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t59_hensel.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t59.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t60_generations.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t60.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t61_googly_explicit.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t61.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t61b_googly.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t61b.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t62_chirality.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t62.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t63_seed.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t63.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t64_zprime.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t64.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t65_zprime_scale.py",
+    "sections": [],
+    "predictions": [
+      "PREDICTIONS_t65.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t66_sm_cut.py",
+    "sections": [
+      "159"
+    ],
+    "predictions": [
+      "PREDICTIONS_t66.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t68_proton.py",
+    "sections": [
+      "161"
+    ],
+    "predictions": [
+      "PREDICTIONS_t68.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t69_mirror.py",
+    "sections": [
+      "162"
+    ],
+    "predictions": [
+      "PREDICTIONS_t69.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t67_couplings.py",
+    "sections": [
+      "166"
+    ],
+    "predictions": [
+      "PREDICTIONS_t67.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t70_twoloop.py",
+    "sections": [
+      "168"
+    ],
+    "predictions": [
+      "PREDICTIONS_t70.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t71_consistency.py",
+    "sections": [
+      "170"
+    ],
+    "predictions": [
+      "PREDICTIONS_t71.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t72_everpresent.py",
+    "sections": [
+      "171"
+    ],
+    "predictions": [
+      "PREDICTIONS_t72.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t73_slice_reading.py",
+    "sections": [
+      "180"
+    ],
+    "predictions": [
+      "PREDICTIONS_t73.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t74_lowdegree_root.py",
+    "sections": [
+      "181"
+    ],
+    "predictions": [
+      "PREDICTIONS_t74.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t75_polymorphism_shortcut.py",
+    "sections": [
+      "182"
+    ],
+    "predictions": [
+      "PREDICTIONS_t75.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t76_polymorphism_invisible.py",
+    "sections": [
+      "184"
+    ],
+    "predictions": [
+      "PREDICTIONS_t76.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t77_doll_mismatch.py",
+    "sections": [
+      "185"
+    ],
+    "predictions": [
+      "PREDICTIONS_t77.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t78_mixed_dolls.py",
+    "sections": [
+      "186"
+    ],
+    "predictions": [
+      "PREDICTIONS_t78.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t79_balanced_record.py",
+    "sections": [
+      "187"
+    ],
+    "predictions": [
+      "PREDICTIONS_t79.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t80_support_and_width.py",
+    "sections": [
+      "188"
+    ],
+    "predictions": [
+      "PREDICTIONS_t80.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t81_sos_balanced.py",
+    "sections": [
+      "189"
+    ],
+    "predictions": [
+      "PREDICTIONS_t81.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t82_sos_scale.py",
+    "sections": [
+      "190"
+    ],
+    "predictions": [
+      "PREDICTIONS_t82.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t83_schoenebeck.py",
+    "sections": [
+      "191"
+    ],
+    "predictions": [
+      "PREDICTIONS_t83.md"
+    ],
+    "group": "grid",
+    "timeout": 900,
+    "note": "below regime; kept, not in default run"
+  },
+  {
+    "script": "scripts/current/t84_schoenebeck_scale.py",
+    "sections": [
+      "191"
+    ],
+    "predictions": [
+      "PREDICTIONS_t84.md"
+    ],
+    "group": "grid",
+    "timeout": 3600
+  },
+  {
+    "script": "scripts/current/t85_e6_scale.py",
+    "sections": [
+      "192"
+    ],
+    "predictions": [
+      "PREDICTIONS_t85.md"
+    ],
+    "group": "grid",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/current/t86_everpresent_distances.py",
+    "sections": [
+      "193"
+    ],
+    "predictions": [
+      "PREDICTIONS_t86.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t87_constant_lambda.py",
+    "sections": [
+      "195"
+    ],
+    "predictions": [
+      "PREDICTIONS_t87.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t88_f2_doll.py",
+    "sections": [
+      "196"
+    ],
+    "predictions": [
+      "PREDICTIONS_t88.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t89_dirac_cut.py",
+    "sections": [
+      "198"
+    ],
+    "predictions": [
+      "PREDICTIONS_t89.md"
+    ],
+    "group": "grid",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/current/t90_leptogenesis.py",
+    "sections": [
+      "200"
+    ],
+    "predictions": [
+      "PREDICTIONS_t90.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t91_hypercharge.py",
+    "sections": [
+      "201"
+    ],
+    "predictions": [
+      "PREDICTIONS_t91.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t92_degenerate_pair.py",
+    "sections": [
+      "202"
+    ],
+    "predictions": [
+      "PREDICTIONS_t92.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t93_dark_matter.py",
+    "sections": [
+      "203"
+    ],
+    "predictions": [
+      "PREDICTIONS_t93.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t94_singlet.py",
+    "sections": [
+      "204"
+    ],
+    "predictions": [
+      "PREDICTIONS_t94.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t95_nonthermal.py",
+    "sections": [
+      "205"
+    ],
+    "predictions": [
+      "PREDICTIONS_t95.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t96_flavour.py",
+    "sections": [
+      "207"
+    ],
+    "predictions": [
+      "PREDICTIONS_t96.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t97_tm1.py",
+    "sections": [
+      "208"
+    ],
+    "predictions": [
+      "PREDICTIONS_t97.md"
+    ],
+    "group": "grid",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/t98_koide_phase.py",
+    "sections": [
+      "209"
+    ],
+    "predictions": [
+      "PREDICTIONS_t98.md"
+    ],
+    "group": "grid",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/t99_quark_chords.py",
+    "sections": [
+      "210"
+    ],
+    "predictions": [
+      "PREDICTIONS_t99.md"
+    ],
+    "group": "grid",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/t100_higgs.py",
+    "sections": [
+      "211"
+    ],
+    "predictions": [
+      "PREDICTIONS_t100.md"
+    ],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t101_higgs_full.py",
+    "sections": [
+      "212"
+    ],
+    "predictions": [
+      "PREDICTIONS_t101.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t102_higgs_gauge.py",
+    "sections": [
+      "213"
+    ],
+    "predictions": [
+      "PREDICTIONS_t102.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t103_two_ninths.py",
+    "sections": [
+      "216"
+    ],
+    "predictions": [
+      "PREDICTIONS_t103.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t104_hessian_mixing.py",
+    "sections": [
+      "217"
+    ],
+    "predictions": [
+      "PREDICTIONS_t104.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t105_scalar_sector.py",
+    "sections": [
+      "219"
+    ],
+    "predictions": [
+      "PREDICTIONS_t105.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t106_scalar_content.py",
+    "sections": [
+      "220"
+    ],
+    "predictions": [
+      "PREDICTIONS_t106.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t107_strong_cp.py",
+    "sections": [
+      "223"
+    ],
+    "predictions": [
+      "PREDICTIONS_t107.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t108_veltman.py",
+    "sections": [
+      "224"
+    ],
+    "predictions": [
+      "PREDICTIONS_t108.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t109_b_tau.py",
+    "sections": [
+      "225"
+    ],
+    "predictions": [
+      "PREDICTIONS_t109.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t110_shared_asymmetry.py",
+    "sections": [
+      "226"
+    ],
+    "predictions": [
+      "PREDICTIONS_t110.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t111_arrow.py",
+    "sections": [
+      "227"
+    ],
+    "predictions": [
+      "PREDICTIONS_t111.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t112_doublet_direction.py",
+    "sections": [
+      "228"
+    ],
+    "predictions": [
+      "PREDICTIONS_t112.md"
+    ],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t113_351.py",
+    "sections": [
+      "229"
+    ],
+    "predictions": [
+      "PREDICTIONS_t113.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t114_light_generations.py",
+    "sections": [
+      "230"
+    ],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 120
+  },
+  {
+    "script": "scripts/current/t115_highlighting.py",
+    "sections": [
+      "236"
+    ],
+    "predictions": [
+      "PREDICTIONS_t115.md"
+    ],
+    "group": "grid",
+    "timeout": 600,
+    "args": [
+      "test"
+    ]
+  },
+  {
+    "script": "scripts/current/t116_dialectic.py",
+    "sections": [
+      "237"
+    ],
+    "predictions": [
+      "PREDICTIONS_t116.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t117_levels.py",
+    "sections": [
+      "238"
+    ],
+    "predictions": [
+      "PREDICTIONS_t117.md"
+    ],
+    "group": "grid",
+    "timeout": 2400
+  },
+  {
+    "script": "scripts/current/t118_relations.py",
+    "sections": [
+      "239"
+    ],
+    "predictions": [
+      "PREDICTIONS_t118.md"
+    ],
+    "group": "grid",
+    "timeout": 2400
+  },
+  {
+    "script": "scripts/current/t119_consequences.py",
+    "sections": [
+      "240"
+    ],
+    "predictions": [
+      "PREDICTIONS_t119.md"
+    ],
+    "group": "grid",
+    "timeout": 2400
+  },
+  {
+    "script": "scripts/current/t120_climb.py",
+    "sections": [
+      "241"
+    ],
+    "predictions": [
+      "PREDICTIONS_t120.md"
+    ],
+    "group": "grid",
+    "timeout": 3600
+  },
+  {
+    "script": "scripts/current/t121_ages.py",
+    "sections": [
+      "242"
+    ],
+    "predictions": [
+      "PREDICTIONS_t121.md"
+    ],
+    "group": "grid",
+    "timeout": 3600
+  },
+  {
+    "script": "scripts/current/t122_reflection.py",
+    "sections": [
+      "243"
+    ],
+    "predictions": [
+      "PREDICTIONS_t122.md"
+    ],
+    "group": "grid",
+    "timeout": 3600
+  },
+  {
+    "script": "scripts/current/t123_bridge.py",
+    "sections": [
+      "244"
+    ],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 60
+  },
+  {
+    "script": "scripts/current/t124_derivation.py",
+    "sections": [
+      "245"
+    ],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t125_capacity.py",
+    "sections": [
+      "246"
+    ],
+    "predictions": [],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t126_derived.py",
+    "sections": [
+      "247"
+    ],
+    "predictions": [
+      "PREDICTIONS_t126.md"
+    ],
+    "group": "grid",
+    "timeout": 6000
+  },
+  {
+    "script": "scripts/current/t127_reflection_derived.py",
+    "sections": [
+      "248"
+    ],
+    "predictions": [
+      "PREDICTIONS_t127.md"
+    ],
+    "group": "grid",
+    "timeout": 6000
+  },
+  {
+    "script": "scripts/current/t128_community.py",
+    "sections": [
+      "250"
+    ],
+    "predictions": [
+      "PREDICTIONS_t128.md"
+    ],
+    "group": "grid",
+    "timeout": 9000
+  },
+  {
+    "script": "scripts/current/t129_border.py",
+    "sections": [
+      "251"
+    ],
+    "predictions": [
+      "PREDICTIONS_t129.md"
+    ],
+    "group": "grid",
+    "timeout": 9000
+  },
+  {
+    "script": "scripts/current/t130_reflective_community.py",
+    "sections": [
+      "252"
+    ],
+    "predictions": [
+      "PREDICTIONS_t130.md"
+    ],
+    "group": "grid",
+    "timeout": 9000
+  },
+  {
+    "script": "scripts/current/t131_vacuum.py",
+    "sections": [
+      "257"
+    ],
+    "predictions": [
+      "PREDICTIONS_t131.md"
+    ],
+    "group": "grid",
+    "timeout": 9000
+  },
+  {
+    "script": "scripts/current/t132_light_351.py",
+    "sections": [
+      "257"
+    ],
+    "predictions": [
+      "PREDICTIONS_t132.md"
+    ],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t133_will_bound.py",
+    "sections": [
+      "258"
+    ],
+    "predictions": [
+      "PREDICTIONS_t133.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t134_community_ages.py",
+    "sections": [
+      "262"
+    ],
+    "predictions": [
+      "PREDICTIONS_t134.md"
+    ],
+    "group": "grid",
+    "timeout": 9000
+  },
+  {
+    "script": "scripts/current/t135_which_law.py",
+    "sections": [
+      "263"
+    ],
+    "predictions": [
+      "PREDICTIONS_t135.md"
+    ],
+    "group": "grid",
+    "timeout": 3600
+  },
+  {
+    "script": "scripts/current/t136_e6_resonance.py",
+    "sections": [
+      "265"
+    ],
+    "predictions": [
+      "PREDICTIONS_t136_t137.md"
+    ],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t137_chord_resolution.py",
+    "sections": [
+      "265"
+    ],
+    "predictions": [
+      "PREDICTIONS_t136_t137.md"
+    ],
+    "group": "grid",
+    "timeout": 20000
+  },
+  {
+    "script": "scripts/current/t138_focus_in_chord.py",
+    "sections": [
+      "266"
+    ],
+    "predictions": [
+      "PREDICTIONS_t138_t139.md"
+    ],
+    "group": "grid",
+    "timeout": 20000
+  },
+  {
+    "script": "scripts/current/t139_e6_chords.py",
+    "sections": [
+      "266"
+    ],
+    "predictions": [
+      "PREDICTIONS_t138_t139.md"
+    ],
+    "group": "grid",
+    "timeout": 20000
+  },
+  {
+    "script": "scripts/current/t140_e6_chords_avg.py",
+    "sections": [
+      "267"
+    ],
+    "predictions": [
+      "PREDICTIONS_t140.md"
+    ],
+    "group": "grid",
+    "timeout": 20000
+  },
+  {
+    "script": "scripts/current/t141_soloist.py",
+    "sections": [
+      "269"
+    ],
+    "predictions": [
+      "PREDICTIONS_t141.md"
+    ],
+    "group": "grid",
+    "timeout": 3600
+  },
+  {
+    "script": "scripts/current/t142_wilson_line.py",
+    "sections": [
+      "270"
+    ],
+    "predictions": [
+      "PREDICTIONS_t142.md"
+    ],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t143_cross_chords.py",
+    "sections": [
+      "272"
+    ],
+    "predictions": [
+      "PREDICTIONS_t143_t144.md"
+    ],
+    "group": "grid",
+    "timeout": 7200,
+    "args": [
+      "rot",
+      "43000",
+      "43010"
+    ]
+  },
+  {
+    "script": "scripts/current/t144_light_z3.py",
+    "sections": [
+      "272"
+    ],
+    "predictions": [
+      "PREDICTIONS_t143_t144.md"
+    ],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t145_z3_textures.py",
+    "sections": [
+      "273"
+    ],
+    "predictions": [
+      "PREDICTIONS_t145.md"
+    ],
+    "group": "grid",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/t146_reduction_time.py",
+    "sections": [
+      "273"
+    ],
+    "predictions": [
+      "PREDICTIONS_t146.md"
+    ],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t143_cross_chords.py",
+    "args": [
+      "rot",
+      "43000",
+      "43010",
+      "1200",
+      "100",
+      "0.2"
+    ],
+    "sections": [
+      "273"
+    ],
+    "predictions": [
+      "PREDICTIONS_t143b.md"
+    ],
+    "group": "grid",
+    "timeout": 7200
+  },
+  {
+    "script": "scripts/current/t147_unison.py",
+    "sections": [
+      "274"
+    ],
+    "predictions": [
+      "PREDICTIONS_t147.md"
+    ],
+    "group": "grid",
+    "timeout": 120
+  },
+  {
+    "script": "scripts/current/t143_cross_chords.py",
+    "args": [
+      "rot",
+      "43000",
+      "43010",
+      "600",
+      "100",
+      "0.2",
+      "0"
+    ],
+    "sections": [
+      "274"
+    ],
+    "predictions": [
+      "PREDICTIONS_t143c.md"
+    ],
+    "group": "grid",
+    "timeout": 7200
+  },
+  {
+    "script": "scripts/current/t143_cross_chords.py",
+    "args": [
+      "rot",
+      "43000",
+      "43005",
+      "600",
+      "100",
+      "0.2",
+      "0",
+      "300"
+    ],
+    "sections": [
+      "274"
+    ],
+    "predictions": [
+      "PREDICTIONS_t143d.md"
+    ],
+    "group": "grid",
+    "timeout": 7200
+  },
+  {
+    "script": "scripts/current/t143_cross_chords.py",
+    "args": [
+      "rot",
+      "43005",
+      "43010",
+      "600",
+      "100",
+      "0.2",
+      "0",
+      "300"
+    ],
+    "sections": [
+      "274"
+    ],
+    "predictions": [
+      "PREDICTIONS_t143d.md"
+    ],
+    "group": "grid",
+    "timeout": 7200
+  },
+  {
+    "script": "scripts/current/t148_brain_phase.py",
+    "sections": [
+      "274"
+    ],
+    "predictions": [
+      "PREDICTIONS_t148.md"
+    ],
+    "group": "grid",
+    "timeout": 120
+  },
+  {
+    "script": "scripts/current/t149_tradeoff.py",
+    "sections": [
+      "287"
+    ],
+    "predictions": [
+      "PREDICTIONS_t149.md"
+    ],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t150_horizon_count.py",
+    "sections": [
+      "287"
+    ],
+    "predictions": [
+      "PREDICTIONS_t150.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t151_boost_diamonds.py",
+    "sections": [
+      "287"
+    ],
+    "predictions": [
+      "PREDICTIONS_t151.md"
+    ],
+    "group": "grid",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/t152_microstates.py",
+    "sections": [
+      "288"
+    ],
+    "predictions": [
+      "PREDICTIONS_t152.md"
+    ],
+    "group": "grid",
+    "timeout": 120
+  },
+  {
+    "script": "scripts/current/t153_log_term.py",
+    "sections": [
+      "289"
+    ],
+    "predictions": [
+      "PREDICTIONS_t153.md"
+    ],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t154_schwarzschild_log.py",
+    "sections": [
+      "290"
+    ],
+    "predictions": [
+      "PREDICTIONS_t154.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t155_photon_horizon.py",
+    "sections": [
+      "291"
+    ],
+    "predictions": [
+      "PREDICTIONS_t155.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t156_cq_record.py",
+    "sections": [
+      "292"
+    ],
+    "predictions": [
+      "PREDICTIONS_t156.md"
+    ],
+    "group": "grid",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/t157_feedback.py",
+    "sections": [
+      "295"
+    ],
+    "predictions": [
+      "PREDICTIONS_t157.md"
+    ],
+    "group": "grid",
+    "timeout": 1500
+  },
+  {
+    "script": "scripts/current/t158_links_kernel.py",
+    "sections": [
+      "297"
+    ],
+    "predictions": [
+      "PREDICTIONS_t158.md"
+    ],
+    "group": "grid",
+    "timeout": 600
+  },
+  {
+    "script": "scripts/current/t159_topology.py",
+    "sections": [
+      "301"
+    ],
+    "predictions": [
+      "PREDICTIONS_t159.md"
+    ],
+    "group": "grid",
+    "timeout": 1800
+  },
+  {
+    "script": "scripts/current/t160_order.py",
+    "sections": [
+      "301"
+    ],
+    "predictions": [
+      "PREDICTIONS_t160.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t161_writing_jump.py",
+    "sections": [
+      "301"
+    ],
+    "predictions": [
+      "PREDICTIONS_t161.md"
+    ],
+    "group": "grid",
+    "timeout": 120
+  },
+  {
+    "script": "scripts/current/t162_gap.py",
+    "sections": [
+      "303"
+    ],
+    "predictions": [
+      "PREDICTIONS_t162.md"
+    ],
+    "group": "grid",
+    "timeout": 1200
+  },
+  {
+    "script": "scripts/current/t163_sha.py",
+    "sections": [
+      "303"
+    ],
+    "predictions": [
+      "PREDICTIONS_t163.md"
+    ],
+    "group": "grid",
+    "timeout": 3600
+  },
+  {
+    "script": "scripts/current/t164_horizon_decoherence.py",
+    "sections": [
+      "305"
+    ],
+    "predictions": [
+      "PREDICTIONS_t164.md"
+    ],
+    "group": "grid",
+    "timeout": 120
+  },
+  {
+    "script": "scripts/current/t165_killing_horizons.py",
+    "sections": [
+      "305"
+    ],
+    "predictions": [
+      "PREDICTIONS_t165.md"
+    ],
+    "group": "grid",
+    "timeout": 120
+  },
+  {
+    "script": "scripts/current/t166_horizon_count.py",
+    "sections": [
+      "306"
+    ],
+    "predictions": [
+      "PREDICTIONS_t166.md"
+    ],
+    "group": "grid",
+    "timeout": 1500
+  },
+  {
+    "script": "scripts/current/t167_horizon_memory.py",
+    "sections": [
+      "305"
+    ],
+    "predictions": [
+      "PREDICTIONS_t167.md"
+    ],
+    "group": "grid",
+    "timeout": 900
+  },
+  {
+    "script": "scripts/current/t168_cell.py",
+    "sections": [
+      "306"
+    ],
+    "predictions": [
+      "PREDICTIONS_t168.md"
+    ],
+    "group": "grid",
+    "timeout": 300
+  },
+  {
+    "script": "scripts/current/t169_field_eta.py",
+    "sections": [
+      "314"
+    ],
+    "predictions": [
+      "PREDICTIONS_t169.md"
+    ],
+    "group": "slow",
+    "timeout": 2400
+  }
 ]
