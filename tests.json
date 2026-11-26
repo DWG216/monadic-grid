@@ -3442,5 +3442,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t168_cell.py",
+  "sections": [
+   "306"
+  ],
+  "predictions": [
+   "PREDICTIONS_t168.md"
+  ],
+  "group": "grid",
+  "timeout": 300
  }
 ]
