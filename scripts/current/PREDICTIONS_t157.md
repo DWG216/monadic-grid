@@ -10,3 +10,10 @@ P1 [M]: minimum of the total over measurement strength: E_G/ħ at a = 1/2 (scan 
 P2 [M, numbers]: Gran Sasso bound with the total kernel: R₀ > 0.54 × 1.1036^(1/3) = 0.558 Å (t156 kernels) or 0.54 Å (least decoherence).
 P3 [M]: t156's Bohr-radius proposal (R₀ = 0.529 Å) is then excluded at the present bound in both cases (signal 1.17 or 1.06 of the bound).
 Consequence fixed in advance: the claim "the grid's gravitational decoherence is 1/π of Diósi–Penrose" (t146, t149 P4, t156 P2–P3, the Oppenheim draft) is withdrawn: E_G/(πħ) is the record's part only, and the total is at least the Diósi–Penrose rate.
+
+## Scoring (2026-11-26), run 1 (t157_run1.log)
+- S1 PASS (at the edge): simulated total 1.0820 E_G/ħ against 1.1037 (−1.97%, threshold 2%).
+- P1 PASS: minimum of a + 1/(4a) at a = 0.48 on the grid (exactly 1/2 analytically), total 1.0008 (1 analytically); simulated 1.242, 0.996, 1.257 at a = 0.25, 0.5, 1 (predicted 1.25, 1, 1.25).
+- P2 PASS: R₀ > 0.558 Å with t156's kernels; 0.54 Å at least decoherence.
+- P3 PASS: the Bohr-radius proposal is excluded at the present bound (signal 1.17 or 1.06 of the bound).
+Verdict as fixed in advance: withdrawn: "the grid's gravitational decoherence is 1/π of Diósi–Penrose" (t146 as a decoherence time, t149 P4, t156 P2–P3, the Oppenheim draft items 1–2). E_G/(πħ) is the record's part only; with the field acting on its source the total is (1/π + π/4)E_G/ħ, and at least E_G/ħ for any measurement strength. At least decoherence the weak-field gravity of the grid is the Diósi–Penrose / Tilloy–Diósi model. t149's saturation (probe side) stands; t149's τ = 0.037 s becomes ħ/(1.10 E_G) = 0.011 s, so the no-entanglement conclusion stands.

@@ -3321,5 +3321,16 @@
   ],
   "group": "grid",
   "timeout": 1200
+ },
+ {
+  "script": "scripts/current/t157_feedback.py",
+  "sections": [
+   "295"
+  ],
+  "predictions": [
+   "PREDICTIONS_t157.md"
+  ],
+  "group": "grid",
+  "timeout": 1500
  }
 ]

@@ -1,0 +1,4 @@
+S1 {'rate_fit_over_EG': np.float64(1.0820031751301744), 'predicted': 1.103708049581239, 'dev': np.float64(-0.019665412841103902), 'pass_': np.True_}
+P1 {'a_min': 0.48, 'total_min': 1.0008333333333335, 'simulated': {0.25: np.float64(1.2420384766219863), 0.5: np.float64(0.9957870751428107), 1.0: np.float64(1.2570954740738771)}, 'pass_': True}
+P2 {'R0_bound_t156_kernels_A': 0.5580569182648354, 'R0_bound_least_decoherence_A': 0.54, 'pass_': True}
+P3 {'bohr_signal_over_bound_t156': 1.1728233661179086, 'bohr_signal_over_bound_PLD': 1.0626210133765834, 'pass_': True}

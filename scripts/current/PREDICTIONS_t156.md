@@ -18,3 +18,6 @@ Not built here: the full general-relativistic version (the Hamiltonian constrain
 - P2 PASS: R₀ > 0.369 Å for the grid's rate.
 - P3 (proposal): with R₀ = a₀ the grid's radiation signal is 0.34 of the present bound.
 Verdict: the grid's weak-field gravity is an explicit classical–quantum dynamics in Oppenheim's form, completely positive, saturating his trade-off, with D₀, D₁, D₂ fixed; its one physical parameter is the mass resolution R₀, bounded below by Gran Sasso at 0.37 Å. Open: the covariant (full GR) version.
+
+## Correction (2026-11-26, t157)
+t156 let Φ be written from the record but not act back on its source. With the feedback included (Tilloy–Diósi), the total decoherence is (1/π + π/4)E_G/ħ, at least E_G/ħ; P2's 0.37 Å bound becomes 0.54–0.56 Å and P3's Bohr-radius proposal is excluded. S1 and P1 (positivity, saturation of the trade-off, unravelling) stand. See PREDICTIONS_t157.md.
