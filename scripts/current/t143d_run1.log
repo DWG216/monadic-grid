@@ -1,0 +1,10 @@
+rot 43000 {'T': 600, 'tau': 100.0, 'will': 0.2, 'eta': 0.0, 'release': 300} {'n_locked': 58, 'n_cubic': 27, 'n_noncubic': 31, 'C_med': 0.996}
+rot 43001 {'T': 600, 'tau': 100.0, 'will': 0.2, 'eta': 0.0, 'release': 300} {'n_locked': 39, 'n_cubic': 27, 'n_noncubic': 12, 'C_med': 0.996}
+rot 43002 {'T': 600, 'tau': 100.0, 'will': 0.2, 'eta': 0.0, 'release': 300} {'n_locked': 61, 'n_cubic': 27, 'n_noncubic': 34, 'C_med': 0.996}
+rot 43003 {'T': 600, 'tau': 100.0, 'will': 0.2, 'eta': 0.0, 'release': 300} {'n_locked': 37, 'n_cubic': 27, 'n_noncubic': 10, 'C_med': 0.996}
+rot 43004 {'T': 600, 'tau': 100.0, 'will': 0.2, 'eta': 0.0, 'release': 300} {'n_locked': 45, 'n_cubic': 27, 'n_noncubic': 18, 'C_med': 0.996}
+rot 43005 {'T': 600, 'tau': 100.0, 'will': 0.2, 'eta': 0.0, 'release': 300} {'n_locked': 38, 'n_cubic': 27, 'n_noncubic': 11, 'C_med': 0.996}
+rot 43006 {'T': 600, 'tau': 100.0, 'will': 0.2, 'eta': 0.0, 'release': 300} {'n_locked': 47, 'n_cubic': 27, 'n_noncubic': 20, 'C_med': 0.996}
+rot 43007 {'T': 600, 'tau': 100.0, 'will': 0.2, 'eta': 0.0, 'release': 300} {'n_locked': 31, 'n_cubic': 27, 'n_noncubic': 4, 'C_med': 0.995}
+rot 43008 {'T': 600, 'tau': 100.0, 'will': 0.2, 'eta': 0.0, 'release': 300} {'n_locked': 45, 'n_cubic': 27, 'n_noncubic': 18, 'C_med': 0.996}
+rot 43009 {'T': 600, 'tau': 100.0, 'will': 0.2, 'eta': 0.0, 'release': 300} {'n_locked': 39, 'n_cubic': 27, 'n_noncubic': 12, 'C_med': 0.996}

@@ -1,4 +1,4 @@
-# The theory of monads, as built and tested (t111, t115–t146)
+# The theory of monads, as built and tested (t111, t115–t147)
 
 Consolidated 2026-11-25. Vocabulary for public text is musical: a law is a held tone; agreement is unison; relations among phases are chords; the end of the climb is a resolution to unison; Ages are movements; a tick is a beat (corpus terms such as Community of Gods stay in the record only). Spine for chapter 7 (Cosmogony). Labels: [S] derived from the record or deduced from sufficient reason; [M] tested by a pre-registered computation; *chosen* = a modelling choice not yet derived.
 
@@ -62,6 +62,8 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 | Chords across monads | Three neighbouring minds on three different notes lock chords in every world, and every cubic trace chord is held (21 to 27 of 27); turning the tones removes about 60% of the other chords but not all. Resonance favours the gauge invariant; it does not yet single it out. | t143 [M], 2 of 3 (exclusivity failed, kept) |
 | Light generations from Z₃ | The grain's Z₃ fixes which mass entries vanish, not their sizes: the registered three-entry texture cannot occur, and the four-entry textures miss the down-quark ratios by factors of 5. The hierarchy needs its own source. | t144 [M], 0 of 1 |
 | Held across a long window | Averaged over 100 beats, almost no cross-monad chord stays coherent, cubic or not, with strong will or weak: t143's locks were short agreement. | t143b [M], 0 of 3 (kept) |
+| Without uncaused noise | Sufficient reason removes the random kicks (nothing in the grid causes them). Chords across minds then hold over 100 beats; rotation removes about 70% of the non-cubic ones, the will holds the rest. | t143c [M], 2 of 3 |
+| A law holds itself | Release the will after the climb: all 27 cubic chords stay locked in every world (more than before release), and the only other survivors are chords drifting too slowly for the window to see. The will can hold any chord; only the gauge structure's invariant holds itself. | t143d [M], 3 of 3 |
 | With the derived rules | Formation, the climb and the Ages hold (laws in 10 of 10 worlds; everyone climbs, the most capable first; next Age 3× faster with minds kept). Exact conditioning leaves one law per world, so the plural end state of t115–t116 belonged to the slower chosen listening. Lawless worlds split again (fixation lifts all in 7 of 10). Reflection with the derived threshold stays clear in 6 of 10 lawless worlds. | t126 [M], 4 of 6 |
 
 ## 4a. Mythos into logos: Nietzsche and Jung (corpus shorthand)
