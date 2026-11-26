@@ -1,4 +1,4 @@
-# The theory of monads, as built and tested (t111, t115–t133)
+# The theory of monads, as built and tested (t111, t115–t134)
 
 Consolidated 2026-11-25. Spine for chapter 7 (Cosmogony). Labels: [S] derived from the record or deduced from sufficient reason; [M] tested by a pre-registered computation; *chosen* = a modelling choice not yet derived.
 
@@ -49,6 +49,7 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 | Community of Gods? | Monads hear only their neighbourhood (a grid in space and time). Small worlds coarsen to one law; large worlds keep 7–11 laws, but only about 30% of monads hold one: the rest are fully capable and focused, but on content their neighbours do not share. t129–t130 show where they are: not between two laws (no monad's neighbourhood holds two), and not on noise either, but on partial laws: the record at their focus is 10–15× noise with local agreement 0.5–0.7, short of the 0.8 bar. Ages carried by developed minds do not change this (0.30 → 0.35). One law with everyone complete, or many laws with most unsettled: these dynamics give no Community of Gods. | t128 [M], 4 of 4 |
 | The border test | With third-order reading, real borders appear (2–14% of monads) and relations form (3–8 per world), but no border monad holds both laws, and completeness is unchanged. The unsettled majority sit on partial laws (t130 corrected t129's reading of them as fixated on noise). | t129 [M], 5 of 5 |
 | Reflective community | A local world of reflective monads keeps attention on real signals (93–98% judged significant) but commits more slowly: laws come out fewer and partial (local agreement 0.50–0.57 against 0.66–0.71), and completeness falls (5–13% against 29–35%). | t130 [M], 4 of 4 |
+| Community of Gods, derived | Carried whole across Ages (capacity, attention and phases kept) and set down in a new spacetime each Age (new neighbours), every large world reaches one law held completely by every monad: by Age 2 in 6 of 10, Age 3 in the rest. Capacity alone (as t128) never settles; the whole monad in the same spacetime settles slowly (complete 0.35 → 0.47 over five Ages). Many Gods, one truth: identical content, each distinct by its phase and will. | t134 [M], 5 of 5 |
 | With the derived rules | Formation, the climb and the Ages hold (laws in 10 of 10 worlds; everyone climbs, the most capable first; next Age 3× faster with minds kept). Exact conditioning leaves one law per world, so the plural end state of t115–t116 belonged to the slower chosen listening. Lawless worlds split again (fixation lifts all in 7 of 10). Reflection with the derived threshold stays clear in 6 of 10 lawless worlds. | t126 [M], 4 of 6 |
 
 ## 4a. Mythos into logos: Nietzsche and Jung (corpus shorthand)
@@ -82,7 +83,7 @@ Hockney's corpus cites Nietzsche (will to power 727×) and Jung (archetype 2,684
 
 ## 5. Open
 
-- One law or many: exact conditioning leaves one active content per world. The corpus places plurality in the minds, not in one mind's content: the Selector Function reduces a monad's thinking to one active thought at a time, while the Omega Point is a Community of Gods, each monad at value 1, "totality, wholeness". Tested (t128): with local records, plurality of laws comes with most monads unsettled on borders, and Ages do not settle them. Neither third-order reading (t129) nor reflection (t130) supplies it. In local worlds most monads sit on partial laws; what would complete them is still open (candidates: more than one Age with local records and reflection together; completeness as holding the community rather than one law).
+- Resolved (t134): the Community of Gods is one law held completely by every monad, reached across Ages when the whole monad is carried and placed in new spacetimes. Open next: which law wins (the most widespread so far), and whether more than one law can be held completely when minds read at higher order.
 - Tie a model "law" to a physical one: show a cluster of locked relations carrying the grid's gauge structure.
 - Connect the capacity scale to the corpus's quantitative claims, if any (Hockney's Selector Function).
 - The crossover in the grid: what the fading of the Higgs at an Age's end does to the count.

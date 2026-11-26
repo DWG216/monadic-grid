@@ -2982,5 +2982,16 @@
   ],
   "group": "grid",
   "timeout": 1800
+ },
+ {
+  "script": "scripts/current/t134_community_ages.py",
+  "sections": [
+   "262"
+  ],
+  "predictions": [
+   "PREDICTIONS_t134.md"
+  ],
+  "group": "grid",
+  "timeout": 9000
  }
 ]

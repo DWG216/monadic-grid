@@ -10,3 +10,11 @@ P2 [M] B, small world (L = 12): one law by Age 2 in ≥ 7 of 10 worlds.
 P3 [M] B, large world: the number of laws does not rise from Age 1 to Age 5 in any world, and the median fraction complete rises Age on Age (non-decreasing medians).
 P4 [M, blind; writer's expectation] C, large world: coarsening continues across Ages without reshuffling but slower than B: median laws at Age 5 above B's, median fraction complete at Age 5 below B's.
 Consequence fixed now: if P1–P3 pass, the Community of Gods is derived: carried across Ages in new spacetimes, every monad comes to hold one law completely, each distinct by its phase. If P1 fails, the many-laws state survives whole-monad Ages and the Community stays open.
+
+## Scoring (2026-11-25, t134_run1.log; four variants run in parallel, logs concatenated)
+- S1 PASS: capacity only (A, as t128): laws 5–12 in every Age; median complete at Age 5 = 0.34.
+- P1 PASS: whole monad, new spacetime each Age (B, L = 24): one law at Age 5 in 10 of 10 worlds; complete 1.00 (median).
+- P2 PASS: B, L = 12: one law by Age 2 in 10 of 10.
+- P3 PASS: B, L = 24: laws never rise; median complete 0.35, 1.00, 1.00, 1.00, 1.00. Every large world reaches one law, all complete, by Age 2 (6 worlds) or Age 3 (4 worlds).
+- P4 PASS (writer's expectation held): whole monad, same spacetime (C): slow coarsening, median laws 7.5 and complete 0.47 at Age 5 (0.35, 0.38, 0.41, 0.44, 0.47).
+Verdict, as fixed in advance: the Community of Gods is derived. Carried whole across Ages and set down in new spacetimes, every monad comes to hold one law completely, each distinct by its phase and will. All three parts are needed: without the monad's own memory (A) nothing settles; without new spacetimes (C) borders settle slowly; with both (B) one Age of mixing is enough.
