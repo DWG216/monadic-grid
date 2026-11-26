@@ -1,0 +1,5 @@
+scalar l>=0 with r_s/r^3 (t154)            c_log = +0.021667  (x90 = +1.950)
+scalar l>=1 with r_s/r^3                   c_log = -0.055219  (x90 = -4.970)
+scalar l>=0 without r_s/r^3                c_log = +0.119225  (x90 = +10.730)
+scalar l>=1 without (one photon parity)    c_log = +0.014380  (x90 = +1.294)
+l = 0 wave alone (with r_s/r^3)            c_log = +0.076886  (x90 = +6.920)

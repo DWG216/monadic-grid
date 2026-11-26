@@ -3299,5 +3299,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t155_photon_horizon.py",
+  "sections": [
+   "291"
+  ],
+  "predictions": [
+   "PREDICTIONS_t155.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]
