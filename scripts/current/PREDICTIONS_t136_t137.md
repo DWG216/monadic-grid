@@ -14,3 +14,10 @@ P1 [M] Third order, movement 5: in ≥ 7 of 10 worlds at least 90% of monads hol
 P2 [M] Third order, movement 5: median distinctness C in [0.25, 0.5] (attention spread over about three tones, not one).
 P3 [M] Second-order control, movement 5: tone resolution (≥ 90% tone-complete, one tone) in ≥ 7 of 10 worlds.
 Writer's note: t129 found third-order reading forms relations but did not raise completeness within one Age; whether movements with the whole monad carried resolve chords is not known. Consequence fixed now: if P1–P2 pass, higher-order minds resolve to a chord: plural content inside the unison. If they fail, the resolution is a single tone at third order too, and that is recorded.
+
+## Scoring (2026-11-25)
+t136 (t136_run1.log): S1, P1, P2 PASS. The 27 weights are distinct and nonzero; the zero-sum triples of distinct states are exactly the 45 monomials of I₃ = det A + det B + det C − tr(ABC); no triple with a repeated state sums to zero; 1,000 of 1,000 generic frequency maps select the same 45. Resonant chords on E6's 27 tones are the terms of E6's cubic.
+t137 (t137_run1.log; ten jobs run in parallel, logs concatenated): P1 FAIL, P2 FAIL, P3 PASS.
+- Third order: no world resolves to a chord in attention (0 of 10); every world resolves to one tone held by every monad (10 of 10, by movement 2–3), C = 0.996. One triad relation stays locked in the phases in every world (relations = 1 at movement 5, from 4–7 at movement 1).
+- Second order: one tone in 10 of 10, no relations.
+Verdict, as fixed in advance: at third order the resolution in attention is still a single tone. Post hoc (labelled): exact listening, p·w with a → 1, is winner-take-all on attention, so a mind's focus resolves to one tone; the chord survives in the phases, shared by all, not in the focus. That is the corpus's Selector Function (one active thought at a time) with the chord held below attention; whether the locked relation contains the attended tone was not measured and is the next check.

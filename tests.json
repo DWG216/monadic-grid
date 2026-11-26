@@ -3004,5 +3004,27 @@
   ],
   "group": "grid",
   "timeout": 3600
+ },
+ {
+  "script": "scripts/current/t136_e6_resonance.py",
+  "sections": [
+   "265"
+  ],
+  "predictions": [
+   "PREDICTIONS_t136_t137.md"
+  ],
+  "group": "grid",
+  "timeout": 600
+ },
+ {
+  "script": "scripts/current/t137_chord_resolution.py",
+  "sections": [
+   "265"
+  ],
+  "predictions": [
+   "PREDICTIONS_t136_t137.md"
+  ],
+  "group": "grid",
+  "timeout": 20000
  }
 ]

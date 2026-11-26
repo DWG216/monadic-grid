@@ -1,0 +1,3 @@
+S1 {'distinct': True, 'nonzero': True}
+P1 {'n_cubic': 45, 'n_zero_sum': 45, 'equal': True, 'repeated_state_triples': 0, 'pass_': True}
+P2 {'draws_matching': 1000, 'pass_': True}

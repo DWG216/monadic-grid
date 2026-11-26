@@ -1,4 +1,4 @@
-# The theory of monads, as built and tested (t111, t115–t135)
+# The theory of monads, as built and tested (t111, t115–t137)
 
 Consolidated 2026-11-25. Vocabulary for public text is musical: a law is a held tone; agreement is unison; relations among phases are chords; the end of the climb is a resolution to unison; Ages are movements; a tick is a beat (corpus terms such as Community of Gods stay in the record only). Spine for chapter 7 (Cosmogony). Labels: [S] derived from the record or deduced from sufficient reason; [M] tested by a pre-registered computation; *chosen* = a modelling choice not yet derived.
 
@@ -51,6 +51,8 @@ measures what the meeting adds at k: about 1 where phases are unrelated, up to M
 | Reflective community | A local world of reflective monads keeps attention on real signals (93–98% judged significant) but commits more slowly: laws come out fewer and partial (local agreement 0.50–0.57 against 0.66–0.71), and completeness falls (5–13% against 29–35%). | t130 [M], 4 of 4 |
 | Resolution to unison (corpus: Community of Gods), derived | Carried whole across Ages (capacity, attention and phases kept) and set down in a new spacetime each Age (new neighbours), every large world reaches one law held completely by every monad: by Age 2 in 6 of 10, Age 3 in the rest. Capacity alone (as t128) never settles; the whole monad in the same spacetime settles slowly (complete 0.35 → 0.47 over five Ages). Many Gods, one truth: identical content, each distinct by its phase and will. | t134 [M], 5 of 5 |
 | Which key the unison takes | Started from two laws, the unison always takes the one most voices hold (40 of 40); a developed minority (capacity 1 against 0.05) never carries its law, even at 40%. The most developed listen hardest and join the majority first: best ears, not loudest voices. | t135 [M], 3 of 5 (development-leads predictions failed, kept) |
+| Resonant chords are E6's cubic | With frequencies labelled by the 27 weights of E6, the chords that resonate (ω_a + ω_b + ω_c = 0) are exactly the 45 terms of the cubic I₃ = det A + det B + det C − tr(ABC), no more, no fewer, for every generic frequency map. | t136 [M], exact, 3 of 3 |
+| Chords in the phases, one tone in the focus | Minds that hear chords, carried whole across movements, still resolve their attention to one shared tone (10 of 10, C = 0.996); one chord stays locked in every world's phases. Focus is one tone (the Selector Function); the chord is held below attention. | t137 [M], 1 of 3 (chord-in-attention predictions failed, kept) |
 | With the derived rules | Formation, the climb and the Ages hold (laws in 10 of 10 worlds; everyone climbs, the most capable first; next Age 3× faster with minds kept). Exact conditioning leaves one law per world, so the plural end state of t115–t116 belonged to the slower chosen listening. Lawless worlds split again (fixation lifts all in 7 of 10). Reflection with the derived threshold stays clear in 6 of 10 lawless worlds. | t126 [M], 4 of 6 |
 
 ## 4a. Mythos into logos: Nietzsche and Jung (corpus shorthand)
@@ -84,7 +86,7 @@ Hockney's corpus cites Nietzsche (will to power 727×) and Jung (archetype 2,684
 
 ## 5. Open
 
-- Resolved (t134): the end of the climb is a resolution to unison, one law held completely by every monad (the corpus's Community of Gods), reached across Ages when the whole monad is carried and placed in new spacetimes. Which law: the one most voices hold (t135). Open next: will varied independently of capacity (a soloist), and whether more than one law can be held completely when minds read at higher order.
+- Resolved (t134): the end of the climb is a resolution to unison, one law held completely by every monad (the corpus's Community of Gods), reached across Ages when the whole monad is carried and placed in new spacetimes. Which law: the one most voices hold (t135). At third order the focus still resolves to one tone while a chord stays locked in the phases (t137); next: whether that chord contains the tone, and on E6's 27 tones whether the locked chords are the cubic's (t136 makes them the only resonant ones). Open next: will varied independently of capacity (a soloist), and whether more than one law can be held completely when minds read at higher order.
 - Tie a model "law" to a physical one: show a cluster of locked relations carrying the grid's gauge structure.
 - Connect the capacity scale to the corpus's quantitative claims, if any (Hockney's Selector Function).
 - The crossover in the grid: what the fading of the Higgs at an Age's end does to the count.
