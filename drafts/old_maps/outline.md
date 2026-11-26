@@ -30,3 +30,13 @@ Rows (beyond the 20 above): mandalas (symmetry groups); flower of life and the M
 ## Visual design (user, 2026-11-25): rich in visuals, few equations
 Each post pairs the tradition's familiar figure, redrawn plainly (traditional symbols only; no reproduced card art or modern designs), with the grid's counterpart overlaid. Palette: Orchid dawn (proposed; the series takes its own slot if Cosmogony keeps it). Prototype: visuals/enneagram_prototype.png (now part of post 5).
 Pairings: tetractys → the sefirot's ten; orbit diagram of Io, Europa, Ganymede with the 1 : 2 : 4 lock; the five solids beside their groups and the E6, E7, E8 diagrams; digital-root clock of nine; enneagram on the clock (prototype); yin-yang beside the balanced pair and its cosine; Emerald Tablet's above/below as one record at two scales; Plotinus' ladder as the continuum of levels; sparks and shells as partial tones on a grid; Tree of Life (ten sefirot, 22 paths, three pillars labelled thesis, antithesis, synthesis); the 231 gates as a complete graph on 22 letters; the 22 trumps as positions on the tree; hexagrams as binary 0–63; alchemical stages as the phases of a movement; the chakra column beside the body's frequency bands; zodiac wheel beside the planets' resonance chain; the record that never erases as a growing ledger; the drop and the ocean as a voice and the chord.
+
+## General rules for every slide (user, 2026-11-25): the power is in combining both sides of the brain
+1. Every slide carries both halves: the figure (image, symbol, colour, the felt sense) and the equation (number, logic, derivation). Neither stands alone.
+2. The figure is the real thing, drawn in full and accurately (a Tree of Life slide shows the whole Tree); the equations sit on it, at the parts they explain.
+3. Equations are not held back. Each sits where the figure points to it, with a two-word gloss under it.
+4. Colour carries meaning and is the same everywhere: one colour per structure (the table of correspondences), so colour becomes a second language.
+5. One sentence ties the halves together: what the picture shows is what the equation says.
+6. Dense is fine; clutter is not: labels never cross lines (masked), one phrase per label, two lines at most.
+7. Mythos read twice: as a claim about the world (passes or does not) and as a practice for a mind (the derived rules decide).
+8. No emoji or symbols that render as emoji; no apologetic or empiricist phrasing.
