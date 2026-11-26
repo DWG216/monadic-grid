@@ -9,3 +9,10 @@ P1 [M]: for the 1e-14 kg diamond superposed over 250 μm, gravitons would act fa
 P2 [M]: for the Moon-mass example at 1 g the record is faster than DSW's gravitons by more than 10⁴⁰.
 P3 [M]: in the de Sitter static patch (R_H = c/H₀, H₀ = 67.4 km/s/Mpc) the record is faster than DSW's gravitons by more than 10¹⁴⁰ for the 1e-14 kg superposition.
 Consequence fixed in advance: on every Killing horizon the gravitational split between the grid and quantised gravity is hidden by the record's own rate except near black holes below about 3e21 kg (t164) and at accelerations above about 1e21 m/s²; the electromagnetic effect is the same in both.
+
+## Scoring (2026-11-26), run 1 (t165_run1.log)
+- S1 PASS: 2.08 fs against DSW's 2 fs.
+- P1 PASS: a* = 1.15e21 m/s² (1.2e20 g).
+- P2 PASS: the record is faster by 1.3e48 for the Moon-mass example at 1 g.
+- P3 PASS: de Sitter (R_H = 1.37e26 m): the record is faster by 1.7e151.
+Verdict as fixed in advance: on every Killing horizon the gravitational split is hidden by the record's own rate except near black holes below about 3e21 kg (t164) and at accelerations above about 1e21 m/s²; the electromagnetic effect is the same in both.

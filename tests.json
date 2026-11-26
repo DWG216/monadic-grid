@@ -3409,5 +3409,16 @@
   ],
   "group": "grid",
   "timeout": 120
+ },
+ {
+  "script": "scripts/current/t165_killing_horizons.py",
+  "sections": [
+   "305"
+  ],
+  "predictions": [
+   "PREDICTIONS_t165.md"
+  ],
+  "group": "grid",
+  "timeout": 120
  }
 ]

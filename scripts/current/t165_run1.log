@@ -1,0 +1,4 @@
+S1 {'T_D_s': 2.079917262940211e-15, 'paper_s': 2e-15, 'pass_': True}
+P1 {'T_record_s': 0.011624648510898979, 'a_star': 1.1533138841550961e+21, 'a_star_over_g': 1.1760528663254997e+20, 'pass_': True}
+P2 {'record_faster_by': 1.3018314494385719e+48, 'pass_': True}
+P3 {'R_H_m': 1.372506806603264e+26, 'record_faster_by': 1.6947401045268185e+151, 'pass_': True}
