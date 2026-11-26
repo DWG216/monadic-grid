@@ -45,13 +45,13 @@ for k, dim in (('Keter', 'E8: 248'), ('Tiferet', 'E6: 78'), ('Yesod', 'SU(3)³: 
     x, y = S[k][0], S[k][1]
     ax.text(x + (0.36 if k == 'Keter' else -0.36), y + (0.0), dim, color=SYN, fontsize=11.5, ha=('left' if k == 'Keter' else 'right'), va='center', fontweight='bold', zorder=6, bbox=dict(boxstyle='round,pad=0.15', fc=BG, ec='none'))
 items = [(FLASH, 'Down the flash: balance, its two hands, the two kinds of term, the record, held tones, hearing, the beat, matter. Each sphere is the step the one above forces.'),
-         (SYN, 'Down the middle pillar, symmetry narrows: E8 (248) holds E6 (78) with the family SU(3); E6 breaks to SU(3)³ (24) at gravity’s meeting, and that to the forces we see (12) at the cut.'),
+         (SYN, 'Down the middle pillar, symmetry narrows: E8 (248) holds E6 (78) with the family SU(3); a Z₃ holonomy of the grain breaks E6 to SU(3)³ (24) at gravity’s meeting (t142), and that breaks to the forces we see (12) at the cut.'),
          (THESIS, 'Up the paths, the climb: capacity grows by what is heard, d ln a = d ln e, from 1/T to 1.')]
 import textwrap
 for i, (c, s) in enumerate(items):
-    y = 0.172 - i*0.05
+    y = 0.172 - i*0.052
     fig.patches.append(Circle((0.07, y - 0.002), 0.008, color=c, transform=fig.transFigure, figure=fig))
-    fig.text(0.095, y, '\n'.join(textwrap.wrap(s, 92)), color=INK, fontsize=13.5, va='center', linespacing=1.3)
+    fig.text(0.095, y, '\n'.join(textwrap.wrap(s, 100)), color=INK, fontsize=12.5, va='center', linespacing=1.25)
 fig.add_artist(plt.Line2D([0.06, 0.94], [0.035, 0.035], color=LINE, lw=1.5, transform=fig.transFigure))
 fig.text(0.94, 0.012, 'The Monadic Grid', color=MUTED, fontsize=14, ha='right')
 fig.savefig('tree_equations.png', facecolor=BG); print('ok')
