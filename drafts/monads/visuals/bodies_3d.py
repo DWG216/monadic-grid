@@ -67,9 +67,6 @@ fig, ax = frame('The Earth rings as one planet', 'Its slowest free oscillation, 
                  'Its core dynamo has flipped hundreds of times and holds each polarity for ages: a held choice on a planet\'s clock.',
                  'In the grid: a body that rings as a whole and holds a break that a small step can tip can carry a mind.'])
 sphere(ax, Y, 0.07, cm(['#0C4A6E', '#0EA5E9', '#86EFAC', '#FEF9C3']))
-for t0 in (np.arccos(1/np.sqrt(3)), np.pi - np.arccos(1/np.sqrt(3))):
-    pp = np.linspace(0, 2*np.pi, 400); rr0 = 1.004
-    ax.plot(rr0*np.sin(t0)*np.cos(pp), rr0*np.sin(t0)*np.sin(pp), rr0*np.cos(t0)*np.ones_like(pp), color='#FBEFE6', lw=1.2, alpha=0.7)
 fig.savefig(OUT + 'earth_0S2.png', facecolor=BG); plt.close(fig)
 
 # 4. The black hole: the ringdown of its l = 2, m = 2 quasinormal mode, seen on the orbital plane
