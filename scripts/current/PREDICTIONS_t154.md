@@ -13,3 +13,11 @@ P1 [M]: c_log = +1/45 = +0.02222 within 15%.
 P2 [M]: the sign is opposite to t153's flat sphere (−0.0111): the horizon's curvature flips it.
 Consequence fixed in advance: P1 passes → the grid's log term on a black hole is computed on its own lattice for the scalar; the photon (−26/90 with edge modes) remains the next item (t155).
 Prior work: 't Hooft's brick wall (1985); Solodukhin's review of entanglement entropy of black holes (Living Rev. Rel. 2011) for the conical-singularity log term; Sen 2012 for C_local.
+
+## Scoring (2026-11-26), run 1 (t154_run1.log)
+- S1 PASS: tightening the l cutoff from 1e-14 to 1e-16 moves S(20) by 3e-14.
+- S2 PASS: c_log = 0.021667 with the wall at 4r_s, 0.021103 at 6r_s (2.6% apart).
+- P1 PASS: c_log = +0.021667 against +1/45 = 0.022222: 2.5% off.
+- P2 PASS: positive on the horizon, against −0.0111 on t153's flat sphere.
+(A harmless overflow warning from exp of large frequencies goes to stderr; the terms are exactly 0.)
+Verdict as fixed in advance: the grid's log term on a black hole is computed on its own lattice for the scalar. Next: the photon, t155.

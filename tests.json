@@ -3288,5 +3288,16 @@
   ],
   "group": "grid",
   "timeout": 600
+ },
+ {
+  "script": "scripts/current/t154_schwarzschild_log.py",
+  "sections": [
+   "290"
+  ],
+  "predictions": [
+   "PREDICTIONS_t154.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]
