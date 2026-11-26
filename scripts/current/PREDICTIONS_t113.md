@@ -14,3 +14,6 @@ Consequence fixed in advance: if P1 and P2 pass, the third generation's b/τ is 
 - P2 PASS (blind): over t in [0.1, 10] the ratio stays 0.666664–0.666670: the heavy mixing does not move it.
 - P3 FAIL (expected): with the corrected running, s/μ = 0.231 and d/e = 2.44 at M*, not 2/3. Kept.
 Verdict as fixed in advance: the third generation's b/τ is the 351′ Clebsch, 2/3, by orthogonality in the pair's record; the light generations need the 27̄ half as well (two-term texture), the next item.
+
+## Prior work (added 2026-11-26)
+The 351′ Clebsch is in Bajc and Susič, arXiv:1311.0775 (JHEP 02 (2014) 058), eq. 92: the 351′ enters the charged-lepton block with −3/2 times its coefficient in the down-quark block, as B. Bajc pointed out in reply to our letter. Our (lepton, quark) = (3, 2) is the same ratio; the relative sign to the 27 term depends on field conventions and does not affect m_b/m_τ = 2/3 when the light doublet sits in the 351′ alone. What t113 adds is the reading: the light doublet lies in the half of Sym²(27) orthogonal to the cubic, and the ratio is then independent of the heavy vevs (P2).
