@@ -49,4 +49,5 @@ def run(seed, rotate=True, L=12, T=600, r=2, eta=0.3, will=0.2, tau=20.0):
     return dict(n_locked=len(locked), n_cubic=kinds.count('cubic'), n_noncubic=kinds.count('non-cubic'), C_med=round(float(np.median((p**2).sum(1))), 3))
 if __name__ == '__main__':
     mode, s0, s1 = sys.argv[1], int(sys.argv[2]), int(sys.argv[3])
-    for s in range(s0, s1): print(mode, s, run(s, rotate=(mode == 'rot')), flush=True)
+    kw = dict(T=int(sys.argv[4]), tau=float(sys.argv[5]), will=float(sys.argv[6])) if len(sys.argv) > 4 else {}
+    for s in range(s0, s1): print(mode, s, kw, run(s, rotate=(mode == 'rot'), **kw), flush=True)
