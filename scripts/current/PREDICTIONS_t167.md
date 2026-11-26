@@ -9,3 +9,9 @@ P1 [M]: over 10,000 random readings (random far-site weights, including the fiel
 P2 [M]: in the unravelling of t157 (20,000 trajectories), conditioning additionally on a distant-site field reading changes the ensemble coherence decay rate by less than 1% (it adds no information).
 P3 [M, number]: for the Bose superposition (1e-14 kg, 250 μm) at b = 6GM/c² from a solar-mass black hole, the record-written field's step at writing, ΔΦ ≈ p_B G m d/b², is reported; it is one history's field, and the horizon's which-path count from gravity is zero, against DSW's soft-graviton count ⟨N⟩ ~ T/T_D^GR.
 Consequence fixed in advance: P1 and P2 pass → the horizon's classical memory carries no which-path information beyond the record, so the gravitational DSW term is absent in the grid for a stated reason, not by assumption.
+
+## Scoring (2026-11-26), run 1 (t167_run1.log)
+- P1 PASS: over 10,000 readings of the written field (single distant sites, weighted combinations, arbitrary functionals) the largest branch-discrimination rate is 0.908 of the record's; the reading C⁻¹Δ reaches it exactly (1 + 3e-13).
+- P2 PASS (by construction, as stated in the code): conditioning additionally on a far-site field reading leaves the decay rate unchanged (0.2424 both; difference 0), because the reading is a function of the record and its likelihood is already counted.
+- P3 (number): at 6GM/c² from a solar-mass black hole the written field's step for the Bose superposition is 1.1e-36 m²/s², one history's; the grid's which-path count from gravity is 0; DSW's soft-graviton rate is 5.8e-43 per second.
+Verdict as fixed in advance: the horizon's classical memory carries no which-path information beyond the record (data processing), so the gravitational DSW term is absent in the grid for a stated reason.

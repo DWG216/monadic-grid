@@ -1,0 +1,3 @@
+P1 {'max_ratio': 0.9080591700407407, 'optimal_reading_ratio': 1.0000000000003335, 'pass_': np.True_}
+P2 {'rate_record': np.float64(0.2424388902717267), 'rate_with_far_reading': np.float64(0.2424388902717267), 'rel': np.float64(0.0), 'pass_': np.True_}
+P3 {'b_m': 8862.023209473296, 'field_step_m2s2': 1.0623068219570313e-36, 'grid_whichpath_count': 0, 'DSW_soft_graviton_rate_per_s': 5.8165963989460295e-43}

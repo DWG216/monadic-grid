@@ -3431,5 +3431,16 @@
   ],
   "group": "grid",
   "timeout": 1500
+ },
+ {
+  "script": "scripts/current/t167_horizon_memory.py",
+  "sections": [
+   "305"
+  ],
+  "predictions": [
+   "PREDICTIONS_t167.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]
