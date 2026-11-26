@@ -11,3 +11,9 @@ S1 [sanity]: formula equals brute force for n = 2, 4, 6.
 P1 [M]: ln N0(n) = n ln 16 − (5/2) ln n + const + o(1): the fitted log coefficient over n = 200…2000 is −2.50 within 0.02.
 P2 [I, expected to disagree, registered anyway]: the grid's microcanonical log correction is then −(r/2) ln A = −2.5 ln A. Compare Sen (arXiv:1205.0971): for Schwarzschild in D = 4 the microcanonical coefficient of ln A is (C_local − 1)/2 with C_local = (2n_S − 26n_V + 7n_F + 424)/90. With Standard Model fields (n_S = 4, n_V = 12; n_F = 24 if Dirac, 48 if Majorana, with ν_R) it is positive, between about +1.1 and +2.0. Pass if |−2.5 − Sen| < 0.5.
 Consequence fixed in advance: if P2 fails, the bare balanced count is not the black hole's microstate count; the Euclidean one-loop part (the massless fields' fluctuations around the horizon) must be added to the grain's count, or the cells carry more structure than the 16. Recorded as an open obstacle, stated in any letter.
+
+## Scoring (2026-11-26), run 1 (t150_run1.log)
+- S1 PASS: formula = brute force (0, 960, 0 for n = 2, 4, 6; odd-even structure: n ≡ 2 mod 4 gives none at these sizes).
+- P1 PASS: fitted log coefficient −2.498 over n = 200–2000.
+- P2 FAIL (expected): the grid's bare count gives −2.5 ln A; Sen's microcanonical Schwarzschild coefficient with Standard Model fields is +1.1 (Dirac reading) to +2.0 (Majorana reading). Opposite sign.
+Verdict as fixed in advance: the bare balanced count is not the black hole's microstate count. Open obstacle: the massless fields' one-loop fluctuations around the horizon (Sen's C_local) must be added to the grain's count, or the cells carry more structure than the 16. The d = 16 lead (§286) is untested.

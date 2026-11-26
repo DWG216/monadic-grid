@@ -3233,5 +3233,38 @@
   ],
   "group": "grid",
   "timeout": 120
+ },
+ {
+  "script": "scripts/current/t149_tradeoff.py",
+  "sections": [
+   "287"
+  ],
+  "predictions": [
+   "PREDICTIONS_t149.md"
+  ],
+  "group": "grid",
+  "timeout": 600
+ },
+ {
+  "script": "scripts/current/t150_horizon_count.py",
+  "sections": [
+   "287"
+  ],
+  "predictions": [
+   "PREDICTIONS_t150.md"
+  ],
+  "group": "grid",
+  "timeout": 900
+ },
+ {
+  "script": "scripts/current/t151_boost_diamonds.py",
+  "sections": [
+   "287"
+  ],
+  "predictions": [
+   "PREDICTIONS_t151.md"
+  ],
+  "group": "grid",
+  "timeout": 300
  }
 ]

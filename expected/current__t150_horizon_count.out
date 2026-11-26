@@ -1,0 +1,3 @@
+S1 {'formula': {2: 0, 4: 960, 6: 0}, 'brute': {2: 0, 4: 960, 6: 0}, 'pass_': True}
+P1 {'log_coefficient': np.float64(-2.4979263922345716), 'const': np.float64(-0.45168833453360807), 'pass_': np.True_}
+P2 {'grid': -2.5, 'sen': {'Dirac, n_F = 24': {'C_local': 3.2, 'lnA_coefficient': 1.1}, 'Majorana, n_F = 48': {'C_local': 5.066666666666666, 'lnA_coefficient': 2.033333333333333}}, 'pass_': False}

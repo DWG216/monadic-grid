@@ -1,0 +1,23 @@
+lattice  eta=0  mean=  50.02  var=     6.63  chain=  13.14
+lattice  eta=1  mean=  50.00  var=    89.79  chain=  20.82
+lattice  eta=2  mean=  50.06  var=   110.04  chain=  50.06
+lattice  eta=3  mean=  51.80  var=  4674.29  chain=  51.80
+lattice  eta=4  mean=  49.80  var= 16747.55  chain=  49.80
+lattice  eta=5  mean=  47.22  var= 47327.82  chain=  47.22
+jitter   eta=0  mean=  49.99  var=     4.61  chain=  10.70
+jitter   eta=1  mean=  50.00  var=     7.08  chain=  11.04
+jitter   eta=2  mean=  50.03  var=    17.49  chain=  11.33
+jitter   eta=3  mean=  49.82  var=    35.48  chain=  11.26
+jitter   eta=4  mean=  50.05  var=    43.02  chain=  11.28
+jitter   eta=5  mean=  50.05  var=    48.59  chain=  11.30
+poisson  eta=0  mean=  50.04  var=    51.78  chain=  11.28
+poisson  eta=1  mean=  50.13  var=    49.67  chain=  11.30
+poisson  eta=2  mean=  49.85  var=    49.07  chain=  11.27
+poisson  eta=3  mean=  50.02  var=    48.88  chain=  11.25
+poisson  eta=4  mean=  50.06  var=    50.20  chain=  11.31
+poisson  eta=5  mean=  49.87  var=    50.27  chain=  11.27
+S1 {'pass_': False, 'worst': np.float64(0.055520000000000014)}
+P1 {'var0': np.float64(6.634775), 'var5': np.float64(47327.819824), 'pass_': np.True_}
+P2 {'var0_over_mean': np.float64(0.09227074220278103), 'var5_over_mean': np.float64(0.9708760950744406), 'pass_': np.True_}
+P3 {'var_over_mean': {0: np.float64(1.0347927316409207), 1: np.float64(0.9908223611295829), 2: np.float64(0.9843901716517217), 3: np.float64(0.9771735535905074), 4: np.float64(1.002946544670782), 5: np.float64(1.0078922810957243)}, 'chain': {0: np.float64(11.282666666666668), 1: np.float64(11.299), 2: np.float64(11.265666666666666), 3: np.float64(11.246666666666666), 4: np.float64(11.307333333333334), 5: np.float64(11.268666666666666)}, 'pass_': True}
+P4 {'lattice': (np.float64(13.144333333333334), np.float64(47.224)), 'jitter': (np.float64(10.704333333333333), np.float64(11.304333333333334)), 'pass_': False}

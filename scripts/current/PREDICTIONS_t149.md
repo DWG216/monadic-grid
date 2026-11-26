@@ -17,3 +17,11 @@ P3 [M] bound: across 200 random CP settings (k, efficiency in [0.1, 1], extra de
 P4 [I, number fixed in advance] Bose geometry (two diamond masses 1e-14 kg, ρ = 3500 kg/m³, superposition 250 μm, centres 450 μm, collinear): the grid's coherence time is the reduction time τ = πħ/E_G (t146), so γ = 1/τ; with R = 1 the probe's acceleration diffusion is fixed, D_a = g_a²/(2γ) where g_a is half the difference of the two branch accelerations. Reported: τ, γ, g_a and D_a. Prediction: τ is below 0.1 s (the experiment needs coherence over about 2.5 s), so the grid predicts no gravity-mediated entanglement and which-path decoherence within 0.1 s from gravity alone.
 
 Consequence fixed in advance: if P1 passes, the grid is the minimal classical-gravity coupling (equality in the trade-off), and with t146 it has no free parameter: decoherence and diffusion are both fixed by E_G.
+
+## Scoring (2026-11-26), run 1 (t149_run1.log)
+- S1 PASS: γ = 2.004 (2k = 2), D = 0.2523 (g²/4k = 0.25).
+- P1 PASS: R = 0.981, 0.994, 1.001 at k = 0.5, 1, 2. Record-sourced gravity saturates the bound.
+- P2 PASS: R = 1.99 (extra unread dephasing), 2.02 (extra force noise), 2.05 (efficiency 0.5).
+- P3 PASS: 200 random settings, smallest R = 2.03, none below 0.97.
+- P4 PASS: diamond spheres of 1e-14 kg (radius 0.88 μm) displaced 250 μm: E_G = 9.07e-33 J, τ = πħ/E_G = 0.037 s, γ = 27.4 /s; branch acceleration half-difference g_a = 2.15e-18 m/s², so the grid's acceleration diffusion is D_a = g_a²/(2γ) = 8.4e-38 m² s⁻³. Coherence is lost to gravity alone about 70 times faster than the 2.5 s run needs: no gravity-mediated entanglement.
+Verdict as fixed in advance: the grid is the minimal classical-gravity coupling (equality in the trade-off), with no free parameter once t146 fixes γ.

@@ -191,3 +191,6 @@
 - t128: local records on a grid: small worlds coarsen to one law; large worlds keep 7-11 laws but only ~30% of monads hold one (borders); Ages do not settle borders (all pass). No Community of Gods from these dynamics.
 - t129: border test: unsettled monads in large worlds are fixated in lawless zones, not between laws; third-order reading forms relations but makes no border monad whole (all pass).
 - t130: reflective local world: attention stays on real signals but laws come out fewer and partial (all pass); t129's 'fixated on noise' reading withdrawn: the unsettled majority sit on partial laws (record 10-15x noise, order 0.5-0.7).
+- t149: record-sourced gravity saturates the decoherence-diffusion trade-off (R = 0.98-1.00; controls 2.0; 200 random CP settings all >= 1); Bose geometry: tau = 0.037 s, D_a = 8.4e-38 m^2 s^-3, no gravity-mediated entanglement.
+- t150: balanced count of SO(10) spinor cells: -5/2 ln A exactly (pass); Sen's Schwarzschild coefficient with Standard Model fields is +1.1 to +2.0 (fail, expected): the bare count is not the black hole count; open.
+- t151: boosted diamonds in 1+1: regular and jittered lattices pick a frame (count variance), the sprinkling does not (counts and chains at every boost); S1 failed on threshold (lattice variance), P4 failed (jittered lattice chain frame-free to 6%).
