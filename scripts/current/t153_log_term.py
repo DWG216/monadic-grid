@@ -52,7 +52,7 @@ if __name__ == '__main__':
     ns = [10, 12, 14, 16, 20, 24, 28, 32, 40]
     S = {}; diag = {}
     for n in ns:
-        S[n], diag[n] = S_total(n); print(f'n={n:3d}  S={S[n]:.9f}  r-fit c0={diag[n]["coef0"]:.8f} resid={diag[n]["resid"]:.1e}  t={time.time()-t0:.0f}s', flush=True)
+        S[n], diag[n] = S_total(n); print(f'n={n:3d}  S={S[n]:.9f}  r-fit c0={diag[n]["coef0"]:.8f} resid={diag[n]["resid"]:.1e}', flush=True)
     s2, _ = S_total(20, L1=8000)
     out['S2'] = dict(S20=S[20], S20_doubled=s2, diff=abs(s2 - S[20]), pass_=abs(s2 - S[20]) < 1e-6)
     R = np.array(ns) + 0.5; y = np.array([S[n] for n in ns])
@@ -66,4 +66,4 @@ if __name__ == '__main__':
     out['P2'] = dict(c_log_no_inv2=c_no2[1], c_log_drop3=c_big[1],
                      pass_=abs(c_no2[1]*90 + 1) < 0.15 and abs(c_big[1]*90 + 1) < 0.15)
     for k, v in out.items(): print(k, v)
-    print(f'runtime {time.time()-t0:.0f}s')
+
