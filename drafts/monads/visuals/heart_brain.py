@@ -45,7 +45,7 @@ ax.text(0.76, 0.97, 'Brain (alpha)', color=BRAIN, fontsize=13, va='center', font
 rows = [('Field outside the body', 'what biophysics reports', '50–100 pT', 'about 1 pT', (100, 1)),
         ('One cell\'s source', 'current dipole', r'$4\times10^{-12}$ A m', r'$2\times10^{-14}$ A m', (4e-12, 1.7e-14)),
         ('Voices in the vector sum', 'Q / q  (t147)', r'$1.5\times10^{5}$', r'$6\times10^{6}$', (1.5e5, 6e6)),
-        ('Voices in phase at its own rhythm', 'the record\'s measure (post hoc)', r'$2.4\times10^{9}$ (0.98)', 'open: next test', (2.4e9, None)),
+        ('Voices in phase at its own rhythm', 'the record\'s measure (t147, t148)', r'$2.4\times10^{9}$ (0.98)', r'$1.2\times10^{7}$ (0.03)', (2.4e9, 1.2e7)),
         ('Order of chord held', 'how many voices one relation binds', '2: a tone and its overtones', '3 and up: rhythms locked across bands', None),
         ('Poise', 'can one small step tip the whole?', 'built not to tip', 'one neuron can shift behaviour', None)]
 y = 0.87

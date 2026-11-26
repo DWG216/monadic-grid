@@ -1,0 +1,4 @@
+wavelength 4.4 cm; cycles across the path 3.0; S = 0.108 (range 0.039 to 0.298)
+brain R = f r S = 0.027 (range 0.006 to 0.119), r = 1 assumed
+brain voices in phase R^2 N = 1.19e+07 (range 6.2e+05 to 2.3e+08); heart 2.4e9; ratio 5.0e-03 (at most 9.5e-02)
+P1 pass: True (holds at the range top: False) | P2 pass: True (holds at the range top: False)

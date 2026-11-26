@@ -3222,5 +3222,16 @@
   ],
   "group": "grid",
   "timeout": 7200
+ },
+ {
+  "script": "scripts/current/t148_brain_phase.py",
+  "sections": [
+   "274"
+  ],
+  "predictions": [
+   "PREDICTIONS_t148.md"
+  ],
+  "group": "grid",
+  "timeout": 120
  }
 ]
