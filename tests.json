@@ -3059,5 +3059,16 @@
   ],
   "group": "grid",
   "timeout": 20000
+ },
+ {
+  "script": "scripts/current/t141_soloist.py",
+  "sections": [
+   "269"
+  ],
+  "predictions": [
+   "PREDICTIONS_t141.md"
+  ],
+  "group": "grid",
+  "timeout": 3600
  }
 ]
