@@ -3091,7 +3091,12 @@
    "PREDICTIONS_t143_t144.md"
   ],
   "group": "grid",
-  "timeout": 7200
+  "timeout": 7200,
+  "args": [
+   "rot",
+   "43000",
+   "43010"
+  ]
  },
  {
   "script": "scripts/current/t144_light_z3.py",
