@@ -1,0 +1,2 @@
+S1 {'mean_count_tau6': 169.16750369276218, 'expected': 169.64600329384882, 'rel': np.float64(0.0028205769177940265), 'n': 3385, 'pass_': np.True_}
+P1 {'density': np.float64(0.090625), 'se': np.float64(0.01023050457553568), 'target': np.float64(0.17320508075688773), 'z': np.float64(-8.071946026431815), 'pass_': np.False_}

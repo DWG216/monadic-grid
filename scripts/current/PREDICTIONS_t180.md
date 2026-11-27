@@ -10,3 +10,12 @@ S1 [sanity]: the mean past-count of events at proper time 6 ± 0.1 lies within 5
 P1 [M, the test]: molecules per unit area = √3/10 = 0.1732 within 3 standard errors (over sprinklings).
 Consequence fixed now: if P1 passes, the meeting count needs no chosen slice: the record's own past-count supplies the cross-section, and the density is the continuum one. If it fails, reported with the value.
 Gate: physics; public.
+
+## Scoring (2026-11-27), run 1 (t180_run1.log)
+- S1 PASS: mean past-count at τ = 6 ± 0.1 is 170.4 against 169.6.
+- P1 FAIL: 0.097 ± 0.007 molecules per unit area against √3/10 = 0.173 (z = −11.7).
+Post hoc diagnostics (not scored, run after the result was seen):
+- t180_control.py (seed 1801, 60 runs): the same count with D defined by the continuum hyperboloid τ < 6 instead of the record's past-count: 0.091 ± 0.010. The record's own "now" and the geometric hyperboloid give the same count within errors.
+- t180_flatcheck.py (seed 1802, 40 runs): the same code with a flat slice t < 6 (t166's geometry): 0.156 ± 0.015, consistent with √3/10. The code is right.
+Diagnosis: the shortfall comes from the slice's curvature, not from the record: at τ₀ = 6 the hyperboloid's curvature radius is six cells, and the leading-order density of Barton et al. holds only when the slice is flat on the scale of a molecule. The registration chose a geometry too small to test the continuum density. What the run does show: defining "now" by the record's past-count reproduces the geometric slice's count (0.097 against 0.091). A test of the density itself needs τ₀ much larger than the molecule scale (cost grows as τ₀⁴); not run.
+Verdict as fixed in advance: fail.

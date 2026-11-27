@@ -3574,5 +3574,16 @@
   ],
   "group": "grid",
   "timeout": 1200
+ },
+ {
+  "script": "scripts/current/t180_record_now.py",
+  "sections": [
+   "323"
+  ],
+  "predictions": [
+   "PREDICTIONS_t180.md"
+  ],
+  "group": "grid",
+  "timeout": 1200
  }
 ]
