@@ -3486,5 +3486,16 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t171b_vortex_bvp.py",
+  "sections": [
+   "319"
+  ],
+  "predictions": [
+   "PREDICTIONS_t171b.md"
+  ],
+  "group": "grid",
+  "timeout": 600
  }
 ]
