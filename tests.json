@@ -3519,5 +3519,16 @@
   ],
   "group": "grid",
   "timeout": 1200
+ },
+ {
+  "script": "scripts/current/t175_dobrushin_groups.py",
+  "sections": [
+   "321"
+  ],
+  "predictions": [
+   "PREDICTIONS_t175.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

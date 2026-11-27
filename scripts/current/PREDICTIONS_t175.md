@@ -14,3 +14,11 @@ P2 [M, the test]: the deviations |β*_G/β*_SU(2) − 1| strictly decrease with 
 P3 [M]: the same strict ordering holds for |c_G/c_SU(2) − 1|, with c_SU(2) = 4/(3π).
 Consequence fixed now: if P2 passes, the record holds that at strong coupling the grain's clock-of-five group gives SU(2)'s Dobrushin region to within 2%: the record cannot tell 2I's gauge field from SU(2)'s there. If it fails, reported with the values.
 Gate: mathematics; public.
+
+## Scoring (2026-11-27), run 1 (t175_run1.log)
+- Design strengths computed: 2T 5, 2O 7, 2I 11.
+- P1 FAIL on threshold: C_G(1e-3)/1e-3 matches c_G to 7.5e-4 (2T), 1.2e-3 (2O), 7.6e-4 (2I), 6e-6 (SU(2)); 2O misses the registered 1e-3 (the O(β) correction and the optimiser's tolerance at β = 1e-3).
+- P2 FAIL: thresholds β* = 0.1295 (2T), 0.1329 (2O), 0.1322 (2I), 0.1310 (SU(2)). Deviations from SU(2): 1.2%, 1.5%, 0.87%. 2I is within 2%, but the ordering by design strength fails (2O deviates most).
+- P3 FAIL: slopes c_G = mean |u₀| = 0.4167 (2T), 0.3851 (2O), 0.4069 (2I) against 4/(3π) = 0.4244; deviations 1.8%, 9.3%, 4.1%: not ordered by design strength.
+Diagnosis: the reasoning was wrong. |u₀| is not a polynomial, so a t-design need not reproduce its average better as t grows; how close each group comes depends on where its points sit relative to the equator u₀ = 0, not on t. The thresholds are close for all three groups (within 1.5% of SU(2)) because the sup over staples is dominated by configurations far from the small-β regime.
+Verdict as fixed in advance: fail; the ordering claim is withdrawn. Reported: all three binary groups give SU(2)'s classical Dobrushin threshold to within 1.5%, the clock-of-five group closest (0.87%).
