@@ -1,0 +1,3 @@
+P1 {'chi_cover': -18, 'pass_': True}
+P2 {'dim78': 78, 'dim27': 27, 'order_W': 3, 'unbroken_dim': 24, 'u1_factors': 0, 'block_labels': [1, 0, 2], 'pass_': True}
+P3 {'chi_quotient': -6, 'sector_chi': [np.float64(-6.0), np.float64(-6.0), np.float64(-6.0)], 'net_families_per_block': [np.float64(3.0), np.float64(3.0), np.float64(3.0)], 'pass_': True}

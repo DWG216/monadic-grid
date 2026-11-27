@@ -3530,5 +3530,27 @@
   ],
   "group": "grid",
   "timeout": 900
+ },
+ {
+  "script": "scripts/current/t176_calabi_yau.py",
+  "sections": [
+   "322"
+  ],
+  "predictions": [
+   "PREDICTIONS_t176.md"
+  ],
+  "group": "quick",
+  "timeout": 120
+ },
+ {
+  "script": "scripts/current/t177_analyse.py",
+  "sections": [
+   "322"
+  ],
+  "predictions": [
+   "PREDICTIONS_t177.md"
+  ],
+  "group": "grid",
+  "timeout": 300
  }
 ]

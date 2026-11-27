@@ -1,0 +1,6 @@
+SU2 {'plaq': np.float64(0.6302105985101566), 'plaq_err': np.float64(0.00017375164758304834), 'chi33': np.float64(0.14227670512067225), 'chi33_err': np.float64(0.0028010080695694854), 'm_eff': np.float64(0.8463691518351201), 'm_eff_err': np.float64(0.1315108302846869), 'ratio': np.float64(2.2438453767155186), 'ratio_err': np.float64(0.34067662403431104)}
+2I {'plaq': np.float64(0.6303261618642625), 'plaq_err': np.float64(0.0002327194338813314), 'chi33': np.float64(0.14569130574308228), 'chi33_err': np.float64(0.0034628231554071887), 'm_eff': np.float64(0.8595603096602187), 'm_eff_err': np.float64(0.10798296115138684), 'ratio': np.float64(2.2519541077464797), 'ratio_err': np.float64(0.2874609215064048)}
+S1 {'plaq': np.float64(0.6302105985101566), 'lit': 0.63, 'rel': np.float64(0.0003342833494548447), 'pass_': np.True_}
+S2 {'ratio': np.float64(2.2438453767155186), 'lit': 3.78, 'rel': np.float64(0.4063901119800215), 'pass_': np.False_}
+P1 {'rel': np.float64(0.0001833725970001865), 'pass_': np.True_}
+P2 {'diff': np.float64(0.008108731030961103), 'two_sigma': np.float64(0.8915028739308174), 'rel': np.float64(0.003613765509471267), 'pass_': np.True_}

@@ -11,3 +11,9 @@ P2 [M]: W has order 3 in E6, acts on the 78 trivially exactly on the 24 generato
 P3 [M, given the free action]: χ(quotient) = −6, and by the holomorphic Lefschetz theorem (no fixed points, so every non-trivial element has vanishing Lefschetz number) the net chirality is the same in each of the three Z₃ character sectors: three net families of each trinification block, 3 × [(3,3̄,1) + (1,3,3̄) + (3̄,1,3)].
 Consequence fixed now: if P1–P3 pass, the record holds that the grain's clock of three, as the fundamental group and the Wilson line of the Tian–Yau quotient, gives trinification with three families and no U(1), the grid's cut (t66, t142) in heterotic geometry. This confirms known mathematics (GKMR); the grid's content is the identification.
 Gate: mathematics and nature; public.
+
+## Scoring (2026-11-27), run 1 (t176_run1.log)
+- P1 PASS: χ of the Tian–Yau cover computed from its configuration: −18.
+- P2 PASS: W (centre of SU(3)_C) has order 3, leaves exactly the 24 generators of SU(3)³ unbroken, labels the 27's blocks 1, ω, ω̄. Noted: "no U(1)" is immediate from the decomposition listed (the 78 has no (1,1,1)); the real check that SU(3)³ is the only order-3 breaking without a U(1) is t142's.
+- P3 PASS (given the free action from Tian–Yau): χ(quotient) = −6, each Z₃ sector carries −6, so three net families in each trinification block.
+Verdict as fixed in advance: the grain's clock of three, as the fundamental group and the Wilson line of the Tian–Yau quotient, gives trinification with three families and no U(1): the grid's cut in heterotic geometry (Greene–Kirklin–Miron–Ross). Confirms known mathematics; the content is the identification.

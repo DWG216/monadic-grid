@@ -1,0 +1,9 @@
+SU2 sweep 0 plaq 0.63266 sec 6
+SU2 sweep 500 plaq 0.63660 sec 30
+SU2 sweep 1000 plaq 0.63631 sec 54
+SU2 sweep 1500 plaq 0.63171 sec 78
+SU2 sweep 2000 plaq 0.63146 sec 101
+SU2 sweep 2500 plaq 0.63988 sec 123
+SU2 sweep 3000 plaq 0.63205 sec 146
+SU2 sweep 3500 plaq 0.63780 sec 168
+SU2 done sec 191
