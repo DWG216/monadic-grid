@@ -10,3 +10,5 @@ S1 [sanity]: S/Area changes by less than 1% between the two resolutions.
 P1 [M]: |s_cubic / 0.02351 − 1| > 5%: the area coefficient depends on the regulator.
 Consequence fixed now: if P1 passes, the field's area coefficient is a property of the lattice chosen, not of the record, and t27's 0.295 per degree of freedom has no sufficient reason to fix η; with §316 the tension resolves in favour of the meeting count. If P1 fails, the tension stands.
 Gate: physics; public.
+
+Amendment before any code was run (2026-11-27): the resolutions above are too costly here (each mass needs an 800 × 1600 projection). Changed to: chain 2N = 800 sites, 64 × 64 nodes for the result; convergence check against 2N = 400 sites and 48 × 48 nodes (S1 tolerance unchanged, 1%). P1 unchanged.
