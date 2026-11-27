@@ -1,0 +1,5 @@
+SU2 {'sigma': np.float64(0.0770605271714465), 'sigma_err': np.float64(0.0083659336213974), 'e': np.float64(0.23280752845386293), 'e_err': np.float64(0.019678227969037447), 'mass': np.float64(0.8463691518351201), 'mass_err': np.float64(0.1315108302846869), 'ratio': np.float64(3.048904618130718), 'ratio_err': np.float64(0.43715597359255937), 'V': [0.373, 0.5635, 0.6858, 0.7767]}
+2I {'sigma': np.float64(0.08820218838803309), 'sigma_err': np.float64(0.006985374911968572), 'e': np.float64(0.21462795182428004), 'e_err': np.float64(0.01368658053941907), 'mass': np.float64(0.8595603096602187), 'mass_err': np.float64(0.10798296115138684), 'ratio': np.float64(2.8942542079344404), 'ratio_err': np.float64(0.3598181692097646), 'V': [0.3733, 0.5669, 0.695, 0.7975]}
+P1 {'e': np.float64(0.23280752845386293), 'sigma': np.float64(0.0770605271714465), 'pass_': np.True_}
+P2 {'ratio': np.float64(3.048904618130718), 'rel': np.float64(0.19341147668499514), 'pass_': np.True_}
+P3 {'dsigma': np.float64(0.011141661216586593), 'two_sig_sigma': np.float64(0.021797642810027634), 'dratio': np.float64(0.15465041019627757), 'two_sig_ratio': np.float64(1.132385906201813), 'pass_': np.True_}

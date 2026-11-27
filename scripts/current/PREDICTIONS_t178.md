@@ -12,3 +12,8 @@ P1 [M]: the area coefficients differ: |s_B/s_A − 1| > 5%.
 P2 [M]: the log coefficients agree with each other within 15% and each lies within 15% of −1/90.
 Consequence fixed now: if P1–P2 pass, the field route's area coefficient is a property of the regulator, not of the record; t27's 0.295 has no sufficient reason to fix η, and the tension is resolved in favour of the meeting count (with §316). If P1 fails, the tension stands.
 Gate: physics; public.
+
+## Scoring (2026-11-27), run 1 (t178_run1_A.log, t178_run1_B.log)
+- P1 FAIL: s_A = 0.2954314 and s_B = 0.2954314 (identical to 1e-7): the two weightings differ only by ¼ per bond, which vanishes relative to j² where the area term is set; the radial spacing is the only cutoff in this chain, and both keep it. The variation registered was too weak to change the regulator.
+- P2 PASS: log coefficients −0.010818 (A) and −0.010930 (B), within 1% of each other and within 2.6% and 1.6% of −1/90.
+Verdict as fixed in advance: P1 fails, so the tension stands as stated in §306: t27's 0.295 per degree of freedom is not shown to be a regulator artefact by this test. Reported: the area coefficient here is set by the radial spacing alone; a real change of regulator (a longer-range derivative, a different angular cutoff) is needed to test non-universality, and that has to be registered separately.

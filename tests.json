@@ -3552,5 +3552,16 @@
   ],
   "group": "grid",
   "timeout": 300
+ },
+ {
+  "script": "scripts/current/t179_cornell.py",
+  "sections": [
+   "323"
+  ],
+  "predictions": [
+   "PREDICTIONS_t179.md"
+  ],
+  "group": "quick",
+  "timeout": 300
  }
 ]
