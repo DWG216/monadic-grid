@@ -3475,5 +3475,16 @@
   ],
   "group": "slow",
   "timeout": 2400
+ },
+ {
+  "script": "scripts/current/t171_seiberg_witten.py",
+  "sections": [
+   "319"
+  ],
+  "predictions": [
+   "PREDICTIONS_t171.md"
+  ],
+  "group": "grid",
+  "timeout": 900
  }
 ]

@@ -1,0 +1,8 @@
+P1 {'max_rel_err': np.float64(4.321929033995843e-16), 'SD_rank': np.int64(3), 'SD_traceless_antihermitian': True, 'ASD_on_Splus_max': np.float64(0.0), 'pass_': True}
+Traceback (most recent call last):
+  File "/home/claude/monadic-grid/scripts/current/t171_seiberg_witten.py", line 58, in <module>
+    E = np.trapz(2*np.pi*rs[:k+1]*dens[:k+1], rs[:k+1]); flux = 2*np.pi*N*a[k]
+        ^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/numpy/__init__.py", line 769, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {attr!r}")
+AttributeError: module 'numpy' has no attribute 'trapz'. Did you mean: 'trace'?
