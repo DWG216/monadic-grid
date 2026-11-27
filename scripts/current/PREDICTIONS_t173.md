@@ -12,3 +12,11 @@ P2 [M]: with the singlet as the only source (ρ̃ ≥ 0): m > 0 for every profil
 P3 [M]: if the source also carried the triplet's sign-indefinite cross term (amplitudes drawn from [−0.02, 0.02] instead), the identity still holds (P1's tolerance) but m < 0 occurs in at least 10% of 1,000 profiles: positivity comes from the singlet, not from the identity.
 Consequence fixed now: if P1–P3 pass, the record holds that gravity's mass is non-negative because only the singlet of the square sources it (Witten's argument, read in the record).
 Gate: statement about nature; public.
+
+## Scoring (2026-11-26)
+Run 1 (t173_run1.log): P1 FAIL from a code error: the exterior contribution beyond r = 12 was computed with ψ ≈ 1, false for the strong-field profiles drawn (m up to 378). Replaced by the exact exterior integral, 8πb(1 − (1 + b/R)⁻³) with b = m/2, and rerun; nothing else changed. Run 2 (t173_run2.log) is scored. Kept on the record: the first run failed P1 by the code, not by the identity.
+Not as registered: 10 of the 1,000 singlet profiles and 2 of the 1,000 cross-term profiles are too strong to give a regular slice (ψ reaches 0); they are excluded (990 and 998 used).
+- P1 PASS (run 2): Witten's identity holds to 9e-11 (singlet) and 1.3e-10 (cross term).
+- P2 PASS: with the singlet as the only source, m > 0 in all 990 (smallest 0.099), both integrands non-negative everywhere.
+- P3 PASS: with the cross term's sign-indefinite part, m < 0 in 48.7% of 998 profiles (registered ≥ 10%); the curvature integrand goes negative.
+Verdict as fixed in advance: gravity's mass is non-negative because only the singlet of the square sources it (Witten's argument, read in the record).

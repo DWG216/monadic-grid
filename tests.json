@@ -3497,5 +3497,27 @@
   ],
   "group": "grid",
   "timeout": 600
+ },
+ {
+  "script": "scripts/current/t172_chern_simons.py",
+  "sections": [
+   "320"
+  ],
+  "predictions": [
+   "PREDICTIONS_t172.md"
+  ],
+  "group": "grid",
+  "timeout": 900
+ },
+ {
+  "script": "scripts/current/t173_positive_energy.py",
+  "sections": [
+   "320"
+  ],
+  "predictions": [
+   "PREDICTIONS_t173.md"
+  ],
+  "group": "grid",
+  "timeout": 1200
  }
 ]

@@ -1,0 +1,5 @@
+singlet {'n': 990, 'psi_nonpositive': 10, 'max_rel': np.float64(8.546177725129569e-11), 'm_min': np.float64(0.09872847001864585), 'm_max': np.float64(377.6960293646355), 'frac_negative_m': np.float64(0.0), 'min_i1': np.float64(0.0), 'min_i2': np.float64(0.0)}
+with_cross_term {'n': 998, 'psi_nonpositive': 2, 'max_rel': np.float64(1.2922406640764435e-10), 'm_min': np.float64(-4.39384836399523), 'm_max': np.float64(34.195736208859046), 'frac_negative_m': np.float64(0.48697394789579157), 'min_i1': np.float64(0.0), 'min_i2': np.float64(-2.6683041746027345)}
+P1 {'max_rel_singlet': np.float64(8.546177725129569e-11), 'max_rel_cross': np.float64(1.2922406640764435e-10), 'pass_': np.True_}
+P2 {'m_min': np.float64(0.09872847001864585), 'min_integrands': (np.float64(0.0), np.float64(0.0)), 'pass_': np.True_}
+P3 {'frac_negative_m': np.float64(0.48697394789579157), 'pass_': np.True_}

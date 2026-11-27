@@ -15,3 +15,10 @@ P3 [M]: at no other level 1 ≤ k ≤ 30 does any invariant found have that diag
 Reported, not scored: 2cos(π/n), the clock of n's golden step, is the quantum dimension of spin ½ at k = n − 2 (clock of three: k = 1; clock of five: k = 3); this is a definition, not a result.
 Consequence fixed now: if P1–P3 pass, the record holds that the grid's three binary groups fix the Chern–Simons levels 10, 16, 28 and their exceptional pairings, from the groups alone.
 Gate: a statement about mathematics and nature; public. Applications to topological quantum computing are gated and not part of this test.
+
+## Scoring (2026-11-26), run 1 (t172_run1.log)
+- P1 PASS: built from generators, 2T, 2O, 2I have orders 24, 48, 120; McKay trees with 6, 7, 8 nodes, one branch node, arms (2, 2, 1), (3, 2, 1), (4, 2, 1); Σ dim = h = 12, 18, 30; exponents exactly E6, E7, E8's.
+- P2 PASS: at k = 10, 16, 28 a modular invariant exists with diagonal set equal to each group's exponents.
+- P3 PASS: no other level 1–30 has an invariant with those diagonal sets.
+Reported: the search reproduces the whole A–D–E classification for k ≤ 30 (the diagonal invariant at every level, the D series at every even level, the exceptional E6, E7, E8 only at 10, 16, 28). Clock of three: spin-½ quantum dimension 1 at k = 1; clock of five: φ at k = 3.
+Verdict as fixed in advance: the grid's three binary groups fix the Chern–Simons levels 10, 16, 28 and their exceptional pairings, from the groups alone.
