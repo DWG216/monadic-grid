@@ -1,0 +1,5 @@
+main N=400 nodes=64 0.02426187789379111 sec 61
+check N=200 nodes=64 0.024261652335696392
+check N=400 nodes=48 0.024261887942225387
+S1 {'rel_N': np.float64(9.296811059211763e-06), 'rel_nodes': np.float64(4.1416556118001324e-07), 'pass_': np.True_}
+P1 {'s_cubic': np.float64(0.02426187789379111), 's_spherical': 0.023509683827279484, 'ratio': np.float64(1.0319950736912429), 'pass_': np.False_}

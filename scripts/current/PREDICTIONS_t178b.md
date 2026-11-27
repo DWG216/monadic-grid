@@ -12,3 +12,8 @@ Consequence fixed now: if P1 passes, the field's area coefficient is a property 
 Gate: physics; public.
 
 Amendment before any code was run (2026-11-27): the resolutions above are too costly here (each mass needs an 800 × 1600 projection). Changed to: chain 2N = 800 sites, 64 × 64 nodes for the result; convergence check against 2N = 400 sites and 48 × 48 nodes (S1 tolerance unchanged, 1%). P1 unchanged.
+
+## Scoring (2026-11-27), run 1 (t178b_run1.log)
+- S1 PASS: converged to 1e-5 (chain length) and 4e-7 (nodes).
+- P1 FAIL: cubic lattice 0.024262 per unit area against the spherical chain's 0.023510: they differ, and the difference is resolved far beyond the numerical error, but by 3.2%, under the registered 5%.
+Verdict as fixed in advance: the tension stands. Reported: the field's area coefficient does depend on the regulator (3.2% here), but weakly: for one field it is about 0.024 per unit area for either lattice, about one eighth of the meeting count's 0.19 per cell area. So the two counts are not the same quantity at the same grain. Reading [I, not tested]: with species removed (§316) the field's own entanglement is a separate, smaller contribution; if η is the sum, the cell moves from 0.87 to about 0.93 l_P. Not adopted: it needs a reason from the ground before it is registered.

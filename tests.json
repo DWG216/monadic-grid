@@ -3563,5 +3563,16 @@
   ],
   "group": "quick",
   "timeout": 300
+ },
+ {
+  "script": "scripts/current/t178b_cubic.py",
+  "sections": [
+   "323"
+  ],
+  "predictions": [
+   "PREDICTIONS_t178b.md"
+  ],
+  "group": "grid",
+  "timeout": 1200
  }
 ]
