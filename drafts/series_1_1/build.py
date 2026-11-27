@@ -8,7 +8,7 @@ def E(s):
     s = re.sub(r'_\{([^}]*)\}', r'<sub style="font-size: 0.7em">\1</sub>', s)
     s = re.sub(r'\^\{([^}]*)\}', r'<sup style="font-size: 0.7em">\1</sup>', s)
     return s
-EMBER = {'#0F1A2B':'#1E1410','#15233A':'#2A1C16','#16344A':'#3A2418','#2A3B57':'#4A3226','#A9B8CC':'#CDB8A8','#EEF2F7':'#F7EFE8','#7FD4E8':'#F2A65A','#5CC8E0':'#E8954A','#B5E6F2':'#F8CFA0','#9C8CF0':'#E06D53'}
+EMBER = {'#0F1A2B':'#3E1F18','#15233A':'#512A20','#16344A':'#6A3122','#2A3B57':'#7A4434','#A9B8CC':'#EBCDB8','#EEF2F7':'#FFF6EE','#7FD4E8':'#F2B441','#5CC8E0':'#F2B441','#B5E6F2':'#FFD98A','#9C8CF0':'#FF7A52'}  # golden red (2026-11-26); was Ember #1E1410
 HEAD = open('/home/claude/canvas/CobaltE8.dc.html').read().split('<div data-gl="1" aria-hidden="true" style="flex: 1 1 0px; min-height: 0; margin-top: -21px"></div>')[0]
 TAIL = '''<div data-gl="1" aria-hidden="true" style="flex: 1.618 1 0px; min-height: 0; margin-top: -21px"></div>
 <div style="margin-top: 0; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #2A3B57; padding-top: 21px; font-size: 16px; color: #A9B8CC">
