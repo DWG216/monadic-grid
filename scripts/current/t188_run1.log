@@ -1,0 +1,5 @@
+P1 {'major': [4, 5, 6], 'minor': [10, 12, 15], 'undertone_mirror_of_major': [10, 12, 15], 'D3_major': 4.932, 'D3_minor': 12.164, 'pass_': True}
+P2 {'order': ['major', 'sus4', 'sus2', 'minor', 'augmented', 'diminished'], 'D3': {'major': 4.93, 'sus4': 7.56, 'sus2': 9.52, 'minor': 12.16, 'augmented': 25.2, 'diminished': 106.71}, 'integers': {'major': [4, 5, 6], 'sus4': [6, 8, 9], 'sus2': [8, 9, 12], 'minor': [10, 12, 15], 'augmented': [20, 25, 32], 'diminished': [90, 108, 125]}, 'pass_': True}
+P3 {'major_lt_minor_lt_aug_dim': True, 'pass_': True}
+P4 {'D3_below_5': [((0, 4, 7), [4, 5, 6]), ((0, 5, 9), [3, 4, 5])], 'arithmetic': [((0, 2, 4), [8, 9, 10]), ((0, 4, 7), [4, 5, 6]), ((0, 5, 9), [3, 4, 5])], 'pass_': False}
+reported {'eight_most_consonant': [((0, 5, 9), [3, 4, 5], 3.91), ((0, 4, 7), [4, 5, 6], 4.93), ((0, 3, 8), [5, 6, 8], 6.21), ((0, 3, 10), [5, 6, 9], 6.46), ((0, 8, 10), [5, 8, 9], 7.11), ((0, 5, 7), [6, 8, 9], 7.56), ((0, 7, 9), [6, 9, 10], 8.14), ((0, 2, 4), [8, 9, 10], 8.96)]}

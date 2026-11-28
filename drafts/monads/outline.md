@@ -1,4 +1,7 @@
 # Monads: 20 posts (draft order, 2026-11-25; retitled from "Monads and gravity")
+
+## Plan (user, 2026-11-28): one series, 30 to 40 posts
+Music, monads and minds in one series: the record heard (consonance as the meeting term, dissonance as the cross term; key as the invisible phase; the Tonnetz as SU(3)'s lattice, major and minor as the hand swap; commas as Wilson lines; t182–t188), the monads and minds (Parts 1–2), bodies that ring (Part 3), the universe as the God factory, the holographic linking of minds to matter, the hierarchy of beings, and the rest of the corpus's vision, ending in the movements and the resolved chord. Outline to be rebuilt at 30–40 posts; open with the grounds introduction (claude/R2R_grounds_intro.md) and the ear before the equations.
 Gravity runs through it: the meeting term is where minds agree. Rule: physics first; each new word names what the equations already forced ("monad" at 7, "will" at 10, "you" at 16). Visual standard: the old maps rules (figure and equation together); every body is shown ringing, its waves drawn in three dimensions.
 
 ## Part 1: the record (posts 1–6)

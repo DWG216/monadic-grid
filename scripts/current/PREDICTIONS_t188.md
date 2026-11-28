@@ -11,3 +11,10 @@ P3 [literature, qualitative]: the major triad is more consonant than the minor, 
 P4 [M]: among all 55 root-position triads {0, x, y} (0 < x < y < 12), the ones with D₃ < 5 are exactly those satisfying the three-voice resonance a + c = 2b.
 Consequence fixed now: if P1–P4 pass, the record holds: the most consonant three-voice chords are the three-voice resonances; major and minor are the hand swap in frequency (overtones and undertones), and the record prefers the overtone side.
 Gate: mathematics and music; public.
+
+## Scoring (2026-11-28), run 1 (t188_run1.log)
+- P1 PASS: major 4 : 5 : 6, minor 10 : 12 : 15 = the major's undertone mirror; D₃ 4.93 against 12.16.
+- P2 PASS: major 4.93 < sus4 7.56 < sus2 9.52 < minor 12.16 < augmented 25.2 < diminished 106.7.
+- P3 PASS: major < minor < augmented and diminished, as in the listening studies.
+- P4 FAIL: the triads with D₃ < 5 are 3 : 4 : 5 and 4 : 5 : 6, both three-voice resonances, but a third resonance, 8 : 9 : 10 ({0, 2, 4}), has D₃ = 8.96. The two most consonant triads are resonances; not every resonance is among the most consonant.
+Verdict as fixed in advance: P4 fails. Holds: major and minor are the overtone and undertone mirror (the hand swap in frequency) and the record prefers the overtone side; the common triads order as listeners rank them; the two most consonant of all 55 triads (the major triad and its second inversion, 4 : 5 : 6 and 3 : 4 : 5) are three-voice resonances with equal difference tones.

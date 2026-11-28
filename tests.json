@@ -3662,5 +3662,16 @@
   ],
   "group": "quick",
   "timeout": 60
+ },
+ {
+  "script": "scripts/current/t188_triads.py",
+  "sections": [
+   "328"
+  ],
+  "predictions": [
+   "PREDICTIONS_t188.md"
+  ],
+  "group": "quick",
+  "timeout": 60
  }
 ]
