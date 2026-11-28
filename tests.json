@@ -3717,5 +3717,16 @@
   ],
   "group": "quick",
   "timeout": 60
+ },
+ {
+  "script": "scripts/current/t193_phase_scales.py",
+  "sections": [
+   "338"
+  ],
+  "predictions": [
+   "PREDICTIONS_t193.md"
+  ],
+  "group": "quick",
+  "timeout": 60
  }
 ]
