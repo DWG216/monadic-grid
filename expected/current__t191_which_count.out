@@ -1,0 +1,23 @@
+C (Q = 2/3)
+  NO negative root None: (lightest meV, sum meV) none
+  NO negative root 0: (lightest meV, sum meV) [(0.3648, np.float64(59.164))]
+  NO negative root 1: (lightest meV, sum meV) none
+  NO negative root 2: (lightest meV, sum meV) none
+  IO negative root None: (lightest meV, sum meV) none
+  IO negative root 0: (lightest meV, sum meV) none
+  IO negative root 1: (lightest meV, sum meV) none
+  IO negative root 2: (lightest meV, sum meV) [(2.9167, np.float64(102.01))]
+  solutions: 2; below 64.2 meV: [np.float64(59.164)]
+I (Q = 3/4)
+  NO negative root None: (lightest meV, sum meV) none
+  NO negative root 0: (lightest meV, sum meV) [(1.1844, np.float64(60.069))]
+  NO negative root 1: (lightest meV, sum meV) none
+  NO negative root 2: (lightest meV, sum meV) none
+  IO negative root None: (lightest meV, sum meV) none
+  IO negative root 0: (lightest meV, sum meV) none
+  IO negative root 1: (lightest meV, sum meV) none
+  IO negative root 2: (lightest meV, sum meV) [(5.2388, np.float64(104.713))]
+  solutions: 2; below 64.2 meV: [np.float64(60.069)]
+
+P1 (candidate I has no solution below the bound): FAIL
+P2 (candidate C reproduces 59.16 meV): PASS

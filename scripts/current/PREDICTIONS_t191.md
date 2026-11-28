@@ -19,3 +19,8 @@ P1 [M]: candidate I (Q_ν = 3/4) has no solution in either ordering and sign wit
 P2 [M, consistency]: candidate C reproduces t40's normal-ordering solution (sum 59.16 meV within 0.1 meV).
 Consequence fixed now: P1 passes → candidate I is disfavoured by cosmology and C stands as the count (with its step-3 gap stated); C also fixes the E6 extras: the exotic charge −1/3 quarks of the 27 have n = 2 (Q = 3/4), its extra lepton doublets n = 1. P1 fails → cosmology cannot separate the two counts, and both stay candidates.
 Gate: statement about nature; public.
+
+## Scoring (2026-11-28), run 1 (t191_run1.log)
+- P1 FAIL: candidate I (Q_ν = 3/4) has a normal-ordering solution with the lightest root negative: lightest 1.18 meV, sum 60.07 meV, inside the bound. Its inverted solution (104.7 meV) is excluded, as is C's (102.0 meV).
+- P2 PASS: candidate C gives lightest 0.365 meV, sum 59.164 meV (t40).
+Verdict as fixed in advance: cosmology cannot separate the two counts; both stay candidates. They differ by 0.9 meV in the sum and by a factor of 3 in the lightest mass (0.365 against 1.18 meV), beyond present reach. Either way the sign rule (lightest root on the other hand) and normal ordering hold.

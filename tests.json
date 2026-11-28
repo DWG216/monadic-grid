@@ -3695,5 +3695,16 @@
   ],
   "group": "quick",
   "timeout": 60
+ },
+ {
+  "script": "scripts/current/t191_which_count.py",
+  "sections": [
+   "331"
+  ],
+  "predictions": [
+   "PREDICTIONS_t191.md"
+  ],
+  "group": "quick",
+  "timeout": 120
  }
 ]
