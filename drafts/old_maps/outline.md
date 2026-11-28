@@ -40,3 +40,16 @@ Pairings: tetractys → the sefirot's ten; orbit diagram of Io, Europa, Ganymede
 6. Dense is fine; clutter is not: labels never cross lines (masked), one phrase per label, two lines at most.
 7. Mythos read twice: as a claim about the world (passes or does not) and as a practice for a mind (the derived rules decide).
 8. No emoji or symbols that render as emoji; no apologetic or empiricist phrasing.
+
+## Babylon (draft 2026-11-28; proposed as post 2, before Pythagoras; placement to be approved)
+Title: Babylon: the sky by arithmetic.
+Solves: Babylon predicted the heavens for a thousand years with no geometry and no model of the sky, only numbers on a clock. That is the grid's own method.
+Main (the base): 60 = 3 × 4 × 5. The three clocks of the grid in one number: three (2T, E6, the cut), four (S₄ = PGL(2, 3), flavour; 2O, E7), five (2I, E8, φ). The icosahedral rotation group has exactly 60 elements (2I has 120). Regular numbers 2^a 3^b 5^c are the ones whose reciprocals end on the sexagesimal clock; the grid's groups live on the same primes.
+Left (Plimpton 322, c. 1800 BCE): rows of Pythagorean triples built from regular numbers, a² + b² = c². In the record: two perpendicular voices, |O + R|² = |O|² + |R|² when Re(O*R) = 0: a meeting with no cross term.
+Right (YBC 7289): √2 = 1;24,51,10 ≈ 1.414213 (error 6 × 10⁻⁷): the diagonal of the unit square, |1 + i|² = 2: two equal voices in quadrature.
+Foundations 1 (Enuma Elish): Apsu, the sweet waters, and Tiamat, the salt waters, mingle, and from their mingling everything comes; Marduk splits Tiamat into two halves, sky and earth, and fixes the stations of the stars and the twelve months. In the grid: two voices meet (O + R), the whole splits into a balanced pair, and time begins as a count of stations. "Nibiru" there is Marduk's star, read as Jupiter or as a crossing point of the sky: a station, not a hidden planet.
+Foundations 2 (the Saros): 223 synodic months ≈ 242 draconic ≈ 239 anomalistic (6,585.3 days): three lunar frequencies nearly commensurate. An eclipse is a meeting (Sun, Moon and node aligned); the Saros is the beat of that three-voice chord, heard by counting, without geometry. Their zigzag functions (Systems A and B) are arithmetic on a clock; the Jupiter tablets compute a displacement as the area under a velocity graph (Ossendrijver 2016).
+Passes into logos: the arithmetic of the sky (periods, the Saros, 360°, 12 × 30), base 60, √2, the triples, area as accumulated motion.
+Does not pass: omens (Enuma Anu Enlil: the sky as messages about kings; no signal through shared phases, as with astrology, post 18); Nibiru as a planet on a collision course, and Sitchin's readings (a planet that leaves no record in any orbit is not there).
+Figure: the sexagesimal circle, 360° in 12 signs of 30°, with the divisions by 3, 4 and 5 overlaid in their colours; beside it the Saros as three waves drifting in and out of alignment, and two waters meeting.
+Paper table rows: Babylonian mathematics (base 60 = 3 · 4 · 5, regular numbers; the clocks); Plimpton 322 (perpendicular voices, no cross term); Enuma Elish (two waters meeting, the balanced split, time as stations); the Saros (a three-voice beat; eclipses as meetings); omens (do not pass); Nibiru (Marduk's station, not a planet).
