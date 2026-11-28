@@ -1,0 +1,10 @@
+down: c = 1.5779 +- 0.0126 (sqrt(n+1/n) = 1.5811); delta = 0.0999 +- 0.0060, target 0.1111, z = -1.87
+  predicted light mass 1.676 MeV against 2.67 +- 0.19 MeV, z = -5.2
+  predicted middle mass 57.56 MeV against 53.16 +- 4.6 MeV, z = +1.0
+up: c = 1.8236 +- 0.0023 (sqrt(n+1/n) = 1.8257); delta = 0.0518 +- 0.0008, target 0.0556, z = -4.64
+  predicted light mass 0.01161 MeV against 1.23 +- 0.21 MeV, z = -5.8
+  predicted middle mass 656.5 MeV against 620 +- 17 MeV, z = +2.1
+
+P1 (delta_d ~ 1/9): PASS
+P2 (delta_u ~ 1/18): FAIL
+P3 (m_d, m_s, m_c from n and the heaviest): FAIL (m_u reported, not scored)

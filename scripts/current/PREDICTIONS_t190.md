@@ -13,3 +13,11 @@ P2 [M]: δ_u lies within 2σ of 1/18.
 P3 [M]: with c² = n + 1/n and δ_n = (2/9)·2^(1−n), the heaviest mass alone predicts the other two in each quark sector; m_s, m_d, m_c each within 2σ of the data (m_u is reported, not scored: its value is the small remainder of a near-cancellation).
 Consequence fixed now: P1–P3 pass → one integer per sector fixes the chord; the quark mass ratios reduce to n and the open problem is n alone. Any fail → the phase law is not the halving, and the chord needs a second number per sector.
 Gate: statement about nature; public.
+
+## Scoring (2026-11-28), run 1 (t190_run1.log)
+Correction to the text above: the halving pattern was registered in §216 (t103), not §218.
+- Amplitudes (t189's law, reported): c_d = 1.578(13) against √(5/2) = 1.581; c_u = 1.8236(23) against √(10/3) = 1.8257.
+- P1 PASS: δ_d = 0.0999 ± 0.0060 against 1/9 (z = −1.87).
+- P2 FAIL: δ_u = 0.0518 ± 0.0008 against 1/18 = 0.0556 (z = −4.6). The tighter data sharpen t99's −2.2σ into a clear miss.
+- P3 FAIL: from n and the heaviest mass, m_s 57.6 MeV (z = +1.0) and m_c 657 MeV (z = +2.1) come close, m_d 1.68 MeV misses (z = −5.2); m_u (unscored) 0.012 MeV against 1.23.
+Verdict as fixed in advance: the phase does not halve by sector. The amplitude law c² = n + 1/n stands from t189; the phase is a second number per sector, still open. The light masses are set by the phase, so they stay open with it.

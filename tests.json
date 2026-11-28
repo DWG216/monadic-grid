@@ -3684,5 +3684,16 @@
   ],
   "group": "quick",
   "timeout": 60
+ },
+ {
+  "script": "scripts/current/t190_sector_index.py",
+  "sections": [
+   "330"
+  ],
+  "predictions": [
+   "PREDICTIONS_t190.md"
+  ],
+  "group": "quick",
+  "timeout": 60
  }
 ]
