@@ -229,3 +229,4 @@
 - t183: the Tonnetz is the A2 lattice (torus, 12 vertices, 24 triangles: up = major, down = minor); P, L, R are orientation-reversing involutions generating a dihedral group of order 24 (pass); its orientation-preserving half is not transposition but the mirror action (major by +n, minor by -n): P3 fails.
 - t184: commas are holonomies of a flat connection on the Tonnetz torus (syntonic +21.506, lesser diesis -41.059, Pythagorean +23.460, greater diesis +62.565 cents, additive); zero holonomy with pure octaves forces 12-tone equal temperament. All pass.
 - t185: golden generator: well-formed exactly at the Fibonacci sizes with step ratio phi; the fifth: 5, 7, 12, 41, 53 among its well-formed sizes. All pass.
+- t186: dissonance as the record's repeat period sqrt(pq): consonances in t182's order, dissonances M2 < M7 < m7 < m2 < TT; Spearman 0.92 with the historical median order; the tritone (45/32) is the outlier. Pass.

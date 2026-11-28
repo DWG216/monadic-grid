@@ -3640,5 +3640,16 @@
   ],
   "group": "quick",
   "timeout": 120
+ },
+ {
+  "script": "scripts/current/t186_dissonance.py",
+  "sections": [
+   "326"
+  ],
+  "predictions": [
+   "PREDICTIONS_t186.md"
+  ],
+  "group": "quick",
+  "timeout": 60
  }
 ]
