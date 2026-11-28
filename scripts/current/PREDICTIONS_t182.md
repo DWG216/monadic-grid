@@ -9,3 +9,9 @@ P2 [M]: the record (|f̂_m|², m = 0..11, of the pitch-class indicator) separate
 P3 [M]: consonance as the share of the record that is meeting, not beating: two harmonic tones (8 partials, amplitudes 1/n) at a just ratio p/q; C = Σ over coinciding partial pairs of a_i a_j divided by Σ over all pairs of a_i a_j. Prediction: the top four are unison, octave, fifth, fourth, in that order, and the minor second (16/15) is last among the twelve intervals (just ratios 16/15, 9/8, 6/5, 5/4, 4/3, 45/32, 3/2, 8/5, 5/3, 16/9, 15/8, 2/1).
 Consequence fixed now: if P1–P3 pass, the record's music theory is: balance builds chords from pairs and the clock of three; the record hears intervals and not keys, and is blind exactly to homometry; consonance is the share of meeting terms.
 Gate: mathematics; public.
+
+## Scoring (2026-11-28), run 1 (t182_run1.log)
+- P1 PASS: all 100 balanced subsets of the 12 pitch classes are disjoint unions of tritones and augmented triads.
+- P2 PASS: 224 set classes, 201 distinct records; exactly 23 Z-related pairs (1, 3, 15, 3, 1 for sizes 4–8), no larger groups. The record is blind exactly to homometry.
+- P3 FAIL: the top four are as predicted (unison 0.207, octave 0.096, fifth 0.028, fourth 0.014), followed by M6, M3, m3, m6; but with 8 partials five intervals (m2, M2, tritone, m7, M7) have no coinciding partials at all and tie at zero, so "the minor second is last" is not decided.
+Verdict as fixed in advance: P3 fails. Holds: balance builds chords from the balanced pair and the clock of three; the record hears intervals and not keys, and is blind exactly to the 23 Z-pairs; the meeting share orders the consonances unison, octave, fifth, fourth, major sixth, major third, minor third, minor sixth. Ranking the dissonances needs the beating (near-coinciding) cross terms, not only the meetings; not yet registered.

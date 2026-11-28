@@ -3596,5 +3596,16 @@
   ],
   "group": "quick",
   "timeout": 60
+ },
+ {
+  "script": "scripts/current/t182_music.py",
+  "sections": [
+   "325"
+  ],
+  "predictions": [
+   "PREDICTIONS_t182.md"
+  ],
+  "group": "quick",
+  "timeout": 120
  }
 ]
