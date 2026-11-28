@@ -1,0 +1,7 @@
+masses at v (GeV): [(np.float64(0.001159), np.float64(0.000197)), (np.float64(0.583834), np.float64(0.016778)), (np.float64(159.583118), np.float64(0.755541))]
+Q_u(v) = 0.88794 +- 0.00143, z = -0.66
+predicted m_c(v) = 0.5722 +- 0.0055 GeV against 0.5838 +- 0.0168, z = -0.66
+S1: Q_u within 1 sigma of 8/9 for log10(mu/GeV) in [1.96, 5.96]
+
+P1 (Q_u(v) within 1 sigma of 8/9): PASS
+P2 (m_c(v) from Q = 8/9 within 1 sigma): PASS

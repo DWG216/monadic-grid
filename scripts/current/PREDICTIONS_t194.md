@@ -12,3 +12,10 @@ P2 [M]: with Q = 8/9 exactly, m_t(v) and m_u(v) fix the chord (A, δ); the predi
 S1 [report]: the range of scales (from the six rows, interpolated) where Q_u is within 1σ of 8/9.
 Consequence fixed now: P1 and P2 pass → the up count holds where the hands are joined; S1 states what a sharper m_c/m_t would decide. A fail → v is not the scale of the count, and the up chord's scale stays open.
 Gate: statement about nature; public.
+
+## Scoring (2026-11-28), run 1 (t194_run1.log)
+- P1 PASS: Q_u(v) = 0.8879 ± 0.0014 (z = −0.66).
+- P2 PASS: with Q = 8/9, m_t(v) and m_u(v) give m_c(v) = 0.5722 ± 0.0055 GeV against 0.5838 ± 0.0168 (z = −0.66).
+- S1: Q_u is within 1σ of 8/9 for 10^1.96 to 10^5.96 GeV. The present errors allow four decades; v sits inside, but so does every scale from M_Z to 10⁶ GeV.
+Verdict as fixed in advance: the up count holds where the hands are joined. The test is weak (S1). The prediction is three times sharper than the data: m_c(v) = 0.572(6) GeV.
+Post hoc pointer, labelled, not scored: Huang–Zhou's input is m_c(m_c) = 1.27(2). Scaling by their own ratio m_c(v)/m_c(m_c) ≈ 0.460 turns the prediction into m_c(m_c) ≈ 1.245(12) GeV; the current world average is more precise than their input, so this is a sharp next test once the running is done properly (registered separately).

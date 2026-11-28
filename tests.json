@@ -3728,5 +3728,16 @@
   ],
   "group": "quick",
   "timeout": 60
+ },
+ {
+  "script": "scripts/current/t194_join_scale.py",
+  "sections": [
+   "339"
+  ],
+  "predictions": [
+   "PREDICTIONS_t194.md"
+  ],
+  "group": "quick",
+  "timeout": 120
  }
 ]
