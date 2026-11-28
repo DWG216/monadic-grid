@@ -1,0 +1,3 @@
+P1 {'kernel_generated_by_04m1_03': True, 'triangles': 24, 'up_is_major': True, 'down_is_minor': True, 'pass_': True}
+P2 {'involutions': True, 'each_flips_major_minor': True, 'group_order': 24, 'max_element_order': 12, 'pass_': True}
+P3 {'orientation_preserving': 12, 'all_transpositions': False, 'orientation_reversing': 12, 'pass_': False}

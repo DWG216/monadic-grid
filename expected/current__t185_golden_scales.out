@@ -1,0 +1,3 @@
+P1 {'max_steps': {'golden': 3, 'fifth': 3}, 'pass_': True}
+P2 {'two_step_sizes': [2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233], 'ratio_err': np.float64(2.6429969324226477e-12), 'pass_': True}
+P3 {'fifth_two_step_to_60': [2, 3, 5, 7, 12, 17, 29, 41, 53], 'pass_': True}

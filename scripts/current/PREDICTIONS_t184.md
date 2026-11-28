@@ -9,3 +9,9 @@ P2 [M]: every closed loop in the just lattice itself (contractible) has zero hol
 P3 [M]: with octaves pure, a temperament with fifth f and major third t (in cents) has zero holonomy on both generators exactly when 4f − t = 2400 and 3t = 1200, whose only solution is f = 700, t = 400: twelve-tone equal temperament.
 Consequence fixed now: if P1–P3 pass, the record holds: a comma is a holonomy, just intonation is a flat connection with Wilson lines on the Tonnetz torus, and equal temperament is its trivialisation.
 Gate: mathematics; public.
+
+## Scoring (2026-11-28), run 1 (t184_run1.log)
+- P1 PASS: syntonic comma +21.5063, lesser diesis −41.0589, Pythagorean +23.4600, greater diesis +62.5651 cents, equal to the direct ratios, and additive on the kernel.
+- P2 PASS: contractible loops carry zero holonomy (largest 1e-11 cents over 10,000 random loops).
+- P3 PASS: zero holonomy on both generators with pure octaves forces fifth 700 and third 400 cents (determinant 12, unique).
+Verdict as fixed in advance: a comma is a holonomy; just intonation is a flat connection with Wilson lines on the Tonnetz torus; equal temperament is its trivialisation.

@@ -9,3 +9,9 @@ P2 [M]: for g = 1/φ the sizes with exactly two steps, n from 2 to 300, are exac
 P3 [M]: for g = log₂(3/2), the two-step sizes from 2 to 60 include 5, 7, 12, 41 and 53 (pentatonic, diatonic, chromatic, and the commas' scales), and 12 is the smallest size above 7 that is two-step.
 Consequence fixed now: if P1–P3 pass, the record holds: the golden generator is self-similar at every well-formed size (Fibonacci, ratio φ at each), and the fifth's well-formed sizes are the scales of music, with 12, the Tonnetz clock, among them.
 Gate: mathematics; public.
+
+## Scoring (2026-11-28), run 1 (t185_run1.log)
+- P1 PASS: at most three step sizes for every n to 300, for both generators.
+- P2 PASS: the golden generator's two-step sizes to 300 are exactly 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, with large/small = φ to 3e-12 at each.
+- P3 PASS: the fifth's two-step sizes to 60 are 2, 3, 5, 7, 12, 17, 29, 41, 53; 12 is the first above 7.
+Verdict as fixed in advance: the golden generator is self-similar at every well-formed size; the fifth's well-formed sizes are music's scales, with 12 among them.

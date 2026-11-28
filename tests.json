@@ -3607,5 +3607,38 @@
   ],
   "group": "quick",
   "timeout": 120
+ },
+ {
+  "script": "scripts/current/t183_tonnetz.py",
+  "sections": [
+   "326"
+  ],
+  "predictions": [
+   "PREDICTIONS_t183.md"
+  ],
+  "group": "quick",
+  "timeout": 120
+ },
+ {
+  "script": "scripts/current/t184_comma.py",
+  "sections": [
+   "326"
+  ],
+  "predictions": [
+   "PREDICTIONS_t184.md"
+  ],
+  "group": "quick",
+  "timeout": 120
+ },
+ {
+  "script": "scripts/current/t185_golden_scales.py",
+  "sections": [
+   "326"
+  ],
+  "predictions": [
+   "PREDICTIONS_t185.md"
+  ],
+  "group": "quick",
+  "timeout": 120
  }
 ]
