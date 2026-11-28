@@ -1,0 +1,5 @@
+U1: m_c(v) predicted 0.5720 GeV; carried: m_c(m_c) = 1.2442 +- 0.0139 (incl. 1% running) vs 1.273 +- 0.0028: z = -2.03
+D1: m(M_Z) d 2.687 MeV, s 53.45 MeV, b 2.8411 GeV; Q_d = 0.74761 +- 0.00064: z = -3.73
+
+U1: FAIL
+D1: FAIL

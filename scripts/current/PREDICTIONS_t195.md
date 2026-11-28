@@ -13,3 +13,9 @@ U1 [M]: with Q_u = 8/9 at v, m_t(v) and m_u(v) predict m_c(v); carried to m_c(m_
 D1 [M]: Q_d at M_Z from the 2024 inputs lies within 2σ of 3/4.
 Consequence fixed now: both pass → the counts survive data a factor of ten tighter. U1 fails → 8/9 at v is excluded as the up count's reading. D1 fails → the down count 3/4 is excluded, and with it the charge count n = 2 for down quarks.
 Gate: statement about nature; public.
+
+## Scoring (2026-11-28), run 1 (t195_run1.log)
+- U1 FAIL (marginal): with Q_u = 8/9 at v, the count predicts m_c(m_c) = 1.244 ± 0.014 GeV (1% running included) against 1.2730 ± 0.0028: z = −2.03.
+- D1 FAIL: Q_d at M_Z = 0.74761 ± 0.00064 from the 2024 inputs (d 2.687 MeV, s 53.45 MeV, b 2.8411 GeV at M_Z), against 3/4: z = −3.7.
+Verdict as fixed in advance: with errors ten times tighter, 3/4 is excluded as the down quarks' meeting share at M_Z, and 8/9 at v is excluded (narrowly) as the up quarks' reading. The charge count n = 2, 3 does not survive as exact. Kept.
+Observation, labelled post hoc and not scored: both quark shares sit just below the counts (down by 0.3%, up by about 0.1%); leptons' running share sits 0.17% above 2/3. Whether the counts hold at another, derived scale, or hold only approximately, is open; no rescue is adopted here.

@@ -3739,5 +3739,16 @@
   ],
   "group": "quick",
   "timeout": 120
+ },
+ {
+  "script": "scripts/current/t195_pdg2024.py",
+  "sections": [
+   "340"
+  ],
+  "predictions": [
+   "PREDICTIONS_t195.md"
+  ],
+  "group": "quick",
+  "timeout": 120
  }
 ]
