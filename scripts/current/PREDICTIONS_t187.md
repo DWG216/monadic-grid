@@ -8,3 +8,8 @@ P1 [M]: the rule returns the traditional just ratios for every interval except t
 P2 [M]: with these ratios the Spearman correlation with the historical median order (as in t186) is at least as high as t186's 0.918, and the tritone remains the most dissonant interval.
 Consequence fixed now: if P1–P2 pass, the record's music is five-limit, its ratio for each interval follows from the Tonnetz alone, and the tritone is the record's most dissonant interval because the grid has no ratio for √2.
 Gate: mathematics and music; public.
+
+## Scoring (2026-11-28), run 1 (t187_run1.log)
+- P1 PASS: the coset minima are the traditional just ratios, except the minor seventh 9/5 and the tritone 25/18.
+- P2 PASS: Spearman 0.934 (above t186's 0.918); order P1, P8, P5, P4, M6, M3, m3, m6, m7 (6.7), M2 (8.5), M7 (11.0), m2 (15.5), TT (21.2). The tritone stays last.
+Verdict as fixed in advance: the record's music is five-limit; its ratio for each interval follows from the Tonnetz alone; the tritone is its most dissonant interval because the grid has no ratio for √2 (the nearest the record holds, 25/18, is 31 cents short of it).

@@ -3651,5 +3651,16 @@
   ],
   "group": "quick",
   "timeout": 60
+ },
+ {
+  "script": "scripts/current/t187_grid_ratios.py",
+  "sections": [
+   "327"
+  ],
+  "predictions": [
+   "PREDICTIONS_t187.md"
+  ],
+  "group": "quick",
+  "timeout": 60
  }
 ]

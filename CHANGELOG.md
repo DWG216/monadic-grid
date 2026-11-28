@@ -230,3 +230,4 @@
 - t184: commas are holonomies of a flat connection on the Tonnetz torus (syntonic +21.506, lesser diesis -41.059, Pythagorean +23.460, greater diesis +62.565 cents, additive); zero holonomy with pure octaves forces 12-tone equal temperament. All pass.
 - t185: golden generator: well-formed exactly at the Fibonacci sizes with step ratio phi; the fifth: 5, 7, 12, 41, 53 among its well-formed sizes. All pass.
 - t186: dissonance as the record's repeat period sqrt(pq): consonances in t182's order, dissonances M2 < M7 < m7 < m2 < TT; Spearman 0.92 with the historical median order; the tritone (45/32) is the outlier. Pass.
+- t187: the record's ratio for each interval = the five-limit Tonnetz coset member with the smallest sqrt(pq): traditional just ratios except m7 = 9/5 and TT = 25/18; Spearman 0.934 with the historical order; the tritone last (no ratio for sqrt 2). Pass.
