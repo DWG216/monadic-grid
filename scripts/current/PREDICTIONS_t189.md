@@ -13,3 +13,9 @@ P2 [M]: Q_d lies within 2σ of 3/4.
 P3 [control]: for each of Q_u and Q_d, the 2σ window contains exactly one fraction p/q with q ≤ 9, and it is the predicted one. If a window holds several, a simple-fraction match there carries little weight.
 Consequence fixed now: P1–P3 all pass → the pattern stands as an observation worth a ground reason for n; it does not enter the record as derived until n is traced to the ground. Any fail → the pattern is recorded as not surviving, and the quark amplitudes stay open as in t99.
 Gate: statement about nature; public.
+
+## Scoring (2026-11-28), run 1 (t189_run1.log)
+- P1 PASS: Q_u = 0.8876 ± 0.0014 against 8/9 = 0.8889 (z = −0.94). The error is three times tighter than in t99.
+- P2 PASS: Q_d = 0.7483 ± 0.0066 against 3/4 (z = −0.25).
+- P3 PASS: each 2σ window holds exactly one fraction with denominator ≤ 9, the predicted one.
+Verdict as fixed in advance: the pattern Q = (n+1)²/(6n), n = 1, 2, 3 for leptons, down, up, survives the newer masses and is distinctive among simple fractions. It stands as an observation; n is not yet traced to the ground, so it is not in the record as derived.

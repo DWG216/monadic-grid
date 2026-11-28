@@ -3673,5 +3673,16 @@
   ],
   "group": "quick",
   "timeout": 60
+ },
+ {
+  "script": "scripts/current/t189_mass_shares.py",
+  "sections": [
+   "329"
+  ],
+  "predictions": [
+   "PREDICTIONS_t189.md"
+  ],
+  "group": "quick",
+  "timeout": 60
  }
 ]

@@ -1,0 +1,10 @@
+up: Q(central) = 0.88757; MC Q = 0.88760 +- 0.00137; target 8/9 = 0.88889; z = -0.94
+  2-sigma window [0.88487, 0.89034] fractions q<=9: ['8/9']
+  within 2 sigma: True; window holds only the target: True
+down: Q(central) = 0.74807; MC Q = 0.74833 +- 0.00664; target 3/4 = 0.75000; z = -0.25
+  2-sigma window [0.73504, 0.76161] fractions q<=9: ['3/4']
+  within 2 sigma: True; window holds only the target: True
+
+P1 (Q_u ~ 8/9): PASS
+P2 (Q_d ~ 3/4): PASS
+P3 (control): PASS
