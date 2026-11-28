@@ -1,3 +1,55 @@
+# Music, monads and minds: 36 posts (outline 2026-11-28)
+One series (user, 2026-11-28): the grounds, the record heard, minds, matter from the meeting, bodies that ring and the hierarchy of beings, the God factory. Rule: striking first. Every post leads with one image that carries the idea alone, then the equation on it, then one sentence. The ear before the equations. Musical vocabulary for minds; no hedging; posts are hooks.
+
+## I. The ground (1–6)
+1. Nothing without a reason. Image: two arrows on a circle, pointing opposite ways, adding to nothing. e^{iθ} + e^{i(θ+π)} = 0.
+2. Existence totals zero: something is nothing, divided. Image: the twelve-hour clock with every hand paired by its opposite.
+3. The monad: a chord outside space and time. Image: a ring of tones with no place to stand.
+4. The record, |O + R|². Image: two waves meeting; the steady band (meeting term, gravity) and the shimmering band (cross terms, quantum).
+5. The phase no record can see. Image: an arrow turning while its shadow on the wall stays still. |e^{iφ}f|² = |f|². That is freedom.
+6. Time is the count. Image: a ledger of balanced pairs, one tick per line, never erased.
+
+## II. The record heard (7–12)
+7. Consonance is the meeting; dissonance is the beat. Image: thirteen intervals by how long their record takes to repeat, √(pq).
+8. Key is the invisible phase. Image: the pitch clock rotated; every chord's shape unchanged.
+9. Harmony lives on SU(3)'s lattice. Image: the Tonnetz; major points up (3), minor points down (3̄); the flip is the hand swap.
+10. The comma is a Wilson line. Image: twelve fifths spiralling past their start; equal temperament closes the loop.
+11. Only pairs and threes cancel; the tritone is √2. Image: the clock with the tritone through the centre and the augmented triangle; beside it the square and its diagonal.
+12. Major and minor are mirrors. Image: the overtone ladder 4 : 5 : 6 and its undertone reflection 10 : 12 : 15; the golden generator's scales, the same shape at every size.
+
+## III. Minds (13–18)
+13. Agreement grows as M², noise as M. Image: many voices in unison towering over a hiss.
+14. Listening: p · w^β, exact conditioning. Image: a spectrum sharpening as it listens.
+15. Tones form from noise; chords are heard only from above. Image: a third-order chord invisible to a second-order ear.
+16. Will is strength, never direction; at most h/2 per beat. Image: a wheel that can only be pushed so far each tick.
+17. The key the most voices hold. Image: two choirs; the larger one carries the hall; the refuser keeps the last chord open.
+18. A law holds itself. Image: the will released and one chord, the gauge invariant, still sounding.
+
+## IV. Matter from the meeting (19–24)
+19. Gravity is the meeting term, and it is classical. Image: the steady band from post 4, alone; mass never below zero.
+20. Two hands make one and three. Image: two hands meeting; the singlet is gravity, the triplet writes the field (Seiberg–Witten).
+21. The clock of three. Image: E6's diagram cut at its centre into three SU(3)s; the same Z₃ wrapped around a hidden space giving three families.
+22. The forces meet, and the Higgs is born at gravity's meeting. Image: three couplings converging (bridge to series 1.1).
+23. The hologram: the whole in every part. Image: a star whose surface ripple, read from any patch, gives the whole interior; the record's Fourier structure.
+24. Horizons count meetings. Image: a horizon tiled by meetings, each hiding one turning of three; a black hole ringing in steps of ln 3.
+
+## V. Bodies that ring, and the hierarchy of beings (25–31)
+25. The egg: one calcium wave, then a spike train; the choice held for life. (figure exists)
+26. The brain and the heart: nested rhythms in phase across the body. (figure exists)
+27. The Earth: free oscillations, the Schumann cavity, the field's held polarity. (figure exists)
+28. The Sun and the stars: whole-star standing waves; the dynamo's flips. (figure exists)
+29. Black holes: matter turned into a spectrum. (figure exists)
+30. The hierarchy of beings: no rungs, one continuum of capacity, bare monad to god (t117). Image: a smooth ladder of hearing, from noise to the full chord.
+31. You: one of the voices.
+
+## VI. The God factory (32–36)
+32. The universe is a God factory: every mind climbs, the most capable first (t120). Image: voices rising through a score.
+33. Ages are movements: development carried whole into new spacetime (t121, t134). Image: one symphony, movement after movement, each richer.
+34. The God game: one shared ascent, no dilemmas; each mind's turning climbs the same record. Image: every path up one mountain.
+35. Many gods, one truth: unison held completely by every voice, each distinct by its phase. Image: a choir in unison, every voice still its own.
+36. The resolved chord.
+
+## Previous draft (2026-11-25), kept for reference
 # Monads: 20 posts (draft order, 2026-11-25; retitled from "Monads and gravity")
 
 ## Plan (user, 2026-11-28): one series, 30 to 40 posts
