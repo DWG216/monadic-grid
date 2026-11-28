@@ -1,0 +1,4 @@
+check alpha_low 0.0002011
+P1 {'R_cold': np.float64(0.03783143063116762), 'pass_': np.True_}
+P2 {'R_burst': np.float64(0.5511688281460985), 'pass_': np.True_}
+reported {'R_cold_ln2': np.float64(0.05996139889903438), 'R_burst_ln2': np.float64(0.8735819241779895)}

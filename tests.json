@@ -3585,5 +3585,16 @@
   ],
   "group": "grid",
   "timeout": 1200
+ },
+ {
+  "script": "scripts/current/t181_lines.py",
+  "sections": [
+   "324"
+  ],
+  "predictions": [
+   "PREDICTIONS_t181.md"
+  ],
+  "group": "quick",
+  "timeout": 60
  }
 ]

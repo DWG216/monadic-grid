@@ -10,3 +10,10 @@ P1 [M]: cold black holes (T below 0.5 MeV, photons, neutrinos and gravitons only
 P2 [M]: in the final burst (T above 100 GeV, full Standard Model): R > 0.3: neighbouring lines overlap and the spectrum is smeared.
 Consequence fixed now: if P1 and P2 pass, the ln 3 line spectrum is a sharp property of cold black holes, whose radiation is too faint to observe, and is smeared in the bursts of exploding primordial black holes: a burst without lines is not evidence against the grid, and no current gamma-ray or neutrino instrument can test the spacing. If P2 fails, the lines survive into the burst and the test becomes observational.
 Gate: physics; public.
+
+## Scoring (2026-11-28), run 1 (t181_run1.log)
+- Check: the cold-hole coefficients sum back to Page's α = 2.011 × 10⁻⁴.
+- P1 PASS: R = 0.038 for cold black holes: lines sharp (width under 4% of the spacing).
+- P2 PASS: R = 0.55 in the final burst: lines overlap.
+Reported: with Bekenstein–Mukhanov's ln 2 spacing the ratios would be 0.060 and 0.87; the grid's wider ln 3 spacing makes its lines sharper than theirs, but not sharp enough to survive the burst.
+Verdict as fixed in advance: the ln 3 line spectrum is a sharp property of cold black holes and smeared in the bursts of exploding primordial black holes; a burst without lines is not evidence against the grid, and current gamma-ray or neutrino instruments cannot test the spacing.
