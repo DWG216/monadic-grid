@@ -3706,5 +3706,16 @@
   ],
   "group": "quick",
   "timeout": 120
+ },
+ {
+  "script": "scripts/current/t192_scales.py",
+  "sections": [
+   "336"
+  ],
+  "predictions": [
+   "PREDICTIONS_t192.md"
+  ],
+  "group": "quick",
+  "timeout": 60
  }
 ]
