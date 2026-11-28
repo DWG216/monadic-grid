@@ -3,15 +3,15 @@ Rule: each post takes one tradition's picture, gives its equation in the grid, a
 
 ## Series: 20 posts
 1. Why the old maps: every tradition reached for the frequency domain without the mathematics (Hockney: mythos to logos).
-2. Pythagoras: number is everything; the tetractys 1 + 2 + 3 + 4 = 10; the music of the spheres.
-3. The spheres in tune: the Laplace resonance φ₁ − 3φ₂ + 2φ₃ = 180°, TRAPPIST-1's chain, Kepler's intervals: the sky holds chords (t118's relations).
-4. Sacred geometry: the Platonic solids are the exceptional groups (McKay: 2T to E6, 2O to E7, 2I to E8); φ and the icosahedron; post 2's magnet.
-5. Numerology and gematria: digital roots are arithmetic mod 9, the grain (Koide 2/9); the units mod 9 {1, 2, 4, 5, 7, 8} against {3, 6, 9}; fortunes in names do not pass.
-6. The Merkaba and the flower of life: the star tetrahedron is the two hands, its swap the step from the tetrahedral group to S₄ = 2T + hand swap (flavour, θ̄ = 0); counter-rotating tetrahedra are the balanced pair e^{±iωt}; the seed and flower of life are SU(3)'s hexagon and its lattice A₂.
-7. Taoism: yin and yang are the balanced pair e^{+iωt} + e^{−iωt} = 2 cos ωt: Being.
-8. Hermeticism: the Kybalion's principles (mentalism, correspondence, vibration, polarity, rhythm, cause and effect, gender) each have an equation; "as above, so below" is the record's one rule at every scale.
-9. Neoplatonism: the One and emanation; Plotinus' ladder is the continuum of levels (t117).
-10. Gnosticism: sparks fallen into matter, the pleroma restored: partial tones raised by movements (t128–t134).
+2. Babylon: the sky by arithmetic: 60 = 3 × 4 × 5, the grid's three clocks in one number; Plimpton 322 and √2; the Enuma Elish's two waters meeting; the Saros as a three-voice beat (full draft below).
+3. Pythagoras: number is everything; the tetractys 1 + 2 + 3 + 4 = 10; the music of the spheres.
+4. The spheres in tune: the Laplace resonance φ₁ − 3φ₂ + 2φ₃ = 180°, TRAPPIST-1's chain, Kepler's intervals: the sky holds chords (t118's relations).
+5. Sacred geometry: the Platonic solids are the exceptional groups (McKay: 2T to E6, 2O to E7, 2I to E8); φ and the icosahedron; post 2's magnet.
+6. Numerology and gematria: digital roots are arithmetic mod 9, the grain (Koide 2/9); the units mod 9 {1, 2, 4, 5, 7, 8} against {3, 6, 9}; fortunes in names do not pass.
+7. The Merkaba and the flower of life: the star tetrahedron is the two hands, its swap the step from the tetrahedral group to S₄ = 2T + hand swap (flavour, θ̄ = 0); counter-rotating tetrahedra are the balanced pair e^{±iωt}; the seed and flower of life are SU(3)'s hexagon and its lattice A₂.
+8. Taoism: yin and yang are the balanced pair e^{+iωt} + e^{−iωt} = 2 cos ωt: Being.
+9. Hermeticism: the Kybalion's principles (mentalism, correspondence, vibration, polarity, rhythm, cause and effect, gender) each have an equation; "as above, so below" is the record's one rule at every scale.
+10. Neoplatonism and Gnosticism: emanation and return. The One and Plotinus' ladder are the continuum of levels (t117); the sparks fallen into matter and the pleroma restored are partial tones raised by movements (t128–t134).
 11. Kabbalah I: Ein Sof, tzimtzum (the finite count, Λ l_P² = 1/√N), the breaking of the vessels (symmetry breaking, E6 at M*).
 12. Kabbalah II: sparks and shells, gilgul, tikkun: whole monads carried into new places come into tune (t134); Adam Kadmon, the resolved chord.
 13. Kabbalah III: Sefer Yetzirah: 10 numbers + 22 letters = 32 paths; 231 gates = C(22, 2), every pair meeting: the cross terms; the three pillars, the dialectic.
@@ -41,7 +41,7 @@ Pairings: tetractys → the sefirot's ten; orbit diagram of Io, Europa, Ganymede
 7. Mythos read twice: as a claim about the world (passes or does not) and as a practice for a mind (the derived rules decide).
 8. No emoji or symbols that render as emoji; no apologetic or empiricist phrasing.
 
-## Babylon (draft 2026-11-28; proposed as post 2, before Pythagoras; placement to be approved)
+## Babylon (draft 2026-11-28; post 2, approved; Neoplatonism and Gnosticism merged as post 10)
 Title: Babylon: the sky by arithmetic.
 Solves: Babylon predicted the heavens for a thousand years with no geometry and no model of the sky, only numbers on a clock. That is the grid's own method.
 Main (the base): 60 = 3 × 4 × 5. The three clocks of the grid in one number: three (2T, E6, the cut), four (S₄ = PGL(2, 3), flavour; 2O, E7), five (2I, E8, φ). The icosahedral rotation group has exactly 60 elements (2I has 120). Regular numbers 2^a 3^b 5^c are the ones whose reciprocals end on the sexagesimal clock; the grid's groups live on the same primes.
